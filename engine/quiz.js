@@ -35,6 +35,9 @@ const hasAnswer = (q, ans) => !!ans && (q.type === "match" ? ans.some((a) => a >
 export const REPO_URL = "https://github.com/gonzaorban/quizzis-utn/";
 const GITHUB_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>';
 
+// database cylinder: the "¿Cómo se guardan mis respuestas?" button
+const STORAGE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>';
+
 // GitHub mark + repo name, used by the landing and every subject page
 export function repoLink() {
   return `<a class="repo" href="${REPO_URL}" target="_blank" rel="noopener noreferrer" title="Código fuente en GitHub (se abre en una pestaña nueva)">${GITHUB_ICON}<span>gonzaorban/quizzis-utn</span></a>`;
@@ -198,6 +201,18 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       </div>
       <div class="row" style="margin-top:6px">
         <button class="linkbtn" id="reset" type="button">Borrar mis respuestas</button>
+        <button class="linkbtn storage-btn" id="storageBtn" type="button" aria-expanded="false" aria-controls="storageInfo">${STORAGE_ICON}¿Cómo se guardan mis respuestas?</button>
+      </div>
+      <div class="storage-info" id="storageInfo" hidden>
+        <p>Tus respuestas se guardan en este navegador cuando las enviás.</p>
+        <table>
+          <thead><tr><th scope="col">Acción</th><th scope="col">Respuestas enviadas</th><th scope="col">Marcadas sin enviar</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">F5 / recargar</th><td>Se mantienen</td><td>Se pierden</td></tr>
+            <tr><th scope="row">Cerrar la pestaña o el navegador y volver</th><td>Se mantienen</td><td>Se pierden</td></tr>
+            <tr><th scope="row">Abrir el mismo parcial en otra pestaña</th><td>Aparecen las enviadas hasta ese momento</td><td>No aparecen</td></tr>
+          </tbody>
+        </table>
       </div>
     </details>
     <div class="stats" id="stats"></div>
@@ -599,6 +614,11 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     $("allTopics").addEventListener("click", () => { state.topics = topicIds.slice(); buildChips(); applyFilters(); });
     $("noTopics").addEventListener("click", () => { state.topics = []; buildChips(); applyFilters(); });
   }
+  $("storageBtn").addEventListener("click", (e) => {
+    const open = e.currentTarget.getAttribute("aria-expanded") !== "true";
+    e.currentTarget.setAttribute("aria-expanded", open);
+    $("storageInfo").hidden = !open;
+  });
   $("reset").addEventListener("click", () => {
     if (!confirm("¿Borrar todas tus respuestas guardadas?")) return;
     state.answers = {}; drafts = {}; optOrder = {};
