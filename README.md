@@ -54,6 +54,8 @@ subjects/
     2do-parcial/        # preguntas de los cuestionarios de la cátedra (Unidades 4 y 5)
       index.html
       questions.json
+      sources/          # PDFs de teoría (y sus páginas como imagen en pages/)
+      cuestionarios/    # PDFs de los cuestionarios de estudio de la cátedra
   redes/
     index.html, subject.json
     1er-parcial/
