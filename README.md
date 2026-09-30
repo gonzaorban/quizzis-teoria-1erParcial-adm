@@ -16,6 +16,9 @@ Cada pregunta se envía por separado. Si quedan preguntas con opciones marcadas 
 En la vista "Una por vez" hay atajos de teclado: `1`–`9` marcan opciones, `Enter` envía la respuesta (o
 pasa a la siguiente si ya estaba enviada) y `←` `→` cambian de pregunta.
 
+El botón de arriba a la derecha (sol/luna) cambia entre modo claro y oscuro. Si nunca se tocó, el sitio
+sigue el tema del sistema.
+
 Materias y parciales incluidos:
 
 | Materia | Parcial | Carpeta | Preguntas |
@@ -132,6 +135,10 @@ El progreso de cada parcial se guarda en `localStorage` con la clave `quiz-<slug
 parcial de ASI, Redes y GIS le pasan además `legacyKey: "quiz-<slug>-v1"` al motor, para leer el progreso
 guardado antes de que las materias se dividieran por parcial. Si cambiás los ids de preguntas ya publicadas,
 las respuestas guardadas de esas preguntas se pierden.
+
+El tema elegido con el botón claro/oscuro se guarda en `localStorage` con la clave `quiz-theme` (`light` o
+`dark`). Cada `index.html` lo aplica con un script corto en el `<head>`, antes de cargar el CSS, para que la
+página no aparezca primero con el otro tema.
 
 ## Esquema de `questions.json`
 

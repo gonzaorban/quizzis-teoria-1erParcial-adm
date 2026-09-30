@@ -1,7 +1,7 @@
 // Subject level: subjects/<slug>/subject.json lists the subject's exams, and each exam lives in
 // subjects/<slug>/<exam>/ with its own questions.json. The landing uses loadSubject for its cards and every
 // subject page calls initSubject({ slug }) to let the user pick the exam.
-import { esc, repoLink, applyAccent, backToTop } from "./quiz.js";
+import { esc, topActions, initTheme, applyAccent, backToTop } from "./quiz.js";
 
 export const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
@@ -27,6 +27,7 @@ export const isReady = (e) => e.data && e.data.questions.length > 0;
 
 export async function initSubject({ slug, root = document.getElementById("app") }) {
   backToTop();
+  initTheme();
   let S;
   try {
     S = await loadSubject(new URL("./", document.baseURI));
@@ -52,7 +53,7 @@ export async function initSubject({ slug, root = document.getElementById("app") 
   });
   document.title = `${S.name}: parciales`;
   root.innerHTML = `<div class="wrap">
-    <div class="topbar"><a class="home" href="../../">← Todas las materias</a>${repoLink()}</div>
+    <div class="topbar"><a class="home" href="../../">← Todas las materias</a>${topActions()}</div>
     <h1>${esc(S.name)}</h1>
     <p class="sub">${S.description ? `${esc(S.description)} ` : ""}Elegí el parcial que querés practicar.</p>
     <ul class="subjects">${cards.join("")}</ul>
