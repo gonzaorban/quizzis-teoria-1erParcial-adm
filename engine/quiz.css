@@ -73,6 +73,14 @@ h1{font:700 2.1rem/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing
 .row label{display:inline-flex;align-items:center;gap:8px;font-size:.93rem}
 select{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px;max-width:100%}
 .linkbtn{background:none;border:none;color:var(--accent);cursor:pointer;padding:6px 0;font-size:.93rem;text-decoration:underline;text-underline-offset:3px}
+.storage-btn{display:inline-flex;align-items:center;gap:6px}
+.storage-btn svg{width:17px;height:17px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.storage-info{margin-top:8px;border-top:1px solid var(--line);padding-top:10px;font-size:.88rem}
+.storage-info p{margin:0 0 8px;color:var(--muted)}
+.storage-info table{width:100%;border-collapse:collapse}
+.storage-info th,.storage-info td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.storage-info thead th{background:var(--bg)}
+.storage-info tbody th{font-weight:400}
 
 .stats{display:flex;gap:6px 18px;flex-wrap:wrap;margin:16px 2px 10px;color:var(--muted);font-size:.92rem}
 .stats b{color:var(--ink);font-size:1.05rem}
