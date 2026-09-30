@@ -131,12 +131,12 @@
         "Una estructura salarial equitativa respecto del mercado laboral",
         "Un inventario actualizado de los cargos vacantes a cubrir mediante reclutamiento externo",
         "La reducción de la plantilla a los empleados de mejor desempeño",
-        "Personas con conocimientos, habilidades y actitudes ajustados a las necesidades actuales y futuras de su cargo y de la organización, lo que se traduce en mayor eficacia organizacional y capacidad de adaptación al cambio"
+        "Personal habilitado (con nuevos conocimientos, habilidades y actitudes), mayor eficacia organizacional y una organización capaz de responder a los fenómenos del cambio, con personas preparadas para responsabilidades futuras"
       ],
       "correct": [
         3
       ],
-      "fb": "Las salidas del entrenamiento visto como sistema son conocimientos, actitudes, habilidades y eficacia organizacional (personal habilitado). El desarrollo es indispensable para que la organización responda a los fenómenos del cambio (apunte U4, págs. 2 y 4-5).",
+      "fb": "Las salidas del entrenamiento visto como sistema son el personal habilitado y la eficacia organizacional. El desarrollo es indispensable para que la organización responda a los fenómenos del cambio y para preparar a las personas para futuras responsabilidades (apunte U4, págs. 2 y 4-5). No hay que confundir el resultado con la finalidad del subsistema (el equilibrio entre las competencias de las personas y las necesidades del cargo y de la organización): la finalidad es lo que se busca y el resultado es lo que se obtiene.",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 4,
@@ -978,34 +978,6 @@
       }
     },
     {
-      "id": "asi-p2-036",
-      "topic": "CC",
-      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
-      "type": "multi",
-      "text": "¿Qué dimensiones componen el subsistema de mantenimiento? (Seleccioná todas las correctas)",
-      "opts": [
-        "Plan de carrera",
-        "Administración de las compensaciones",
-        "Higiene y seguridad",
-        "Relaciones laborales",
-        "Desarrollo organizacional",
-        "Reclutamiento"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "fb": "Las cuatro dimensiones del apunte (U4, pág. 17). En el cuadro de Chiavenato, el mantenimiento comprende remuneración y compensación, beneficios y servicios sociales, higiene y seguridad en el trabajo y relaciones sindicales (apunte U5, pág. 2).",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 17,
-        "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p17.webp"
-      }
-    },
-    {
       "id": "asi-p2-037",
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
@@ -1029,7 +1001,7 @@
         2,
         3
       ],
-      "fb": "Apunte U4, pág. 17.",
+      "fb": "Son las cuatro dimensiones del subsistema de mantenimiento (apunte U4, pág. 17). En el cuadro de Chiavenato, el mantenimiento comprende remuneración y compensación, beneficios y servicios sociales, higiene y seguridad en el trabajo y relaciones sindicales (apunte U5, pág. 2).",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 17,
@@ -1170,29 +1142,6 @@
       }
     },
     {
-      "id": "asi-p2-043",
-      "topic": "CC",
-      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
-      "type": "single",
-      "text": "Según Chiavenato, ¿qué es la decisión de participar?",
-      "opts": [
-        "La decisión de la persona de contribuir con tiempo y esfuerzo una vez dentro de la organización",
-        "La decisión de la persona de hacerse miembro de la organización a cambio de los incentivos o recompensas que esta le ofrece",
-        "La decisión de la organización de desvincular a un empleado",
-        "La participación del empleado en las ganancias de la empresa"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "La decisión de participar es la de hacerse miembro de la organización a cambio de alguna gratificación, tangible o intangible. La opción \"La decisión de la persona de contribuir con tiempo y esfuerzo una vez dentro de la organización\" es la decisión de producir (apunte U4, pág. 20).",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 20,
-        "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p20.webp"
-      }
-    },
-    {
       "id": "asi-p2-044",
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
@@ -1207,7 +1156,7 @@
       "correct": [
         3
       ],
-      "fb": "Relación secuencial y de contraprestaciones (apunte U4, pág. 20). Por eso es fundamental mantener el equilibrio incentivos/contribuciones.",
+      "fb": "Relación secuencial y de contraprestaciones (apunte U4, pág. 20). La decisión de participar es la de hacerse miembro de la organización a cambio de alguna gratificación, tangible o intangible; la de producir es la de contribuir con tiempo y esfuerzo una vez dentro. Por eso es fundamental mantener el equilibrio incentivos/contribuciones.",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 20,
@@ -1308,29 +1257,6 @@
       }
     },
     {
-      "id": "asi-p2-049",
-      "topic": "CC",
-      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
-      "type": "single",
-      "text": "¿Cómo se compone la compensación total?",
-      "opts": [
-        "Salario directo + premios",
-        "Remuneración (salario directo + salario indirecto) + recompensas no financieras",
-        "Salario bruto − deducciones",
-        "Salario nominal + salario real"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Apunte U4, págs. 21-22. Las recompensas no financieras son reconocimiento, estabilidad y prestigio.",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 21,
-        "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21.webp"
-      }
-    },
-    {
       "id": "asi-p2-050",
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
@@ -1351,7 +1277,7 @@
         1,
         2
       ],
-      "fb": "Apunte U4, pág. 22.",
+      "fb": "La compensación total se compone de la remuneración (salario directo + salario indirecto) y de las recompensas no financieras: reconocimiento, estabilidad y prestigio (apunte U4, págs. 21-22).",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 22,
@@ -1589,38 +1515,6 @@
       "note": "El apunte no enumera estos factores: salen del libro de Chiavenato (método de evaluación por puntos)."
     },
     {
-      "id": "asi-p2-060",
-      "topic": "CC",
-      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
-      "type": "match",
-      "text": "Relacioná cada método de evaluación de cargos con su clasificación:",
-      "stems": [
-        "Jerarquización de cargos",
-        "Categorías predeterminadas (clasificación de cargos por categorías)",
-        "Comparación por factores",
-        "Evaluación por puntos"
-      ],
-      "choices": [
-        "No analítico: cargo como un todo, comparado contra otro cargo",
-        "No analítico: cargo como un todo, comparado contra un criterio (escala)",
-        "Analítico: partes del cargo (factores), comparado contra otro cargo",
-        "Analítico: partes del cargo (factores), comparado contra un criterio (escala)"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "fb": "Cuadro de métodos del apunte (U4, pág. 25).",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 25,
-        "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25.webp"
-      }
-    },
-    {
       "id": "asi-p2-061",
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
@@ -1679,7 +1573,7 @@
       "correct": [
         0
       ],
-      "fb": "Apunte U4, pág. 25: comparación no cuantitativa (cargo como un todo) frente a comparación cuantitativa (partes del cargo o factores).",
+      "fb": "Apunte U4, pág. 25: comparación no cuantitativa (cargo como un todo) frente a comparación cuantitativa (partes del cargo o factores). Además, la jerarquización y la comparación por factores comparan el cargo contra otro cargo; las categorías predeterminadas y la evaluación por puntos, contra un criterio (escala).",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 25,
@@ -1861,34 +1755,11 @@
         2,
         3
       ],
-      "fb": "Incentivo: condición predeterminada. Bono: siempre dinerario, ligado a una tarea específica. Premio: discrecional y posterior al hecho. Beneficio: por pertenecer a la organización (apunte U4, págs. 30-33).",
+      "fb": "Incentivo: condición predeterminada. Bono: siempre dinerario, ligado a una tarea específica. Premio: discrecional y posterior al hecho. Beneficio: por pertenecer a la organización (apunte U4, págs. 30-33). La revisión médica semestral es, además, un beneficio no monetario, asistencial y voluntario.",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 30,
         "confidence": "medium"
-      }
-    },
-    {
-      "id": "asi-p2-071",
-      "topic": "CC",
-      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
-      "type": "single",
-      "text": "La revisión médica semestral particular que la empresa ofrece a sus empleados es un beneficio social:",
-      "opts": [
-        "Monetario, asistencial y legal",
-        "No monetario, asistencial y voluntario",
-        "No monetario, recreativo y legal",
-        "Monetario, supletorio y voluntario"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Ejemplos del apunte (U4, pág. 33).",
-      "source": {
-        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
-        "page": 33,
-        "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p33.webp"
       }
     },
     {
@@ -1958,11 +1829,11 @@
       "type": "match",
       "text": "Relacioná cada afirmación con el proceso del subsistema de seguimiento al que corresponde:",
       "stems": [
-        "Califica la actuación, pasada o presente, de un empleado o de un equipo según normas de desempeño establecidas",
+        "Es una apreciación sistemática del desempeño de cada persona en el cargo o de su potencial de desarrollo futuro",
         "Analiza las políticas y prácticas de personal y evalúa su funcionamiento, con sugerencias para mejorar",
         "Su finalidad es verificar y asegurar el desempeño de las tareas",
         "Su finalidad es verificar el desempeño de la gestión de los RRHH (evaluación de la función)",
-        "Inspecciona cómo los gerentes de línea cumplen sus funciones de personal"
+        "Es un sistema de revisión y control que informa a la administración sobre la eficiencia y la eficacia del programa de RRHH"
       ],
       "choices": [
         "Evaluación del desempeño",
@@ -2288,61 +2159,12 @@
       "correct": [
         2
       ],
-      "fb": "Apunte U5, pág. 12. La satisfacción de los empleados es otro ítem distinto de la auditoría.",
+      "fb": "Apunte U5, pág. 12. Se audita a los gerentes de línea porque gran parte de las funciones de personal las ejecutan ellos: la ARH es una responsabilidad de línea y una función de staff (págs. 1-2). La auditoría también abarca las funciones de personal del área de RRHH y el nivel de satisfacción de los empleados, que es otro ítem distinto.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 12,
         "confidence": "high",
         "img": "sources/pages/u5-seguimiento-p12.webp"
-      }
-    },
-    {
-      "id": "asi-p2-088",
-      "topic": "CC",
-      "section": "Unidad 5: Subsistema de Seguimiento",
-      "type": "multi",
-      "text": "¿Qué evalúa la auditoría de RRHH? (Seleccioná todas las correctas)",
-      "opts": [
-        "Las funciones de personal llevadas a cabo por el área de RRHH",
-        "Las funciones de personal llevadas a cabo por los gerentes de línea",
-        "El nivel de satisfacción de los empleados",
-        "El rendimiento del hardware y del sistema operativo",
-        "Los precios de venta de los productos"
-      ],
-      "correct": [
-        0,
-        1,
-        2
-      ],
-      "fb": "Apunte U5, pág. 12.",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 12,
-        "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p12.webp"
-      }
-    },
-    {
-      "id": "asi-p2-089",
-      "topic": "CC",
-      "section": "Unidad 5: Subsistema de Seguimiento",
-      "type": "single",
-      "text": "¿Por qué la auditoría de RRHH incluye a los gerentes de línea y no solo al área de RRHH?",
-      "opts": [
-        "Porque el área de RRHH les transmite órdenes a los gerentes de línea",
-        "Porque la ARH es una responsabilidad de línea (cada jefe administra a su personal) y una función de staff (RRHH asesora): gran parte de las funciones de personal las ejecutan los propios gerentes",
-        "Porque los gerentes de línea son los responsables de la investigación salarial",
-        "Porque la auditoría solo puede hacerla un consultor externo"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Cada jefe decide sobre admisiones, ascensos, evaluación, capacitación y disciplina de sus subordinados; la responsabilidad de que el grupo alcance los objetivos es del jefe, no del administrador de RRHH (apunte U5, págs. 1-2).",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 1,
-        "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p1.webp"
       }
     },
     {
@@ -2516,36 +2338,7 @@
         1,
         2
       ],
-      "fb": "Las técnicas son de tres tipos: monitorización, modelado y benchmarking. La sintonización (experimentación) no se considera una técnica (apunte U5, pág. 21).",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 21,
-        "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p21.webp"
-      }
-    },
-    {
-      "id": "asi-p2-097",
-      "topic": "CC",
-      "section": "Unidad 5: Subsistema de Seguimiento",
-      "type": "match",
-      "text": "Relacioná cada finalidad con la técnica de evaluación correspondiente:",
-      "stems": [
-        "Evaluar índices y detectar cuellos de botella potenciales mediante análisis operacional",
-        "Observar y medir el sistema en funcionamiento y caracterizar la carga",
-        "Comparar sistemas para su selección o configuración usando benchmarks sintéticos o artificiales"
-      ],
-      "choices": [
-        "Modelado",
-        "Monitorización",
-        "Benchmarking"
-      ],
-      "correct": [
-        0,
-        1,
-        2
-      ],
-      "fb": "Cuadro de técnicas, herramientas y finalidades (apunte U5, pág. 21).",
+      "fb": "Las técnicas son de tres tipos: monitorización, modelado y benchmarking. La sintonización (experimentación) no se considera una técnica (apunte U5, pág. 21). La monitorización observa y mide el sistema en funcionamiento, el modelado evalúa índices y cuellos de botella potenciales, y el benchmarking compara sistemas para su selección o configuración.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 21,
@@ -2668,29 +2461,6 @@
       }
     },
     {
-      "id": "asi-p2-103",
-      "topic": "CC",
-      "section": "Unidad 5: Subsistema de Seguimiento",
-      "type": "single",
-      "text": "Si el recurso mejorado se usa el 80 % del tiempo (f = 0,8), ¿cuál es la aceleración máxima que se puede lograr aunque el factor de mejora k sea infinito?",
-      "opts": [
-        "Infinita",
-        "5",
-        "0,8",
-        "1,25"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Con k → ∞, A = 1 / (1 − f) = 1 / 0,2 = 5. El incremento global está limitado por las operaciones que no se ven afectadas por la mejora (apunte U5, pág. 20).",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 20,
-        "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p20.webp"
-      }
-    },
-    {
       "id": "asi-p2-104",
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
@@ -2711,7 +2481,7 @@
         1,
         2
       ],
-      "fb": "Conclusiones de la ley de Amdahl (apunte U5, pág. 20).",
+      "fb": "Conclusiones de la ley de Amdahl (apunte U5, pág. 20). Por ejemplo, si el recurso mejorado se usa el 80 % del tiempo, la aceleración nunca supera 1 / 0,2 = 5, por grande que sea k: el incremento global está limitado por las operaciones que no se ven afectadas por la mejora.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 20,
@@ -2734,7 +2504,7 @@
       "correct": [
         1
       ],
-      "fb": "La técnica es la monitorización y la herramienta es el monitor (apunte U5, págs. 26-27). Un programa que genera la carga de prueba para comparar sistemas describe un benchmark, no un monitor.",
+      "fb": "La técnica es la monitorización (observar la actividad del sistema en funcionamiento, con carga real) y la herramienta es el monitor (apunte U5, págs. 26-27). Un programa que genera la carga de prueba para comparar sistemas describe un benchmark, no un monitor.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 26,
@@ -2742,29 +2512,6 @@
         "img": "sources/pages/u5-seguimiento-p26.webp"
       },
       "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
-    },
-    {
-      "id": "asi-p2-106",
-      "topic": "CC",
-      "section": "Unidad 5: Subsistema de Seguimiento",
-      "type": "single",
-      "text": "¿Qué es monitorizar un sistema informático?",
-      "opts": [
-        "Ejecutar un benchmark estandarizado en un laboratorio",
-        "Resolver ecuaciones de teoría de colas para predecir el rendimiento",
-        "Ajustar los parámetros del sistema operativo para mejorar las prestaciones",
-        "Observar la actividad del sistema mientras está en funcionamiento y lo usan los usuarios (con carga real), para supervisar, analizar y evaluar su comportamiento y su rendimiento"
-      ],
-      "correct": [
-        3
-      ],
-      "fb": "Apunte U5, pág. 26.",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 26,
-        "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p26.webp"
-      }
     },
     {
       "id": "asi-p2-107",
@@ -2782,37 +2529,6 @@
         1
       ],
       "fb": "Una medida debería ser repetible; como en informática no lo es, se habla de seguimiento y no de medición (apunte U5, pág. 28).",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 28,
-        "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p28.webp"
-      }
-    },
-    {
-      "id": "asi-p2-108",
-      "topic": "CC",
-      "section": "Unidad 5: Subsistema de Seguimiento",
-      "type": "multi",
-      "text": "¿Cuáles de las siguientes son características que debe cumplir un monitor? (Seleccioná todas las correctas)",
-      "opts": [
-        "Sobrecarga o interferencia mínima",
-        "Resolución",
-        "Compacidad",
-        "Anchura de entrada",
-        "Capacidad de reducción de datos",
-        "Escalabilidad",
-        "Facilidad de instalación",
-        "Reproductibilidad"
-      ],
-      "correct": [
-        0,
-        1,
-        3,
-        4,
-        6
-      ],
-      "fb": "Características de un monitor (apunte U5, págs. 27-28): sobrecarga o interferencia, precisión, resolución, ámbito o dominio, anchura de entrada, reducción de datos, compatibilidad, coste, facilidad de instalación y facilidad de utilización. Compacidad, escalabilidad y reproductibilidad son características de un benchmark.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 28,
@@ -2850,7 +2566,7 @@
         4,
         5
       ],
-      "fb": "Apunte U5, págs. 27-28.",
+      "fb": "Apunte U5, págs. 27-28. Otras características del monitor son la compatibilidad, el coste y la facilidad de instalación y de utilización. Compacidad, escalabilidad y reproductibilidad son características de un benchmark, no de un monitor.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 28,
@@ -2943,29 +2659,6 @@
       }
     },
     {
-      "id": "asi-p2-113",
-      "topic": "CC",
-      "section": "Unidad 5: Subsistema de Seguimiento",
-      "type": "single",
-      "text": "¿Cuál es el orden de los elementos del esquema estructural de un monitor?",
-      "opts": [
-        "Selector o filtro → Interfaz de instrumentación → Registrador → Procesador → Analizador",
-        "Procesador → Selector o filtro → Interfaz de instrumentación → Analizador → Registrador",
-        "Interfaz de instrumentación → Selector o filtro → Procesador → Registrador → Analizador",
-        "Interfaz de instrumentación → Registrador → Procesador → Selector o filtro → Analizador"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": "Esquema del apunte (U5, pág. 29).",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 29,
-        "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p29.webp"
-      }
-    },
-    {
       "id": "asi-p2-114",
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
@@ -2992,7 +2685,7 @@
         3,
         4
       ],
-      "fb": "Apunte U5, pág. 29.",
+      "fb": "Apunte U5, pág. 29. El orden del esquema es: interfaz de instrumentación → selector o filtro → procesador → registrador → analizador.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 29,
@@ -3426,7 +3119,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
-      "text": "¿Qué factores influyen en el benchmarking? (Seleccioná todas las correctas)",
+      "text": "¿Qué factores del entorno de la prueba influyen en el rendimiento que mide un benchmarking? (Seleccioná todas las correctas)",
       "opts": [
         "El tipo y la versión del sistema operativo",
         "El compilador usado en la prueba",
@@ -3443,7 +3136,7 @@
         3,
         4
       ],
-      "fb": "Apunte U5, págs. 32-33. También conviene que los programas de carga verifiquen sus resultados, para saber que el benchmark se ejecutó correctamente.",
+      "fb": "Apunte U5, págs. 32-33. También conviene que los programas de carga verifiquen sus resultados, para saber que el benchmark se ejecutó correctamente. No hay que confundir estos factores con las principales dificultades del benchmarking (determinar una carga representativa y valorar las peculiaridades de cada sistema) ni con los errores al aplicarlo.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 32,
@@ -3485,20 +3178,18 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
-      "text": "¿Qué circunstancias (dificultades) pueden influir en los resultados de un benchmarking? (Seleccioná todas las correctas)",
+      "text": "¿Qué circunstancias pueden influir en los resultados de un benchmarking? Elegí las principales dificultades que plantea el apunte. (Seleccioná todas las correctas)",
       "opts": [
         "Cómo determinar una carga característica suficientemente reducida para ser manejable y suficientemente extensa para ser representativa",
         "Cómo valorar el aprovechamiento que hacen los programas de las peculiaridades de cada sistema",
-        "Que cada ejecución del benchmark altera el estado del sistema",
         "Que el benchmarking no puede usar cargas sintéticas",
         "Que los resultados no se pueden expresar numéricamente"
       ],
       "correct": [
         0,
-        1,
-        2
+        1
       ],
-      "fb": "Determinar una carga manejable y a la vez representativa, y valorar el aprovechamiento que hacen los programas de las peculiaridades de cada sistema, son las principales dificultades que plantea el apunte; que cada ejecución altere el estado del sistema explica por qué hay que asegurar las mismas condiciones iniciales (U5, pág. 32).",
+      "fb": "Son las dos principales dificultades que plantea el apunte (U5, pág. 32). No hay que confundirlas con los factores del entorno que influyen en el rendimiento (sistema operativo, compilador, lenguajes, librerías, caché) ni con los errores al aplicar benchmarking, como no asegurar las mismas condiciones iniciales.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 32,
@@ -3595,37 +3286,7 @@
       "correct": [
         1
       ],
-      "fb": "Un conjunto de programas extraídos de la carga real y representativos de ella es un benchmark de aplicación (apunte U5, pág. 33).",
-      "source": {
-        "file": "sources/u5-seguimiento.pdf",
-        "page": 33,
-        "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p33.webp"
-      }
-    },
-    {
-      "id": "asi-p2-139",
-      "topic": "CC",
-      "section": "Unidad 5: Subsistema de Seguimiento",
-      "type": "match",
-      "text": "Relacioná cada afirmación con el tipo de benchmark:",
-      "stems": [
-        "Programas diseñados para el estudio de prestaciones",
-        "Programas extraídos de la carga real y representativos de ella",
-        "Ejemplo: TAURUS",
-        "Ejemplo: un juego"
-      ],
-      "choices": [
-        "Benchmark general",
-        "Benchmark de aplicación"
-      ],
-      "correct": [
-        0,
-        1,
-        0,
-        1
-      ],
-      "fb": "Apunte U5, pág. 33.",
+      "fb": "Un benchmark general son programas diseñados para el estudio de prestaciones (por ejemplo, TAURUS). Un conjunto de programas extraídos de la carga real y representativos de ella es un benchmark de aplicación (por ejemplo, un juego) (apunte U5, pág. 33).",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 33,
