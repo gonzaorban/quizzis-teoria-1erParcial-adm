@@ -183,6 +183,7 @@ aclaración sobre el tema, visible en los filtros y en cada pregunta.
 | `stems`, `choices` | match | Ítems a emparejar y opciones del desplegable. |
 | `answer` | info | Texto que se revela con "Ver respuesta". Las `info` no suman puntaje. |
 | `fb` | opcional | Explicación de la cátedra. |
+| `tip` | opcional | Comentario breve y discreto bajo el encabezado de la pregunta, visible antes de responder (por ejemplo, «Suele tomarse en el parcial»). |
 | `note` | opcional | Aviso que se muestra al responder (por ejemplo, una respuesta dudosa). |
 | `section` | opcional | Sub-agrupación (por ejemplo, "1er parcial 2024"). Se muestra como badge y habilita el filtro por sección. |
 | `img` | opcional | Ruta relativa a la carpeta del parcial (`img/x.jpg`). |
