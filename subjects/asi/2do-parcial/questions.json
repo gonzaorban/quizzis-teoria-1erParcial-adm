@@ -5,6 +5,2867 @@
   "accent": "#2F4BC0",
   "accentDark": "#8A9CF0",
   "emptyFeedback": null,
-  "topics": {},
-  "questions": []
+  "topicFilter": "pick",
+  "labels": {
+    "topics": "Categorías",
+    "allTopics": "Todas",
+    "section": "Unidad",
+    "feedback": "Justificación según el apunte"
+  },
+  "about": [
+    "<p><b>Cómo usar:</b> elegí una opción (o varias, si la pregunta lo indica) y tocá <b>Enviar respuesta</b>. Se marca en verde la respuesta correcta y en rojo si tu elección fue incorrecta. Con el filtro <b>Unidad</b> podés practicar solo la Unidad 4 o la Unidad 5.</p>",
+    "<div class=\"legend\"><span class=\"lg-ok\">Respuesta respaldada por el apunte de teoría</span><span class=\"lg-warn\">⚠ Respuesta deducida o conclusión propia — verificar con la cátedra</span><span class=\"lg-info\">Tarjeta informativa (sin puntaje)</span></div>",
+    "<p><b>Cuestionarios Cátedra:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, y Seguimiento de Recursos), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de las Unidades 4 y 5.</p>"
+  ],
+  "footer": "Generado a partir de los cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos) y del apunte de teoría de las Unidades 4 y 5. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
+  "topics": {
+    "CC": {
+      "name": "Cuestionarios Cátedra",
+      "color": "#2F6FD6"
+    }
+  },
+  "questions": [
+    {
+      "id": "asi-p2-001",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Qué procesos incluye el subsistema de desarrollo de RRHH? (Seleccioná todas las correctas)",
+      "opts": [
+        "Entrenamiento",
+        "Reclutamiento y selección",
+        "Desarrollo de personal",
+        "Evaluación del desempeño",
+        "Desarrollo organizacional",
+        "Administración de salarios"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "fb": "Los procesos de desarrollo de personas incluyen entrenamiento, desarrollo de personal y desarrollo organizacional (apunte U4, pág. 1). Reclutamiento y selección son de provisión, la evaluación del desempeño es de aplicación/seguimiento y los salarios son de mantenimiento."
+    },
+    {
+      "id": "asi-p2-002",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Dentro del subsistema de desarrollo, ¿qué diferencia hay entre sus tres estratos?",
+      "opts": [
+        "Entrenamiento y desarrollo de personal tratan el aprendizaje individual (enfoque microscópico); el desarrollo organizacional aborda cómo aprende y se desarrolla la organización (enfoque macroscópico)",
+        "Los tres tratan solo el aprendizaje individual y se diferencian únicamente por su duración",
+        "El desarrollo organizacional es un tipo de entrenamiento a corto plazo orientado al cargo actual",
+        "El entrenamiento es macroscópico y sistémico, mientras que el desarrollo organizacional es individual"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Los dos primeros estratos (entrenamiento y desarrollo de personal) tratan el aprendizaje individual; el más amplio, cómo aprenden y se desarrollan las organizaciones (apunte U4, págs. 1-2 y 13)."
+    },
+    {
+      "id": "asi-p2-003",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál es la finalidad del subsistema de desarrollo de RRHH?",
+      "opts": [
+        "Atraer candidatos calificados desde el mercado de recursos humanos",
+        "Generar el equilibrio entre las competencias actuales y futuras de las personas y las necesidades presentes del cargo y futuras de la organización, en función de su entorno, su misión y su estrategia",
+        "Retener al empleado adecuado, manteniéndolo satisfecho y motivado mediante la compensación",
+        "Verificar que el desempeño real de los empleados se ajuste a los estándares establecidos"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Es la finalidad que da el apunte (U4, pág. 2). Las otras opciones corresponden a provisión, mantenimiento y seguimiento."
+    },
+    {
+      "id": "asi-p2-004",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según el apunte, el desarrollo de una persona debe entenderse como:",
+      "opts": [
+        "Un evento puntual que ocurre al ingresar a la organización",
+        "Un cambio que depende solo de la antigüedad en el cargo",
+        "Una evolución progresiva de la persona hacia sus más altos niveles de capacidades y habilidades",
+        "Un proceso reservado a los niveles gerenciales"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "«El desarrollo debe ser una EVOLUCIÓN PROGRESIVA de una persona hacia sus más altos niveles de capacidades y habilidades». Además, los RRHH son los únicos susceptibles de autodirección y desarrollo (apunte U4, pág. 2)."
+    },
+    {
+      "id": "asi-p2-005",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál es el resultado de los procesos de desarrollo de RRHH?",
+      "opts": [
+        "Una estructura salarial equitativa respecto del mercado laboral",
+        "Un inventario actualizado de los cargos vacantes a cubrir mediante reclutamiento externo",
+        "La reducción de la plantilla a los empleados de mejor desempeño",
+        "Personas con conocimientos, habilidades y actitudes ajustados a las necesidades actuales y futuras de su cargo y de la organización, lo que se traduce en mayor eficacia organizacional y capacidad de adaptación al cambio"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Las salidas del entrenamiento visto como sistema son conocimientos, actitudes, habilidades y eficacia organizacional (personal habilitado). El desarrollo es indispensable para que la organización responda a los fenómenos del cambio (apunte U4, págs. 2 y 4-5).",
+      "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
+    },
+    {
+      "id": "asi-p2-006",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada resultado del entrenamiento con el nivel en el que se evalúa:",
+      "stems": [
+        "Mejoramiento de la imagen de la empresa y del clima organizacional",
+        "Reducción de la rotación de personal y del ausentismo",
+        "Aumento de la productividad y de la calidad de los productos y servicios",
+        "Aumento de la eficacia organizacional",
+        "Aumento de habilidades y conocimientos, y cambios de actitudes",
+        "Reducción del índice de accidentes"
+      ],
+      "choices": [
+        "Nivel organizacional",
+        "Nivel de los recursos humanos",
+        "Nivel de las tareas y operaciones"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "fb": "La evaluación de los resultados del entrenamiento puede hacerse en tres niveles: organizacional, de los recursos humanos y de las tareas y operaciones (apunte U4, pág. 13)."
+    },
+    {
+      "id": "asi-p2-007",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "El aprendizaje, columna vertebral del desarrollo, se define como:",
+      "opts": [
+        "El proceso complejo que permite a los individuos adquirir nuevos comportamientos que les aseguren su supervivencia o adaptación al medio físico o cultural",
+        "La transmisión, a corto plazo y de forma sistemática, de información específica sobre el cargo",
+        "Toda influencia que el ser humano recibe del ambiente social para adaptarse a las normas y valores vigentes",
+        "El cambio planeado de la cultura y la estructura de la organización"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Definición del apunte (U4, pág. 2). La segunda opción describe el entrenamiento, la tercera la educación y la cuarta el desarrollo organizacional."
+    },
+    {
+      "id": "asi-p2-008",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada descripción con la ley del aprendizaje correspondiente:",
+      "stems": [
+        "La persona tiende a mantener el comportamiento que percibe recompensador y a eliminar el que no le trae recompensa",
+        "La recompensa estimula el aprendizaje",
+        "La intensidad de los ejercicios y de las prácticas determina el aprendizaje",
+        "La repetición de las prácticas y los ejercicios sirve de refuerzo al aprendizaje",
+        "Si la práctica no es constante en el tiempo, el aprendizaje da paso al olvido",
+        "Aprender algo nuevo significa olvidar algo viejo",
+        "Para aprender tareas complejas hay que empezar por los aspectos más sencillos"
+      ],
+      "choices": [
+        "Efecto",
+        "Estímulo",
+        "Intensidad",
+        "Frecuencia",
+        "Continuidad",
+        "Descongelamiento",
+        "Complejidad creciente"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fb": "Leyes del aprendizaje del apunte (U4, pág. 3)."
+    },
+    {
+      "id": "asi-p2-009",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según la ley del descongelamiento, para que un comportamiento viejo sea sustituido por uno nuevo deben cumplirse tres condiciones:",
+      "opts": [
+        "Recompensa inmediata, castigo y repetición",
+        "Operación diferente, nuevo ambiente y tiempo",
+        "Intensidad, frecuencia y continuidad",
+        "Diagnóstico, intervención y evaluación"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Siempre es difícil desaprender los viejos estándares de comportamiento; para que la sustitución ocurra hacen falta una operación diferente, un nuevo ambiente y tiempo (apunte U4, pág. 3)."
+    },
+    {
+      "id": "asi-p2-010",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Cuáles de los siguientes son conceptos clave del aprendizaje según el apunte? (Seleccioná todas las correctas)",
+      "opts": [
+        "Se aprende con conocimientos y experiencias",
+        "El aprendizaje afecta actitudes, intereses y motivaciones",
+        "Refuerza las conductas deseables en una organización y extingue las indeseables",
+        "Lo aprendido se conserva aunque no se practique",
+        "Las recompensas y los castigos no influyen en el aprendizaje"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Conceptos clave del apunte (U4, pág. 2). Lo aprendido se olvida si no se practica con frecuencia, y el refuerzo (recompensas o castigos) es importante para aprender."
+    },
+    {
+      "id": "asi-p2-011",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "El entrenamiento (capacitación) es:",
+      "opts": [
+        "Un proceso educativo a largo plazo que prepara al hombre para ejercer una profesión",
+        "Un programa de cambio planeado que involucra a toda la organización",
+        "Un proceso educativo a corto plazo, aplicado de manera sistemática y organizada, mediante el cual las personas aprenden conocimientos, actitudes y habilidades en función de objetivos definidos",
+        "Una influencia asistemática que el individuo recibe del ambiente social"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Definición del apunte (U4, pág. 3). El entrenamiento prepara a la persona para el cargo; la educación la prepara para enfrentar el ambiente dentro o fuera del trabajo."
+    },
+    {
+      "id": "asi-p2-012",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada etapa de la educación profesional con lo que busca:",
+      "stems": [
+        "Preparar al hombre para ejercer una profesión (objetivos amplios, a largo plazo)",
+        "Perfeccionar al hombre para una carrera dentro de una profesión (objetivos menos amplios, a mediano plazo)",
+        "Adaptar al hombre para cumplir un cargo o una función (objetivos limitados e inmediatos, a corto plazo)"
+      ],
+      "choices": [
+        "Formación profesional",
+        "Perfeccionamiento o desarrollo profesional",
+        "Entrenamiento"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Las tres etapas de la educación profesional (apunte U4, pág. 3)."
+    },
+    {
+      "id": "asi-p2-013",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál es el orden correcto de las etapas del proceso de entrenamiento?",
+      "opts": [
+        "Programación → Inventario de necesidades → Evaluación de resultados → Ejecución",
+        "Inventario de necesidades → Ejecución → Programación → Evaluación de resultados",
+        "Ejecución → Inventario de necesidades → Programación → Evaluación de resultados",
+        "Inventario de necesidades → Programación → Implementación y ejecución → Evaluación de resultados"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Diagnóstico (inventario de necesidades), decisión de estrategia (programación), implementación (ejecución) y evaluación y control. Si los resultados son insatisfactorios, se retroalimenta el inventario (apunte U4, pág. 5)."
+    },
+    {
+      "id": "asi-p2-014",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "El entrenamiento se asemeja a un sistema abierto. Relacioná cada elemento con el componente del sistema:",
+      "stems": [
+        "Individuos en entrenamiento, recursos empresariales, información, habilidades",
+        "Proceso de aprendizaje individual y programa de entrenamiento",
+        "Personal habilitado, éxito o eficacia organizacional",
+        "Evaluación de los procedimientos y resultados del entrenamiento"
+      ],
+      "choices": [
+        "Entradas (inputs)",
+        "Procesamiento (throughputs)",
+        "Salidas (outputs)",
+        "Retroalimentación (feedback)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Entrenamiento como sistema (apunte U4, págs. 4-5)."
+    },
+    {
+      "id": "asi-p2-015",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "El contenido del entrenamiento puede incluir cuatro tipos de cambio de comportamiento. ¿Cuáles son? (Seleccioná todas las correctas)",
+      "opts": [
+        "Transmisión de información",
+        "Desarrollo de habilidades",
+        "Desarrollo o modificación de actitudes",
+        "Desarrollo de conceptos",
+        "Fijación de la remuneración variable",
+        "Evaluación de puestos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Los cuatro tipos de cambio de comportamiento del contenido del entrenamiento (apunte U4, pág. 4)."
+    },
+    {
+      "id": "asi-p2-016",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Cuáles son los principales objetivos del entrenamiento? (Seleccioná todas las correctas)",
+      "opts": [
+        "Preparar al personal para la ejecución inmediata de las diversas tareas del cargo",
+        "Proporcionar oportunidades para el desarrollo personal continuo, en el cargo actual y en otras funciones",
+        "Cambiar la actitud de las personas para crear un clima más satisfactorio o aumentar la motivación",
+        "Determinar el salario de admisión de los nuevos empleados",
+        "Auditar cómo los gerentes de línea cumplen las políticas de personal"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Objetivos del entrenamiento (apunte U4, pág. 4)."
+    },
+    {
+      "id": "asi-p2-017",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "tf",
+      "text": "El entrenamiento es una responsabilidad de línea y una función de staff: el organismo de línea asume la responsabilidad del entrenamiento y obtiene asesoría especializada del organismo de staff.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Es el modelo equilibrado que el apunte señala como la situación preferida (U4, pág. 4)."
+    },
+    {
+      "id": "asi-p2-018",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿De qué factores depende la ejecución del entrenamiento? (Seleccioná todas las correctas)",
+      "opts": [
+        "Adecuación del programa a las necesidades de la organización",
+        "Calidad del material de entrenamiento presentado",
+        "Cooperación de los jefes y dirigentes de la empresa",
+        "Calidad y preparación de los instructores",
+        "Calidad de los aprendices",
+        "Nivel salarial de los aprendices respecto del mercado"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "La ejecución presupone el binomio instructor-aprendiz y depende de esos cinco factores (apunte U4, pág. 12)."
+    },
+    {
+      "id": "asi-p2-019",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Cuáles de los siguientes son medios para relevar (inventariar) las necesidades de capacitación? (Seleccioná todas las correctas)",
+      "opts": [
+        "Evaluación del desempeño",
+        "Observación",
+        "Cuestionarios",
+        "Entrevista de salida",
+        "Investigación salarial",
+        "Análisis de cargos",
+        "Benchmarking de equipos",
+        "Solicitud de supervisores y gerentes"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "fb": "Medios del apunte (U4, págs. 7-8): evaluación del desempeño, observación, cuestionarios, solicitud de supervisores y gerentes, entrevistas con supervisores y gerentes, reuniones interdepartamentales, examen de empleados, modificación del trabajo, entrevista de salida, análisis de cargos e informes periódicos."
+    },
+    {
+      "id": "asi-p2-020",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada nivel de análisis del inventario de necesidades con el sistema involucrado:",
+      "stems": [
+        "Análisis organizacional",
+        "Análisis de los recursos humanos",
+        "Análisis de operaciones y tareas"
+      ],
+      "choices": [
+        "Sistema organizacional",
+        "Sistema de entrenamiento",
+        "Sistema de adquisición de habilidades"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Tres niveles de análisis (apunte U4, pág. 6). La información base es, respectivamente: objetivos organizacionales y filosofía del entrenamiento; análisis de la fuerza laboral; análisis de cargos."
+    },
+    {
+      "id": "asi-p2-021",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "En el análisis de operaciones y tareas, las necesidades de entrenamiento se obtienen como:",
+      "opts": [
+        "Habilidades del ocupante del cargo − requisitos exigidos por el cargo",
+        "Número de empleados necesarios − número de empleados actuales",
+        "Requisitos exigidos por el cargo − habilidades del ocupante del cargo",
+        "Salario de mercado − salario actual del cargo"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "El análisis ocupacional descompone el cargo en sus partes para verificar habilidades, conocimientos y responsabilidades exigidas (apunte U4, pág. 7)."
+    },
+    {
+      "id": "asi-p2-022",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Clasificá cada situación como indicador a priori o a posteriori de necesidades de entrenamiento:",
+      "stems": [
+        "Se incorporará el servicio de capacitación en Active Directory in company",
+        "Cada dos semanas hay que reinstalar el sistema operativo y las aplicaciones en el área de ventas",
+        "El técnico de soporte fue asignado al área de Redes WAN",
+        "Hay cortaduras de manos frecuentes en el personal que instala los equipos de comunicaciones",
+        "En marzo se iniciará el desarrollo de aplicaciones basadas en inteligencia artificial",
+        "Se detecta un alto nivel de bugs durante el testing",
+        "Cambio de metodologías de análisis y desarrollo",
+        "Andrea no se comunica con su líder de proyecto"
+      ],
+      "choices": [
+        "Indicador a priori",
+        "Indicador a posteriori"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "fb": "A priori: eventos que, si ocurrieran, generarían necesidades futuras fácilmente previsibles (cambios de métodos, nuevos servicios, movimientos de personal). A posteriori: problemas de producción o de personal provocados por necesidades no atendidas (apunte U4, págs. 8-9)."
+    },
+    {
+      "id": "asi-p2-023",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada pregunta de la programación del entrenamiento con lo que define:",
+      "stems": [
+        "¿Qué debe enseñarse?",
+        "¿Quién debe aprender?",
+        "¿Cuándo entrenar?",
+        "¿Cuánto debe enseñarse?",
+        "¿Dónde debe enseñarse?",
+        "¿Cómo debe enseñarse?",
+        "¿Quién debe enseñar?",
+        "¿Para qué entrenar?"
+      ],
+      "choices": [
+        "Tema o contenido del entrenamiento",
+        "Personal entrenado",
+        "Época de entrenamiento y horario",
+        "Volumen, duración o intensidad",
+        "Lugar físico, organismo o entidad",
+        "Métodos de entrenamiento y recursos necesarios",
+        "Entrenador o instructor",
+        "Objetivos o resultados esperados"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fb": "La planeación del entrenamiento consiste, básicamente, en contestar estas preguntas; además se consideran costos y evaluación de contenidos (apunte U4, págs. 9-10)."
+    },
+    {
+      "id": "asi-p2-024",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Cuáles de los siguientes aspectos debe incluir la planeación de un programa de entrenamiento? (Seleccioná todas las correctas)",
+      "opts": [
+        "Enfoque de una necesidad específica cada vez",
+        "Definición clara del objetivo de entrenamiento",
+        "Cálculo de la relación costo-beneficio del programa",
+        "Definición de la población objetivo",
+        "Atender todas las necesidades detectadas en un único programa simultáneo",
+        "Control y evaluación de los resultados",
+        "Fijación de las franjas salariales de los entrenados"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "fb": "Los 11 aspectos de la planeación (apunte U4, pág. 10) incluyen además: división en módulos, contenido, métodos y tecnología, recursos, lugar y época. Se enfoca una necesidad específica cada vez."
+    },
+    {
+      "id": "asi-p2-025",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Las técnicas de entrenamiento pueden clasificarse en cuanto a:",
+      "opts": [
+        "Costo, duración y cantidad de participantes",
+        "Uso, tiempo y lugar de aplicación",
+        "Nivel jerárquico, área y antigüedad",
+        "Contenido, instructor y evaluación"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Apunte U4, pág. 10."
+    },
+    {
+      "id": "asi-p2-026",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada grupo de técnicas con su clasificación en cuanto al uso:",
+      "stems": [
+        "Lectura, recursos audiovisuales, instrucción asistida por computador",
+        "Juego de roles (role-playing), entrenamiento de grupos",
+        "Conferencias, estudio de casos, simulaciones"
+      ],
+      "choices": [
+        "Orientadas al contenido",
+        "Orientadas al proceso",
+        "Mixtas"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Las orientadas al contenido transmiten conocimientos; las orientadas al proceso cambian actitudes y desarrollan habilidades interpersonales; las mixtas hacen ambas cosas (apunte U4, pág. 11)."
+    },
+    {
+      "id": "asi-p2-027",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada afirmación con el tipo de entrenamiento según el lugar de aplicación:",
+      "stems": [
+        "Es muy práctico y de bajo costo",
+        "La rotación de puestos es una técnica adecuada",
+        "Es el recomendado si se requiere que el personal esté concentrado",
+        "Es importante conocer los aspectos culturales de los participantes",
+        "No requiere acondicionamiento ni equipos especiales"
+      ],
+      "choices": [
+        "Entrenamiento en el puesto de trabajo",
+        "Entrenamiento fuera del lugar de trabajo"
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "fb": "El entrenamiento on the job es la forma más común y no requiere equipos especiales; el de fuera del lugar de trabajo suele ser complementario (aulas, casos, dramatización, simulación) (apunte U4, págs. 11-12)."
+    },
+    {
+      "id": "asi-p2-028",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "En cuanto al tiempo, el entrenamiento de inducción o de integración a la empresa:",
+      "opts": [
+        "Se realiza únicamente fuera del lugar de trabajo, después de años de antigüedad",
+        "Es una técnica orientada al proceso para cambiar actitudes de los gerentes",
+        "Es la evaluación de resultados del entrenamiento a nivel organizacional",
+        "Busca la adaptación y ambientación inicial del nuevo empleado a la empresa y se hace a través del programa de socialización"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "La otra categoría en cuanto al tiempo es el entrenamiento después del ingreso, en servicio o fuera de servicio (apunte U4, pág. 11)."
+    },
+    {
+      "id": "asi-p2-029",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál de las siguientes definiciones corresponde al desarrollo organizacional (DO)?",
+      "opts": [
+        "Un proceso educativo a corto plazo que prepara a cada empleado para su cargo actual",
+        "Una actividad de cambio planeado, a largo plazo y con enfoque sistémico, basada en las ciencias del comportamiento, que involucra a toda la organización para mejorar su eficacia mediante intervenciones en sus procesos, su estructura y su cultura",
+        "Un conjunto de normas y procedimientos para establecer estructuras salariales equitativas",
+        "Un cambio espontáneo que surge de la interacción informal entre los empleados"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El DO estudia la organización como sistema total y se compromete a mejorar la eficacia a largo plazo mediante intervenciones constructivas en procesos y estructura; es un programa educativo basado en la colaboración y en la cultura de la empresa (apunte U4, págs. 13-14).",
+      "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
+    },
+    {
+      "id": "asi-p2-030",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Cuáles son elementos del desarrollo organizacional? (Seleccioná todas las correctas)",
+      "opts": [
+        "Orientación a largo plazo",
+        "Esfuerzos para aumentar la eficacia en toda la organización",
+        "Diagnóstico e intervención desarrollados en conjunto entre los gerentes de línea y el consultor",
+        "Enfoque microscópico centrado en el individuo",
+        "Cambios aleatorios y no planeados"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Elementos del DO (apunte U4, pág. 14). El DO es macroscópico y sistémico, y el cambio es planeado."
+    },
+    {
+      "id": "asi-p2-031",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál es el orden de las etapas del proceso de DO?",
+      "opts": [
+        "Recolección y análisis de datos → Diagnóstico organizacional → Acción de intervención → Evaluación",
+        "Diagnóstico organizacional → Acción de intervención → Recolección de datos → Evaluación",
+        "Acción de intervención → Recolección de datos → Diagnóstico → Evaluación",
+        "Evaluación → Diagnóstico organizacional → Recolección de datos → Acción de intervención"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La evaluación cierra el circuito y puede modificar el diagnóstico: el DO es un proceso continuo (apunte U4, págs. 15-16)."
+    },
+    {
+      "id": "asi-p2-032",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada cambio con la clase de cambio organizacional:",
+      "stems": [
+        "Fusionar, crear o eliminar departamentos, o subcontratarlos",
+        "Incorporar nuevas máquinas, equipos o procesos empresariales",
+        "Modificar los resultados o salidas de la organización",
+        "Cambiar comportamientos, actitudes y expectativas de las personas"
+      ],
+      "choices": [
+        "Estructurales",
+        "Tecnológicos",
+        "De productos o servicios",
+        "Culturales"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Las cuatro clases de cambios (apunte U4, pág. 15). No son aislados: se afectan entre sí y producen un efecto multiplicador."
+    },
+    {
+      "id": "asi-p2-033",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Las fuerzas que originan el cambio organizacional desde el ambiente (nuevas tecnologías, cambios en los valores de la sociedad, nuevas oportunidades o limitaciones) se denominan:",
+      "opts": [
+        "Endógenas",
+        "Culturales",
+        "Exógenas",
+        "Estructurales"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Las endógenas provienen del interior de la organización, de la interacción de sus participantes y de las tensiones entre objetivos e intereses (apunte U4, págs. 14-15)."
+    },
+    {
+      "id": "asi-p2-034",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según el apunte, la única manera posible de cambiar las organizaciones es:",
+      "opts": [
+        "Reemplazar a los gerentes de línea",
+        "Transformar su cultura, es decir, cambiar los sistemas dentro de los cuales trabajan y viven las personas",
+        "Aumentar los salarios por encima del mercado",
+        "Incorporar nueva tecnología"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Concepto de cultura organizacional (apunte U4, pág. 14)."
+    },
+    {
+      "id": "asi-p2-035",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál es la finalidad del subsistema de mantenimiento de RRHH?",
+      "opts": [
+        "Preparar al personal para la ejecución inmediata de las tareas del cargo",
+        "Atraer y seleccionar a los candidatos más adecuados",
+        "Retener al empleado adecuado, manteniéndolo satisfecho y motivado, induciéndolo a permanecer en la organización y a sentirla propia",
+        "Evaluar si el desempeño real se adecua a las metas establecidas"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Una organización es viable no solo si capta y emplea a sus recursos humanos, sino si los mantiene (apunte U4, pág. 17)."
+    },
+    {
+      "id": "asi-p2-036",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Qué dimensiones componen el subsistema de mantenimiento? (Seleccioná todas las correctas)",
+      "opts": [
+        "Plan de carrera",
+        "Administración de las compensaciones",
+        "Higiene y seguridad",
+        "Relaciones laborales",
+        "Desarrollo organizacional",
+        "Reclutamiento"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Las cuatro dimensiones del apunte (U4, pág. 17). Chiavenato lo presenta como compensación, beneficios sociales, higiene y seguridad y relaciones sindicales."
+    },
+    {
+      "id": "asi-p2-037",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada síntesis con la dimensión del subsistema de mantenimiento:",
+      "stems": [
+        "Cargos y funciones que desarrolla el individuo a lo largo de su vida laboral",
+        "Evaluación de salarios, investigación salarial, políticas salariales, beneficios sociales y remuneración variable",
+        "Condiciones físicas y ambientales que protejan la salud del trabajador y prevengan accidentes",
+        "Normas y procedimientos sobre las relaciones con el personal y los sindicatos"
+      ],
+      "choices": [
+        "Plan de carrera",
+        "Administración de las compensaciones",
+        "Higiene y seguridad",
+        "Relaciones laborales"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Apunte U4, pág. 17."
+    },
+    {
+      "id": "asi-p2-038",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada afirmación con higiene o con seguridad en el trabajo:",
+      "stems": [
+        "Se relaciona con el diagnóstico y la prevención de enfermedades ocupacionales",
+        "Contempla la prevención de accidentes, robos e incendios",
+        "Relacionada con la salud, a largo plazo",
+        "Relacionada con la prevención de accidentes, a corto plazo"
+      ],
+      "choices": [
+        "Higiene",
+        "Seguridad"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "fb": "Apunte U4, págs. 35-36."
+    },
+    {
+      "id": "asi-p2-039",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Qué debe equilibrar un plan de carreras?",
+      "opts": [
+        "Los salarios internos con los del mercado laboral",
+        "Las contribuciones de la persona con las de sus compañeros",
+        "La cantidad de ascensos con la cantidad de despidos",
+        "Las necesidades de desarrollo de la organización y las necesidades de desarrollo individuales de las personas"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Es uno de los objetivos del plan de carrera, junto con planificar sucesiones y reemplazos, equilibrar desajustes originados por cambios tecnológicos y disminuir el impacto del cambio organizacional (apunte U4, págs. 17-18)."
+    },
+    {
+      "id": "asi-p2-040",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál es el orden de las etapas para elaborar un plan de carrera?",
+      "opts": [
+        "1) Determinar el talento existente y potencial; 2) Analizar las competencias que requieren los puestos; 3) Determinar el avance entre los puestos",
+        "1) Analizar las competencias que requieren los puestos; 2) Determinar el avance entre los puestos relacionados; 3) Determinar el talento existente y potencial para ocupar esos puestos",
+        "1) Determinar el avance entre los puestos; 2) Fijar las franjas salariales; 3) Analizar las competencias",
+        "1) Seleccionar candidatos externos; 2) Analizar las competencias; 3) Determinar el avance entre los puestos"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Apunte U4, pág. 18. Determinar el avance es ver cómo se concatena cada puesto con los siguientes."
+    },
+    {
+      "id": "asi-p2-041",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Cuáles son objetivos del plan (administración) de carrera? (Seleccioná todas las correctas)",
+      "opts": [
+        "Organizar y planificar las sucesiones y reemplazos",
+        "Equilibrar los desajustes entre las necesidades de la organización y las habilidades de los empleados originados por cambios tecnológicos",
+        "Disminuir el impacto del cambio organizacional, las presiones y los problemas del trabajo",
+        "Fijar el salario mínimo de cada categoría",
+        "Reemplazar la evaluación del desempeño"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Objetivos del plan de carrera (apunte U4, págs. 17-18)."
+    },
+    {
+      "id": "asi-p2-042",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada situación con el tipo de movimiento de personal:",
+      "stems": [
+        "Asumir funciones superiores dentro de la misma área (ascenso o promoción)",
+        "Pasar a funciones inferiores en la misma área o en otra",
+        "Rotación de puestos o traslado en el mismo nivel de la estructura",
+        "Renuncia o despido"
+      ],
+      "choices": [
+        "Movimiento ascendente",
+        "Movimiento descendente",
+        "Movimiento lateral",
+        "Separación"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Movimientos de personal (apunte U4, págs. 18-19)."
+    },
+    {
+      "id": "asi-p2-043",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según Chiavenato, ¿qué es la decisión de participar?",
+      "opts": [
+        "La decisión de la persona de contribuir con tiempo y esfuerzo una vez dentro de la organización",
+        "La decisión de la persona de hacerse miembro de la organización a cambio de los incentivos o recompensas que esta le ofrece",
+        "La decisión de la organización de desvincular a un empleado",
+        "La participación del empleado en las ganancias de la empresa"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La primera opción es la decisión de producir (apunte U4, pág. 20)."
+    },
+    {
+      "id": "asi-p2-044",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cómo se relacionan la decisión de participar y la decisión de producir?",
+      "opts": [
+        "Son simultáneas e independientes entre sí",
+        "Primero se decide producir y después participar",
+        "Ambas las toma exclusivamente la organización",
+        "Son secuenciales: primero se decide participar (ingreso) y luego producir (permanencia); en la primera la organización ofrece incentivos y la persona decide, en la segunda la persona ofrece contribuciones y la organización decide si la mantiene"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Relación secuencial y de contraprestaciones (apunte U4, pág. 20). Por eso es fundamental mantener el equilibrio incentivos/contribuciones."
+    },
+    {
+      "id": "asi-p2-045",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según Chiavenato, ¿quién es el responsable en una organización de lograr el equilibrio entre incentivos y contribuciones?",
+      "opts": [
+        "Cada empleado, ajustando sus propias contribuciones",
+        "El sindicato, mediante la negociación colectiva",
+        "La administración de la organización (sus administradores o gerentes)",
+        "El Estado, mediante la legislación laboral"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "El apunte afirma que, cualquiera sea el propósito, el producto o la tecnología de la organización, es fundamental mantener el equilibrio incentivos/contribuciones (U4, pág. 20). Esa tarea le corresponde a la administración, que es la que diseña el sistema de recompensas y castigos.",
+      "note": "El apunte no nombra al responsable: la respuesta se deduce de Chiavenato. Verificala con el libro o la cátedra."
+    },
+    {
+      "id": "asi-p2-046",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Por qué se afirma que en las cuestiones salariales se debe hablar de equidad y no de igualdad?",
+      "opts": [
+        "Porque la ley exige pagar el mismo salario a todos los empleados de la empresa",
+        "Porque la distribución de los resultados de la empresa es desigual, y los sistemas de remuneración buscan que esas asimetrías se fundamenten en la distinta contribución de cada puesto a los resultados globales",
+        "Porque la equidad implica pagar según la edad y la antigüedad del empleado",
+        "Porque los salarios deben fijarse únicamente según los valores del mercado"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Evaluación del cargo según Soria (apunte U4, pág. 24): de allí que se hable más de equidad de remuneraciones que de igualdad."
+    },
+    {
+      "id": "asi-p2-047",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según la teoría de la inequidad, cuando una persona percibe que la relación entre sus recompensas y sus contribuciones no es equivalente a la de los demás:",
+      "opts": [
+        "Siente injusticia e insatisfacción (o culpa, si cobra de más) y tiende a reducir el desequilibrio cambiando lo que puede modificar: sus contribuciones",
+        "Siente satisfacción, porque se distingue del resto",
+        "Solicita automáticamente un reajuste colectivo por costo de vida",
+        "No se ve afectada, porque solo compara su salario con el del mercado"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Cada persona compara Mis recompensas / Mis contribuciones con Recompensas de los demás / Contribuciones de los demás. Si son equivalentes hay equidad y satisfacción (apunte U4, pág. 20)."
+    },
+    {
+      "id": "asi-p2-048",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según Chiavenato, ¿qué es la compensación?",
+      "opts": [
+        "Solo el pago del salario básico mensual",
+        "El conjunto de beneficios que otorga la ley",
+        "La diferencia entre el salario bruto y el neto",
+        "El sistema de incentivos y recompensas que la organización establece para remunerar y recompensar a las personas que trabajan en ella"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "La compensación incluye la remuneración en todas sus formas posibles: es el retorno por la ejecución de las tareas, el servicio prestado o el trabajo realizado (apunte U4, pág. 21)."
+    },
+    {
+      "id": "asi-p2-049",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cómo se compone la compensación total?",
+      "opts": [
+        "Salario directo + premios",
+        "Remuneración (salario directo + salario indirecto) + recompensas no financieras",
+        "Salario bruto − deducciones",
+        "Salario nominal + salario real"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Apunte U4, págs. 21-22. Las recompensas no financieras son reconocimiento, estabilidad y prestigio."
+    },
+    {
+      "id": "asi-p2-050",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada elemento con el tipo de compensación:",
+      "stems": [
+        "Salario directo, premios y comisiones",
+        "Vacaciones, gratificaciones, horas extras y adicionales",
+        "Reconocimiento, seguridad en el empleo y prestigio"
+      ],
+      "choices": [
+        "Financiera directa",
+        "Financiera indirecta (salario indirecto)",
+        "No financiera"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Apunte U4, pág. 22."
+    },
+    {
+      "id": "asi-p2-051",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "El salario, dada su complejidad, puede considerarse de varias formas. Relacioná cada descripción con la forma correspondiente:",
+      "stems": [
+        "Retribución recibida como contraprestación del servicio en el cargo ocupado",
+        "Resulta de las cláusulas de la convención colectiva y del plan de beneficios y servicios sociales",
+        "Volumen de dinero asignado en el contrato individual por el cargo ocupado",
+        "Cantidad de bienes que el empleado puede adquirir con ese dinero",
+        "Monto total que paga la empresa antes de aplicar descuentos o retenciones",
+        "Dinero que efectivamente recibe el trabajador tras las retenciones obligatorias"
+      ],
+      "choices": [
+        "Salario directo",
+        "Salario indirecto",
+        "Salario nominal",
+        "Salario real",
+        "Salario bruto",
+        "Salario neto"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "Apunte U4, pág. 22."
+    },
+    {
+      "id": "asi-p2-052",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Qué diferencia hay entre un reajuste salarial y un aumento salarial?",
+      "opts": [
+        "El reajuste incrementa el salario real y el aumento solo actualiza el nominal",
+        "No hay diferencia: son sinónimos",
+        "El reajuste reconstituye el salario real (recupera el poder adquisitivo perdido); el aumento incrementa el salario real",
+        "El reajuste es individual y el aumento siempre es colectivo"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "En una economía inflacionaria el salario nominal se modifica para proporcionar un salario real equivalente al del período anterior (apunte U4, pág. 22)."
+    },
+    {
+      "id": "asi-p2-053",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Para las organizaciones, el salario es a la vez:",
+      "opts": [
+        "Un costo (se refleja en el costo del producto o servicio final) y una inversión (se aplica dinero en el factor trabajo buscando un retorno mayor)",
+        "Un beneficio social y un incentivo",
+        "Una recompensa no financiera y un costo fijo",
+        "Un gasto no recuperable y una obligación sindical"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Apunte U4, pág. 23."
+    },
+    {
+      "id": "asi-p2-054",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Cómo se compone el esquema de compensaciones en la Argentina? (Seleccioná todas las correctas)",
+      "opts": [
+        "Remuneración fija (ingresos regulares en efectivo, salario básico)",
+        "Beneficios sociales nominales",
+        "Compensación variable (sujeta a alcanzar metas)",
+        "Participación obligatoria en las acciones de la empresa",
+        "Salario máximo fijado por ley"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Apunte U4, pág. 21. No existe un salario máximo, solo el piso del salario mínimo y los básicos de convenio."
+    },
+    {
+      "id": "asi-p2-055",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Cuáles son los principios que se desprenden de la definición jurídica de las compensaciones en la Argentina? (Seleccioná todas las correctas)",
+      "opts": [
+        "Inelasticidad a la baja",
+        "Igual tarea, igual remuneración",
+        "Variantes de pago alternativas al salario",
+        "Libre reducción del salario por decisión del empleador",
+        "Igual salario para todos los cargos de la empresa"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Los tres principios del apunte (U4, pág. 21)."
+    },
+    {
+      "id": "asi-p2-056",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Qué significa evaluar un puesto (cargo)?",
+      "opts": [
+        "Calificar la actuación de la persona que ocupa el puesto",
+        "Investigar los salarios que pagan otras empresas por ese puesto",
+        "Analizar las políticas de personal de la empresa",
+        "Analizar y comparar los cargos para ubicarlos en un orden jerárquico que sirva de base al sistema de remuneración, determinando el valor relativo de cada cargo"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "La evaluación de cargos sirve para mantener el equilibrio interno de los salarios. La primera opción es evaluación del desempeño y la segunda es investigación salarial (apunte U4, pág. 24)."
+    },
+    {
+      "id": "asi-p2-057",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Qué herramienta suministra la información para evaluar un puesto?",
+      "opts": [
+        "La evaluación del desempeño",
+        "El análisis y la descripción de cargos",
+        "La investigación salarial",
+        "La entrevista de salida"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El punto de partida de cualquier esquema de evaluación de cargos es obtener información mediante el análisis de cargos (apunte U4, pág. 25)."
+    },
+    {
+      "id": "asi-p2-058",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según Soria, la importancia de cada puesto resulta de dos factores:",
+      "opts": [
+        "La antigüedad y la edad del ocupante",
+        "El salario de mercado y el salario mínimo",
+        "La carga de tareas (dimensión cuantitativa) y el impacto de las tareas en los resultados globales (dimensión cualitativa)",
+        "El nivel de estudios y la experiencia del ocupante"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Los sistemas se estructuran sobre la base de los puestos y no de las personas que los ocupan (apunte U4, pág. 24)."
+    },
+    {
+      "id": "asi-p2-059",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "En los métodos analíticos, como la evaluación por puntos, ¿qué grupos de factores de evaluación se consideran según Chiavenato? (Seleccioná todas las correctas)",
+      "opts": [
+        "Requisitos intelectuales",
+        "Requisitos físicos",
+        "Responsabilidades implícitas",
+        "Condiciones de trabajo",
+        "Antigüedad del ocupante",
+        "Desempeño individual del ocupante"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Se evalúa el cargo, no a la persona: por eso antigüedad y desempeño no son factores de evaluación de cargos.",
+      "note": "El apunte no enumera estos factores: salen del libro de Chiavenato (método de evaluación por puntos)."
+    },
+    {
+      "id": "asi-p2-060",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada método de evaluación de cargos con su clasificación:",
+      "stems": [
+        "Jerarquización de cargos",
+        "Categorías predeterminadas (clasificación de cargos por categorías)",
+        "Comparación por factores",
+        "Evaluación por puntos"
+      ],
+      "choices": [
+        "No analítico: cargo como un todo, comparado contra otro cargo",
+        "No analítico: cargo como un todo, comparado contra un criterio (escala)",
+        "Analítico: partes del cargo (factores), comparado contra otro cargo",
+        "Analítico: partes del cargo (factores), comparado contra un criterio (escala)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Cuadro de métodos del apunte (U4, pág. 25)."
+    },
+    {
+      "id": "asi-p2-061",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cómo funciona el método no analítico de «Clasificación de cargos por categorías»?",
+      "opts": [
+        "Cada cargo se descompone en factores y se le asignan puntos por grado",
+        "Se definen previamente categorías (clases) con su descripción, y cada cargo, considerado como un todo, se compara con ellas y se ubica en la que mejor le corresponde",
+        "Se ordenan los cargos del más al menos importante, comparándolos entre sí",
+        "Se asigna a cada cargo el salario promedio del mercado"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Es una comparación del cargo como un todo contra un criterio (categorías predeterminadas) y proporciona automáticamente una clasificación de cargos (apunte U4, págs. 25-26)."
+    },
+    {
+      "id": "asi-p2-062",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cómo funciona el método analítico de «Evaluación por puntos»?",
+      "opts": [
+        "Se compara cada cargo, como un todo, con categorías definidas previamente",
+        "Se ordenan los cargos según el salario actual de sus ocupantes",
+        "Se eligen factores de evaluación, cada uno se divide en grados con un valor en puntos, se evalúa cada cargo factor por factor y la suma de puntos permite agruparlo en clases por intervalos de puntos",
+        "Se ubica cada cargo según la evaluación de desempeño de su ocupante"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Es una comparación cuantitativa de las partes del cargo (factores) contra un criterio. Los puntos permiten clasificar los cargos por clases de puntos (apunte U4, págs. 25-26)."
+    },
+    {
+      "id": "asi-p2-063",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál es la principal diferencia entre un método de evaluación de cargos no analítico y uno analítico?",
+      "opts": [
+        "El no analítico compara el cargo como un todo y no es cuantitativo; el analítico descompone el cargo en factores y lo evalúa cuantitativamente",
+        "El no analítico usa puntos y el analítico usa categorías",
+        "El analítico evalúa a la persona y el no analítico evalúa el cargo",
+        "No hay diferencia de fondo: solo cambia quién integra el comité de evaluación"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Apunte U4, pág. 25: comparación no cuantitativa (cargo como un todo) frente a comparación cuantitativa (partes del cargo o factores)."
+    },
+    {
+      "id": "asi-p2-064",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuándo conviene aplicar un método analítico y cuándo uno no analítico?",
+      "opts": [
+        "El analítico conviene en empresas pequeñas y con pocos cargos, y el no analítico en empresas grandes",
+        "El analítico solo se usa cuando no existe descripción de cargos",
+        "Se usan para evaluar el desempeño individual, no los cargos",
+        "El analítico conviene en organizaciones con muchos cargos o cargos complejos, donde se necesita más precisión y objetividad; el no analítico, en organizaciones pequeñas o con pocos cargos, por su sencillez y bajo costo"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Los métodos no analíticos comparan el cargo como un todo y son más simples; los analíticos son más precisos pero más costosos de implementar.",
+      "note": "El apunte no trae esta pregunta resuelta: la respuesta es una conclusión a partir de las características de cada método. Verificala con la cátedra."
+    },
+    {
+      "id": "asi-p2-065",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Qué es una política salarial?",
+      "opts": [
+        "Una ley nacional que fija el salario mínimo",
+        "El convenio colectivo firmado con el sindicato",
+        "El conjunto de principios y directrices que reflejan la orientación y la filosofía de la organización respecto de la remuneración de sus empleados",
+        "La investigación de los salarios que paga el mercado"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "La política salarial no es estática (apunte U4, pág. 28)."
+    },
+    {
+      "id": "asi-p2-066",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "multi",
+      "text": "¿Qué debe contener una política salarial? (Seleccioná todas las correctas)",
+      "opts": [
+        "Estructura de cargos y salarios",
+        "Salarios de admisión para las diversas clases salariales",
+        "Previsión de reajustes salariales",
+        "Lista de empleados a desvincular",
+        "Resultados de la evaluación del desempeño de cada empleado"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Contenido de la política salarial (apunte U4, pág. 28)."
+    },
+    {
+      "id": "asi-p2-067",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada propósito con el tipo de reajuste salarial:",
+      "stems": [
+        "Restablecer el valor real de los salarios frente a los cambios de la coyuntura económica",
+        "Acompañar el paso de un empleado a un cargo superior",
+        "Pagar salarios compatibles con los del mercado de trabajo",
+        "Recompensar un desempeño superior al normal"
+      ],
+      "choices": [
+        "Reajuste colectivo (por costo de vida)",
+        "Reajuste por promoción",
+        "Reajuste por adecuación",
+        "Reajuste por méritos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Los reajustes individuales (promoción, adecuación, méritos) complementan a los colectivos (apunte U4, pág. 28)."
+    },
+    {
+      "id": "asi-p2-068",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "Según la política salarial, el salario de admisión de un empleado nuevo debe:",
+      "opts": [
+        "Coincidir con el límite superior de la franja salarial",
+        "Coincidir con el límite inferior de la clase salarial (puede ser menor si no cumple todos los requisitos del cargo)",
+        "Ser el promedio del mercado para ese cargo",
+        "Ser igual al del empleado con más antigüedad en el cargo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Así puede avanzar dentro de la franja a medida que su desempeño lo justifique (apunte U4, pág. 28)."
+    },
+    {
+      "id": "asi-p2-069",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "¿Cuál es la diferencia entre un incentivo y un beneficio social?",
+      "opts": [
+        "El incentivo es un derecho que se goza por pertenecer a la organización; el beneficio social exige alcanzar una meta",
+        "Ambos son discrecionales: los otorga el jefe a quien elija",
+        "El incentivo es una compensación variable a la que se accede al alcanzar una condición predeterminada; el beneficio social es un derecho que se goza por el simple hecho de pertenecer a la organización, sin estar ligado a una meta ni a un resultado",
+        "El incentivo es siempre no monetario y el beneficio social siempre monetario"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Apunte U4, págs. 30-31. Los incentivos no son discrecionales: cualquier empleado que cumpla la condición tiene derecho a él."
+    },
+    {
+      "id": "asi-p2-070",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Clasificá cada ejemplo:",
+      "stems": [
+        "10% del sueldo básico, por única vez, al analista que obtenga 85 puntos o más en la evaluación de 360°",
+        "Un pago de $X, por única vez, al equipo que implemente los procesos internos bajo la norma ISO 27000",
+        "Un iPhone para el jefe de proyecto por su destacada gestión del año pasado, elegido por su jefe",
+        "Revisión médica semestral para todos los empleados"
+      ],
+      "choices": [
+        "Incentivo",
+        "Bono",
+        "Reconocimiento o premio",
+        "Beneficio social"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Incentivo: condición predeterminada. Bono: siempre dinerario, ligado a una tarea específica. Premio: discrecional y posterior al hecho. Beneficio: por pertenecer a la organización (apunte U4, págs. 30-33)."
+    },
+    {
+      "id": "asi-p2-071",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "text": "La revisión médica semestral particular que la empresa ofrece a sus empleados es un beneficio social:",
+      "opts": [
+        "Monetario, asistencial y legal",
+        "No monetario, asistencial y voluntario",
+        "No monetario, recreativo y legal",
+        "Monetario, supletorio y voluntario"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Ejemplos del apunte (U4, pág. 33)."
+    },
+    {
+      "id": "asi-p2-072",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "match",
+      "text": "Relacioná cada grupo de beneficios con su clasificación según sus objetivos:",
+      "stems": [
+        "Asistencia médica y odontológica, préstamos, complementación de la pensión",
+        "Club, colonia vacacional, música ambiental",
+        "Restaurante en el lugar de trabajo, transporte subsidiado, estacionamiento privado"
+      ],
+      "choices": [
+        "Asistenciales",
+        "Recreativos",
+        "Supletorios"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Apunte U4, págs. 32-33."
+    },
+    {
+      "id": "asi-p2-073",
+      "topic": "CC",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "info",
+      "text": "Finalmente, elaborá un mapa conceptual de los subsistemas de Desarrollo y de Mantenimiento e identificá las relaciones entre ambos.",
+      "answer": "DESARROLLO: equilibrar las competencias de las personas con las necesidades actuales y futuras de la organización.\n• Base: el aprendizaje y sus leyes (efecto, estímulo, intensidad, frecuencia, continuidad, descongelamiento, complejidad creciente).\n• Entrenamiento: inventario de necesidades → programación → ejecución → evaluación de resultados.\n• Desarrollo de personal.\n• Desarrollo organizacional: cambio planeado, sistémico y a largo plazo (datos → diagnóstico → intervención → evaluación).\n\nMANTENIMIENTO: retener al empleado adecuado, satisfecho y motivado.\n• Plan de carrera y movimientos de personal.\n• Administración de compensaciones: evaluación de cargos (equilibrio interno), investigación salarial (equilibrio externo), política salarial, remuneración variable y beneficios sociales.\n• Higiene y seguridad.\n• Relaciones laborales.\n\nRELACIONES\n• El plan de carrera necesita que el desarrollo prepare a las personas para los puestos siguientes (plan de sucesión).\n• Las recompensas del mantenimiento (ascensos, reajustes por mérito, incentivos) refuerzan el aprendizaje (leyes del efecto y del estímulo).\n• Ambos se apoyan en el análisis y la descripción de cargos: el desarrollo, para detectar necesidades (requisitos del cargo − habilidades del ocupante); el mantenimiento, para evaluar cargos.\n• Ambos usan la evaluación del desempeño: para inventariar necesidades de entrenamiento y para decidir promociones y remuneración variable.\n• Los resultados buscados por el entrenamiento (menos rotación y ausentismo) coinciden con los objetivos de los beneficios sociales.\n• El DO transforma la cultura y el clima, que influyen en la satisfacción que el mantenimiento busca sostener."
+    },
+    {
+      "id": "asi-p2-074",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué procesos incluye el subsistema de control (seguimiento) de RRHH?",
+      "opts": [
+        "El reclutamiento y la selección de personal",
+        "La evaluación del desempeño y la auditoría de la función de RRHH, apoyadas en bases de datos y sistemas de información",
+        "La capacitación y el desarrollo organizacional",
+        "La administración de salarios y los beneficios sociales"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El seguimiento se realiza principalmente mediante dos procesos: la evaluación del desempeño y la auditoría de la función de RRHH. En la figura de Chiavenato el subsistema de control comprende la base de datos y el sistema de información, y la auditoría de RRHH (apunte U5, págs. 4-5)."
+    },
+    {
+      "id": "asi-p2-075",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada afirmación con el proceso del subsistema de seguimiento al que corresponde:",
+      "stems": [
+        "Califica la actuación, pasada o presente, de un empleado o de un equipo según normas de desempeño establecidas",
+        "Analiza las políticas y prácticas de personal y evalúa su funcionamiento, con sugerencias para mejorar",
+        "Su finalidad es verificar y asegurar el desempeño de las tareas",
+        "Su finalidad es verificar el desempeño de la gestión de los RRHH (evaluación de la función)",
+        "Inspecciona cómo los gerentes de línea cumplen sus funciones de personal"
+      ],
+      "choices": [
+        "Evaluación del desempeño",
+        "Auditoría de la función de RRHH"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "fb": "La evaluación del desempeño mira a las personas en sus tareas; la auditoría mira la gestión de RRHH en su conjunto (apunte U5, págs. 5 y 12)."
+    },
+    {
+      "id": "asi-p2-076",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "La función de la auditoría de RRHH no es solo señalar fallas y problemas, sino también presentar sugerencias y soluciones. Por eso se dice que su papel es esencialmente:",
+      "opts": [
+        "Punitivo",
+        "Financiero",
+        "Educativo",
+        "Operativo"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Apunte U5, pág. 13."
+    },
+    {
+      "id": "asi-p2-077",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Cuál es el orden de las etapas del proceso de control?",
+      "opts": [
+        "Seguimiento del desempeño → Establecimiento de estándares → Acción correctiva → Comparación",
+        "Comparación con los estándares → Establecimiento de estándares → Seguimiento → Acción correctiva",
+        "Establecimiento de estándares → Acción correctiva → Seguimiento → Comparación",
+        "Establecimiento de los estándares deseados → Seguimiento o monitoreo del desempeño → Comparación del desempeño con los estándares → Acción correctiva, si es necesaria"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "El proceso de control es cíclico y repetitivo, y sirve para ajustar las operaciones a los estándares preestablecidos (apunte U5, pág. 7)."
+    },
+    {
+      "id": "asi-p2-078",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "Los estándares del proceso de control pueden expresarse en cuatro tipos. ¿Cuáles son? (Seleccioná todas las correctas)",
+      "opts": [
+        "Cantidad",
+        "Calidad",
+        "Tiempo",
+        "Costo",
+        "Antigüedad",
+        "Satisfacción del jefe"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Apunte U5, pág. 8."
+    },
+    {
+      "id": "asi-p2-079",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada estándar de control con su tipo:",
+      "stems": [
+        "Índice de rotación",
+        "Mantenimiento de equipos",
+        "Horas-hombre trabajadas",
+        "Costo medio de selección",
+        "Volumen de producción o ventas",
+        "Ciclo de producción"
+      ],
+      "choices": [
+        "Cantidad",
+        "Calidad",
+        "Tiempo",
+        "Costo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        2
+      ],
+      "fb": "Figura VII.5 del apunte (U5, pág. 8)."
+    },
+    {
+      "id": "asi-p2-080",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "En la etapa de comparación, los límites dentro de los cuales la variación del desempeño se acepta como normal o deseable se denominan:",
+      "opts": [
+        "Umbral de desempeño",
+        "Tolerancia",
+        "Estándar",
+        "Acción correctiva"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El umbral de desempeño, en cambio, es un valor por encima del límite superior, previsto para ser superado y atado a una recompensa (apunte U5, pág. 9)."
+    },
+    {
+      "id": "asi-p2-081",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Según el principio de excepción, la acción correctiva:",
+      "opts": [
+        "Incide solo sobre los casos excepcionales, es decir, lo que se aleja de los estándares más allá de la tolerancia",
+        "Se aplica a todas las operaciones, estén o no dentro del estándar",
+        "Se aplica solo cuando el desempeño supera el umbral de desempeño",
+        "Consiste siempre en modificar el estándar"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El gerente no debe dedicar mucho tiempo a lo que ocurre dentro de los estándares, sino ocuparse de las excepciones. Si hay desvíos significativos que se repiten, se revisa si el estándar es aceptable (apunte U5, págs. 6 y 9-10)."
+    },
+    {
+      "id": "asi-p2-082",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "Para que el proceso de control sea eficaz, ¿qué criterios debe atender? (Seleccioná todas las correctas)",
+      "opts": [
+        "Administrar por excepción",
+        "Controlar las actividades apropiadas",
+        "Oportunidad",
+        "Relación favorable costo/beneficio",
+        "Controlar todas las actividades con el mismo nivel de detalle",
+        "Precisión",
+        "Aceptación del control"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "fb": "Los seis criterios de control del apunte (U5, pág. 5)."
+    },
+    {
+      "id": "asi-p2-083",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "tf",
+      "text": "La evaluación del desempeño se relaciona con el proceso de control: es el mecanismo que se usa en la etapa de seguimiento (medición) del desempeño real, cuyos resultados luego se comparan con los estándares.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El apunte aclara que en la etapa de seguimiento o monitoreo del desempeño «entra la evaluación de desempeño». Las evaluaciones son uno de los mecanismos del subsistema de seguimiento (U5, págs. 4 y 9)."
+    },
+    {
+      "id": "asi-p2-084",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "La evaluación del desempeño es:",
+      "opts": [
+        "Un fin en sí mismo, que se realiza para archivar la calificación del empleado",
+        "El análisis de las políticas y prácticas de personal de la empresa",
+        "La comparación de los salarios internos con los del mercado",
+        "El proceso de calificar la actuación, pasada o presente, de un empleado o equipo según normas de desempeño establecidas; es un medio para localizar problemas y mejorar los resultados"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "No es un fin en sí mismo sino un instrumento. Además, comunicar el resultado al evaluado es fundamental (apunte U5, pág. 5)."
+    },
+    {
+      "id": "asi-p2-085",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada fuente con la información que aporta al subsistema de seguimiento de RRHH:",
+      "stems": [
+        "Alineamiento y planificación de los RRHH",
+        "Subsistema de provisión",
+        "Subsistema de aplicación"
+      ],
+      "choices": [
+        "Planes, objetivos, tiempos y proyectos (qué se espera alcanzar)",
+        "Cargos ocupados recientemente",
+        "Socialización, descripción de cargos y evaluación del desempeño"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Con esta información el seguimiento evalúa si el desempeño real se adecua a las metas, detecta desviaciones y determina acciones de mejora. La auditoría requiere un SI gerencial basado en los registros de personal y las estadísticas provistas por los otros subsistemas (apunte U5, págs. 4 y 13)."
+    },
+    {
+      "id": "asi-p2-086",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Lo que provee el subsistema de seguimiento sirve a los demás subsistemas. Relacioná cada subsistema con el uso que le da:",
+      "stems": [
+        "Subsistema de provisión",
+        "Subsistema de desarrollo",
+        "Subsistema de mantenimiento",
+        "Subsistema de aplicación"
+      ],
+      "choices": [
+        "Ajustar (o no) las especificaciones de reclutamiento y selección",
+        "Definir estrategias de capacitación para adecuar la persona al puesto",
+        "Ver a quién promover (plan de carrera), incentivos y remuneración variable",
+        "Evaluar los objetivos para la planificación y el control (modelo de explotación → modelo decisional)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Implicancias del seguimiento de RRHH (apunte U5, págs. 11-12)."
+    },
+    {
+      "id": "asi-p2-087",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué implica la auditoría de la función de personal de los gerentes de línea?",
+      "opts": [
+        "Evaluar el desempeño técnico de los gerentes en sus tareas productivas",
+        "Auditar los estados contables del área de cada gerente",
+        "Inspeccionar y verificar cómo los gerentes de línea llevan a cabo sus funciones de personal y en qué medida cumplen con las políticas y los procedimientos",
+        "Medir el nivel de satisfacción de los empleados con la empresa"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Apunte U5, pág. 12. La satisfacción de los empleados es otro ítem distinto de la auditoría."
+    },
+    {
+      "id": "asi-p2-088",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Qué evalúa la auditoría de RRHH? (Seleccioná todas las correctas)",
+      "opts": [
+        "Las funciones de personal llevadas a cabo por el área de RRHH",
+        "Las funciones de personal llevadas a cabo por los gerentes de línea",
+        "El nivel de satisfacción de los empleados",
+        "El rendimiento del hardware y del sistema operativo",
+        "Los precios de venta de los productos"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Apunte U5, pág. 12."
+    },
+    {
+      "id": "asi-p2-089",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Por qué la auditoría de RRHH incluye a los gerentes de línea y no solo al área de RRHH?",
+      "opts": [
+        "Porque el área de RRHH les transmite órdenes a los gerentes de línea",
+        "Porque la ARH es una responsabilidad de línea (cada jefe administra a su personal) y una función de staff (RRHH asesora): gran parte de las funciones de personal las ejecutan los propios gerentes",
+        "Porque los gerentes de línea son los responsables de la investigación salarial",
+        "Porque la auditoría solo puede hacerla un consultor externo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Cada jefe decide sobre admisiones, ascensos, evaluación, capacitación y disciplina de sus subordinados; la responsabilidad de que el grupo alcance los objetivos es del jefe, no del administrador de RRHH (apunte U5, págs. 1-2)."
+    },
+    {
+      "id": "asi-p2-090",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Qué técnicas se usan para obtener información sobre las actividades de RRHH en una auditoría? (Seleccioná todas las correctas)",
+      "opts": [
+        "Entrevistas (incluidas las de salida) y encuestas o sondeos de opinión",
+        "Análisis de los registros de RRHH",
+        "Análisis de las políticas y procedimientos de RRHH",
+        "Análisis de los cargos y sus habilidades",
+        "Benchmarking de equipos informáticos",
+        "Monitores hardware"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Apunte U5, pág. 12."
+    },
+    {
+      "id": "asi-p2-091",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Un cuello de botella es:",
+      "opts": [
+        "El componente más caro del sistema informático",
+        "El tiempo que tarda el usuario en pensar la siguiente petición",
+        "La máxima cantidad de trabajo útil por unidad de tiempo que puede realizar el sistema",
+        "Una limitación de las prestaciones del sistema que causa una ralentización considerable del tráfico de los procesos en un área del sistema"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Apunte U5, pág. 34. La tercera opción es la definición de capacidad y la segunda, la del tiempo de reflexión."
+    },
+    {
+      "id": "asi-p2-092",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿A qué puede deberse un cuello de botella? (Seleccioná todas las correctas)",
+      "opts": [
+        "Un componente de hardware",
+        "Un componente de software",
+        "La organización del sistema",
+        "El tiempo de reflexión del usuario",
+        "El benchmark utilizado"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Apunte U5, pág. 34."
+    },
+    {
+      "id": "asi-p2-093",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Cuál es el procedimiento para solucionar los cuellos de botella?",
+      "opts": [
+        "Reemplazar de inmediato el componente más lento y dar por terminado el estudio",
+        "Detectar si existen → formular una hipótesis → verificar su validez → determinar el método para eliminarlo → validar el método → modificar el sistema, y volver a comprobar si quedan cuellos de botella",
+        "Modificar el sistema → formular una hipótesis → verificar su validez → comprobar si existen cuellos de botella",
+        "Ejecutar un benchmark → comprar el equipo con mejor relación precio/prestaciones"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Diagrama de flujo del apunte (U5, pág. 34): si la hipótesis o el método no son válidos, se vuelve a formular o a determinar; después de modificar el sistema, se repite desde el inicio."
+    },
+    {
+      "id": "asi-p2-094",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada acción con la terapia para eliminar cuellos de botella:",
+      "stems": [
+        "Cambiar ficheros de un disco a otro",
+        "Reemplazar el disco por uno más rápido",
+        "Ajustar parámetros del sistema operativo",
+        "Instalar un procesador más potente"
+      ],
+      "choices": [
+        "Terapia de sintonización (tuning)",
+        "Terapia de reposición (upgrading)"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "fb": "Reposición: modificaciones de hardware (se justifica con la ley de Amdahl). Sintonización: cambios que no alteran la configuración pero afectan la organización del sistema (apunte U5, pág. 34)."
+    },
+    {
+      "id": "asi-p2-095",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿A qué terapia se le suele dar prioridad para eliminar un cuello de botella, y por qué?",
+      "opts": [
+        "A la reposición (upgrading), porque siempre garantiza la mayor mejora",
+        "A la reposición, porque la ley de Amdahl demuestra que la sintonización no mejora el rendimiento",
+        "A la sintonización (tuning), porque en general es más económica y menos radical que la reposición",
+        "A ninguna: los cuellos de botella no se pueden eliminar"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Apunte U5, pág. 34."
+    },
+    {
+      "id": "asi-p2-096",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Cuáles son las técnicas para evaluar sistemas informáticos? (Seleccioná todas las correctas)",
+      "opts": [
+        "Monitorización",
+        "Modelado (técnicas analíticas y simulación)",
+        "Benchmarking",
+        "Sintonización",
+        "Auditoría de la función de RRHH"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Las técnicas son de tres tipos: monitorización, modelado y benchmarking. La sintonización (experimentación) no se considera una técnica (apunte U5, pág. 21)."
+    },
+    {
+      "id": "asi-p2-097",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada finalidad con la técnica de evaluación correspondiente:",
+      "stems": [
+        "Evaluar índices y detectar cuellos de botella potenciales mediante análisis operacional",
+        "Observar y medir el sistema en funcionamiento y caracterizar la carga",
+        "Comparar sistemas para su selección o configuración usando benchmarks sintéticos o artificiales"
+      ],
+      "choices": [
+        "Modelado",
+        "Monitorización",
+        "Benchmarking"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Cuadro de técnicas, herramientas y finalidades (apunte U5, pág. 21)."
+    },
+    {
+      "id": "asi-p2-098",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué técnica debe usarse para evaluar el comportamiento de un sistema en el que algún elemento (hardware o software) todavía no está instalado?",
+      "opts": [
+        "Monitorización",
+        "Benchmarking",
+        "Sintonización",
+        "Modelado"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "El modelado se basa en la teoría de colas y puede resolverse con métodos analíticos o por simulación (apunte U5, pág. 22)."
+    },
+    {
+      "id": "asi-p2-099",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué establece la ley de Amdahl?",
+      "opts": [
+        "Que la utilización de un dispositivo es igual a su productividad por su tiempo de servicio",
+        "Que la aceleración global obtenida al mejorar una parte del sistema está limitada por la fracción de tiempo en que se usa esa parte: A = 1 / ((1 − f) + f/k)",
+        "Que el número de trabajos en el sistema es igual a la productividad por el tiempo de respuesta",
+        "Que mejorar k veces un componente siempre acelera k veces el sistema completo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Una mejora es más efectiva cuanto mayor es la fracción de tiempo en que se aplica (apunte U5, págs. 19-20). La primera opción es la ley de la utilización y la tercera, la ley de Little."
+    },
+    {
+      "id": "asi-p2-100",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué tipo de técnica de evaluación de sistemas informáticos es la ley de Amdahl?",
+      "opts": [
+        "Modelado (técnica analítica)",
+        "Monitorización",
+        "Benchmarking",
+        "Sintonización"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Apunte U5, pág. 21."
+    },
+    {
+      "id": "asi-p2-101",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Como administrador de recursos, ¿para qué te sirve el resultado de aplicar la ley de Amdahl?",
+      "opts": [
+        "Para medir la carga real del sistema mientras lo usan los usuarios",
+        "Para comparar dos equipos ejecutando la misma carga de prueba",
+        "Para estimar la aceleración real que dará una mejora antes de comprarla, y así decidir y justificar la inversión (upgrading) en el componente donde más rinde",
+        "Para calcular la tolerancia del proceso de control"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Es útil para determinar el máximo beneficio real de optimizar partes del sistema y tomar decisiones informadas sobre dónde invertir (apunte U5, pág. 21)."
+    },
+    {
+      "id": "asi-p2-102",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Un programa usa la CPU durante el 60 % del tiempo (f = 0,6). Si se instala una CPU 3 veces más rápida (k = 3), ¿cuál es la aceleración global?",
+      "opts": [
+        "3",
+        "≈ 2,5",
+        "≈ 1,67",
+        "0,6"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "A = 1 / ((1 − 0,6) + 0,6/3) = 1 / (0,4 + 0,2) = 1 / 0,6 ≈ 1,67. El valor 2,5 sería el límite con k → ∞."
+    },
+    {
+      "id": "asi-p2-103",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Si el recurso mejorado se usa el 80 % del tiempo (f = 0,8), ¿cuál es la aceleración máxima que se puede lograr aunque el factor de mejora k sea infinito?",
+      "opts": [
+        "Infinita",
+        "5",
+        "0,8",
+        "1,25"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Con k → ∞, A = 1 / (1 − f) = 1 / 0,2 = 5. El incremento global está limitado por las operaciones que no se ven afectadas por la mejora (apunte U5, pág. 20)."
+    },
+    {
+      "id": "asi-p2-104",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada caso límite de la ley de Amdahl con su resultado:",
+      "stems": [
+        "f = 0 (el componente no se usa)",
+        "f = 1 (el componente se usa todo el tiempo)",
+        "k → ∞ (mejora infinita del componente)"
+      ],
+      "choices": [
+        "A = 1: no hay aceleración",
+        "A = k",
+        "A = 1 / (1 − f)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Conclusiones de la ley de Amdahl (apunte U5, pág. 20)."
+    },
+    {
+      "id": "asi-p2-105",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué es un monitor?",
+      "opts": [
+        "Un programa que genera la carga de prueba para comparar sistemas",
+        "La herramienta de medición que permite seguir el comportamiento de los principales elementos de un sistema informático mientras está sometido a una carga de trabajo: observa, recolecta datos, los analiza y presenta resultados",
+        "Un modelo matemático de colas del sistema",
+        "Un indicador de la utilización de la CPU"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La técnica es la monitorización y la herramienta es el monitor (apunte U5, págs. 26-27). La primera opción describe un benchmark.",
+      "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
+    },
+    {
+      "id": "asi-p2-106",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué es monitorizar un sistema informático?",
+      "opts": [
+        "Ejecutar un benchmark estandarizado en un laboratorio",
+        "Resolver ecuaciones de teoría de colas para predecir el rendimiento",
+        "Ajustar los parámetros del sistema operativo para mejorar las prestaciones",
+        "Observar la actividad del sistema mientras está en funcionamiento y lo usan los usuarios (con carga real), para supervisar, analizar y evaluar su comportamiento y su rendimiento"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Apunte U5, pág. 26."
+    },
+    {
+      "id": "asi-p2-107",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Por qué se habla de «monitorización» y no de «medición»?",
+      "opts": [
+        "Porque los monitores no pueden cuantificar ninguna variable",
+        "Porque en informática no se pueden repetir las mismas condiciones de carga en los mismos instantes: la medida no es repetible, así que lo que se hace es un seguimiento de la actividad",
+        "Porque la monitorización solo se aplica a recursos humanos",
+        "Porque la medición es una técnica de modelado"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Una medida debería ser repetible; como en informática no lo es, se habla de seguimiento y no de medición (apunte U5, pág. 28)."
+    },
+    {
+      "id": "asi-p2-108",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Cuáles de las siguientes son características que debe cumplir un monitor? (Seleccioná todas las correctas)",
+      "opts": [
+        "Sobrecarga o interferencia mínima",
+        "Resolución",
+        "Compacidad",
+        "Anchura de entrada",
+        "Capacidad de reducción de datos",
+        "Escalabilidad",
+        "Facilidad de instalación",
+        "Reproductibilidad"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "fb": "Características de un monitor (apunte U5, págs. 27-28): sobrecarga o interferencia, precisión, resolución, ámbito o dominio, anchura de entrada, reducción de datos, compatibilidad, coste, facilidad de instalación y facilidad de utilización. Compacidad, escalabilidad y reproductibilidad son características de un benchmark."
+    },
+    {
+      "id": "asi-p2-109",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada descripción con la característica del monitor:",
+      "stems": [
+        "Energía que sustrae al sistema observado; debe ser tan poca que no altere los resultados",
+        "Error que puede afectar el valor de los datos obtenidos",
+        "Máxima frecuencia a la que puede detectar y registrar datos correctamente",
+        "Tipo de acontecimientos que puede registrar y características que puede observar",
+        "Máximo de bits que puede extraer y procesar en paralelo ante un acontecimiento",
+        "Capacidad de analizar, procesar y empaquetar los datos"
+      ],
+      "choices": [
+        "Sobrecarga o interferencia",
+        "Precisión",
+        "Resolución",
+        "Ámbito o dominio de la medida",
+        "Anchura de entrada",
+        "Capacidad de reducción de datos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "Apunte U5, págs. 27-28."
+    },
+    {
+      "id": "asi-p2-110",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Para qué pueden utilizarse los monitores? (Seleccioná todas las correctas)",
+      "opts": [
+        "Conocer la utilización de los recursos del sistema y los cuellos de botella",
+        "Encontrar los segmentos de código más utilizados para mejorarlos",
+        "Ajustar los parámetros del sistema para mejorar las prestaciones (sintonización)",
+        "Caracterizar la carga y crear cargas de prueba",
+        "Garantizar que las mediciones sean exactamente repetibles"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Apunte U5, pág. 28. Además, permiten validar cargas de benchmark y obtener datos para construir modelos."
+    },
+    {
+      "id": "asi-p2-111",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada afirmación con la técnica de monitorización:",
+      "stems": [
+        "Inserta código suplementario (traps) en el sistema operativo, que se activa ante cada cambio de estado",
+        "Se activa a intervalos fijos o aleatorios mediante interrupciones de reloj",
+        "Conviene cuando hay que conocer la secuencia de los acontecimientos o cuántas veces ocurrieron",
+        "Analiza solo una parte de la población y a partir de ella estima parámetros estadísticos",
+        "Si el acontecimiento es muy frecuente, la sobrecarga que produce es elevada",
+        "El proceso de recogida de datos causa menos disturbios en el sistema"
+      ],
+      "choices": [
+        "Detección de acontecimientos (eventos)",
+        "Muestreo (periodos de tiempo)"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "fb": "Apunte U5, págs. 27 y 29."
+    },
+    {
+      "id": "asi-p2-112",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "El muestreo puede usarse con dos objetivos distintos:",
+      "opts": [
+        "Generar la carga de prueba y comparar sistemas",
+        "Evaluar la fracción de tiempo que cada componente permaneció en distintos estados, y seguir la evolución del sistema para predecir su comportamiento futuro",
+        "Filtrar señales eléctricas y contar fenómenos",
+        "Registrar cada evento de seguridad y su instante exacto"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Apunte U5, pág. 27."
+    },
+    {
+      "id": "asi-p2-113",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Cuál es el orden de los elementos del esquema estructural de un monitor?",
+      "opts": [
+        "Selector o filtro → Interfaz de instrumentación → Registrador → Procesador → Analizador",
+        "Procesador → Selector o filtro → Interfaz de instrumentación → Analizador → Registrador",
+        "Interfaz de instrumentación → Selector o filtro → Procesador → Registrador → Analizador",
+        "Interfaz de instrumentación → Registrador → Procesador → Selector o filtro → Analizador"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Esquema del apunte (U5, pág. 29)."
+    },
+    {
+      "id": "asi-p2-114",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada función con el elemento del monitor:",
+      "stems": [
+        "Conecta el monitor con los puntos del sistema que contienen información relevante",
+        "Captura selectivamente las actividades sondeadas y genera variables que no tienen existencia física",
+        "Realiza las comprobaciones de los elementos del sistema que se analizan",
+        "Almacena el resultado de las comprobaciones",
+        "Interpreta los datos para obtener los resultados deseados"
+      ],
+      "choices": [
+        "Interfaz de instrumentación",
+        "Selector o filtro",
+        "Procesador",
+        "Registrador",
+        "Analizador"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Apunte U5, pág. 29."
+    },
+    {
+      "id": "asi-p2-115",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "tf",
+      "text": "Si la fase de análisis e interpretación se realiza en paralelo con la detección y la captura de eventos, se trata de un sistema de medida en tiempo real.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Apunte U5, pág. 29."
+    },
+    {
+      "id": "asi-p2-116",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada grupo de monitores con el criterio de clasificación:",
+      "stems": [
+        "De eventos y de muestreo",
+        "Software, hardware e híbridos",
+        "En tiempo real y batch"
+      ],
+      "choices": [
+        "Según su mecanismo de activación",
+        "Según su implantación",
+        "Según su forma de mostrar los resultados"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Apunte U5, págs. 29-31."
+    },
+    {
+      "id": "asi-p2-117",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Un monitor batch:",
+      "opts": [
+        "Procesa los datos a medida que los recibe",
+        "Se activa solo cuando ocurre un evento",
+        "Es un dispositivo electrónico externo al sistema",
+        "Primero recoge toda la información y, al terminar el período de recolección, la procesa"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "El monitor en tiempo real, en cambio, tiene un analizador que procesa los datos a medida que los recibe (apunte U5, pág. 31)."
+    },
+    {
+      "id": "asi-p2-118",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Los monitores software:",
+      "opts": [
+        "Son dispositivos electrónicos que detectan señales eléctricas en puntos del sistema",
+        "Son programas o ampliaciones del sistema operativo que acceden al estado del sistema e informan al usuario; son adecuados para monitorizar SO, redes y bases de datos, y las aplicaciones que los usan",
+        "No consumen recursos del sistema observado",
+        "Solo se usan para diseñar nuevas arquitecturas de computadores"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Apunte U5, pág. 29."
+    },
+    {
+      "id": "asi-p2-119",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Cómo se puede implantar un monitor software? (Seleccioná todas las correctas)",
+      "opts": [
+        "Adición de un nuevo programa",
+        "Modificación del software que se va a medir",
+        "Modificación del sistema operativo",
+        "Conexión de sondas electromagnéticas",
+        "Reemplazo del procesador"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Agregar un programa nuevo es lo más fácil de usar y de quitar cuando ya no se necesita (apunte U5, pág. 29)."
+    },
+    {
+      "id": "asi-p2-120",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "En un monitor software hay un conflicto entre la precisión de las medidas y la interferencia porque:",
+      "opts": [
+        "Más observaciones dan más precisión pero sobrecargan el sistema y las medidas dejan de ser fiables; menos observaciones cargan menos pero pueden no reflejar lo que realmente sucede",
+        "Cuanto más preciso es el monitor, menos recursos consume",
+        "La interferencia solo existe en los monitores hardware",
+        "La precisión no depende de la cantidad de observaciones"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Apunte U5, págs. 29-30."
+    },
+    {
+      "id": "asi-p2-121",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Respecto de las consideraciones temporales de un monitor software, ¿qué diferencia hay entre medir por muestreo y hacer medidas directas?",
+      "opts": [
+        "Las medidas directas son más fáciles de implementar y el muestreo es más preciso",
+        "Ninguno de los dos métodos necesita un reloj",
+        "El muestreo obtiene estadísticas a partir de tiempos medios: es más fácil de implementar pero menos preciso; las medidas directas capturan los instantes exactos de inicio y fin: son más precisas pero más complejas, sobre todo con prioridades de procesos",
+        "El muestreo captura el inicio y el fin exactos de cada evento"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Ambos métodos requieren un reloj; en el muestreo, el reloj además debe generar interrupciones periódicas (apunte U5, pág. 30)."
+    },
+    {
+      "id": "asi-p2-122",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Al medir una duración con un reloj de intervalo T, el error:",
+      "opts": [
+        "Siempre es exactamente T",
+        "Puede variar entre 0 y T; achicar el intervalo mejora la precisión pero aumenta la sobrecarga del sistema",
+        "Es nulo si el monitor tiene la máxima prioridad",
+        "Disminuye cuanto mayor es T"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El error es la diferencia entre el tiempo real y el medido (apunte U5, pág. 30)."
+    },
+    {
+      "id": "asi-p2-123",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Con qué se relacionan los problemas de precisión de un monitor software? (Seleccioná todas las correctas)",
+      "opts": [
+        "El retraso en el inicio de actividades",
+        "La asignación no exacta del tiempo de CPU",
+        "El acceso al reloj desde el sistema operativo",
+        "La resolución del reloj",
+        "La longitud de los cables de las sondas",
+        "El tamaño del benchmark"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Apunte U5, pág. 30. La longitud de los cables es un aspecto de los monitores hardware."
+    },
+    {
+      "id": "asi-p2-124",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "tf",
+      "text": "En general, la prioridad de un monitor software debe ser mayor que la de los acontecimientos que debe observar.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Apunte U5, pág. 30."
+    },
+    {
+      "id": "asi-p2-125",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "Los monitores hardware:",
+      "opts": [
+        "Son programas que se agregan al sistema operativo",
+        "Consumen muchos recursos del sistema observado",
+        "Solo pueden observar lo que el sistema operativo les permite",
+        "Son dispositivos electrónicos externos que se conectan a puntos del sistema para detectar niveles o señales eléctricas; no usan recursos del sistema, no producen interferencias y son muy rápidos"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Apunte U5, pág. 30."
+    },
+    {
+      "id": "asi-p2-126",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada función con el componente del esquema simple de un monitor hardware:",
+      "stems": [
+        "Filtra las señales que llegan de las sondas",
+        "Registra el número de veces que se produce un fenómeno",
+        "Memoriza de forma permanente los contadores (es opcional)",
+        "Da la señal de sincronismo con la que se captan los eventos"
+      ],
+      "choices": [
+        "Módulo lógico",
+        "Contadores",
+        "Almacenamiento",
+        "Reloj"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Figura 2.7 del apunte (U5, pág. 30)."
+    },
+    {
+      "id": "asi-p2-127",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Cuál es la principal utilización de los monitores híbridos?",
+      "opts": [
+        "Monitorizar aplicaciones de usuario en computadoras hogareñas",
+        "El diseño de nuevas arquitecturas de computadores y el estudio del comportamiento de prototipos de nuevas máquinas",
+        "Generar cargas sintéticas para benchmarking",
+        "Auditar el desempeño del personal de sistemas"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Además, vienen integrados en algunos computadores modernos (apunte U5, pág. 31)."
+    },
+    {
+      "id": "asi-p2-128",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Cómo funciona un monitor híbrido?",
+      "opts": [
+        "Agrega sobre el sistema operativo una pequeña parte de código que envía información a un monitor hardware, que observa continuamente la ejecución del procesador principal",
+        "Es un programa que reemplaza al sistema operativo mientras mide",
+        "Es un conjunto de sondas sin ningún componente de software",
+        "Alterna cada hora entre un monitor software y uno hardware"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Combina las dos técnicas para aprovechar las ventajas de cada una (apunte U5, pág. 31)."
+    },
+    {
+      "id": "asi-p2-129",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Completá el cuadro comparativo entre monitores hardware y software:",
+      "stems": [
+        "Dominio de medición del monitor hardware",
+        "Dominio de medición del monitor software",
+        "Resolución del monitor hardware",
+        "Resolución del monitor software",
+        "Interferencia del monitor hardware",
+        "Interferencia del monitor software"
+      ],
+      "choices": [
+        "Bajo nivel (fijo): puede observar directamente el contenido de la memoria",
+        "Alto nivel: no puede observar directamente la memoria, solo lo que el SO permite",
+        "Alta (fija): frecuencias elevadas",
+        "Baja (variable): la da la máxima frecuencia de ejecución de instrucciones",
+        "Baja: no introduce perturbación",
+        "Alta: perturbación apreciable"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "Cuadro comparativo del apunte (U5, págs. 31-32). Los híbridos tienen dominio total, resolución alta e interferencia media."
+    },
+    {
+      "id": "asi-p2-130",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Cuál es la diferencia entre benchmarking y benchmark?",
+      "opts": [
+        "Son sinónimos",
+        "El benchmark es la técnica de comparación y el benchmarking es el programa que genera la carga",
+        "El benchmarking es la técnica de comparar sistemas informáticos frente a una carga característica, básicamente por el tiempo de ejecución; el benchmark es la herramienta que genera esa carga de prueba",
+        "El benchmark mide el sistema con carga real y el benchmarking lo modela con teoría de colas"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Apunte U5, págs. 32-33."
+    },
+    {
+      "id": "asi-p2-131",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "tf",
+      "text": "Benchmarking y medición son lo mismo: en ambos casos solo se recolectan datos del sistema.",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "BENCHMARKING ≠ MEDICIÓN: el benchmarking analiza el rendimiento poniendo énfasis en la carga y hace una comparación; en la medición solo se recolectan datos (apunte U5, pág. 32)."
+    },
+    {
+      "id": "asi-p2-132",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Qué factores influyen en el benchmarking? (Seleccioná todas las correctas)",
+      "opts": [
+        "El tipo y la versión del sistema operativo",
+        "El compilador usado en la prueba",
+        "Los lenguajes de programación",
+        "El sistema de librerías de ejecución",
+        "El tamaño de la caché",
+        "La cantidad de empleados del área de sistemas",
+        "El precio de lista del equipo"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Apunte U5, págs. 32-33. También conviene que los programas de carga verifiquen sus resultados, para saber que el benchmark se ejecutó correctamente."
+    },
+    {
+      "id": "asi-p2-133",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Qué errores pueden aparecer al aplicar benchmarking? (Seleccioná todas las correctas)",
+      "opts": [
+        "Representar en la carga de test solo los comportamientos medios",
+        "Ignorar los efectos de la caché",
+        "Incluir la varianza de la carga en el test",
+        "Ignorar el overhead del monitor",
+        "Validar las medidas obtenidas",
+        "Recoger muchos datos pero hacer poco análisis",
+        "Asegurar las mismas condiciones iniciales en cada ejecución"
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "fb": "Errores del apunte (U5, pág. 32): solo comportamientos medios, controlar mal el nivel de carga, ignorar la caché, ignorar el overhead del monitor, no validar las medidas, no asegurar las mismas condiciones iniciales, no medir el transitorio, comparar usando utilizaciones y recoger muchos datos con poco análisis. Incluir la varianza, validar y asegurar las condiciones iniciales son buenas prácticas."
+    },
+    {
+      "id": "asi-p2-134",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Qué circunstancias (dificultades) pueden influir en los resultados de un benchmarking? (Seleccioná todas las correctas)",
+      "opts": [
+        "Cómo determinar una carga característica suficientemente reducida para ser manejable y suficientemente extensa para ser representativa",
+        "Cómo valorar el aprovechamiento que hacen los programas de las peculiaridades de cada sistema",
+        "Que cada ejecución del benchmark altera el estado del sistema",
+        "Que el benchmarking no puede usar cargas sintéticas",
+        "Que los resultados no se pueden expresar numéricamente"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "Las dos primeras son las principales dificultades que plantea el apunte; la tercera explica por qué hay que asegurar las mismas condiciones iniciales (U5, pág. 32)."
+    },
+    {
+      "id": "asi-p2-135",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Cuál es el orden de los pasos del benchmarking según Puigjaner?",
+      "opts": [
+        "Seleccionar el benchmark → Ejecutarlo → Definir el objetivo → Analizar los resultados → Determinar el entorno",
+        "Determinar qué se quiere estudiar y por qué (objetivo) → Seleccionar el benchmark → Determinar el entorno, las métricas y los aspectos que influyen → Ejecutar el benchmark → Analizar los resultados",
+        "Ejecutar el benchmark → Analizar los resultados → Definir el objetivo → Seleccionar el benchmark",
+        "Determinar el entorno → Ejecutar el benchmark → Seleccionar el benchmark → Definir el objetivo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Apunte U5, pág. 33."
+    },
+    {
+      "id": "asi-p2-136",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "Al seleccionar el benchmark, ¿qué características debe tener? (Seleccioná todas las correctas)",
+      "opts": [
+        "Representatividad",
+        "Reproductibilidad",
+        "Compacidad",
+        "Escalabilidad",
+        "Anchura de entrada",
+        "Interferencia"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "Apunte U5, pág. 33. Anchura de entrada e interferencia son características de los monitores."
+    },
+    {
+      "id": "asi-p2-137",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Cuáles son las unidades utilizadas en benchmarking?",
+      "opts": [
+        "Siempre se expresan en MIPS",
+        "Siempre en porcentaje de utilización de la CPU",
+        "Se usan los puntos de la evaluación de cargos",
+        "No hay una unidad fija: el resultado es un número o conjunto de números que representa el grado de ajuste del equipo a las exigencias de la carga, y sus unidades dependen del objetivo del estudio y del nivel del sistema que interese medir (básicamente, tiempos de ejecución)"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "Resultado de un benchmarking (apunte U5, págs. 32-33). Usar las utilizaciones de los dispositivos para comparar prestaciones es, de hecho, uno de los errores."
+    },
+    {
+      "id": "asi-p2-138",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué es un benchmark general?",
+      "opts": [
+        "Un conjunto de programas extraídos de la carga real y representativos de ella",
+        "Programas pensados y diseñados específicamente para el estudio de prestaciones (por ejemplo, TAURUS)",
+        "Un monitor que registra todos los eventos del sistema",
+        "Una carga real observada durante el funcionamiento normal del sistema"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "La primera opción es un benchmark de aplicación (apunte U5, pág. 33)."
+    },
+    {
+      "id": "asi-p2-139",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "match",
+      "text": "Relacioná cada afirmación con el tipo de benchmark:",
+      "stems": [
+        "Programas diseñados para el estudio de prestaciones",
+        "Programas extraídos de la carga real y representativos de ella",
+        "Ejemplo: TAURUS",
+        "Ejemplo: un juego"
+      ],
+      "choices": [
+        "Benchmark general",
+        "Benchmark de aplicación"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "fb": "Apunte U5, pág. 33."
+    },
+    {
+      "id": "asi-p2-140",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "multi",
+      "text": "¿Para qué se utilizan los benchmarks? (Seleccioná todas las correctas)",
+      "opts": [
+        "Adquisición y configuración de equipos o sistemas",
+        "Sintonización de sistemas",
+        "Planificación de la capacidad",
+        "Comparación de compiladores",
+        "Diseño de procesadores y sistemas informáticos",
+        "Evaluar el desempeño de los programadores"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "Razones para utilizar benchmarks (apunte U5, pág. 33)."
+    },
+    {
+      "id": "asi-p2-141",
+      "topic": "CC",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "text": "¿Qué puede utilizarse para monitorizar computadoras personales y smartphones?",
+      "opts": [
+        "Monitores hardware con sondas conectadas a la placa, porque son los únicos que no interfieren",
+        "Solo técnicas de modelado, porque las PCs y los smartphones no se pueden observar en funcionamiento",
+        "Monitores software: programas o funciones del sistema operativo que acceden a su estado, como el Administrador de tareas o el Monitor de recursos de Windows, top/htop en Linux, el Monitor de Actividad de macOS o las opciones de desarrollador y las apps de monitoreo en Android e iOS",
+        "Benchmarks de aplicación, porque miden la carga real mientras se usa el equipo"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Los monitores software son adecuados para observar el SO, las redes, las bases de datos y las aplicaciones; son baratos, fáciles de instalar y de quitar (apunte U5, págs. 29 y 31). Los monitores hardware son caros, requieren conectar sondas y no son prácticos para equipos de uso personal.",
+      "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la respuesta se deduce de las características de los monitores software."
+    }
+  ]
 }

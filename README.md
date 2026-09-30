@@ -21,7 +21,7 @@ Materias y parciales incluidos:
 | Materia | Parcial | Carpeta | Preguntas |
 |---|---|---|---|
 | Administración de Sistemas de Información | 1er parcial | `subjects/asi/1er-parcial/` | 87 (78 con puntaje + 9 informativas) |
-| | 2do parcial | `subjects/asi/2do-parcial/` | todavía ninguna (aparece como «Próximamente») |
+| | 2do parcial | `subjects/asi/2do-parcial/` | 141 de los cuestionarios de la cátedra (140 con puntaje + 1 informativa), por unidad |
 | Redes de Datos | 1er parcial | `subjects/redes/1er-parcial/` | 97 (89 con link a la página de la teoría) |
 | | 2do parcial | `subjects/redes/2do-parcial/` | todavía ninguna (aparece como «Próximamente») |
 | Sistemas de Información Geográfica | 1er parcial | `subjects/gis/1er-parcial/` | 84 (las ★ importantes y las 33 del 1er parcial 2025, con la página del apunte) |
@@ -48,7 +48,7 @@ subjects/
       index.html        # carga el motor con initQuiz({ slug: "asi", exam: "1er-parcial" })
       questions.json
       img/              # imágenes referenciadas por las preguntas
-    2do-parcial/        # preparado, sin preguntas todavía
+    2do-parcial/        # preguntas de los cuestionarios de la cátedra (Unidades 4 y 5)
       index.html
       questions.json
   redes/
@@ -89,7 +89,7 @@ los paths relativos de cada parcial (`questions.json`, `img/…`, `sources/…`)
 
 ## Cargar las preguntas de un parcial preparado
 
-El 2do parcial de Administración y el de Redes ya tienen su carpeta, su página y un `questions.json` sin
+El 2do parcial de Redes ya tiene su carpeta, su página y un `questions.json` sin
 preguntas; mientras `questions` esté vacío, la materia lo muestra como «Próximamente». Para cargarlo, completá
 `topics` y `questions` en `subjects/<slug>/2do-parcial/questions.json` siguiendo el esquema de abajo (las
 imágenes van en `img/` o `sources/` dentro de esa misma carpeta) y corré `node scripts/validate.mjs`.
