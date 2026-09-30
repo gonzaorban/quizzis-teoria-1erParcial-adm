@@ -159,7 +159,7 @@
       "correct": [
         0
       ],
-      "fb": "Definición del apunte (U4, pág. 2). La segunda opción describe el entrenamiento, la tercera la educación y la cuarta el desarrollo organizacional."
+      "fb": "Definición del apunte (U4, pág. 2). La transmisión a corto plazo de información sobre el cargo describe el entrenamiento; la influencia del ambiente social para adaptarse a normas y valores, la educación; y el cambio planeado de la cultura y la estructura, el desarrollo organizacional."
     },
     {
       "id": "asi-p2-008",
@@ -1189,7 +1189,7 @@
       "correct": [
         3
       ],
-      "fb": "La evaluación de cargos sirve para mantener el equilibrio interno de los salarios. La primera opción es evaluación del desempeño y la segunda es investigación salarial (apunte U4, pág. 24)."
+      "fb": "La evaluación de cargos sirve para mantener el equilibrio interno de los salarios. Calificar la actuación de quien ocupa el puesto es evaluación del desempeño, e investigar lo que pagan otras empresas es investigación salarial (apunte U4, pág. 24)."
     },
     {
       "id": "asi-p2-057",
@@ -1874,7 +1874,7 @@
       "correct": [
         3
       ],
-      "fb": "Apunte U5, pág. 34. La tercera opción es la definición de capacidad y la segunda, la del tiempo de reflexión."
+      "fb": "Apunte U5, pág. 34. La máxima cantidad de trabajo útil por unidad de tiempo es la definición de capacidad, y el tiempo que tarda el usuario en pensar la siguiente petición es el tiempo de reflexión."
     },
     {
       "id": "asi-p2-092",
@@ -2029,7 +2029,7 @@
       "correct": [
         1
       ],
-      "fb": "Una mejora es más efectiva cuanto mayor es la fracción de tiempo en que se aplica (apunte U5, págs. 19-20). La primera opción es la ley de la utilización y la tercera, la ley de Little."
+      "fb": "Una mejora es más efectiva cuanto mayor es la fracción de tiempo en que se aplica (apunte U5, págs. 19-20). Utilización = productividad × tiempo de servicio es la ley de la utilización, y trabajos en el sistema = productividad × tiempo de respuesta es la ley de Little."
     },
     {
       "id": "asi-p2-100",
@@ -2137,7 +2137,7 @@
       "correct": [
         1
       ],
-      "fb": "La técnica es la monitorización y la herramienta es el monitor (apunte U5, págs. 26-27). La primera opción describe un benchmark.",
+      "fb": "La técnica es la monitorización y la herramienta es el monitor (apunte U5, págs. 26-27). Un programa que genera la carga de prueba para comparar sistemas describe un benchmark, no un monitor.",
       "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
     },
     {
@@ -2729,7 +2729,7 @@
         1,
         2
       ],
-      "fb": "Las dos primeras son las principales dificultades que plantea el apunte; la tercera explica por qué hay que asegurar las mismas condiciones iniciales (U5, pág. 32)."
+      "fb": "Determinar una carga manejable y a la vez representativa, y valorar el aprovechamiento que hacen los programas de las peculiaridades de cada sistema, son las principales dificultades que plantea el apunte; que cada ejecución altere el estado del sistema explica por qué hay que asegurar las mismas condiciones iniciales (U5, pág. 32)."
     },
     {
       "id": "asi-p2-135",
@@ -2802,7 +2802,7 @@
       "correct": [
         1
       ],
-      "fb": "La primera opción es un benchmark de aplicación (apunte U5, pág. 33)."
+      "fb": "Un conjunto de programas extraídos de la carga real y representativos de ella es un benchmark de aplicación (apunte U5, pág. 33)."
     },
     {
       "id": "asi-p2-139",
