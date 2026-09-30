@@ -626,7 +626,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   });
   // keyboard, "one" mode only: 1–9 pick options, Enter sends (or goes on once sent), arrows navigate
   document.addEventListener("keydown", (e) => {
-    if (state.mode === "all" || e.ctrlKey || e.metaKey || e.altKey || e.target.matches("select, textarea")) return;
+    if (state.mode === "all" || e.ctrlKey || e.metaKey || e.altKey || e.target.closest("select, textarea")) return;
     const card = $("main").querySelector(".card");
     if (!card) return;
     if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
