@@ -494,6 +494,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
           ${q.type === "multi" ? `<span class="badge">Selección múltiple</span>` : ""}
           ${q.type === "info" ? `<span class="badge info">Informativa</span>` : ""}
           ${topic && topic.note ? `<span class="tnote">${esc(topic.note)}</span>` : ""}
+          ${q.tip ? `<span class="qtip">${esc(q.tip)}</span>` : ""}
         </div>
         <p class="qtext">${esc(q.text)}</p>
         <p class="kind">${kindLabel[q.type]}</p>
