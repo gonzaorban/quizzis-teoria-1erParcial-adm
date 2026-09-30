@@ -61,9 +61,9 @@
       "text": "Dentro del subsistema de desarrollo, ¿qué diferencia hay entre sus tres estratos?",
       "opts": [
         "Entrenamiento y desarrollo de personal tratan el aprendizaje individual (enfoque microscópico); el desarrollo organizacional aborda cómo aprende y se desarrolla la organización (enfoque macroscópico)",
-        "Los tres tratan solo el aprendizaje individual y se diferencian únicamente por su duración",
-        "El desarrollo organizacional es un tipo de entrenamiento a corto plazo orientado al cargo actual",
-        "El entrenamiento es macroscópico y sistémico, mientras que el desarrollo organizacional es individual"
+        "Los tres estratos tratan el aprendizaje individual (enfoque microscópico) y se diferencian únicamente por su duración: el entrenamiento es a corto plazo y el desarrollo organizacional, a largo plazo",
+        "El desarrollo organizacional es un entrenamiento a corto plazo orientado al cargo actual (enfoque microscópico); entrenamiento y desarrollo de personal abordan cómo aprende la organización (enfoque macroscópico)",
+        "Entrenamiento y desarrollo organizacional tratan el aprendizaje individual (enfoque microscópico); el desarrollo de personal aborda cómo aprende y se desarrolla la organización (enfoque macroscópico)"
       ],
       "correct": [
         0
@@ -84,10 +84,10 @@
       "type": "single",
       "text": "¿Cuál es la finalidad del subsistema de desarrollo de RRHH?",
       "opts": [
-        "Atraer candidatos calificados desde el mercado de recursos humanos",
+        "Atraer candidatos calificados desde el mercado de recursos humanos y seleccionar, entre ellos, a los que mejor se ajustan a los requisitos de los cargos vacantes de la organización",
         "Generar el equilibrio entre las competencias actuales y futuras de las personas y las necesidades presentes del cargo y futuras de la organización, en función de su entorno, su misión y su estrategia",
-        "Retener al empleado adecuado, manteniéndolo satisfecho y motivado mediante la compensación",
-        "Verificar que el desempeño real de los empleados se ajuste a los estándares establecidos"
+        "Retener al empleado adecuado, manteniéndolo satisfecho y motivado mediante la compensación, los beneficios sociales y la higiene y seguridad, para inducirlo a permanecer en la organización",
+        "Verificar si el desempeño real de los empleados se adecua a las metas de funcionamiento establecidas, detectar las desviaciones respecto de los estándares y determinar las acciones de mejora adecuadas"
       ],
       "correct": [
         1
@@ -108,10 +108,10 @@
       "type": "single",
       "text": "Según el apunte, el desarrollo de una persona debe entenderse como:",
       "opts": [
-        "Un evento puntual que ocurre al ingresar a la organización",
-        "Un cambio que depende solo de la antigüedad en el cargo",
+        "Un evento puntual de capacitación que ocurre una sola vez, al ingresar a la organización",
+        "Un cambio que depende solo de la antigüedad en el cargo y que se da en forma automática",
         "Una evolución progresiva de la persona hacia sus más altos niveles de capacidades y habilidades",
-        "Un proceso reservado a los niveles gerenciales"
+        "Un proceso reservado a los niveles gerenciales, para preparar a los futuros directivos de la empresa"
       ],
       "correct": [
         2
@@ -132,10 +132,10 @@
       "type": "single",
       "text": "¿Cuál es el resultado de los procesos de desarrollo de RRHH?",
       "opts": [
-        "Una estructura salarial equitativa respecto del mercado laboral",
-        "Un inventario actualizado de los cargos vacantes a cubrir mediante reclutamiento externo",
-        "La reducción de la plantilla a los empleados de mejor desempeño",
-        "Personal habilitado (con nuevos conocimientos, habilidades y actitudes), mayor eficacia organizacional y una organización capaz de responder a los fenómenos del cambio, con personas preparadas para responsabilidades futuras"
+        "Una estructura salarial equitativa respecto del mercado laboral, obtenida mediante la evaluación de cargos y la investigación salarial",
+        "Un inventario actualizado de los cargos vacantes que la organización debe cubrir en el corto plazo, junto con la nómina de candidatos externos a reclutar y seleccionar para ocuparlos",
+        "La reducción de la plantilla a los empleados de mejor desempeño, detectados mediante la evaluación del desempeño y la auditoría de RRHH",
+        "Personal habilitado (con nuevos conocimientos, habilidades y actitudes), mayor eficacia organizacional y personas preparadas para responder al cambio y a futuras responsabilidades"
       ],
       "correct": [
         3
@@ -192,9 +192,9 @@
       "text": "El aprendizaje, columna vertebral del desarrollo, se define como:",
       "opts": [
         "El proceso complejo que permite a los individuos adquirir nuevos comportamientos que les aseguren su supervivencia o adaptación al medio físico o cultural",
-        "La transmisión, a corto plazo y de forma sistemática, de información específica sobre el cargo",
-        "Toda influencia que el ser humano recibe del ambiente social para adaptarse a las normas y valores vigentes",
-        "El cambio planeado de la cultura y la estructura de la organización"
+        "La transmisión, a corto plazo y de manera sistemática y organizada, de conocimientos, actitudes y habilidades específicos relativos al cargo que ocupa la persona",
+        "Toda influencia que el ser humano recibe del ambiente social durante su existencia para adaptarse a las normas y los valores sociales vigentes y aceptados",
+        "El cambio planeado, a largo plazo y con enfoque sistémico, de la cultura, los procesos y la estructura de toda la organización para mejorar su eficacia"
       ],
       "correct": [
         0
@@ -308,15 +308,15 @@
       "type": "single",
       "text": "El entrenamiento (capacitación) es:",
       "opts": [
-        "Un proceso educativo a largo plazo que prepara al hombre para ejercer una profesión",
-        "Un programa de cambio planeado que involucra a toda la organización",
+        "Un proceso educativo a largo plazo, impartido en las escuelas y también en las empresas, que prepara al hombre para ejercer una profesión con objetivos amplios",
+        "Un proceso educativo a mediano plazo que perfecciona a la persona para una carrera dentro de su profesión, con objetivos menos amplios, impartido por firmas especializadas en desarrollo de personal",
         "Un proceso educativo a corto plazo, aplicado de manera sistemática y organizada, mediante el cual las personas aprenden conocimientos, actitudes y habilidades en función de objetivos definidos",
-        "Una influencia asistemática que el individuo recibe del ambiente social"
+        "Toda influencia, organizada o asistemática, que el individuo recibe del ambiente social durante su existencia para adaptarse a las normas y los valores vigentes"
       ],
       "correct": [
         2
       ],
-      "fb": "Definición del apunte (U4, pág. 3). El entrenamiento prepara a la persona para el cargo; la educación la prepara para enfrentar el ambiente dentro o fuera del trabajo.",
+      "fb": "Definición del apunte (U4, pág. 3). El entrenamiento prepara a la persona para el cargo; la educación la prepara para enfrentar el ambiente dentro o fuera del trabajo. Preparar para ejercer una profesión a largo plazo es la formación profesional, y perfeccionar para una carrera a mediano plazo es el perfeccionamiento o desarrollo profesional.",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 3,
@@ -365,7 +365,7 @@
         "Programación → Inventario de necesidades → Evaluación de resultados → Ejecución",
         "Inventario de necesidades → Ejecución → Programación → Evaluación de resultados",
         "Ejecución → Inventario de necesidades → Programación → Evaluación de resultados",
-        "Inventario de necesidades → Programación → Implementación y ejecución → Evaluación de resultados"
+        "Inventario de necesidades → Programación → Ejecución → Evaluación de resultados"
       ],
       "correct": [
         3
@@ -451,8 +451,8 @@
         "Preparar al personal para la ejecución inmediata de las diversas tareas del cargo",
         "Proporcionar oportunidades para el desarrollo personal continuo, en el cargo actual y en otras funciones",
         "Cambiar la actitud de las personas para crear un clima más satisfactorio o aumentar la motivación",
-        "Determinar el salario de admisión de los nuevos empleados",
-        "Auditar cómo los gerentes de línea cumplen las políticas de personal"
+        "Determinar el salario de admisión de los nuevos empleados según el límite inferior de su clase salarial",
+        "Auditar cómo los gerentes de línea llevan a cabo sus funciones de personal y cumplen las políticas"
       ],
       "correct": [
         0,
@@ -813,10 +813,10 @@
       "type": "single",
       "text": "En cuanto al tiempo, el entrenamiento de inducción o de integración a la empresa:",
       "opts": [
-        "Se realiza únicamente fuera del lugar de trabajo, después de años de antigüedad",
-        "Es una técnica orientada al proceso para cambiar actitudes de los gerentes",
-        "Es la evaluación de resultados del entrenamiento a nivel organizacional",
-        "Busca la adaptación y ambientación inicial del nuevo empleado a la empresa y se hace a través del programa de socialización"
+        "Se realiza fuera del lugar de trabajo, después del ingreso, y busca perfeccionar a los empleados con antigüedad para una carrera dentro de su profesión",
+        "Es una técnica orientada al proceso, diseñada para cambiar las actitudes de los gerentes y desarrollar sus habilidades interpersonales mediante juego de roles",
+        "Es la evaluación de los resultados del entrenamiento a nivel organizacional, que verifica el aumento de la eficacia y la mejora del clima de la empresa",
+        "Busca la adaptación y ambientación inicial del nuevo empleado a la empresa y al ambiente social y físico donde va a trabajar, a través del programa de socialización"
       ],
       "correct": [
         3
@@ -837,10 +837,10 @@
       "type": "single",
       "text": "¿Cuál de las siguientes definiciones corresponde al desarrollo organizacional (DO)?",
       "opts": [
-        "Un proceso educativo a corto plazo que prepara a cada empleado para su cargo actual",
-        "Una actividad de cambio planeado, a largo plazo y con enfoque sistémico, basada en las ciencias del comportamiento, que involucra a toda la organización para mejorar su eficacia mediante intervenciones en sus procesos, su estructura y su cultura",
-        "Un conjunto de normas y procedimientos para establecer estructuras salariales equitativas",
-        "Un cambio espontáneo que surge de la interacción informal entre los empleados"
+        "Un proceso educativo a corto plazo, aplicado de manera sistemática y organizada, que prepara a cada empleado para las tareas de su cargo actual (enfoque microscópico)",
+        "Una actividad de cambio planeado, a largo plazo y con enfoque sistémico, que involucra a toda la organización para mejorar su eficacia interviniendo en sus procesos, su estructura y su cultura",
+        "Un conjunto de normas y procedimientos que busca establecer y mantener estructuras salariales equitativas y justas, tanto en el equilibrio interno como en el externo",
+        "Un cambio espontáneo y no planificado que surge de la interacción informal entre los empleados, y que la organización se limita a acompañar sin intervenir en sus procesos, su estructura ni su cultura"
       ],
       "correct": [
         1
@@ -863,8 +863,8 @@
         "Orientación a largo plazo",
         "Esfuerzos para aumentar la eficacia en toda la organización",
         "Diagnóstico e intervención desarrollados en conjunto entre los gerentes de línea y el consultor",
-        "Enfoque microscópico centrado en el individuo",
-        "Cambios aleatorios y no planeados"
+        "Enfoque microscópico, centrado en cómo aprende cada individuo para su cargo actual",
+        "Cambios aleatorios y no planeados, que surgen de la interacción informal de los empleados"
       ],
       "correct": [
         0,
@@ -887,7 +887,7 @@
       "type": "single",
       "text": "¿Cuál es el orden de las etapas del proceso de DO?",
       "opts": [
-        "Recolección y análisis de datos → Diagnóstico organizacional → Acción de intervención → Evaluación",
+        "Recolección y análisis de datos → Diagnóstico → Acción de intervención → Evaluación",
         "Diagnóstico organizacional → Acción de intervención → Recolección de datos → Evaluación",
         "Acción de intervención → Recolección de datos → Diagnóstico → Evaluación",
         "Evaluación → Diagnóstico organizacional → Recolección de datos → Acción de intervención"
@@ -966,10 +966,10 @@
       "type": "single",
       "text": "Según el apunte, la única manera posible de cambiar las organizaciones es:",
       "opts": [
-        "Reemplazar a los gerentes de línea",
+        "Reemplazar a los gerentes de línea por agentes de cambio externos que impongan nuevas normas y procedimientos de trabajo",
         "Transformar su cultura, es decir, cambiar los sistemas dentro de los cuales trabajan y viven las personas",
-        "Aumentar los salarios por encima del mercado",
-        "Incorporar nueva tecnología"
+        "Aumentar los salarios por encima del mercado, para que las personas acepten los cambios sin resistencia",
+        "Incorporar nueva tecnología, es decir, modernizar las máquinas, los equipos y los procesos de trabajo"
       ],
       "correct": [
         1
@@ -990,10 +990,10 @@
       "type": "single",
       "text": "¿Cuál es la finalidad del subsistema de mantenimiento de RRHH?",
       "opts": [
-        "Preparar al personal para la ejecución inmediata de las tareas del cargo",
-        "Atraer y seleccionar a los candidatos más adecuados",
+        "Preparar al personal para la ejecución inmediata de las diversas tareas del cargo y brindarle oportunidades de desarrollo personal continuo",
+        "Atraer candidatos calificados desde el mercado laboral y seleccionar a los más adecuados, para captar los recursos humanos que la organización necesita",
         "Retener al empleado adecuado, manteniéndolo satisfecho y motivado, induciéndolo a permanecer en la organización y a sentirla propia",
-        "Evaluar si el desempeño real se adecua a las metas establecidas"
+        "Evaluar si el desempeño real de los empleados se adecua a las metas establecidas, detectando las desviaciones y determinando las acciones de mejora"
       ],
       "correct": [
         2
@@ -1076,9 +1076,9 @@
       "type": "single",
       "text": "¿Qué debe equilibrar un plan de carreras?",
       "opts": [
-        "Los salarios internos con los del mercado laboral",
-        "Las contribuciones de la persona con las de sus compañeros",
-        "La cantidad de ascensos con la cantidad de despidos",
+        "Los salarios internos de cada puesto con los que pagan otras empresas del mercado laboral por cargos similares",
+        "Las contribuciones que hace cada persona a la organización con las que hacen sus compañeros del mismo cargo",
+        "La cantidad de movimientos ascendentes con la cantidad de movimientos descendentes y separaciones del período",
         "Las necesidades de desarrollo de la organización y las necesidades de desarrollo individuales de las personas"
       ],
       "correct": [
@@ -1100,10 +1100,10 @@
       "type": "single",
       "text": "¿Cuál es el orden de las etapas para elaborar un plan de carrera?",
       "opts": [
-        "1) Determinar el talento existente y potencial; 2) Analizar las competencias que requieren los puestos; 3) Determinar el avance entre los puestos",
-        "1) Analizar las competencias que requieren los puestos; 2) Determinar el avance entre los puestos relacionados; 3) Determinar el talento existente y potencial para ocupar esos puestos",
-        "1) Determinar el avance entre los puestos; 2) Fijar las franjas salariales; 3) Analizar las competencias",
-        "1) Seleccionar candidatos externos; 2) Analizar las competencias; 3) Determinar el avance entre los puestos"
+        "1) Determinar el talento existente y potencial para ocuparlos; 2) Analizar las competencias que requieren los puestos; 3) Determinar el avance entre los puestos relacionados",
+        "1) Analizar las competencias que requieren los puestos; 2) Determinar el avance entre los puestos relacionados; 3) Determinar el talento existente y potencial para ocuparlos",
+        "1) Determinar el avance entre los puestos relacionados; 2) Analizar las competencias que requieren los puestos; 3) Determinar el talento existente y potencial para ocuparlos",
+        "1) Analizar las competencias que requieren los puestos; 2) Determinar el talento existente y potencial para ocuparlos; 3) Determinar el avance entre los puestos relacionados"
       ],
       "correct": [
         1
@@ -1127,8 +1127,8 @@
         "Organizar y planificar las sucesiones y reemplazos",
         "Equilibrar los desajustes entre las necesidades de la organización y las habilidades de los empleados originados por cambios tecnológicos",
         "Disminuir el impacto del cambio organizacional, las presiones y los problemas del trabajo",
-        "Fijar el salario mínimo de cada categoría",
-        "Reemplazar la evaluación del desempeño"
+        "Fijar el salario mínimo de cada categoría y los reajustes colectivos por costo de vida",
+        "Reemplazar la evaluación del desempeño como mecanismo de seguimiento del personal"
       ],
       "correct": [
         0,
@@ -1182,10 +1182,10 @@
       "type": "single",
       "text": "¿Cómo se relacionan la decisión de participar y la decisión de producir?",
       "opts": [
-        "Son simultáneas e independientes entre sí",
-        "Primero se decide producir y después participar",
-        "Ambas las toma exclusivamente la organización",
-        "Son secuenciales: primero se decide participar (ingreso) y luego producir (permanencia); en la primera la organización ofrece incentivos y la persona decide, en la segunda la persona ofrece contribuciones y la organización decide si la mantiene"
+        "Son simultáneas e independientes: la persona decide a la vez si participa y cuánto produce, y la organización solo interviene fijando los incentivos que ofrece a cambio",
+        "Son secuenciales, pero primero se decide producir (período de prueba) y luego participar (ingreso definitivo); en ambas la organización ofrece incentivos y la persona decide",
+        "Son secuenciales: primero se decide participar y luego producir; en la primera la persona ofrece contribuciones y la organización decide, en la segunda la organización ofrece incentivos y la persona decide",
+        "Son secuenciales: primero se decide participar y luego producir; en la primera la organización ofrece incentivos y la persona decide, en la segunda la persona ofrece contribuciones y la organización decide"
       ],
       "correct": [
         3
@@ -1206,10 +1206,10 @@
       "type": "single",
       "text": "Según Chiavenato, ¿quién es el responsable en una organización de lograr el equilibrio entre incentivos y contribuciones?",
       "opts": [
-        "Cada empleado, ajustando sus propias contribuciones",
-        "El sindicato, mediante la negociación colectiva",
+        "Cada empleado, ajustando sus propias contribuciones a lo que recibe",
+        "El sindicato, mediante la negociación colectiva de los salarios",
         "La administración de la organización (sus administradores o gerentes)",
-        "El Estado, mediante la legislación laboral"
+        "El Estado, mediante la legislación laboral y el salario mínimo"
       ],
       "correct": [
         2
@@ -1229,10 +1229,10 @@
       "type": "single",
       "text": "¿Por qué se afirma que en las cuestiones salariales se debe hablar de equidad y no de igualdad?",
       "opts": [
-        "Porque la ley exige pagar el mismo salario a todos los empleados de la empresa",
-        "Porque la distribución de los resultados de la empresa es desigual, y los sistemas de remuneración buscan que esas asimetrías se fundamenten en la distinta contribución de cada puesto a los resultados globales",
-        "Porque la equidad implica pagar según la edad y la antigüedad del empleado",
-        "Porque los salarios deben fijarse únicamente según los valores del mercado"
+        "Porque la igualdad obligaría a pagar lo que indica el mercado, mientras que la equidad permite fijar cada salario libremente, sin respetar el mínimo ni el convenio colectivo",
+        "Porque la distribución de los resultados de la empresa es desigual, y la remuneración busca que esas asimetrías se fundamenten en la distinta contribución de cada puesto",
+        "Porque la equidad implica pagar según las características de la persona (su edad, su antigüedad y su nivel de estudios) y no según el puesto que ocupa",
+        "Porque los salarios deben fijarse únicamente según los valores del mercado, y cada empresa paga de manera distinta lo que el mercado le indica para cada cargo"
       ],
       "correct": [
         1
@@ -1254,9 +1254,9 @@
       "text": "Según la teoría de la inequidad, cuando una persona percibe que la relación entre sus recompensas y sus contribuciones no es equivalente a la de los demás:",
       "opts": [
         "Siente injusticia e insatisfacción (o culpa, si cobra de más) y tiende a reducir el desequilibrio cambiando lo que puede modificar: sus contribuciones",
-        "Siente satisfacción, porque se distingue del resto",
-        "Solicita automáticamente un reajuste colectivo por costo de vida",
-        "No se ve afectada, porque solo compara su salario con el del mercado"
+        "Siente satisfacción porque se distingue del resto, y tiende a reforzar el desequilibrio aumentando sus contribuciones para mantener esa diferencia",
+        "Solicita automáticamente un reajuste colectivo por costo de vida, porque la inequidad se corrige restableciendo el valor real de los salarios de todos",
+        "No se ve afectada, porque solo compara su propio salario con el que paga el mercado por el mismo cargo, y no con las recompensas de sus compañeros"
       ],
       "correct": [
         0
@@ -1277,9 +1277,9 @@
       "type": "single",
       "text": "Según Chiavenato, ¿qué es la compensación?",
       "opts": [
-        "Solo el pago del salario básico mensual",
-        "El conjunto de beneficios que otorga la ley",
-        "La diferencia entre el salario bruto y el neto",
+        "Solo el pago del salario básico mensual, es decir, la remuneración fija que recibe el empleado en efectivo por el cargo que ocupa",
+        "El conjunto de beneficios sociales que la ley obliga a otorgar, como las vacaciones, el aguinaldo y el seguro de accidentes de trabajo",
+        "La diferencia entre el salario bruto y el salario neto, es decir, las retenciones obligatorias como la jubilación y la obra social",
         "El sistema de incentivos y recompensas que la organización establece para remunerar y recompensar a las personas que trabajan en ella"
       ],
       "correct": [
@@ -1370,10 +1370,10 @@
       "type": "single",
       "text": "¿Qué diferencia hay entre un reajuste salarial y un aumento salarial?",
       "opts": [
-        "El reajuste incrementa el salario real y el aumento solo actualiza el nominal",
-        "No hay diferencia: son sinónimos",
+        "El reajuste incrementa el salario real (lo que el empleado puede comprar); el aumento solo actualiza el salario nominal según la inflación",
+        "No hay diferencia: ambos son sinónimos y designan cualquier modificación del salario nominal pactada en el convenio colectivo",
         "El reajuste reconstituye el salario real (recupera el poder adquisitivo perdido); el aumento incrementa el salario real",
-        "El reajuste es individual y el aumento siempre es colectivo"
+        "El reajuste siempre es individual (por promoción o por méritos) y el aumento siempre es colectivo (por costo de vida)"
       ],
       "correct": [
         2
@@ -1395,9 +1395,9 @@
       "text": "Para las organizaciones, el salario es a la vez:",
       "opts": [
         "Un costo (se refleja en el costo del producto o servicio final) y una inversión (se aplica dinero en el factor trabajo buscando un retorno mayor)",
-        "Un beneficio social y un incentivo",
-        "Una recompensa no financiera y un costo fijo",
-        "Un gasto no recuperable y una obligación sindical"
+        "Un beneficio social (se otorga por el simple hecho de pertenecer a la organización) y un incentivo (se accede a él al alcanzar una condición predeterminada)",
+        "Una recompensa no financiera (reconocimiento y prestigio para el empleado) y un costo fijo que no depende de lo que se produce",
+        "Un gasto no recuperable (no genera ningún retorno para la empresa) y una obligación sindical (surge del convenio colectivo)"
       ],
       "correct": [
         0
@@ -1473,15 +1473,15 @@
       "type": "single",
       "text": "¿Qué significa evaluar un puesto (cargo)?",
       "opts": [
-        "Calificar la actuación de la persona que ocupa el puesto",
-        "Investigar los salarios que pagan otras empresas por ese puesto",
-        "Analizar las políticas de personal de la empresa",
+        "Calificar la actuación, pasada o presente, de la persona que ocupa el puesto según normas de desempeño establecidas, para localizar problemas",
+        "Investigar y analizar los salarios que pagan otras empresas del mercado por ese mismo puesto, para mantener el equilibrio externo de los salarios",
+        "Analizar las políticas y prácticas de personal de la empresa y evaluar su funcionamiento actual, acompañando ese análisis con sugerencias concretas para mejorar la gestión de los RRHH",
         "Analizar y comparar los cargos para ubicarlos en un orden jerárquico que sirva de base al sistema de remuneración, determinando el valor relativo de cada cargo"
       ],
       "correct": [
         3
       ],
-      "fb": "La evaluación de cargos sirve para mantener el equilibrio interno de los salarios. Calificar la actuación de quien ocupa el puesto es evaluación del desempeño, e investigar lo que pagan otras empresas es investigación salarial (apunte U4, pág. 24).",
+      "fb": "La evaluación de cargos sirve para mantener el equilibrio interno de los salarios. Calificar la actuación de quien ocupa el puesto es evaluación del desempeño, investigar lo que pagan otras empresas es investigación salarial y analizar las políticas y prácticas de personal es auditoría de RRHH (apunte U4, pág. 24; U5, pág. 12).",
       "source": {
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 24,
@@ -1497,10 +1497,10 @@
       "type": "single",
       "text": "¿Qué herramienta suministra la información para evaluar un puesto?",
       "opts": [
-        "La evaluación del desempeño",
+        "La evaluación del desempeño del ocupante",
         "El análisis y la descripción de cargos",
-        "La investigación salarial",
-        "La entrevista de salida"
+        "La investigación salarial del mercado",
+        "La entrevista de salida del empleado"
       ],
       "correct": [
         1
@@ -1521,10 +1521,10 @@
       "type": "single",
       "text": "Según Soria, la importancia de cada puesto resulta de dos factores:",
       "opts": [
-        "La antigüedad y la edad del ocupante",
-        "El salario de mercado y el salario mínimo",
+        "La antigüedad del ocupante (dimensión cuantitativa) y su edad y experiencia previa en el cargo (dimensión cualitativa)",
+        "El salario que paga el mercado por el puesto (dimensión externa) y el salario mínimo del convenio colectivo (dimensión legal)",
         "La carga de tareas (dimensión cuantitativa) y el impacto de las tareas en los resultados globales (dimensión cualitativa)",
-        "El nivel de estudios y la experiencia del ocupante"
+        "El nivel de estudios del ocupante (dimensión cualitativa) y la cantidad de personas que tiene a su cargo (dimensión cuantitativa)"
       ],
       "correct": [
         2
@@ -1568,10 +1568,10 @@
       "type": "single",
       "text": "¿Cómo funciona el método no analítico de «Clasificación de cargos por categorías»?",
       "opts": [
-        "Cada cargo se descompone en factores y se le asignan puntos por grado",
+        "Cada cargo se descompone en factores de evaluación, cada factor se divide en grados con un valor en puntos, y la suma de los puntos obtenidos ubica al cargo en una clase de puntos",
         "Se definen previamente categorías (clases) con su descripción, y cada cargo, considerado como un todo, se compara con ellas y se ubica en la que mejor le corresponde",
-        "Se ordenan los cargos del más al menos importante, comparándolos entre sí",
-        "Se asigna a cada cargo el salario promedio del mercado"
+        "Se ordenan los cargos del más importante al menos importante, comparando cada cargo como un todo con los demás cargos, sin usar categorías previas",
+        "Se asigna a cada cargo el salario promedio que paga el mercado, y después los cargos se agrupan en categorías según el monto de ese salario"
       ],
       "correct": [
         1
@@ -1590,10 +1590,10 @@
       "type": "single",
       "text": "¿Cómo funciona el método analítico de «Evaluación por puntos»?",
       "opts": [
-        "Se compara cada cargo, como un todo, con categorías definidas previamente",
-        "Se ordenan los cargos según el salario actual de sus ocupantes",
-        "Se eligen factores de evaluación, cada uno se divide en grados con un valor en puntos, se evalúa cada cargo factor por factor y la suma de puntos permite agruparlo en clases por intervalos de puntos",
-        "Se ubica cada cargo según la evaluación de desempeño de su ocupante"
+        "Se definen previamente categorías (clases) con su descripción, y cada cargo, considerado como un todo, se compara con ellas y se ubica en la categoría que mejor le corresponde",
+        "Se ordenan los cargos según el salario actual de sus ocupantes, del más alto al más bajo, y luego se agrupan en clases por intervalos de salario",
+        "Se eligen factores de evaluación, cada uno se divide en grados con un valor en puntos, se evalúa cada cargo factor por factor y la suma de puntos lo ubica en una clase",
+        "Se evalúa a cada ocupante factor por factor según su desempeño, y la suma de los puntos obtenidos por la persona determina la clase del cargo que ocupa"
       ],
       "correct": [
         2
@@ -1613,9 +1613,9 @@
       "text": "¿Cuál es la principal diferencia entre un método de evaluación de cargos no analítico y uno analítico?",
       "opts": [
         "El no analítico compara el cargo como un todo y no es cuantitativo; el analítico descompone el cargo en factores y lo evalúa cuantitativamente",
-        "El no analítico usa puntos y el analítico usa categorías",
-        "El analítico evalúa a la persona y el no analítico evalúa el cargo",
-        "No hay diferencia de fondo: solo cambia quién integra el comité de evaluación"
+        "El no analítico descompone el cargo en factores y usa puntos; el analítico compara el cargo como un todo mediante categorías predeterminadas",
+        "El analítico evalúa el desempeño de la persona que ocupa el cargo; el no analítico evalúa el cargo en sí, sin considerar a su ocupante",
+        "No hay diferencia de fondo: ambos comparan el cargo como un todo y solo cambia quién integra el comité de evaluación de cargos"
       ],
       "correct": [
         0
@@ -1636,10 +1636,10 @@
       "type": "single",
       "text": "¿Cuándo conviene aplicar un método analítico y cuándo uno no analítico?",
       "opts": [
-        "El analítico conviene en empresas pequeñas y con pocos cargos, y el no analítico en empresas grandes",
-        "El analítico solo se usa cuando no existe descripción de cargos",
-        "Se usan para evaluar el desempeño individual, no los cargos",
-        "El analítico conviene en organizaciones con muchos cargos o cargos complejos, donde se necesita más precisión y objetividad; el no analítico, en organizaciones pequeñas o con pocos cargos, por su sencillez y bajo costo"
+        "El analítico, en organizaciones pequeñas o con pocos cargos, por su sencillez y bajo costo; el no analítico, en organizaciones con muchos cargos o cargos complejos, por su mayor precisión y objetividad",
+        "El analítico, solo cuando no existe análisis y descripción de cargos, porque los factores reemplazan esa información; el no analítico, cuando esa información sí existe",
+        "Ninguno se elige por el tamaño de la organización: los analíticos sirven para evaluar el desempeño de las personas y los no analíticos, para evaluar los cargos",
+        "El analítico, en organizaciones con muchos cargos o cargos complejos, por su mayor precisión y objetividad; el no analítico, en organizaciones pequeñas o con pocos cargos, por su sencillez y bajo costo"
       ],
       "correct": [
         3
@@ -1659,10 +1659,10 @@
       "type": "single",
       "text": "¿Qué es una política salarial?",
       "opts": [
-        "Una ley nacional que fija el salario mínimo",
-        "El convenio colectivo firmado con el sindicato",
+        "Una ley nacional que fija el salario mínimo y los básicos que las empresas deben respetar al definir la remuneración de sus empleados",
+        "El convenio colectivo firmado con el sindicato, que establece las escalas salariales y los reajustes por costo de vida de cada categoría",
         "El conjunto de principios y directrices que reflejan la orientación y la filosofía de la organización respecto de la remuneración de sus empleados",
-        "La investigación de los salarios que paga el mercado"
+        "La investigación de los salarios que paga el mercado, hecha con cuestionarios y visitas a otras empresas para mantener el equilibrio externo"
       ],
       "correct": [
         2
@@ -1743,10 +1743,10 @@
       "type": "single",
       "text": "Según la política salarial, el salario de admisión de un empleado nuevo debe:",
       "opts": [
-        "Coincidir con el límite superior de la franja salarial",
+        "Coincidir con el límite superior de la franja salarial, para atraer al candidato y retenerlo desde el inicio",
         "Coincidir con el límite inferior de la clase salarial (puede ser menor si no cumple todos los requisitos del cargo)",
-        "Ser el promedio del mercado para ese cargo",
-        "Ser igual al del empleado con más antigüedad en el cargo"
+        "Ser el promedio que paga el mercado para ese cargo, según los resultados de la investigación salarial",
+        "Ser igual al del empleado con más antigüedad en el cargo, para no generar diferencias dentro de la clase"
       ],
       "correct": [
         1
@@ -1767,10 +1767,10 @@
       "type": "single",
       "text": "¿Cuál es la diferencia entre un incentivo y un beneficio social?",
       "opts": [
-        "El incentivo es un derecho que se goza por pertenecer a la organización; el beneficio social exige alcanzar una meta",
-        "Ambos son discrecionales: los otorga el jefe a quien elija",
-        "El incentivo es una compensación variable a la que se accede al alcanzar una condición predeterminada; el beneficio social es un derecho que se goza por el simple hecho de pertenecer a la organización, sin estar ligado a una meta ni a un resultado",
-        "El incentivo es siempre no monetario y el beneficio social siempre monetario"
+        "El incentivo es un derecho que se goza por el simple hecho de pertenecer a la organización; el beneficio social es una compensación variable a la que se accede al alcanzar una condición predeterminada",
+        "Ambos son compensaciones variables ligadas a una meta, pero el incentivo es discrecional (el jefe elige a quién se lo otorga) y el beneficio social no lo es",
+        "El incentivo es una compensación variable a la que se accede al alcanzar una condición predeterminada; el beneficio social es un derecho que se goza por el simple hecho de pertenecer a la organización",
+        "El incentivo es siempre no monetario (por ejemplo, una estadía turística) y el beneficio social es siempre monetario (por ejemplo, las vacaciones pagas)"
       ],
       "correct": [
         2
@@ -1860,10 +1860,10 @@
       "type": "single",
       "text": "¿Qué procesos incluye el subsistema de control (seguimiento) de RRHH?",
       "opts": [
-        "El reclutamiento y la selección de personal",
+        "El reclutamiento y la selección de personal, apoyados en la descripción de cargos y en los exámenes de los candidatos",
         "La evaluación del desempeño y la auditoría de la función de RRHH, apoyadas en bases de datos y sistemas de información",
-        "La capacitación y el desarrollo organizacional",
-        "La administración de salarios y los beneficios sociales"
+        "La capacitación y el desarrollo organizacional, apoyados en el inventario de necesidades de entrenamiento del personal",
+        "La administración de salarios y los beneficios sociales, apoyados en la evaluación de cargos y la investigación salarial"
       ],
       "correct": [
         1
@@ -1939,10 +1939,10 @@
       "type": "single",
       "text": "¿Cuál es el orden de las etapas del proceso de control?",
       "opts": [
-        "Seguimiento del desempeño → Establecimiento de estándares → Acción correctiva → Comparación",
-        "Comparación con los estándares → Establecimiento de estándares → Seguimiento → Acción correctiva",
-        "Establecimiento de estándares → Acción correctiva → Seguimiento → Comparación",
-        "Establecimiento de los estándares deseados → Seguimiento o monitoreo del desempeño → Comparación del desempeño con los estándares → Acción correctiva, si es necesaria"
+        "Seguimiento del desempeño → Establecimiento de estándares → Comparación con los estándares → Acción correctiva",
+        "Establecimiento de estándares → Comparación con los estándares → Seguimiento del desempeño → Acción correctiva",
+        "Establecimiento de estándares → Acción correctiva → Seguimiento del desempeño → Comparación con los estándares",
+        "Establecimiento de estándares → Seguimiento del desempeño → Comparación con los estándares → Acción correctiva"
       ],
       "correct": [
         3
@@ -2054,9 +2054,9 @@
       "text": "Según el principio de excepción, la acción correctiva:",
       "opts": [
         "Incide solo sobre los casos excepcionales, es decir, lo que se aleja de los estándares más allá de la tolerancia",
-        "Se aplica a todas las operaciones, estén o no dentro del estándar",
-        "Se aplica solo cuando el desempeño supera el umbral de desempeño",
-        "Consiste siempre en modificar el estándar"
+        "Se aplica a todas las operaciones por igual, estén o no dentro del estándar, para que ninguna variación quede sin corregir",
+        "Se aplica solo cuando el desempeño supera el umbral de desempeño, porque ese es el límite a partir del cual hay una excepción",
+        "Consiste siempre en modificar el estándar, ya que toda desviación indica que el estándar fijado no era aceptable"
       ],
       "correct": [
         0
@@ -2131,15 +2131,15 @@
       "type": "single",
       "text": "La evaluación del desempeño es:",
       "opts": [
-        "Un fin en sí mismo, que se realiza para archivar la calificación del empleado",
-        "El análisis de las políticas y prácticas de personal de la empresa",
-        "La comparación de los salarios internos con los del mercado",
-        "El proceso de calificar la actuación, pasada o presente, de un empleado o equipo según normas de desempeño establecidas; es un medio para localizar problemas y mejorar los resultados"
+        "Un fin en sí mismo: se realiza para archivar la calificación de cada empleado en su legajo, sin necesidad de comunicarle el resultado al evaluado",
+        "El análisis de las políticas y prácticas de personal de la empresa y la evaluación de su funcionamiento actual, acompañado de sugerencias para mejorar la gestión",
+        "La comparación de los salarios internos con los que paga el mercado, para verificar si el esquema de remuneraciones necesita correcciones",
+        "El proceso de calificar la actuación, pasada o presente, de un empleado o equipo según normas de desempeño establecidas; es un medio para localizar problemas"
       ],
       "correct": [
         3
       ],
-      "fb": "No es un fin en sí mismo sino un instrumento. Además, comunicar el resultado al evaluado es fundamental (apunte U5, pág. 5).",
+      "fb": "No es un fin en sí mismo sino un instrumento. Además, comunicar el resultado al evaluado es fundamental (apunte U5, pág. 5). El análisis de las políticas y prácticas de personal con sugerencias para mejorar es la auditoría de la función de RRHH (pág. 12).",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 5,
@@ -2216,10 +2216,10 @@
       "type": "single",
       "text": "¿Qué implica la auditoría de la función de personal de los gerentes de línea?",
       "opts": [
-        "Evaluar el desempeño técnico de los gerentes en sus tareas productivas",
-        "Auditar los estados contables del área de cada gerente",
+        "Evaluar el desempeño técnico de los gerentes de línea en sus tareas productivas, comparándolo con los estándares de cantidad, calidad, tiempo y costos de su área",
+        "Auditar los estados contables del área de cada gerente de línea, para verificar que los gastos en personal no superen el presupuesto asignado",
         "Inspeccionar y verificar cómo los gerentes de línea llevan a cabo sus funciones de personal y en qué medida cumplen con las políticas y los procedimientos",
-        "Medir el nivel de satisfacción de los empleados con la empresa"
+        "Medir el nivel de satisfacción de los empleados con la empresa mediante encuestas y entrevistas de salida, sin evaluar a los gerentes de línea"
       ],
       "correct": [
         2
@@ -2244,8 +2244,8 @@
         "Análisis de los registros de RRHH",
         "Análisis de las políticas y procedimientos de RRHH",
         "Análisis de los cargos y sus habilidades",
-        "Benchmarking de equipos informáticos",
-        "Monitores hardware"
+        "Benchmarking de los equipos informáticos del área de RRHH con una carga de prueba",
+        "Monitores hardware conectados a los puestos de trabajo del personal"
       ],
       "correct": [
         0,
@@ -2269,9 +2269,9 @@
       "type": "single",
       "text": "Un cuello de botella es:",
       "opts": [
-        "El componente más caro del sistema informático",
-        "El tiempo que tarda el usuario en pensar la siguiente petición",
-        "La máxima cantidad de trabajo útil por unidad de tiempo que puede realizar el sistema",
+        "El componente más caro del sistema informático, que por eso debe reemplazarse primero (terapia de reposición) cuando se busca mejorar las prestaciones",
+        "El tiempo que tarda el usuario interactivo en leer la respuesta del sistema, pensar la siguiente petición y teclearla",
+        "La máxima cantidad de trabajo útil que el sistema puede realizar por unidad de tiempo en un entorno de carga determinado",
         "Una limitación de las prestaciones del sistema que causa una ralentización considerable del tráfico de los procesos en un área del sistema"
       ],
       "correct": [
@@ -2320,10 +2320,10 @@
       "type": "single",
       "text": "¿Cuál es el procedimiento para solucionar los cuellos de botella?",
       "opts": [
-        "Reemplazar de inmediato el componente más lento y dar por terminado el estudio",
-        "Detectar si existen → formular una hipótesis → verificar su validez → determinar el método para eliminarlo → validar el método → modificar el sistema, y volver a comprobar si quedan cuellos de botella",
-        "Modificar el sistema → formular una hipótesis → verificar su validez → comprobar si existen cuellos de botella",
-        "Ejecutar un benchmark → comprar el equipo con mejor relación precio/prestaciones"
+        "Reemplazar de inmediato el componente más lento (terapia de reposición) → verificar que el sistema responda mejor → dar por terminado el estudio sin volver a comprobar",
+        "Detectar si existen → formular una hipótesis → verificar su validez → determinar el método para eliminarlo → validar el método → modificar el sistema → volver a comprobar",
+        "Modificar el sistema → formular una hipótesis → verificar su validez → determinar el método para eliminarlo → validar el método → comprobar si existen cuellos de botella",
+        "Ejecutar un benchmark → comparar los equipos del mercado → comprar el de mejor relación precio/prestaciones → reemplazar el sistema completo sin analizar su funcionamiento"
       ],
       "correct": [
         1
@@ -2450,10 +2450,10 @@
       "type": "single",
       "text": "¿Qué establece la ley de Amdahl?",
       "opts": [
-        "Que la utilización de un dispositivo es igual a su productividad por su tiempo de servicio",
+        "Que la utilización de un dispositivo es igual a su productividad multiplicada por su tiempo de servicio, para cualquier período de observación: U = X · S",
         "Que la aceleración global obtenida al mejorar una parte del sistema está limitada por la fracción de tiempo en que se usa esa parte: A = 1 / ((1 − f) + f/k)",
-        "Que el número de trabajos en el sistema es igual a la productividad por el tiempo de respuesta",
-        "Que mejorar k veces un componente siempre acelera k veces el sistema completo"
+        "Que el número de trabajos en el sistema es igual a la productividad multiplicada por el tiempo de respuesta, con flujo equilibrado: N = X · R",
+        "Que mejorar k veces un componente acelera siempre k veces el sistema completo, sin importar la fracción de tiempo f en que se usa: A = k"
       ],
       "correct": [
         1
@@ -2475,9 +2475,9 @@
       "text": "¿Qué tipo de técnica de evaluación de sistemas informáticos es la ley de Amdahl?",
       "opts": [
         "Modelado (técnica analítica)",
-        "Monitorización",
-        "Benchmarking",
-        "Sintonización"
+        "Monitorización (observación del sistema)",
+        "Benchmarking (comparación con carga de prueba)",
+        "Sintonización (ajuste de parámetros)"
       ],
       "correct": [
         0
@@ -2498,15 +2498,15 @@
       "type": "single",
       "text": "Como administrador de recursos, ¿para qué te sirve el resultado de aplicar la ley de Amdahl?",
       "opts": [
-        "Para medir la carga real del sistema mientras lo usan los usuarios",
-        "Para comparar dos equipos ejecutando la misma carga de prueba",
+        "Para medir la carga real del sistema mientras lo usan los usuarios y detectar, a partir de esas mediciones, en qué componentes se producen los cuellos de botella",
+        "Para comparar dos equipos ejecutando la misma carga de prueba y elegir, por su tiempo de ejecución, el que ofrece la mejor relación precio/prestaciones",
         "Para estimar la aceleración real que dará una mejora antes de comprarla, y así decidir y justificar la inversión (upgrading) en el componente donde más rinde",
-        "Para calcular la tolerancia del proceso de control"
+        "Para demostrar que mejorar k veces un componente acelera siempre k veces el sistema completo, sin importar la fracción de tiempo en que se usa"
       ],
       "correct": [
         2
       ],
-      "fb": "Es útil para determinar el máximo beneficio real de optimizar partes del sistema y tomar decisiones informadas sobre dónde invertir (apunte U5, pág. 21).",
+      "fb": "Es útil para determinar el máximo beneficio real de optimizar partes del sistema y tomar decisiones informadas sobre dónde invertir (apunte U5, pág. 21). Medir la carga real mientras se usa el sistema es monitorización, y comparar equipos con la misma carga de prueba es benchmarking.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 21,
@@ -2574,15 +2574,15 @@
       "type": "single",
       "text": "¿Qué es un monitor?",
       "opts": [
-        "Un programa que genera la carga de prueba para comparar sistemas",
-        "La herramienta de medición que permite seguir el comportamiento de los principales elementos de un sistema informático mientras está sometido a una carga de trabajo: observa, recolecta datos, los analiza y presenta resultados",
-        "Un modelo matemático de colas del sistema",
-        "Un indicador de la utilización de la CPU"
+        "El programa que genera la carga de prueba (real o sintética) con la que se comparan distintos sistemas informáticos, básicamente a partir del tiempo necesario para su ejecución",
+        "La herramienta de medición que permite seguir el comportamiento de los principales elementos de un sistema informático mientras está sometido a una carga de trabajo",
+        "Un modelo matemático basado en la teoría de colas que permite evaluar un sistema en el que algún elemento de hardware o software todavía no está instalado",
+        "Un indicador interno del sistema que expresa el porcentaje de tiempo durante el cual un componente, como la CPU, ha sido realmente utilizado"
       ],
       "correct": [
         1
       ],
-      "fb": "La técnica es la monitorización (observar la actividad del sistema en funcionamiento, con carga real) y la herramienta es el monitor (apunte U5, págs. 26-27). Un programa que genera la carga de prueba para comparar sistemas describe un benchmark, no un monitor.",
+      "fb": "La técnica es la monitorización (observar la actividad del sistema en funcionamiento, con carga real) y la herramienta es el monitor, que observa, recolecta datos, los analiza y presenta resultados (apunte U5, págs. 26-27). El programa que genera la carga de prueba es el benchmark, el modelo de colas corresponde al modelado y el porcentaje de tiempo de uso de un componente es el factor de utilización.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 26,
@@ -2599,10 +2599,10 @@
       "type": "single",
       "text": "¿Por qué se habla de «monitorización» y no de «medición»?",
       "opts": [
-        "Porque los monitores no pueden cuantificar ninguna variable",
-        "Porque en informática no se pueden repetir las mismas condiciones de carga en los mismos instantes: la medida no es repetible, así que lo que se hace es un seguimiento de la actividad",
-        "Porque la monitorización solo se aplica a recursos humanos",
-        "Porque la medición es una técnica de modelado"
+        "Porque los monitores no pueden cuantificar ninguna variable del sistema: solo muestran gráficos cualitativos de la actividad para que el usuario los interprete",
+        "Porque en informática no se pueden repetir las mismas condiciones de carga en los mismos instantes: la medida no es repetible, y lo que se hace es un seguimiento",
+        "Porque la monitorización se aplica a los recursos humanos y la medición a los recursos de SI/TI, y el subsistema de seguimiento abarca ambos tipos de recursos",
+        "Porque la medición es propia del modelado con teoría de colas, y los monitores no calculan índices de prestaciones sino que solo registran eventos de seguridad"
       ],
       "correct": [
         1
@@ -2725,15 +2725,15 @@
       "type": "single",
       "text": "El muestreo puede usarse con dos objetivos distintos:",
       "opts": [
-        "Generar la carga de prueba y comparar sistemas",
-        "Evaluar la fracción de tiempo que cada componente permaneció en distintos estados, y seguir la evolución del sistema para predecir su comportamiento futuro",
-        "Filtrar señales eléctricas y contar fenómenos",
-        "Registrar cada evento de seguridad y su instante exacto"
+        "Generar la carga de prueba sintética del sistema, y comparar distintos sistemas informáticos según el tiempo que tardan en ejecutarla",
+        "Evaluar la fracción de tiempo que cada componente permaneció en distintos estados, y seguir la evolución del sistema para predecir su comportamiento",
+        "Filtrar las señales eléctricas de los puntos del sistema, y contar el número de veces que se produce cada fenómeno mediante contadores",
+        "Registrar cada evento de seguridad junto con su instante exacto de aparición, y conocer la secuencia completa de acontecimientos que se produjeron en el sistema"
       ],
       "correct": [
         1
       ],
-      "fb": "Apunte U5, pág. 27.",
+      "fb": "Apunte U5, pág. 27. Registrar cada acontecimiento con su instante de aparición es la detección de eventos, no el muestreo; filtrar señales eléctricas y contarlas es lo que hacen los monitores hardware.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 27,
@@ -2835,15 +2835,15 @@
       "type": "single",
       "text": "Un monitor batch:",
       "opts": [
-        "Procesa los datos a medida que los recibe",
-        "Se activa solo cuando ocurre un evento",
-        "Es un dispositivo electrónico externo al sistema",
+        "Procesa los datos recogidos a medida que los recibe y presenta resultados parciales",
+        "Se activa solo cuando ocurre un evento, por lo que su sobrecarga depende de su frecuencia",
+        "Es un dispositivo electrónico externo que detecta señales eléctricas en puntos del sistema",
         "Primero recoge toda la información y, al terminar el período de recolección, la procesa"
       ],
       "correct": [
         3
       ],
-      "fb": "El monitor en tiempo real, en cambio, tiene un analizador que procesa los datos a medida que los recibe (apunte U5, pág. 31).",
+      "fb": "El monitor en tiempo real, en cambio, tiene un analizador que procesa los datos a medida que los recibe (apunte U5, pág. 31). Activarse ante un evento describe a los monitores de eventos, y detectar señales eléctricas, a los monitores hardware.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 31,
@@ -2859,15 +2859,15 @@
       "type": "single",
       "text": "Los monitores software:",
       "opts": [
-        "Son dispositivos electrónicos que detectan señales eléctricas en puntos del sistema",
-        "Son programas o ampliaciones del sistema operativo que acceden al estado del sistema e informan al usuario; son adecuados para monitorizar SO, redes y bases de datos, y las aplicaciones que los usan",
-        "No consumen recursos del sistema observado",
-        "Solo se usan para diseñar nuevas arquitecturas de computadores"
+        "Son dispositivos electrónicos externos que se conectan a puntos del sistema para detectar niveles o señales eléctricas; no usan recursos del sistema que observan ni interfieren",
+        "Son programas o ampliaciones del sistema operativo que acceden al estado del sistema e informan al usuario; son adecuados para monitorizar SO, redes y bases de datos",
+        "Son programas que no consumen recursos del sistema observado ni producen interferencias, porque se ejecutan con la menor prioridad posible",
+        "Se usan sobre todo para diseñar nuevas arquitecturas de computadores y estudiar prototipos de máquinas, combinando código con un monitor hardware"
       ],
       "correct": [
         1
       ],
-      "fb": "Apunte U5, pág. 29.",
+      "fb": "Apunte U5, pág. 29. Los monitores software sobrecargan el sistema y su prioridad debe ser mayor que la de los acontecimientos que observan. Los dispositivos electrónicos externos son los monitores hardware, y la combinación de código con un monitor hardware para diseñar arquitecturas y prototipos describe a los híbridos.",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 29,
@@ -2910,10 +2910,10 @@
       "type": "single",
       "text": "En un monitor software hay un conflicto entre la precisión de las medidas y la interferencia porque:",
       "opts": [
-        "Más observaciones dan más precisión pero sobrecargan el sistema y las medidas dejan de ser fiables; menos observaciones cargan menos pero pueden no reflejar lo que realmente sucede",
-        "Cuanto más preciso es el monitor, menos recursos consume",
-        "La interferencia solo existe en los monitores hardware",
-        "La precisión no depende de la cantidad de observaciones"
+        "Más observaciones dan más precisión pero sobrecargan el sistema y las medidas dejan de ser fiables; menos observaciones cargan menos pero pueden no reflejar todo",
+        "Cuanto más preciso es el monitor, menos recursos consume, porque necesita tomar menos observaciones para obtener resultados fiables",
+        "La interferencia solo existe en los monitores hardware, en sus puntos de conexión; en los monitores software, lo que se pierde al aumentar la precisión es la resolución",
+        "La precisión depende solo de la prioridad del monitor: con la máxima prioridad se pueden hacer infinitas observaciones sin sobrecargar el sistema"
       ],
       "correct": [
         0
@@ -2934,10 +2934,10 @@
       "type": "single",
       "text": "Respecto de las consideraciones temporales de un monitor software, ¿qué diferencia hay entre medir por muestreo y hacer medidas directas?",
       "opts": [
-        "Las medidas directas son más fáciles de implementar y el muestreo es más preciso",
-        "Ninguno de los dos métodos necesita un reloj",
-        "El muestreo obtiene estadísticas a partir de tiempos medios: es más fácil de implementar pero menos preciso; las medidas directas capturan los instantes exactos de inicio y fin: son más precisas pero más complejas, sobre todo con prioridades de procesos",
-        "El muestreo captura el inicio y el fin exactos de cada evento"
+        "Las medidas directas usan tiempos medios: son más fáciles de implementar pero menos precisas; el muestreo captura los instantes exactos de inicio y fin: es más preciso pero más complejo",
+        "Ninguno de los dos necesita un reloj: el muestreo se activa con cada evento del sistema y las medidas directas leen los tiempos que registra el propio sistema operativo",
+        "El muestreo usa tiempos medios: es más fácil de implementar pero menos preciso; las medidas directas capturan los instantes exactos de inicio y fin: son más precisas pero más complejas",
+        "Son equivalentes en precisión y complejidad: el muestreo solo se diferencia en que no requiere que el reloj genere interrupciones periódicas"
       ],
       "correct": [
         2
@@ -2958,10 +2958,10 @@
       "type": "single",
       "text": "Al medir una duración con un reloj de intervalo T, el error:",
       "opts": [
-        "Siempre es exactamente T",
+        "Siempre es exactamente T, sin importar cuánto dure el fenómeno medido, así que achicar T no cambia nada",
         "Puede variar entre 0 y T; achicar el intervalo mejora la precisión pero aumenta la sobrecarga del sistema",
-        "Es nulo si el monitor tiene la máxima prioridad",
-        "Disminuye cuanto mayor es T"
+        "Es nulo si el monitor tiene la máxima prioridad, porque en ese caso el reloj no introduce ningún retraso",
+        "Disminuye cuanto mayor es T; agrandar el intervalo mejora la precisión y además reduce la sobrecarga"
       ],
       "correct": [
         1
@@ -3033,15 +3033,15 @@
       "type": "single",
       "text": "Los monitores hardware:",
       "opts": [
-        "Son programas que se agregan al sistema operativo",
-        "Consumen muchos recursos del sistema observado",
-        "Solo pueden observar lo que el sistema operativo les permite",
-        "Son dispositivos electrónicos externos que se conectan a puntos del sistema para detectar niveles o señales eléctricas; no usan recursos del sistema, no producen interferencias y son muy rápidos"
+        "Son programas o ampliaciones del sistema operativo que acceden al estado del sistema e informan al usuario; son baratos y fáciles de instalar y de quitar",
+        "Son dispositivos electrónicos externos que se conectan a puntos del sistema, pero consumen muchos de sus recursos y producen interferencias apreciables en el sistema observado",
+        "Solo pueden observar lo que el sistema operativo les permite, por eso su dominio de medición es de alto nivel y no acceden directamente a la memoria",
+        "Son dispositivos electrónicos externos que se conectan a puntos del sistema para detectar señales eléctricas; no usan recursos del sistema, no interfieren y son muy rápidos"
       ],
       "correct": [
         3
       ],
-      "fb": "Apunte U5, pág. 30.",
+      "fb": "Apunte U5, pág. 30. Los programas o ampliaciones del sistema operativo, que solo ven lo que el SO les permite, son los monitores software (págs. 29 y 31).",
       "source": {
         "file": "sources/u5-seguimiento.pdf",
         "page": 30,
@@ -3090,10 +3090,10 @@
       "type": "single",
       "text": "¿Cuál es la principal utilización de los monitores híbridos?",
       "opts": [
-        "Monitorizar aplicaciones de usuario en computadoras hogareñas",
+        "Monitorizar aplicaciones de usuario en computadoras hogareñas y smartphones, porque son baratos y fáciles de instalar",
         "El diseño de nuevas arquitecturas de computadores y el estudio del comportamiento de prototipos de nuevas máquinas",
-        "Generar cargas sintéticas para benchmarking",
-        "Auditar el desempeño del personal de sistemas"
+        "Generar cargas sintéticas para el benchmarking y comparar sistemas según su tiempo de ejecución",
+        "Auditar el desempeño del personal de sistemas y verificar que cumpla con los estándares establecidos"
       ],
       "correct": [
         1
@@ -3115,9 +3115,9 @@
       "text": "¿Cómo funciona un monitor híbrido?",
       "opts": [
         "Agrega sobre el sistema operativo una pequeña parte de código que envía información a un monitor hardware, que observa continuamente la ejecución del procesador principal",
-        "Es un programa que reemplaza al sistema operativo mientras mide",
-        "Es un conjunto de sondas sin ningún componente de software",
-        "Alterna cada hora entre un monitor software y uno hardware"
+        "Es un programa que reemplaza temporalmente al sistema operativo mientras mide, y al terminar la recolección le devuelve el control del procesador principal",
+        "Es un conjunto de sondas electrónicas conectadas a puntos del sistema, sin ningún componente de software, que detectan señales eléctricas y registran en contadores cuántas veces ocurren",
+        "Alterna a intervalos fijos entre un monitor software y uno hardware, de modo que en cada período solo uno de los dos observa el sistema"
       ],
       "correct": [
         0
@@ -3177,10 +3177,10 @@
       "type": "single",
       "text": "¿Cuál es la diferencia entre benchmarking y benchmark?",
       "opts": [
-        "Son sinónimos",
-        "El benchmark es la técnica de comparación y el benchmarking es el programa que genera la carga",
-        "El benchmarking es la técnica de comparar sistemas informáticos frente a una carga característica, básicamente por el tiempo de ejecución; el benchmark es la herramienta que genera esa carga de prueba",
-        "El benchmark mide el sistema con carga real y el benchmarking lo modela con teoría de colas"
+        "Son sinónimos: ambos términos designan, indistintamente, la técnica de comparar sistemas informáticos y la herramienta que genera la carga de prueba",
+        "El benchmark es la técnica de comparar sistemas informáticos frente a una carga característica, básicamente por el tiempo de ejecución; el benchmarking es la herramienta que genera esa carga",
+        "El benchmarking es la técnica de comparar sistemas informáticos frente a una carga característica, básicamente por el tiempo de ejecución; el benchmark es la herramienta que genera esa carga",
+        "El benchmark observa el sistema con la carga real de los usuarios; el benchmarking lo modela con teoría de colas cuando algún elemento todavía no está instalado"
       ],
       "correct": [
         2
@@ -3284,8 +3284,8 @@
       "opts": [
         "Cómo determinar una carga característica suficientemente reducida para ser manejable y suficientemente extensa para ser representativa",
         "Cómo valorar el aprovechamiento que hacen los programas de las peculiaridades de cada sistema",
-        "Que el benchmarking no puede usar cargas sintéticas",
-        "Que los resultados no se pueden expresar numéricamente"
+        "Que el benchmarking no puede usar cargas sintéticas, sino solo la carga real observada durante el funcionamiento normal",
+        "Que los resultados no se pueden expresar numéricamente, porque el benchmarking solo ofrece una comparación cualitativa"
       ],
       "correct": [
         0,
@@ -3307,10 +3307,10 @@
       "type": "single",
       "text": "¿Cuál es el orden de los pasos del benchmarking según Puigjaner?",
       "opts": [
-        "Seleccionar el benchmark → Ejecutarlo → Definir el objetivo → Analizar los resultados → Determinar el entorno",
-        "Determinar qué se quiere estudiar y por qué (objetivo) → Seleccionar el benchmark → Determinar el entorno, las métricas y los aspectos que influyen → Ejecutar el benchmark → Analizar los resultados",
-        "Ejecutar el benchmark → Analizar los resultados → Definir el objetivo → Seleccionar el benchmark",
-        "Determinar el entorno → Ejecutar el benchmark → Seleccionar el benchmark → Definir el objetivo"
+        "Seleccionar el benchmark → Definir el objetivo (qué y por qué) → Determinar el entorno, las métricas y los factores que influyen → Ejecutar el benchmark → Analizar los resultados",
+        "Definir el objetivo (qué y por qué) → Seleccionar el benchmark → Determinar el entorno, las métricas y los factores que influyen → Ejecutar el benchmark → Analizar los resultados",
+        "Definir el objetivo (qué y por qué) → Determinar el entorno, las métricas y los factores que influyen → Seleccionar el benchmark → Ejecutar el benchmark → Analizar los resultados",
+        "Determinar el entorno, las métricas y los factores que influyen → Definir el objetivo (qué y por qué) → Seleccionar el benchmark → Ejecutar el benchmark → Analizar los resultados"
       ],
       "correct": [
         1
@@ -3360,10 +3360,10 @@
       "type": "single",
       "text": "¿Cuáles son las unidades utilizadas en benchmarking?",
       "opts": [
-        "Siempre se expresan en MIPS",
-        "Siempre en porcentaje de utilización de la CPU",
-        "Se usan los puntos de la evaluación de cargos",
-        "No hay una unidad fija: el resultado es un número o conjunto de números que representa el grado de ajuste del equipo a las exigencias de la carga, y sus unidades dependen del objetivo del estudio y del nivel del sistema que interese medir (básicamente, tiempos de ejecución)"
+        "Siempre se expresan en MIPS (millones de instrucciones por segundo), porque es la única unidad que permite comparar equipos de distintos fabricantes",
+        "Siempre en porcentaje de utilización de la CPU, ya que, a igual carga, el equipo con menor utilización es siempre el que tiene mejores prestaciones",
+        "Se usan unidades fijas definidas por el estándar de cada benchmark, y el resultado es siempre un único número adimensional, igual que la aceleración que se obtiene con la ley de Amdahl",
+        "No hay una unidad fija: el resultado es un número o conjunto de números que indica el grado de ajuste del equipo a la carga, y sus unidades dependen del objetivo del estudio"
       ],
       "correct": [
         3
@@ -3384,10 +3384,10 @@
       "type": "single",
       "text": "¿Qué es un benchmark general?",
       "opts": [
-        "Un conjunto de programas extraídos de la carga real y representativos de ella",
+        "Un conjunto de programas extraídos de la carga real y considerados representativos de ella (por ejemplo, un juego)",
         "Programas pensados y diseñados específicamente para el estudio de prestaciones (por ejemplo, TAURUS)",
-        "Un monitor que registra todos los eventos del sistema",
-        "Una carga real observada durante el funcionamiento normal del sistema"
+        "Un monitor que registra todos los eventos del sistema con su instante de aparición, para conocer su secuencia",
+        "Una carga real observada durante el funcionamiento normal del sistema, que no permite repetir la prueba"
       ],
       "correct": [
         1
@@ -3438,10 +3438,10 @@
       "type": "single",
       "text": "¿Qué puede utilizarse para monitorizar computadoras personales y smartphones?",
       "opts": [
-        "Monitores hardware con sondas conectadas a la placa, porque son los únicos que no interfieren",
-        "Solo técnicas de modelado, porque las PCs y los smartphones no se pueden observar en funcionamiento",
-        "Monitores software: programas o funciones del sistema operativo que acceden a su estado, como el Administrador de tareas o el Monitor de recursos de Windows, top/htop en Linux, el Monitor de Actividad de macOS o las opciones de desarrollador y las apps de monitoreo en Android e iOS",
-        "Benchmarks de aplicación, porque miden la carga real mientras se usa el equipo"
+        "Monitores hardware: sondas que se conectan a puntos de la placa del equipo para detectar niveles o señales eléctricas, porque son los únicos que no producen interferencias en el sistema observado",
+        "Solo técnicas de modelado con teoría de colas, porque las computadoras personales y los smartphones no se pueden observar mientras están en funcionamiento",
+        "Monitores software: programas o funciones del sistema operativo que acceden a su estado, como el Administrador de tareas de Windows, top/htop en Linux o las apps de monitoreo de Android e iOS",
+        "Benchmarks de aplicación: programas extraídos de la carga real, porque son los únicos que permiten medir el equipo mientras el usuario lo está usando"
       ],
       "correct": [
         2
