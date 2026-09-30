@@ -44,7 +44,13 @@
         2,
         4
       ],
-      "fb": "Los procesos de desarrollo de personas incluyen entrenamiento, desarrollo de personal y desarrollo organizacional (apunte U4, pág. 1). Reclutamiento y selección son de provisión, la evaluación del desempeño es de aplicación/seguimiento y los salarios son de mantenimiento."
+      "fb": "Los procesos de desarrollo de personas incluyen entrenamiento, desarrollo de personal y desarrollo organizacional (apunte U4, pág. 1). Reclutamiento y selección son de provisión, la evaluación del desempeño es de aplicación/seguimiento y los salarios son de mantenimiento.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 1,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p1.webp"
+      }
     },
     {
       "id": "asi-p2-002",
@@ -61,7 +67,13 @@
       "correct": [
         0
       ],
-      "fb": "Los dos primeros estratos (entrenamiento y desarrollo de personal) tratan el aprendizaje individual; el más amplio, cómo aprenden y se desarrollan las organizaciones (apunte U4, págs. 1-2 y 13)."
+      "fb": "Los dos primeros estratos (entrenamiento y desarrollo de personal) tratan el aprendizaje individual; el más amplio, cómo aprenden y se desarrollan las organizaciones (apunte U4, págs. 1-2 y 13).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 2,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+      }
     },
     {
       "id": "asi-p2-003",
@@ -78,7 +90,13 @@
       "correct": [
         1
       ],
-      "fb": "Es la finalidad que da el apunte (U4, pág. 2). Las otras opciones corresponden a provisión, mantenimiento y seguimiento."
+      "fb": "Es la finalidad que da el apunte (U4, pág. 2). Las otras opciones corresponden a provisión, mantenimiento y seguimiento.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 2,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+      }
     },
     {
       "id": "asi-p2-004",
@@ -95,7 +113,13 @@
       "correct": [
         2
       ],
-      "fb": "«El desarrollo debe ser una EVOLUCIÓN PROGRESIVA de una persona hacia sus más altos niveles de capacidades y habilidades». Además, los RRHH son los únicos susceptibles de autodirección y desarrollo (apunte U4, pág. 2)."
+      "fb": "«El desarrollo debe ser una EVOLUCIÓN PROGRESIVA de una persona hacia sus más altos niveles de capacidades y habilidades». Además, los RRHH son los únicos susceptibles de autodirección y desarrollo (apunte U4, pág. 2).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 2,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+      }
     },
     {
       "id": "asi-p2-005",
@@ -113,6 +137,11 @@
         3
       ],
       "fb": "Las salidas del entrenamiento visto como sistema son conocimientos, actitudes, habilidades y eficacia organizacional (personal habilitado). El desarrollo es indispensable para que la organización responda a los fenómenos del cambio (apunte U4, págs. 2 y 4-5).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 4,
+        "confidence": "medium"
+      },
       "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
     },
     {
@@ -142,7 +171,13 @@
         1,
         2
       ],
-      "fb": "La evaluación de los resultados del entrenamiento puede hacerse en tres niveles: organizacional, de los recursos humanos y de las tareas y operaciones (apunte U4, pág. 13)."
+      "fb": "La evaluación de los resultados del entrenamiento puede hacerse en tres niveles: organizacional, de los recursos humanos y de las tareas y operaciones (apunte U4, pág. 13).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 13,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p13.webp"
+      }
     },
     {
       "id": "asi-p2-007",
@@ -159,7 +194,13 @@
       "correct": [
         0
       ],
-      "fb": "Definición del apunte (U4, pág. 2). La transmisión a corto plazo de información sobre el cargo describe el entrenamiento; la influencia del ambiente social para adaptarse a normas y valores, la educación; y el cambio planeado de la cultura y la estructura, el desarrollo organizacional."
+      "fb": "Definición del apunte (U4, pág. 2). La transmisión a corto plazo de información sobre el cargo describe el entrenamiento; la influencia del ambiente social para adaptarse a normas y valores, la educación; y el cambio planeado de la cultura y la estructura, el desarrollo organizacional.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 2,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+      }
     },
     {
       "id": "asi-p2-008",
@@ -194,7 +235,13 @@
         5,
         6
       ],
-      "fb": "Leyes del aprendizaje del apunte (U4, pág. 3)."
+      "fb": "Leyes del aprendizaje del apunte (U4, pág. 3).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 3,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3.webp"
+      }
     },
     {
       "id": "asi-p2-009",
@@ -211,7 +258,13 @@
       "correct": [
         1
       ],
-      "fb": "Siempre es difícil desaprender los viejos estándares de comportamiento; para que la sustitución ocurra hacen falta una operación diferente, un nuevo ambiente y tiempo (apunte U4, pág. 3)."
+      "fb": "Siempre es difícil desaprender los viejos estándares de comportamiento; para que la sustitución ocurra hacen falta una operación diferente, un nuevo ambiente y tiempo (apunte U4, pág. 3).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 3,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3.webp"
+      }
     },
     {
       "id": "asi-p2-010",
@@ -231,7 +284,13 @@
         1,
         2
       ],
-      "fb": "Conceptos clave del apunte (U4, pág. 2). Lo aprendido se olvida si no se practica con frecuencia, y el refuerzo (recompensas o castigos) es importante para aprender."
+      "fb": "Conceptos clave del apunte (U4, pág. 2). Lo aprendido se olvida si no se practica con frecuencia, y el refuerzo (recompensas o castigos) es importante para aprender.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 2,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+      }
     },
     {
       "id": "asi-p2-011",
@@ -248,7 +307,13 @@
       "correct": [
         2
       ],
-      "fb": "Definición del apunte (U4, pág. 3). El entrenamiento prepara a la persona para el cargo; la educación la prepara para enfrentar el ambiente dentro o fuera del trabajo."
+      "fb": "Definición del apunte (U4, pág. 3). El entrenamiento prepara a la persona para el cargo; la educación la prepara para enfrentar el ambiente dentro o fuera del trabajo.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 3,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3.webp"
+      }
     },
     {
       "id": "asi-p2-012",
@@ -271,7 +336,13 @@
         1,
         2
       ],
-      "fb": "Las tres etapas de la educación profesional (apunte U4, pág. 3)."
+      "fb": "Las tres etapas de la educación profesional (apunte U4, pág. 3).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 3,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3.webp"
+      }
     },
     {
       "id": "asi-p2-013",
@@ -288,7 +359,13 @@
       "correct": [
         3
       ],
-      "fb": "Diagnóstico (inventario de necesidades), decisión de estrategia (programación), implementación (ejecución) y evaluación y control. Si los resultados son insatisfactorios, se retroalimenta el inventario (apunte U4, pág. 5)."
+      "fb": "Diagnóstico (inventario de necesidades), decisión de estrategia (programación), implementación (ejecución) y evaluación y control. Si los resultados son insatisfactorios, se retroalimenta el inventario (apunte U4, pág. 5).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 5,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p5.webp"
+      }
     },
     {
       "id": "asi-p2-014",
@@ -314,7 +391,13 @@
         2,
         3
       ],
-      "fb": "Entrenamiento como sistema (apunte U4, págs. 4-5)."
+      "fb": "Entrenamiento como sistema (apunte U4, págs. 4-5).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 4,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4.webp"
+      }
     },
     {
       "id": "asi-p2-015",
@@ -336,7 +419,13 @@
         2,
         3
       ],
-      "fb": "Los cuatro tipos de cambio de comportamiento del contenido del entrenamiento (apunte U4, pág. 4)."
+      "fb": "Los cuatro tipos de cambio de comportamiento del contenido del entrenamiento (apunte U4, pág. 4).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 4,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4.webp"
+      }
     },
     {
       "id": "asi-p2-016",
@@ -356,7 +445,13 @@
         1,
         2
       ],
-      "fb": "Objetivos del entrenamiento (apunte U4, pág. 4)."
+      "fb": "Objetivos del entrenamiento (apunte U4, pág. 4).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 4,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4.webp"
+      }
     },
     {
       "id": "asi-p2-017",
@@ -371,7 +466,13 @@
       "correct": [
         0
       ],
-      "fb": "Es el modelo equilibrado que el apunte señala como la situación preferida (U4, pág. 4)."
+      "fb": "Es el modelo equilibrado que el apunte señala como la situación preferida (U4, pág. 4).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 4,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4.webp"
+      }
     },
     {
       "id": "asi-p2-018",
@@ -395,7 +496,13 @@
         3,
         4
       ],
-      "fb": "La ejecución presupone el binomio instructor-aprendiz y depende de esos cinco factores (apunte U4, pág. 12)."
+      "fb": "La ejecución presupone el binomio instructor-aprendiz y depende de esos cinco factores (apunte U4, pág. 12).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 12,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p12.webp"
+      }
     },
     {
       "id": "asi-p2-019",
@@ -421,7 +528,12 @@
         5,
         7
       ],
-      "fb": "Medios del apunte (U4, págs. 7-8): evaluación del desempeño, observación, cuestionarios, solicitud de supervisores y gerentes, entrevistas con supervisores y gerentes, reuniones interdepartamentales, examen de empleados, modificación del trabajo, entrevista de salida, análisis de cargos e informes periódicos."
+      "fb": "Medios del apunte (U4, págs. 7-8): evaluación del desempeño, observación, cuestionarios, solicitud de supervisores y gerentes, entrevistas con supervisores y gerentes, reuniones interdepartamentales, examen de empleados, modificación del trabajo, entrevista de salida, análisis de cargos e informes periódicos.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 7,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-020",
@@ -444,7 +556,13 @@
         1,
         2
       ],
-      "fb": "Tres niveles de análisis (apunte U4, pág. 6). La información base es, respectivamente: objetivos organizacionales y filosofía del entrenamiento; análisis de la fuerza laboral; análisis de cargos."
+      "fb": "Tres niveles de análisis (apunte U4, pág. 6). La información base es, respectivamente: objetivos organizacionales y filosofía del entrenamiento; análisis de la fuerza laboral; análisis de cargos.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 6,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p6.webp"
+      }
     },
     {
       "id": "asi-p2-021",
@@ -461,7 +579,13 @@
       "correct": [
         2
       ],
-      "fb": "El análisis ocupacional descompone el cargo en sus partes para verificar habilidades, conocimientos y responsabilidades exigidas (apunte U4, pág. 7)."
+      "fb": "Requisitos exigidos por el cargo − habilidades del ocupante del cargo = necesidades de entrenamiento. El análisis ocupacional descompone el cargo en sus partes para verificar las habilidades, los conocimientos y las responsabilidades que exige (apunte U4, pág. 7).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 7,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p7.webp"
+      }
     },
     {
       "id": "asi-p2-022",
@@ -493,7 +617,13 @@
         0,
         1
       ],
-      "fb": "A priori: eventos que, si ocurrieran, generarían necesidades futuras fácilmente previsibles (cambios de métodos, nuevos servicios, movimientos de personal). A posteriori: problemas de producción o de personal provocados por necesidades no atendidas (apunte U4, págs. 8-9)."
+      "fb": "A priori: eventos que, si ocurrieran, generarían necesidades futuras fácilmente previsibles (cambios de métodos, nuevos servicios, movimientos de personal). A posteriori: problemas de producción o de personal provocados por necesidades no atendidas (apunte U4, págs. 8-9).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 8,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p8.webp"
+      }
     },
     {
       "id": "asi-p2-023",
@@ -531,7 +661,13 @@
         6,
         7
       ],
-      "fb": "La planeación del entrenamiento consiste, básicamente, en contestar estas preguntas; además se consideran costos y evaluación de contenidos (apunte U4, págs. 9-10)."
+      "fb": "La planeación del entrenamiento consiste, básicamente, en contestar estas preguntas; además se consideran costos y evaluación de contenidos (apunte U4, págs. 9-10).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 9,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p9.webp"
+      }
     },
     {
       "id": "asi-p2-024",
@@ -555,7 +691,13 @@
         3,
         5
       ],
-      "fb": "Los 11 aspectos de la planeación (apunte U4, pág. 10) incluyen además: división en módulos, contenido, métodos y tecnología, recursos, lugar y época. Se enfoca una necesidad específica cada vez."
+      "fb": "Los 11 aspectos de la planeación (apunte U4, pág. 10) incluyen además: división en módulos, contenido, métodos y tecnología, recursos, lugar y época. Se enfoca una necesidad específica cada vez.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 10,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p10.webp"
+      }
     },
     {
       "id": "asi-p2-025",
@@ -572,7 +714,13 @@
       "correct": [
         1
       ],
-      "fb": "Apunte U4, pág. 11.\n\nTécnicas de entrenamiento en cuanto al uso:\n\u00a0\u00a0\u00a0\u00a0- Técnicas de entrenamiento orientadas al contenido.\n\u00a0\u00a0\u00a0\u00a0- Técnicas de entrenamiento orientadas al proceso.\n\u00a0\u00a0\u00a0\u00a0- Técnicas mixtas de entrenamiento.\n\nTécnicas de entrenamiento en cuanto al tiempo:\n\u00a0\u00a0\u00a0\u00a0- Entrenamiento de inducción o de integración a la empresa.\n\u00a0\u00a0\u00a0\u00a0- Entrenamiento después del ingreso al trabajo.\n\nTécnicas de entrenamiento en cuanto al lugar de aplicación:\n\u00a0\u00a0\u00a0\u00a0- Entrenamiento en el lugar de trabajo (on the job).\n\u00a0\u00a0\u00a0\u00a0- Entrenamiento fuera del lugar de trabajo."
+      "fb": "Apunte U4, págs. 10-11.\n\nTécnicas de entrenamiento en cuanto al uso:\n    - Técnicas de entrenamiento orientadas al contenido.\n    - Técnicas de entrenamiento orientadas al proceso.\n    - Técnicas mixtas de entrenamiento.\n\nTécnicas de entrenamiento en cuanto al tiempo:\n    - Entrenamiento de inducción o de integración a la empresa.\n    - Entrenamiento después del ingreso al trabajo.\n\nTécnicas de entrenamiento en cuanto al lugar de aplicación:\n    - Entrenamiento en el lugar de trabajo (on the job).\n    - Entrenamiento fuera del lugar de trabajo.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 10,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p10.webp"
+      }
     },
     {
       "id": "asi-p2-026",
@@ -595,7 +743,13 @@
         1,
         2
       ],
-      "fb": "Las orientadas al contenido transmiten conocimientos; las orientadas al proceso cambian actitudes y desarrollan habilidades interpersonales; las mixtas hacen ambas cosas (apunte U4, pág. 11)."
+      "fb": "Las orientadas al contenido transmiten conocimientos; las orientadas al proceso cambian actitudes y desarrollan habilidades interpersonales; las mixtas hacen ambas cosas (apunte U4, pág. 11).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 11,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p11.webp"
+      }
     },
     {
       "id": "asi-p2-027",
@@ -621,7 +775,12 @@
         1,
         0
       ],
-      "fb": "El entrenamiento on the job es la forma más común y no requiere equipos especiales; el de fuera del lugar de trabajo suele ser complementario (aulas, casos, dramatización, simulación) (apunte U4, págs. 11-12)."
+      "fb": "El entrenamiento on the job es la forma más común y no requiere equipos especiales; el de fuera del lugar de trabajo suele ser complementario (aulas, casos, dramatización, simulación) (apunte U4, págs. 11-12).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 11,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-028",
@@ -638,7 +797,13 @@
       "correct": [
         3
       ],
-      "fb": "La otra categoría en cuanto al tiempo es el entrenamiento después del ingreso, en servicio o fuera de servicio (apunte U4, pág. 11)."
+      "fb": "Busca la adaptación y ambientación inicial del nuevo empleado a la empresa y al ambiente social y físico donde va a trabajar, a través del programa de socialización. La otra categoría en cuanto al tiempo es el entrenamiento después del ingreso, en servicio o fuera de servicio (apunte U4, pág. 11).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 11,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p11.webp"
+      }
     },
     {
       "id": "asi-p2-029",
@@ -656,6 +821,11 @@
         1
       ],
       "fb": "El DO estudia la organización como sistema total y se compromete a mejorar la eficacia a largo plazo mediante intervenciones constructivas en procesos y estructura; es un programa educativo basado en la colaboración y en la cultura de la empresa (apunte U4, págs. 13-14).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 13,
+        "confidence": "medium"
+      },
       "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
     },
     {
@@ -676,7 +846,13 @@
         1,
         2
       ],
-      "fb": "Elementos del DO (apunte U4, pág. 14). El DO es macroscópico y sistémico, y el cambio es planeado."
+      "fb": "Elementos del DO (apunte U4, pág. 14). El DO es macroscópico y sistémico, y el cambio es planeado.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 14,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14.webp"
+      }
     },
     {
       "id": "asi-p2-031",
@@ -693,7 +869,12 @@
       "correct": [
         0
       ],
-      "fb": "La evaluación cierra el circuito y puede modificar el diagnóstico: el DO es un proceso continuo (apunte U4, págs. 15-16)."
+      "fb": "La evaluación cierra el circuito y puede modificar el diagnóstico: el DO es un proceso continuo (apunte U4, págs. 15-16).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 15,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-032",
@@ -719,7 +900,13 @@
         2,
         3
       ],
-      "fb": "Las cuatro clases de cambios (apunte U4, pág. 15). No son aislados: se afectan entre sí y producen un efecto multiplicador."
+      "fb": "Las cuatro clases de cambios (apunte U4, pág. 15). No son aislados: se afectan entre sí y producen un efecto multiplicador.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 15,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p15.webp"
+      }
     },
     {
       "id": "asi-p2-033",
@@ -736,7 +923,13 @@
       "correct": [
         2
       ],
-      "fb": "Las endógenas provienen del interior de la organización, de la interacción de sus participantes y de las tensiones entre objetivos e intereses (apunte U4, págs. 14-15)."
+      "fb": "Las fuerzas exógenas provienen del ambiente y generan la necesidad de introducir cambios en el interior de la empresa. Las endógenas, en cambio, provienen del interior de la organización, de la interacción de sus participantes y de las tensiones entre objetivos e intereses (apunte U4, págs. 14-15).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 14,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14.webp"
+      }
     },
     {
       "id": "asi-p2-034",
@@ -753,7 +946,13 @@
       "correct": [
         1
       ],
-      "fb": "Concepto de cultura organizacional (apunte U4, pág. 14)."
+      "fb": "Concepto de cultura organizacional (apunte U4, pág. 14).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 14,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14.webp"
+      }
     },
     {
       "id": "asi-p2-035",
@@ -770,7 +969,13 @@
       "correct": [
         2
       ],
-      "fb": "Una organización es viable no solo si capta y emplea a sus recursos humanos, sino si los mantiene (apunte U4, pág. 17)."
+      "fb": "Una organización es viable no solo si capta y emplea a sus recursos humanos, sino si los mantiene (apunte U4, pág. 17).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 17,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p17.webp"
+      }
     },
     {
       "id": "asi-p2-036",
@@ -792,7 +997,13 @@
         2,
         3
       ],
-      "fb": "Las cuatro dimensiones del apunte (U4, pág. 17). Chiavenato lo presenta como compensación, beneficios sociales, higiene y seguridad y relaciones sindicales."
+      "fb": "Las cuatro dimensiones del apunte (U4, pág. 17). En el cuadro de Chiavenato, el mantenimiento comprende remuneración y compensación, beneficios y servicios sociales, higiene y seguridad en el trabajo y relaciones sindicales (apunte U5, pág. 2).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 17,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p17.webp"
+      }
     },
     {
       "id": "asi-p2-037",
@@ -818,7 +1029,13 @@
         2,
         3
       ],
-      "fb": "Apunte U4, pág. 17."
+      "fb": "Apunte U4, pág. 17.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 17,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p17.webp"
+      }
     },
     {
       "id": "asi-p2-038",
@@ -842,7 +1059,12 @@
         0,
         1
       ],
-      "fb": "Apunte U4, págs. 35-36."
+      "fb": "Apunte U4, págs. 35-36.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 36,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-039",
@@ -859,7 +1081,13 @@
       "correct": [
         3
       ],
-      "fb": "Es uno de los objetivos del plan de carrera, junto con planificar sucesiones y reemplazos, equilibrar desajustes originados por cambios tecnológicos y disminuir el impacto del cambio organizacional (apunte U4, págs. 17-18)."
+      "fb": "Es uno de los objetivos del plan de carrera, junto con planificar sucesiones y reemplazos, equilibrar desajustes originados por cambios tecnológicos y disminuir el impacto del cambio organizacional (apunte U4, págs. 17-18).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 18,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18.webp"
+      }
     },
     {
       "id": "asi-p2-040",
@@ -876,7 +1104,13 @@
       "correct": [
         1
       ],
-      "fb": "Apunte U4, pág. 18. Determinar el avance es ver cómo se concatena cada puesto con los siguientes."
+      "fb": "Apunte U4, pág. 18. Determinar el avance es ver cómo se concatena cada puesto con los siguientes.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 18,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18.webp"
+      }
     },
     {
       "id": "asi-p2-041",
@@ -896,7 +1130,13 @@
         1,
         2
       ],
-      "fb": "Objetivos del plan de carrera (apunte U4, págs. 17-18)."
+      "fb": "Objetivos del plan de carrera (apunte U4, págs. 17-18).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 18,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18.webp"
+      }
     },
     {
       "id": "asi-p2-042",
@@ -922,7 +1162,12 @@
         2,
         3
       ],
-      "fb": "Movimientos de personal (apunte U4, págs. 18-19)."
+      "fb": "Movimientos de personal (apunte U4, págs. 18-19).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 18,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-043",
@@ -939,7 +1184,13 @@
       "correct": [
         1
       ],
-      "fb": "La opción \"La decisión de la persona de contribuir con tiempo y esfuerzo una vez dentro de la organización\" es la decisión de producir (apunte U4, pág. 20)."
+      "fb": "La decisión de participar es la de hacerse miembro de la organización a cambio de alguna gratificación, tangible o intangible. La opción \"La decisión de la persona de contribuir con tiempo y esfuerzo una vez dentro de la organización\" es la decisión de producir (apunte U4, pág. 20).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 20,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p20.webp"
+      }
     },
     {
       "id": "asi-p2-044",
@@ -956,7 +1207,13 @@
       "correct": [
         3
       ],
-      "fb": "Relación secuencial y de contraprestaciones (apunte U4, pág. 20). Por eso es fundamental mantener el equilibrio incentivos/contribuciones."
+      "fb": "Relación secuencial y de contraprestaciones (apunte U4, pág. 20). Por eso es fundamental mantener el equilibrio incentivos/contribuciones.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 20,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p20.webp"
+      }
     },
     {
       "id": "asi-p2-045",
@@ -974,6 +1231,11 @@
         2
       ],
       "fb": "El apunte afirma que, cualquiera sea el propósito, el producto o la tecnología de la organización, es fundamental mantener el equilibrio incentivos/contribuciones (U4, pág. 20). Esa tarea le corresponde a la administración, que es la que diseña el sistema de recompensas y castigos.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 20,
+        "confidence": "low"
+      },
       "note": "El apunte no nombra al responsable: la respuesta se deduce de Chiavenato. Verificala con el libro o la cátedra."
     },
     {
@@ -991,7 +1253,13 @@
       "correct": [
         1
       ],
-      "fb": "Evaluación del cargo según Soria (apunte U4, pág. 24): de allí que se hable más de equidad de remuneraciones que de igualdad."
+      "fb": "Evaluación del cargo según Soria (apunte U4, pág. 24): de allí que se hable más de equidad de remuneraciones que de igualdad.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 24,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24.webp"
+      }
     },
     {
       "id": "asi-p2-047",
@@ -1008,7 +1276,13 @@
       "correct": [
         0
       ],
-      "fb": "Cada persona compara Mis recompensas / Mis contribuciones con Recompensas de los demás / Contribuciones de los demás. Si son equivalentes hay equidad y satisfacción (apunte U4, pág. 20)."
+      "fb": "Cada persona compara Mis recompensas / Mis contribuciones con Recompensas de los demás / Contribuciones de los demás. Si son equivalentes hay equidad y satisfacción (apunte U4, pág. 20).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 20,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p20.webp"
+      }
     },
     {
       "id": "asi-p2-048",
@@ -1025,7 +1299,13 @@
       "correct": [
         3
       ],
-      "fb": "La compensación incluye la remuneración en todas sus formas posibles: es el retorno por la ejecución de las tareas, el servicio prestado o el trabajo realizado (apunte U4, pág. 21)."
+      "fb": "La compensación incluye la remuneración en todas sus formas posibles: es el retorno por la ejecución de las tareas, el servicio prestado o el trabajo realizado (apunte U4, pág. 21).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21.webp"
+      }
     },
     {
       "id": "asi-p2-049",
@@ -1042,7 +1322,13 @@
       "correct": [
         1
       ],
-      "fb": "Apunte U4, págs. 21-22. Las recompensas no financieras son reconocimiento, estabilidad y prestigio."
+      "fb": "Apunte U4, págs. 21-22. Las recompensas no financieras son reconocimiento, estabilidad y prestigio.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21.webp"
+      }
     },
     {
       "id": "asi-p2-050",
@@ -1065,7 +1351,13 @@
         1,
         2
       ],
-      "fb": "Apunte U4, pág. 22."
+      "fb": "Apunte U4, pág. 22.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 22,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22.webp"
+      }
     },
     {
       "id": "asi-p2-051",
@@ -1097,7 +1389,13 @@
         4,
         5
       ],
-      "fb": "Apunte U4, pág. 22."
+      "fb": "Apunte U4, pág. 22.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 22,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22.webp"
+      }
     },
     {
       "id": "asi-p2-052",
@@ -1114,7 +1412,13 @@
       "correct": [
         2
       ],
-      "fb": "En una economía inflacionaria el salario nominal se modifica para proporcionar un salario real equivalente al del período anterior (apunte U4, pág. 22)."
+      "fb": "En una economía inflacionaria el salario nominal se modifica para proporcionar un salario real equivalente al del período anterior (apunte U4, pág. 22).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 22,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22.webp"
+      }
     },
     {
       "id": "asi-p2-053",
@@ -1131,7 +1435,13 @@
       "correct": [
         0
       ],
-      "fb": "Apunte U4, pág. 23."
+      "fb": "Apunte U4, pág. 23.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 23,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p23.webp"
+      }
     },
     {
       "id": "asi-p2-054",
@@ -1151,7 +1461,13 @@
         1,
         2
       ],
-      "fb": "Apunte U4, pág. 21. No existe un salario máximo, solo el piso del salario mínimo y los básicos de convenio."
+      "fb": "Apunte U4, pág. 21. No existe un salario máximo, solo el piso del salario mínimo y los básicos de convenio (pág. 26).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21.webp"
+      }
     },
     {
       "id": "asi-p2-055",
@@ -1172,7 +1488,13 @@
         1,
         2
       ],
-      "fb": "Los tres principios del apunte (U4, pág. 21)."
+      "fb": "Los tres principios del apunte (U4, pág. 21).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21.webp"
+      }
     },
     {
       "id": "asi-p2-056",
@@ -1189,7 +1511,13 @@
       "correct": [
         3
       ],
-      "fb": "La evaluación de cargos sirve para mantener el equilibrio interno de los salarios. Calificar la actuación de quien ocupa el puesto es evaluación del desempeño, e investigar lo que pagan otras empresas es investigación salarial (apunte U4, pág. 24)."
+      "fb": "La evaluación de cargos sirve para mantener el equilibrio interno de los salarios. Calificar la actuación de quien ocupa el puesto es evaluación del desempeño, e investigar lo que pagan otras empresas es investigación salarial (apunte U4, pág. 24).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 24,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24.webp"
+      }
     },
     {
       "id": "asi-p2-057",
@@ -1206,7 +1534,13 @@
       "correct": [
         1
       ],
-      "fb": "El punto de partida de cualquier esquema de evaluación de cargos es obtener información mediante el análisis de cargos (apunte U4, pág. 25)."
+      "fb": "El punto de partida de cualquier esquema de evaluación de cargos es obtener información mediante el análisis de cargos (apunte U4, pág. 25).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 25,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25.webp"
+      }
     },
     {
       "id": "asi-p2-058",
@@ -1223,7 +1557,13 @@
       "correct": [
         2
       ],
-      "fb": "Los sistemas se estructuran sobre la base de los puestos y no de las personas que los ocupan (apunte U4, pág. 24)."
+      "fb": "Según Soria, la importancia de cada puesto resulta de la carga de tareas (dimensión cuantitativa) y del impacto de esas tareas en los resultados globales (dimensión cualitativa). Por eso los sistemas se estructuran sobre la base de los puestos y no de las personas que los ocupan (apunte U4, pág. 24).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 24,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24.webp"
+      }
     },
     {
       "id": "asi-p2-059",
@@ -1272,7 +1612,13 @@
         2,
         3
       ],
-      "fb": "Cuadro de métodos del apunte (U4, pág. 25)."
+      "fb": "Cuadro de métodos del apunte (U4, pág. 25).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 25,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25.webp"
+      }
     },
     {
       "id": "asi-p2-061",
@@ -1289,7 +1635,12 @@
       "correct": [
         1
       ],
-      "fb": "Es una comparación del cargo como un todo contra un criterio (categorías predeterminadas) y proporciona automáticamente una clasificación de cargos (apunte U4, págs. 25-26)."
+      "fb": "Es una comparación del cargo como un todo contra un criterio (categorías predeterminadas) y proporciona automáticamente una clasificación de cargos (apunte U4, págs. 25-26).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 25,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-062",
@@ -1306,7 +1657,12 @@
       "correct": [
         2
       ],
-      "fb": "Es una comparación cuantitativa de las partes del cargo (factores) contra un criterio. Los puntos permiten clasificar los cargos por clases de puntos (apunte U4, págs. 25-26)."
+      "fb": "Es una comparación cuantitativa de las partes del cargo (factores) contra un criterio. Los puntos permiten clasificar los cargos por clases de puntos (apunte U4, págs. 25-26).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 25,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-063",
@@ -1323,7 +1679,13 @@
       "correct": [
         0
       ],
-      "fb": "Apunte U4, pág. 25: comparación no cuantitativa (cargo como un todo) frente a comparación cuantitativa (partes del cargo o factores)."
+      "fb": "Apunte U4, pág. 25: comparación no cuantitativa (cargo como un todo) frente a comparación cuantitativa (partes del cargo o factores).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 25,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25.webp"
+      }
     },
     {
       "id": "asi-p2-064",
@@ -1341,6 +1703,11 @@
         3
       ],
       "fb": "Los métodos no analíticos comparan el cargo como un todo y son más simples; los analíticos son más precisos pero más costosos de implementar.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 25,
+        "confidence": "low"
+      },
       "note": "El apunte no trae esta pregunta resuelta: la respuesta es una conclusión a partir de las características de cada método. Verificala con la cátedra."
     },
     {
@@ -1358,7 +1725,13 @@
       "correct": [
         2
       ],
-      "fb": "La política salarial no es estática (apunte U4, pág. 28)."
+      "fb": "La política salarial no es estática (apunte U4, pág. 28).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 28,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28.webp"
+      }
     },
     {
       "id": "asi-p2-066",
@@ -1378,7 +1751,13 @@
         1,
         2
       ],
-      "fb": "Contenido de la política salarial (apunte U4, pág. 28)."
+      "fb": "Contenido de la política salarial (apunte U4, pág. 28).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 28,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28.webp"
+      }
     },
     {
       "id": "asi-p2-067",
@@ -1404,7 +1783,13 @@
         2,
         3
       ],
-      "fb": "Los reajustes individuales (promoción, adecuación, méritos) complementan a los colectivos (apunte U4, pág. 28)."
+      "fb": "Los reajustes individuales (promoción, adecuación, méritos) complementan a los colectivos (apunte U4, pág. 28).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 28,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28.webp"
+      }
     },
     {
       "id": "asi-p2-068",
@@ -1421,7 +1806,13 @@
       "correct": [
         1
       ],
-      "fb": "Así puede avanzar dentro de la franja a medida que su desempeño lo justifique (apunte U4, pág. 28)."
+      "fb": "Así puede avanzar dentro de la franja a medida que su desempeño lo justifique (apunte U4, pág. 28).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 28,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28.webp"
+      }
     },
     {
       "id": "asi-p2-069",
@@ -1438,7 +1829,13 @@
       "correct": [
         2
       ],
-      "fb": "Apunte U4, págs. 30-31. Los incentivos no son discrecionales: cualquier empleado que cumpla la condición tiene derecho a él."
+      "fb": "Apunte U4, págs. 30-31. Los incentivos no son discrecionales: cualquier empleado que cumpla la condición tiene derecho a él.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 31,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p31.webp"
+      }
     },
     {
       "id": "asi-p2-070",
@@ -1464,7 +1861,12 @@
         2,
         3
       ],
-      "fb": "Incentivo: condición predeterminada. Bono: siempre dinerario, ligado a una tarea específica. Premio: discrecional y posterior al hecho. Beneficio: por pertenecer a la organización (apunte U4, págs. 30-33)."
+      "fb": "Incentivo: condición predeterminada. Bono: siempre dinerario, ligado a una tarea específica. Premio: discrecional y posterior al hecho. Beneficio: por pertenecer a la organización (apunte U4, págs. 30-33).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 30,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-071",
@@ -1481,7 +1883,13 @@
       "correct": [
         1
       ],
-      "fb": "Ejemplos del apunte (U4, pág. 33)."
+      "fb": "Ejemplos del apunte (U4, pág. 33).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 33,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p33.webp"
+      }
     },
     {
       "id": "asi-p2-072",
@@ -1504,7 +1912,13 @@
         1,
         2
       ],
-      "fb": "Apunte U4, págs. 32-33."
+      "fb": "Clasificación de los beneficios sociales según sus objetivos (apunte U4, pág. 32).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 32,
+        "confidence": "high",
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p32.webp"
+      }
     },
     {
       "id": "asi-p2-073",
@@ -1529,7 +1943,13 @@
       "correct": [
         1
       ],
-      "fb": "El seguimiento se realiza principalmente mediante dos procesos: la evaluación del desempeño y la auditoría de la función de RRHH. En la figura de Chiavenato el subsistema de control comprende la base de datos y el sistema de información, y la auditoría de RRHH (apunte U5, págs. 4-5)."
+      "fb": "El seguimiento se realiza principalmente mediante dos procesos: la evaluación del desempeño y la auditoría de la función de RRHH (apunte U5, págs. 4-5). En el cuadro de Chiavenato, el seguimiento y control comprende la base de datos o sistemas de información y los controles de frecuencia, productividad y balance social (apunte U5, pág. 2).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 4,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p4.webp"
+      }
     },
     {
       "id": "asi-p2-075",
@@ -1555,7 +1975,12 @@
         1,
         1
       ],
-      "fb": "La evaluación del desempeño mira a las personas en sus tareas; la auditoría mira la gestión de RRHH en su conjunto (apunte U5, págs. 5 y 12)."
+      "fb": "La evaluación del desempeño mira a las personas en sus tareas; la auditoría mira la gestión de RRHH en su conjunto (apunte U5, págs. 5 y 12).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 5,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-076",
@@ -1572,7 +1997,13 @@
       "correct": [
         2
       ],
-      "fb": "Apunte U5, pág. 13."
+      "fb": "Apunte U5, pág. 13.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 13,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p13.webp"
+      }
     },
     {
       "id": "asi-p2-077",
@@ -1589,7 +2020,13 @@
       "correct": [
         3
       ],
-      "fb": "El proceso de control es cíclico y repetitivo, y sirve para ajustar las operaciones a los estándares preestablecidos (apunte U5, pág. 7)."
+      "fb": "El proceso de control es cíclico y repetitivo, y sirve para ajustar las operaciones a los estándares preestablecidos (apunte U5, pág. 7).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 7,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p7.webp"
+      }
     },
     {
       "id": "asi-p2-078",
@@ -1611,7 +2048,13 @@
         2,
         3
       ],
-      "fb": "Apunte U5, pág. 8."
+      "fb": "Apunte U5, pág. 8.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 8,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p8.webp"
+      }
     },
     {
       "id": "asi-p2-079",
@@ -1641,7 +2084,13 @@
         0,
         2
       ],
-      "fb": "Figura VII.5 del apunte (U5, pág. 8)."
+      "fb": "Figura VII.5 del apunte (U5, pág. 8).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 8,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p8.webp"
+      }
     },
     {
       "id": "asi-p2-080",
@@ -1658,7 +2107,13 @@
       "correct": [
         1
       ],
-      "fb": "El umbral de desempeño, en cambio, es un valor por encima del límite superior, previsto para ser superado y atado a una recompensa (apunte U5, pág. 9)."
+      "fb": "Como toda actividad experimenta alguna variación, hay que fijar los límites en que esa variación se acepta como normal o deseable: la tolerancia. El umbral de desempeño, en cambio, es un valor por encima del límite superior, previsto para ser superado y atado a una recompensa (apunte U5, pág. 9).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 9,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p9.webp"
+      }
     },
     {
       "id": "asi-p2-081",
@@ -1675,7 +2130,13 @@
       "correct": [
         0
       ],
-      "fb": "El gerente no debe dedicar mucho tiempo a lo que ocurre dentro de los estándares, sino ocuparse de las excepciones. Si hay desvíos significativos que se repiten, se revisa si el estándar es aceptable (apunte U5, págs. 6 y 9-10)."
+      "fb": "El gerente no debe dedicar mucho tiempo a lo que ocurre dentro de los estándares, sino ocuparse de las excepciones. Si hay desvíos significativos que se repiten, se revisa si el estándar es aceptable (apunte U5, págs. 6 y 9).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 9,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p9.webp"
+      }
     },
     {
       "id": "asi-p2-082",
@@ -1700,7 +2161,13 @@
         5,
         6
       ],
-      "fb": "Los seis criterios de control del apunte (U5, pág. 5)."
+      "fb": "Los seis criterios de control del apunte (U5, pág. 5).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 5,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p5.webp"
+      }
     },
     {
       "id": "asi-p2-083",
@@ -1715,7 +2182,13 @@
       "correct": [
         0
       ],
-      "fb": "El apunte aclara que en la etapa de seguimiento o monitoreo del desempeño «entra la evaluación de desempeño». Las evaluaciones son uno de los mecanismos del subsistema de seguimiento (U5, págs. 4 y 9)."
+      "fb": "El apunte aclara que en la etapa de seguimiento o monitoreo del desempeño «entra la evaluación de desempeño». Las evaluaciones son uno de los mecanismos del subsistema de seguimiento (U5, págs. 4 y 9).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 9,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p9.webp"
+      }
     },
     {
       "id": "asi-p2-084",
@@ -1732,7 +2205,13 @@
       "correct": [
         3
       ],
-      "fb": "No es un fin en sí mismo sino un instrumento. Además, comunicar el resultado al evaluado es fundamental (apunte U5, pág. 5)."
+      "fb": "No es un fin en sí mismo sino un instrumento. Además, comunicar el resultado al evaluado es fundamental (apunte U5, pág. 5).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 5,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p5.webp"
+      }
     },
     {
       "id": "asi-p2-085",
@@ -1755,7 +2234,13 @@
         1,
         2
       ],
-      "fb": "Con esta información el seguimiento evalúa si el desempeño real se adecua a las metas, detecta desviaciones y determina acciones de mejora. La auditoría requiere un SI gerencial basado en los registros de personal y las estadísticas provistas por los otros subsistemas (apunte U5, págs. 4 y 13)."
+      "fb": "Con esta información el seguimiento evalúa si el desempeño real se adecua a las metas, detecta desviaciones y determina acciones de mejora. La auditoría requiere un SI gerencial basado en los registros de personal y las estadísticas provistas por los otros subsistemas (apunte U5, págs. 4 y 13).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 4,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p4.webp"
+      }
     },
     {
       "id": "asi-p2-086",
@@ -1781,7 +2266,12 @@
         2,
         3
       ],
-      "fb": "Implicancias del seguimiento de RRHH (apunte U5, págs. 11-12)."
+      "fb": "Implicancias del seguimiento de RRHH (apunte U5, págs. 11-12).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 11,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-087",
@@ -1798,7 +2288,13 @@
       "correct": [
         2
       ],
-      "fb": "Apunte U5, pág. 12. La satisfacción de los empleados es otro ítem distinto de la auditoría."
+      "fb": "Apunte U5, pág. 12. La satisfacción de los empleados es otro ítem distinto de la auditoría.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 12,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p12.webp"
+      }
     },
     {
       "id": "asi-p2-088",
@@ -1818,7 +2314,13 @@
         1,
         2
       ],
-      "fb": "Apunte U5, pág. 12."
+      "fb": "Apunte U5, pág. 12.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 12,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p12.webp"
+      }
     },
     {
       "id": "asi-p2-089",
@@ -1835,7 +2337,13 @@
       "correct": [
         1
       ],
-      "fb": "Cada jefe decide sobre admisiones, ascensos, evaluación, capacitación y disciplina de sus subordinados; la responsabilidad de que el grupo alcance los objetivos es del jefe, no del administrador de RRHH (apunte U5, págs. 1-2)."
+      "fb": "Cada jefe decide sobre admisiones, ascensos, evaluación, capacitación y disciplina de sus subordinados; la responsabilidad de que el grupo alcance los objetivos es del jefe, no del administrador de RRHH (apunte U5, págs. 1-2).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 1,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p1.webp"
+      }
     },
     {
       "id": "asi-p2-090",
@@ -1857,7 +2365,13 @@
         2,
         3
       ],
-      "fb": "Apunte U5, pág. 12."
+      "fb": "Apunte U5, pág. 12.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 12,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p12.webp"
+      }
     },
     {
       "id": "asi-p2-091",
@@ -1874,7 +2388,13 @@
       "correct": [
         3
       ],
-      "fb": "Apunte U5, pág. 34. La máxima cantidad de trabajo útil por unidad de tiempo es la definición de capacidad, y el tiempo que tarda el usuario en pensar la siguiente petición es el tiempo de reflexión."
+      "fb": "Apunte U5, pág. 34. La máxima cantidad de trabajo útil por unidad de tiempo es la definición de capacidad, y el tiempo que tarda el usuario en pensar la siguiente petición es el tiempo de reflexión.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 34,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p34.webp"
+      }
     },
     {
       "id": "asi-p2-092",
@@ -1894,7 +2414,13 @@
         1,
         2
       ],
-      "fb": "Apunte U5, pág. 34."
+      "fb": "Apunte U5, pág. 34.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 34,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p34.webp"
+      }
     },
     {
       "id": "asi-p2-093",
@@ -1911,7 +2437,13 @@
       "correct": [
         1
       ],
-      "fb": "Diagrama de flujo del apunte (U5, pág. 34): si la hipótesis o el método no son válidos, se vuelve a formular o a determinar; después de modificar el sistema, se repite desde el inicio."
+      "fb": "Diagrama de flujo del apunte (U5, pág. 34): si la hipótesis o el método no son válidos, se vuelve a formular o a determinar; después de modificar el sistema, se repite desde el inicio.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 34,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p34.webp"
+      }
     },
     {
       "id": "asi-p2-094",
@@ -1935,7 +2467,13 @@
         0,
         1
       ],
-      "fb": "Reposición: modificaciones de hardware (se justifica con la ley de Amdahl). Sintonización: cambios que no alteran la configuración pero afectan la organización del sistema (apunte U5, pág. 34)."
+      "fb": "Reposición: modificaciones de hardware (se justifica con la ley de Amdahl). Sintonización: cambios que no alteran la configuración pero afectan la organización del sistema (apunte U5, pág. 34).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 34,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p34.webp"
+      }
     },
     {
       "id": "asi-p2-095",
@@ -1952,7 +2490,13 @@
       "correct": [
         2
       ],
-      "fb": "Apunte U5, pág. 34."
+      "fb": "Apunte U5, pág. 34.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 34,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p34.webp"
+      }
     },
     {
       "id": "asi-p2-096",
@@ -1972,7 +2516,13 @@
         1,
         2
       ],
-      "fb": "Las técnicas son de tres tipos: monitorización, modelado y benchmarking. La sintonización (experimentación) no se considera una técnica (apunte U5, pág. 21)."
+      "fb": "Las técnicas son de tres tipos: monitorización, modelado y benchmarking. La sintonización (experimentación) no se considera una técnica (apunte U5, pág. 21).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p21.webp"
+      }
     },
     {
       "id": "asi-p2-097",
@@ -1995,7 +2545,13 @@
         1,
         2
       ],
-      "fb": "Cuadro de técnicas, herramientas y finalidades (apunte U5, pág. 21)."
+      "fb": "Cuadro de técnicas, herramientas y finalidades (apunte U5, pág. 21).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p21.webp"
+      }
     },
     {
       "id": "asi-p2-098",
@@ -2012,7 +2568,13 @@
       "correct": [
         3
       ],
-      "fb": "El modelado se basa en la teoría de colas y puede resolverse con métodos analíticos o por simulación (apunte U5, pág. 22)."
+      "fb": "El modelado se basa en la teoría de colas y puede resolverse con métodos analíticos o por simulación (apunte U5, pág. 22).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 22,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p22.webp"
+      }
     },
     {
       "id": "asi-p2-099",
@@ -2029,7 +2591,13 @@
       "correct": [
         1
       ],
-      "fb": "Una mejora es más efectiva cuanto mayor es la fracción de tiempo en que se aplica (apunte U5, págs. 19-20). Utilización = productividad × tiempo de servicio es la ley de la utilización, y trabajos en el sistema = productividad × tiempo de respuesta es la ley de Little."
+      "fb": "Una mejora es más efectiva cuanto mayor es la fracción de tiempo en que se aplica (apunte U5, págs. 19-20). Utilización = productividad × tiempo de servicio es la ley de la utilización, y trabajos en el sistema = productividad × tiempo de respuesta es la ley de Little.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 19,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p19.webp"
+      }
     },
     {
       "id": "asi-p2-100",
@@ -2046,7 +2614,13 @@
       "correct": [
         0
       ],
-      "fb": "Apunte U5, pág. 21."
+      "fb": "Apunte U5, pág. 21.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p21.webp"
+      }
     },
     {
       "id": "asi-p2-101",
@@ -2063,7 +2637,13 @@
       "correct": [
         2
       ],
-      "fb": "Es útil para determinar el máximo beneficio real de optimizar partes del sistema y tomar decisiones informadas sobre dónde invertir (apunte U5, pág. 21)."
+      "fb": "Es útil para determinar el máximo beneficio real de optimizar partes del sistema y tomar decisiones informadas sobre dónde invertir (apunte U5, pág. 21).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p21.webp"
+      }
     },
     {
       "id": "asi-p2-102",
@@ -2080,7 +2660,12 @@
       "correct": [
         2
       ],
-      "fb": "A = 1 / ((1 − 0,6) + 0,6/3) = 1 / (0,4 + 0,2) = 1 / 0,6 ≈ 1,67. El valor 2,5 sería el límite con k → ∞."
+      "fb": "A = 1 / ((1 − 0,6) + 0,6/3) = 1 / (0,4 + 0,2) = 1 / 0,6 ≈ 1,67. El valor 2,5 sería el límite con k → ∞.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 19,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-103",
@@ -2097,7 +2682,13 @@
       "correct": [
         1
       ],
-      "fb": "Con k → ∞, A = 1 / (1 − f) = 1 / 0,2 = 5. El incremento global está limitado por las operaciones que no se ven afectadas por la mejora (apunte U5, pág. 20)."
+      "fb": "Con k → ∞, A = 1 / (1 − f) = 1 / 0,2 = 5. El incremento global está limitado por las operaciones que no se ven afectadas por la mejora (apunte U5, pág. 20).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 20,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p20.webp"
+      }
     },
     {
       "id": "asi-p2-104",
@@ -2120,7 +2711,13 @@
         1,
         2
       ],
-      "fb": "Conclusiones de la ley de Amdahl (apunte U5, pág. 20)."
+      "fb": "Conclusiones de la ley de Amdahl (apunte U5, pág. 20).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 20,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p20.webp"
+      }
     },
     {
       "id": "asi-p2-105",
@@ -2138,6 +2735,12 @@
         1
       ],
       "fb": "La técnica es la monitorización y la herramienta es el monitor (apunte U5, págs. 26-27). Un programa que genera la carga de prueba para comparar sistemas describe un benchmark, no un monitor.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 26,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p26.webp"
+      },
       "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
     },
     {
@@ -2155,7 +2758,13 @@
       "correct": [
         3
       ],
-      "fb": "Apunte U5, pág. 26."
+      "fb": "Apunte U5, pág. 26.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 26,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p26.webp"
+      }
     },
     {
       "id": "asi-p2-107",
@@ -2172,7 +2781,13 @@
       "correct": [
         1
       ],
-      "fb": "Una medida debería ser repetible; como en informática no lo es, se habla de seguimiento y no de medición (apunte U5, pág. 28)."
+      "fb": "Una medida debería ser repetible; como en informática no lo es, se habla de seguimiento y no de medición (apunte U5, pág. 28).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 28,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p28.webp"
+      }
     },
     {
       "id": "asi-p2-108",
@@ -2197,7 +2812,13 @@
         4,
         6
       ],
-      "fb": "Características de un monitor (apunte U5, págs. 27-28): sobrecarga o interferencia, precisión, resolución, ámbito o dominio, anchura de entrada, reducción de datos, compatibilidad, coste, facilidad de instalación y facilidad de utilización. Compacidad, escalabilidad y reproductibilidad son características de un benchmark."
+      "fb": "Características de un monitor (apunte U5, págs. 27-28): sobrecarga o interferencia, precisión, resolución, ámbito o dominio, anchura de entrada, reducción de datos, compatibilidad, coste, facilidad de instalación y facilidad de utilización. Compacidad, escalabilidad y reproductibilidad son características de un benchmark.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 28,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p28.webp"
+      }
     },
     {
       "id": "asi-p2-109",
@@ -2229,7 +2850,13 @@
         4,
         5
       ],
-      "fb": "Apunte U5, págs. 27-28."
+      "fb": "Apunte U5, págs. 27-28.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 28,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p28.webp"
+      }
     },
     {
       "id": "asi-p2-110",
@@ -2250,7 +2877,13 @@
         2,
         3
       ],
-      "fb": "Apunte U5, pág. 28. Además, permiten validar cargas de benchmark y obtener datos para construir modelos."
+      "fb": "Apunte U5, pág. 28. Además, permiten determinar la aproximación de una carga de benchmark a la carga real y obtener datos para construir modelos (pág. 27).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 28,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p28.webp"
+      }
     },
     {
       "id": "asi-p2-111",
@@ -2278,7 +2911,13 @@
         0,
         1
       ],
-      "fb": "Apunte U5, págs. 27 y 29."
+      "fb": "Apunte U5, págs. 27 y 29.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 27,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p27.webp"
+      }
     },
     {
       "id": "asi-p2-112",
@@ -2295,7 +2934,13 @@
       "correct": [
         1
       ],
-      "fb": "Apunte U5, pág. 27."
+      "fb": "Apunte U5, pág. 27.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 27,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p27.webp"
+      }
     },
     {
       "id": "asi-p2-113",
@@ -2312,7 +2957,13 @@
       "correct": [
         2
       ],
-      "fb": "Esquema del apunte (U5, pág. 29)."
+      "fb": "Esquema del apunte (U5, pág. 29).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 29,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p29.webp"
+      }
     },
     {
       "id": "asi-p2-114",
@@ -2341,7 +2992,13 @@
         3,
         4
       ],
-      "fb": "Apunte U5, pág. 29."
+      "fb": "Apunte U5, pág. 29.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 29,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p29.webp"
+      }
     },
     {
       "id": "asi-p2-115",
@@ -2356,7 +3013,13 @@
       "correct": [
         0
       ],
-      "fb": "Apunte U5, pág. 29."
+      "fb": "Apunte U5, pág. 29.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 29,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p29.webp"
+      }
     },
     {
       "id": "asi-p2-116",
@@ -2379,7 +3042,12 @@
         1,
         2
       ],
-      "fb": "Apunte U5, págs. 29-31."
+      "fb": "Apunte U5, págs. 29-31.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 29,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-117",
@@ -2396,7 +3064,13 @@
       "correct": [
         3
       ],
-      "fb": "El monitor en tiempo real, en cambio, tiene un analizador que procesa los datos a medida que los recibe (apunte U5, pág. 31)."
+      "fb": "El monitor en tiempo real, en cambio, tiene un analizador que procesa los datos a medida que los recibe (apunte U5, pág. 31).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 31,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p31.webp"
+      }
     },
     {
       "id": "asi-p2-118",
@@ -2413,7 +3087,13 @@
       "correct": [
         1
       ],
-      "fb": "Apunte U5, pág. 29."
+      "fb": "Apunte U5, pág. 29.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 29,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p29.webp"
+      }
     },
     {
       "id": "asi-p2-119",
@@ -2433,7 +3113,13 @@
         1,
         2
       ],
-      "fb": "Agregar un programa nuevo es lo más fácil de usar y de quitar cuando ya no se necesita (apunte U5, pág. 29)."
+      "fb": "Agregar un programa nuevo es lo más fácil de usar y de quitar cuando ya no se necesita (apunte U5, pág. 29).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 29,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p29.webp"
+      }
     },
     {
       "id": "asi-p2-120",
@@ -2450,7 +3136,13 @@
       "correct": [
         0
       ],
-      "fb": "Apunte U5, págs. 29-30."
+      "fb": "Apunte U5, págs. 29-30.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 29,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p29.webp"
+      }
     },
     {
       "id": "asi-p2-121",
@@ -2467,7 +3159,13 @@
       "correct": [
         2
       ],
-      "fb": "Ambos métodos requieren un reloj; en el muestreo, el reloj además debe generar interrupciones periódicas (apunte U5, pág. 30)."
+      "fb": "Ambos métodos requieren un reloj; en el muestreo, el reloj además debe generar interrupciones periódicas (apunte U5, pág. 30).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 30,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p30.webp"
+      }
     },
     {
       "id": "asi-p2-122",
@@ -2484,7 +3182,13 @@
       "correct": [
         1
       ],
-      "fb": "El error es la diferencia entre el tiempo real y el medido (apunte U5, pág. 30)."
+      "fb": "El error es la diferencia entre el tiempo real y el medido (apunte U5, pág. 30).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 30,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p30.webp"
+      }
     },
     {
       "id": "asi-p2-123",
@@ -2506,7 +3210,13 @@
         2,
         3
       ],
-      "fb": "Apunte U5, pág. 30. La longitud de los cables es un aspecto de los monitores hardware."
+      "fb": "Apunte U5, pág. 30. La longitud de los cables es un aspecto de los monitores hardware (pág. 37).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 30,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p30.webp"
+      }
     },
     {
       "id": "asi-p2-124",
@@ -2521,7 +3231,13 @@
       "correct": [
         0
       ],
-      "fb": "Apunte U5, pág. 30."
+      "fb": "Apunte U5, pág. 30.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 30,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p30.webp"
+      }
     },
     {
       "id": "asi-p2-125",
@@ -2538,7 +3254,13 @@
       "correct": [
         3
       ],
-      "fb": "Apunte U5, pág. 30."
+      "fb": "Apunte U5, pág. 30.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 30,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p30.webp"
+      }
     },
     {
       "id": "asi-p2-126",
@@ -2564,7 +3286,13 @@
         2,
         3
       ],
-      "fb": "Figura 2.7 del apunte (U5, pág. 30)."
+      "fb": "Figura 2.7 del apunte (U5, pág. 30).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 30,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p30.webp"
+      }
     },
     {
       "id": "asi-p2-127",
@@ -2581,7 +3309,13 @@
       "correct": [
         1
       ],
-      "fb": "Además, vienen integrados en algunos computadores modernos (apunte U5, pág. 31)."
+      "fb": "Además, vienen integrados en algunos computadores modernos (apunte U5, pág. 31).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 31,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p31.webp"
+      }
     },
     {
       "id": "asi-p2-128",
@@ -2598,7 +3332,13 @@
       "correct": [
         0
       ],
-      "fb": "Combina las dos técnicas para aprovechar las ventajas de cada una (apunte U5, pág. 31)."
+      "fb": "Combina las dos técnicas para aprovechar las ventajas de cada una (apunte U5, pág. 31).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 31,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p31.webp"
+      }
     },
     {
       "id": "asi-p2-129",
@@ -2630,7 +3370,13 @@
         4,
         5
       ],
-      "fb": "Cuadro comparativo del apunte (U5, págs. 31-32). Los híbridos tienen dominio total, resolución alta e interferencia media."
+      "fb": "Cuadro comparativo del apunte (U5, págs. 31-32). Los híbridos tienen dominio total, resolución alta e interferencia media.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 31,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p31.webp"
+      }
     },
     {
       "id": "asi-p2-130",
@@ -2647,7 +3393,12 @@
       "correct": [
         2
       ],
-      "fb": "Apunte U5, págs. 32-33."
+      "fb": "Apunte U5, págs. 32-33.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 32,
+        "confidence": "medium"
+      }
     },
     {
       "id": "asi-p2-131",
@@ -2662,7 +3413,13 @@
       "correct": [
         1
       ],
-      "fb": "BENCHMARKING ≠ MEDICIÓN: el benchmarking analiza el rendimiento poniendo énfasis en la carga y hace una comparación; en la medición solo se recolectan datos (apunte U5, pág. 32)."
+      "fb": "BENCHMARKING ≠ MEDICIÓN: el benchmarking analiza el rendimiento poniendo énfasis en la carga y hace una comparación; en la medición solo se recolectan datos (apunte U5, pág. 32).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 32,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p32.webp"
+      }
     },
     {
       "id": "asi-p2-132",
@@ -2686,7 +3443,13 @@
         3,
         4
       ],
-      "fb": "Apunte U5, págs. 32-33. También conviene que los programas de carga verifiquen sus resultados, para saber que el benchmark se ejecutó correctamente."
+      "fb": "Apunte U5, págs. 32-33. También conviene que los programas de carga verifiquen sus resultados, para saber que el benchmark se ejecutó correctamente.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 32,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p32.webp"
+      }
     },
     {
       "id": "asi-p2-133",
@@ -2709,7 +3472,13 @@
         3,
         5
       ],
-      "fb": "Errores del apunte (U5, pág. 32): solo comportamientos medios, controlar mal el nivel de carga, ignorar la caché, ignorar el overhead del monitor, no validar las medidas, no asegurar las mismas condiciones iniciales, no medir el transitorio, comparar usando utilizaciones y recoger muchos datos con poco análisis. Incluir la varianza, validar y asegurar las condiciones iniciales son buenas prácticas."
+      "fb": "Errores del apunte (U5, pág. 32): solo comportamientos medios, controlar mal el nivel de carga, ignorar la caché, ignorar el overhead del monitor, no validar las medidas, no asegurar las mismas condiciones iniciales, no medir el transitorio, comparar usando utilizaciones y recoger muchos datos con poco análisis. Incluir la varianza, validar y asegurar las condiciones iniciales son buenas prácticas.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 32,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p32.webp"
+      }
     },
     {
       "id": "asi-p2-134",
@@ -2729,7 +3498,13 @@
         1,
         2
       ],
-      "fb": "Determinar una carga manejable y a la vez representativa, y valorar el aprovechamiento que hacen los programas de las peculiaridades de cada sistema, son las principales dificultades que plantea el apunte; que cada ejecución altere el estado del sistema explica por qué hay que asegurar las mismas condiciones iniciales (U5, pág. 32)."
+      "fb": "Determinar una carga manejable y a la vez representativa, y valorar el aprovechamiento que hacen los programas de las peculiaridades de cada sistema, son las principales dificultades que plantea el apunte; que cada ejecución altere el estado del sistema explica por qué hay que asegurar las mismas condiciones iniciales (U5, pág. 32).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 32,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p32.webp"
+      }
     },
     {
       "id": "asi-p2-135",
@@ -2746,7 +3521,13 @@
       "correct": [
         1
       ],
-      "fb": "Apunte U5, pág. 33."
+      "fb": "Apunte U5, pág. 33.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 33,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p33.webp"
+      }
     },
     {
       "id": "asi-p2-136",
@@ -2768,7 +3549,13 @@
         2,
         3
       ],
-      "fb": "Apunte U5, pág. 33. Anchura de entrada e interferencia son características de los monitores."
+      "fb": "Apunte U5, pág. 33. Anchura de entrada e interferencia son características de los monitores.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 33,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p33.webp"
+      }
     },
     {
       "id": "asi-p2-137",
@@ -2785,7 +3572,13 @@
       "correct": [
         3
       ],
-      "fb": "Resultado de un benchmarking (apunte U5, págs. 32-33). Usar las utilizaciones de los dispositivos para comparar prestaciones es, de hecho, uno de los errores."
+      "fb": "Resultado de un benchmarking (apunte U5, págs. 32-33). Usar las utilizaciones de los dispositivos para comparar prestaciones es, de hecho, uno de los errores.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 33,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p33.webp"
+      }
     },
     {
       "id": "asi-p2-138",
@@ -2802,7 +3595,13 @@
       "correct": [
         1
       ],
-      "fb": "Un conjunto de programas extraídos de la carga real y representativos de ella es un benchmark de aplicación (apunte U5, pág. 33)."
+      "fb": "Un conjunto de programas extraídos de la carga real y representativos de ella es un benchmark de aplicación (apunte U5, pág. 33).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 33,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p33.webp"
+      }
     },
     {
       "id": "asi-p2-139",
@@ -2826,7 +3625,13 @@
         0,
         1
       ],
-      "fb": "Apunte U5, pág. 33."
+      "fb": "Apunte U5, pág. 33.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 33,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p33.webp"
+      }
     },
     {
       "id": "asi-p2-140",
@@ -2849,7 +3654,13 @@
         3,
         4
       ],
-      "fb": "Razones para utilizar benchmarks (apunte U5, pág. 33)."
+      "fb": "Razones para utilizar benchmarks (apunte U5, pág. 33).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 33,
+        "confidence": "high",
+        "img": "sources/pages/u5-seguimiento-p33.webp"
+      }
     },
     {
       "id": "asi-p2-141",
@@ -2867,6 +3678,11 @@
         2
       ],
       "fb": "Los monitores software son adecuados para observar el SO, las redes, las bases de datos y las aplicaciones; son baratos, fáciles de instalar y de quitar (apunte U5, págs. 29 y 31). Los monitores hardware son caros, requieren conectar sondas y no son prácticos para equipos de uso personal.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 29,
+        "confidence": "medium"
+      },
       "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la respuesta se deduce de las características de los monitores software."
     }
   ]
