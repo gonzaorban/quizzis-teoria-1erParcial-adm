@@ -49,7 +49,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 1,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p1.webp"
+        "crop": [[0, 65, 100, 74.8]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p1-5701d2.webp"
       }
     },
     {
@@ -72,7 +73,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 2,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+        "crop": [[0, 0, 100, 5.3], [0, 23, 100, 29.3]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2-e559ba.webp"
       }
     },
     {
@@ -95,7 +97,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 2,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+        "crop": [[0, 6.5, 100, 17]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2-6d9e00.webp"
       }
     },
     {
@@ -118,7 +121,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 2,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+        "crop": [[0, 18, 100, 22]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2-df263e.webp"
       }
     },
     {
@@ -176,7 +180,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 13,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p13.webp"
+        "crop": [[0, 4.5, 100, 31.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p13-aeb01f.webp"
       }
     },
     {
@@ -199,7 +204,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 2,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+        "crop": [[0, 63.5, 100, 71.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2-6d326c.webp"
       }
     },
     {
@@ -240,7 +246,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 3,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3.webp"
+        "crop": [[0, 0, 100, 32.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3-22f1fa.webp"
       }
     },
     {
@@ -263,7 +270,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 3,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3.webp"
+        "crop": [[0, 21, 100, 28.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3-614d72.webp"
       }
     },
     {
@@ -289,7 +297,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 2,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2.webp"
+        "crop": [[0, 83, 100, 93]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p2-2722ba.webp"
       }
     },
     {
@@ -312,7 +321,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 3,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3.webp"
+        "crop": [[0, 84.5, 100, 93]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3-91cd18.webp"
       }
     },
     {
@@ -341,7 +351,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 3,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3.webp"
+        "crop": [[0, 61.5, 100, 84]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p3-2e33e0.webp"
       }
     },
     {
@@ -364,7 +375,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 5,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p5.webp"
+        "crop": [[0, 8.5, 100, 20]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p5-a5919e.webp"
       }
     },
     {
@@ -396,7 +408,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 4,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4.webp"
+        "crop": [[0, 55.5, 100, 97]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4-b31e17.webp"
       }
     },
     {
@@ -424,7 +437,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 4,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4.webp"
+        "crop": [[0, 2, 100, 30]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4-d0fe59.webp"
       }
     },
     {
@@ -450,7 +464,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 4,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4.webp"
+        "crop": [[0, 31, 100, 45]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4-92499b.webp"
       }
     },
     {
@@ -471,7 +486,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 4,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4.webp"
+        "crop": [[0, 46, 100, 52]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p4-45e22f.webp"
       }
     },
     {
@@ -501,7 +517,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 12,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p12.webp"
+        "crop": [[0, 56.5, 100, 85]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p12-a5e2f1.webp"
       }
     },
     {
@@ -561,7 +578,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 6,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p6.webp"
+        "crop": [[0, 0, 100, 25.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p6-6d8a2c.webp"
       }
     },
     {
@@ -584,7 +602,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 7,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p7.webp"
+        "crop": [[0, 50.2, 100, 65]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p7-757cb7.webp"
       }
     },
     {
@@ -622,7 +641,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 8,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p8.webp"
+        "crop": [[0, 30.5, 100, 56.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p8-917da4.webp"
       }
     },
     {
@@ -666,7 +686,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 9,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p9.webp"
+        "crop": [[0, 45, 100, 66]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p9-94cd18.webp"
       }
     },
     {
@@ -696,7 +717,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 10,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p10.webp"
+        "crop": [[0, 50, 100, 79]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p10-d4a796.webp"
       }
     },
     {
@@ -719,7 +741,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 10,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p10.webp"
+        "crop": [[0, 90.5, 100, 94]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p10-a4d694.webp"
       }
     },
     {
@@ -748,7 +771,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 11,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p11.webp"
+        "crop": [[0, 29.5, 100, 53.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p11-873f34.webp"
       }
     },
     {
@@ -802,7 +826,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 11,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p11.webp"
+        "crop": [[0, 54, 100, 63.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p11-3127ff.webp"
       }
     },
     {
@@ -851,7 +876,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 14,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14.webp"
+        "crop": [[0, 12, 100, 23.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14-15df9c.webp"
       }
     },
     {
@@ -905,7 +931,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 15,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p15.webp"
+        "crop": [[0, 2.8, 100, 32.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p15-d15b6a.webp"
       }
     },
     {
@@ -928,7 +955,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 14,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14.webp"
+        "crop": [[0, 75.5, 100, 90.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14-f4cfe5.webp"
       }
     },
     {
@@ -951,7 +979,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 14,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14.webp"
+        "crop": [[0, 57.5, 100, 64]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p14-16f99b.webp"
       }
     },
     {
@@ -974,7 +1003,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 17,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p17.webp"
+        "crop": [[0, 35.5, 100, 39.8]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p17-78e1df.webp"
       }
     },
     {
@@ -1006,7 +1036,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 17,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p17.webp"
+        "crop": [[0, 35.5, 100, 57.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p17-aab00b.webp"
       }
     },
     {
@@ -1058,7 +1089,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 18,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18.webp"
+        "crop": [[0, 11.5, 100, 15.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18-a8ced6.webp"
       }
     },
     {
@@ -1081,7 +1113,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 18,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18.webp"
+        "crop": [[0, 50, 100, 60]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18-2e9013.webp"
       }
     },
     {
@@ -1107,7 +1140,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 18,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18.webp"
+        "crop": [[0, 0, 100, 11.6]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p18-91b6ae.webp"
       }
     },
     {
@@ -1161,7 +1195,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 20,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p20.webp"
+        "crop": [[0, 48.5, 100, 64.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p20-f76415.webp"
       }
     },
     {
@@ -1207,7 +1242,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 24,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24.webp"
+        "crop": [[0, 58.5, 100, 66.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24-5fdb0e.webp"
       }
     },
     {
@@ -1230,7 +1266,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 20,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p20.webp"
+        "crop": [[0, 70, 100, 97]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p20-426cb4.webp"
       }
     },
     {
@@ -1253,7 +1290,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 21,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21.webp"
+        "crop": [[0, 84.5, 100, 93.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21-217241.webp"
       }
     },
     {
@@ -1282,7 +1320,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 22,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22.webp"
+        "crop": [[0, 2.5, 100, 29.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22-32c359.webp"
       }
     },
     {
@@ -1320,7 +1359,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 22,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22.webp"
+        "crop": [[0, 44.5, 100, 59], [0, 69, 100, 93]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22-a2ac64.webp"
       }
     },
     {
@@ -1343,7 +1383,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 22,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22.webp"
+        "crop": [[0, 69, 100, 83]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p22-4e5ab8.webp"
       }
     },
     {
@@ -1366,7 +1407,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 23,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p23.webp"
+        "crop": [[0, 0, 100, 8.7]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p23-9c2dd4.webp"
       }
     },
     {
@@ -1392,7 +1434,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 21,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21.webp"
+        "crop": [[0, 56.8, 100, 69.6]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21-ce9ccb.webp"
       }
     },
     {
@@ -1419,7 +1462,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 21,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21.webp"
+        "crop": [[0, 69.6, 100, 84.3]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p21-3e0ef5.webp"
       }
     },
     {
@@ -1442,7 +1486,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 24,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24.webp"
+        "crop": [[0, 79.2, 100, 86.3]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24-197756.webp"
       }
     },
     {
@@ -1465,7 +1510,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 25,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25.webp"
+        "crop": [[0, 41.5, 100, 48.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25-257cab.webp"
       }
     },
     {
@@ -1488,7 +1534,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 24,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24.webp"
+        "crop": [[0, 42, 100, 57.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p24-781d08.webp"
       }
     },
     {
@@ -1578,7 +1625,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 25,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25.webp"
+        "crop": [[0, 0, 100, 41]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p25-3a8b04.webp"
       }
     },
     {
@@ -1624,7 +1672,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 28,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28.webp"
+        "crop": [[0, 43.5, 100, 51.3]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28-cd8b9e.webp"
       }
     },
     {
@@ -1650,7 +1699,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 28,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28.webp"
+        "crop": [[0, 53, 100, 72.9]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28-577528.webp"
       }
     },
     {
@@ -1682,7 +1732,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 28,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28.webp"
+        "crop": [[0, 68.6, 100, 88.3]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28-a705f2.webp"
       }
     },
     {
@@ -1705,7 +1756,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 28,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28.webp"
+        "crop": [[0, 60.6, 100, 68.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p28-ca706c.webp"
       }
     },
     {
@@ -1728,7 +1780,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 31,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p31.webp"
+        "crop": [[0, 26.3, 100, 37.6]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p31-22c44e.webp"
       }
     },
     {
@@ -1788,7 +1841,8 @@
         "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
         "page": 32,
         "confidence": "high",
-        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p32.webp"
+        "crop": [[0, 41.5, 100, 65]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p32-a16380.webp"
       }
     },
     {
@@ -1819,7 +1873,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 4,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p4.webp"
+        "crop": [[0, 32.5, 100, 67.5]],
+        "img": "sources/pages/u5-seguimiento-p4-0d6022.webp"
       }
     },
     {
@@ -1873,7 +1928,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 13,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p13.webp"
+        "crop": [[0, 6, 100, 12.7]],
+        "img": "sources/pages/u5-seguimiento-p13-82f459.webp"
       }
     },
     {
@@ -1896,7 +1952,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 7,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p7.webp"
+        "crop": [[0, 38.5, 100, 58]],
+        "img": "sources/pages/u5-seguimiento-p7-fd7a2f.webp"
       }
     },
     {
@@ -1924,7 +1981,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 8,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p8.webp"
+        "crop": [[0, 0, 100, 19.7]],
+        "img": "sources/pages/u5-seguimiento-p8-7731bc.webp"
       }
     },
     {
@@ -1960,7 +2018,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 8,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p8.webp"
+        "crop": [[0, 0, 100, 19.7]],
+        "img": "sources/pages/u5-seguimiento-p8-7731bc.webp"
       }
     },
     {
@@ -1983,7 +2042,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 9,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p9.webp"
+        "crop": [[0, 32.5, 100, 43]],
+        "img": "sources/pages/u5-seguimiento-p9-9d2e40.webp"
       }
     },
     {
@@ -2006,7 +2066,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 9,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p9.webp"
+        "crop": [[0, 82.5, 100, 88.3]],
+        "img": "sources/pages/u5-seguimiento-p9-c3fdd2.webp"
       }
     },
     {
@@ -2037,7 +2098,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 5,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p5.webp"
+        "crop": [[0, 44.5, 100, 77.5]],
+        "img": "sources/pages/u5-seguimiento-p5-3d7494.webp"
       }
     },
     {
@@ -2058,7 +2120,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 9,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p9.webp"
+        "crop": [[0, 29, 100, 43.3]],
+        "img": "sources/pages/u5-seguimiento-p9-2c3699.webp"
       }
     },
     {
@@ -2081,7 +2144,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 5,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p5.webp"
+        "crop": [[0, 0, 100, 10.8]],
+        "img": "sources/pages/u5-seguimiento-p5-8c7206.webp"
       }
     },
     {
@@ -2110,7 +2174,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 4,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p4.webp"
+        "crop": [[0, 16, 100, 26.3]],
+        "img": "sources/pages/u5-seguimiento-p4-8092f0.webp"
       }
     },
     {
@@ -2164,7 +2229,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 12,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p12.webp"
+        "crop": [[0, 56.3, 100, 62.3]],
+        "img": "sources/pages/u5-seguimiento-p12-3cc5ed.webp"
       }
     },
     {
@@ -2192,7 +2258,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 12,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p12.webp"
+        "crop": [[0, 65, 100, 77.5]],
+        "img": "sources/pages/u5-seguimiento-p12-e0874e.webp"
       }
     },
     {
@@ -2215,7 +2282,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 34,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p34.webp"
+        "crop": [[0, 16, 100, 35.5]],
+        "img": "sources/pages/u5-seguimiento-p34-952418.webp"
       }
     },
     {
@@ -2241,7 +2309,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 34,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p34.webp"
+        "crop": [[0, 16, 100, 29.5]],
+        "img": "sources/pages/u5-seguimiento-p34-240c94.webp"
       }
     },
     {
@@ -2264,7 +2333,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 34,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p34.webp"
+        "crop": [[0, 47.5, 100, 86]],
+        "img": "sources/pages/u5-seguimiento-p34-efd748.webp"
       }
     },
     {
@@ -2294,7 +2364,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 34,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p34.webp"
+        "crop": [[0, 30.5, 100, 46.8]],
+        "img": "sources/pages/u5-seguimiento-p34-255336.webp"
       }
     },
     {
@@ -2317,7 +2388,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 34,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p34.webp"
+        "crop": [[0, 86.5, 100, 92]],
+        "img": "sources/pages/u5-seguimiento-p34-3f70c7.webp"
       }
     },
     {
@@ -2343,7 +2415,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 21,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p21.webp"
+        "crop": [[0, 58.5, 100, 67.2]],
+        "img": "sources/pages/u5-seguimiento-p21-3f7785.webp"
       }
     },
     {
@@ -2366,7 +2439,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 22,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p22.webp"
+        "crop": [[0, 0, 100, 5.6]],
+        "img": "sources/pages/u5-seguimiento-p22-8ea034.webp"
       }
     },
     {
@@ -2389,7 +2463,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 19,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p19.webp"
+        "crop": [[0, 76, 100, 97.8]],
+        "img": "sources/pages/u5-seguimiento-p19-d7bf9f.webp"
       }
     },
     {
@@ -2412,7 +2487,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 21,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p21.webp"
+        "crop": [[0, 33.2, 100, 35.2]],
+        "img": "sources/pages/u5-seguimiento-p21-d50f05.webp"
       }
     },
     {
@@ -2435,7 +2511,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 21,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p21.webp"
+        "crop": [[0, 33.2, 100, 47.2]],
+        "img": "sources/pages/u5-seguimiento-p21-823cc2.webp"
       }
     },
     {
@@ -2486,7 +2563,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 20,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p20.webp"
+        "crop": [[0, 0, 100, 21.5]],
+        "img": "sources/pages/u5-seguimiento-p20-bd2727.webp"
       }
     },
     {
@@ -2509,7 +2587,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 26,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p26.webp"
+        "crop": [[0, 91.3, 100, 98]],
+        "img": "sources/pages/u5-seguimiento-p26-605d8f.webp"
       },
       "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la opción correcta resume lo que dice el apunte."
     },
@@ -2533,7 +2612,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 28,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p28.webp"
+        "crop": [[0, 58.5, 100, 71]],
+        "img": "sources/pages/u5-seguimiento-p28-9dc770.webp"
       }
     },
     {
@@ -2571,7 +2651,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 28,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p28.webp"
+        "crop": [[0, 0, 100, 29.5]],
+        "img": "sources/pages/u5-seguimiento-p28-074738.webp"
       }
     },
     {
@@ -2598,7 +2679,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 28,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p28.webp"
+        "crop": [[0, 75.5, 100, 91]],
+        "img": "sources/pages/u5-seguimiento-p28-2f388c.webp"
       }
     },
     {
@@ -2632,7 +2714,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 27,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p27.webp"
+        "crop": [[0, 32, 100, 77.5]],
+        "img": "sources/pages/u5-seguimiento-p27-1e4011.webp"
       }
     },
     {
@@ -2655,7 +2738,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 27,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p27.webp"
+        "crop": [[0, 64.2, 100, 77.5]],
+        "img": "sources/pages/u5-seguimiento-p27-37a6b8.webp"
       }
     },
     {
@@ -2690,7 +2774,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 29,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p29.webp"
+        "crop": [[0, 0, 100, 36]],
+        "img": "sources/pages/u5-seguimiento-p29-084bfa.webp"
       }
     },
     {
@@ -2711,7 +2796,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 29,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p29.webp"
+        "crop": [[0, 28, 82.6, 36]],
+        "img": "sources/pages/u5-seguimiento-p29-56cfff.webp"
       }
     },
     {
@@ -2762,7 +2848,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 31,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p31.webp"
+        "crop": [[0, 31.5, 100, 47.5]],
+        "img": "sources/pages/u5-seguimiento-p31-913b28.webp"
       }
     },
     {
@@ -2785,7 +2872,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 29,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p29.webp"
+        "crop": [[0, 60, 100, 70.5]],
+        "img": "sources/pages/u5-seguimiento-p29-7b2be9.webp"
       }
     },
     {
@@ -2811,7 +2899,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 29,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p29.webp"
+        "crop": [[0, 68.9, 100, 84.5]],
+        "img": "sources/pages/u5-seguimiento-p29-8303a6.webp"
       }
     },
     {
@@ -2834,7 +2923,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 29,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p29.webp"
+        "crop": [[0, 85, 100, 97.8]],
+        "img": "sources/pages/u5-seguimiento-p29-19bacd.webp"
       }
     },
     {
@@ -2857,7 +2947,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 30,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p30.webp"
+        "crop": [[0, 6.3, 100, 25]],
+        "img": "sources/pages/u5-seguimiento-p30-eb2a6b.webp"
       }
     },
     {
@@ -2880,7 +2971,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 30,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p30.webp"
+        "crop": [[0, 47.5, 100, 57.5]],
+        "img": "sources/pages/u5-seguimiento-p30-a55296.webp"
       }
     },
     {
@@ -2908,7 +3000,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 30,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p30.webp"
+        "crop": [[0, 31, 100, 46.5]],
+        "img": "sources/pages/u5-seguimiento-p30-cfec96.webp"
       }
     },
     {
@@ -2929,7 +3022,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 30,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p30.webp"
+        "crop": [[0, 2.5, 100, 5.8]],
+        "img": "sources/pages/u5-seguimiento-p30-16f694.webp"
       }
     },
     {
@@ -2952,7 +3046,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 30,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p30.webp"
+        "crop": [[0, 58.5, 100, 69.5]],
+        "img": "sources/pages/u5-seguimiento-p30-d31825.webp"
       }
     },
     {
@@ -2984,7 +3079,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 30,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p30.webp"
+        "crop": [[0, 70, 100, 95.1]],
+        "img": "sources/pages/u5-seguimiento-p30-b22cb0.webp"
       }
     },
     {
@@ -3007,7 +3103,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 31,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p31.webp"
+        "crop": [[0, 0, 100, 11.5]],
+        "img": "sources/pages/u5-seguimiento-p31-c6f243.webp"
       }
     },
     {
@@ -3030,7 +3127,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 31,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p31.webp"
+        "crop": [[0, 0, 100, 29.5]],
+        "img": "sources/pages/u5-seguimiento-p31-074738.webp"
       }
     },
     {
@@ -3068,7 +3166,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 31,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p31.webp"
+        "crop": [[0, 49, 75, 83.3]],
+        "img": "sources/pages/u5-seguimiento-p31-a3c7d2.webp"
       }
     },
     {
@@ -3111,7 +3210,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 32,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p32.webp"
+        "crop": [[0, 5.5, 100, 20.3]],
+        "img": "sources/pages/u5-seguimiento-p32-194d22.webp"
       }
     },
     {
@@ -3141,7 +3241,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 32,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p32.webp"
+        "crop": [[0, 72.5, 100, 95.1]],
+        "img": "sources/pages/u5-seguimiento-p32-339d1b.webp"
       }
     },
     {
@@ -3170,7 +3271,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 32,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p32.webp"
+        "crop": [[0, 34.5, 100, 71]],
+        "img": "sources/pages/u5-seguimiento-p32-3ccc3e.webp"
       }
     },
     {
@@ -3194,7 +3296,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 32,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p32.webp"
+        "crop": [[0, 21.5, 100, 33]],
+        "img": "sources/pages/u5-seguimiento-p32-166e81.webp"
       }
     },
     {
@@ -3217,7 +3320,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 33,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p33.webp"
+        "crop": [[0, 2, 100, 24]],
+        "img": "sources/pages/u5-seguimiento-p33-b15063.webp"
       }
     },
     {
@@ -3245,7 +3349,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 33,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p33.webp"
+        "crop": [[0, 8, 100, 13.8]],
+        "img": "sources/pages/u5-seguimiento-p33-377098.webp"
       }
     },
     {
@@ -3268,7 +3373,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 33,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p33.webp"
+        "crop": [[0, 24.5, 100, 36.5]],
+        "img": "sources/pages/u5-seguimiento-p33-82832e.webp"
       }
     },
     {
@@ -3291,7 +3397,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 33,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p33.webp"
+        "crop": [[0, 54.5, 100, 64.3]],
+        "img": "sources/pages/u5-seguimiento-p33-067e78.webp"
       }
     },
     {
@@ -3320,7 +3427,8 @@
         "file": "sources/u5-seguimiento.pdf",
         "page": 33,
         "confidence": "high",
-        "img": "sources/pages/u5-seguimiento-p33.webp"
+        "crop": [[0, 75.5, 100, 96]],
+        "img": "sources/pages/u5-seguimiento-p33-5beaf3.webp"
       }
     },
     {

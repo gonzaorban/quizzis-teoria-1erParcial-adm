@@ -189,7 +189,7 @@ aclaración sobre el tema, visible en los filtros y en cada pregunta.
 | `note` | opcional | Aviso que se muestra al responder (por ejemplo, una respuesta dudosa). |
 | `section` | opcional | Sub-agrupación (por ejemplo, "1er parcial 2024"). Se muestra como badge y habilita el filtro por sección. |
 | `img` | opcional | Ruta relativa a la carpeta del parcial (`img/x.jpg`). |
-| `source` | opcional | `{ "file": "sources/x.pdf", "page": 12, "confidence": "high" \| "medium" \| "low", "img": "sources/pages/x-p12.webp" }`. Muestra "Ver en la teoría", que abre `x.pdf#page=12`. `page` es la página física del PDF (empieza en 1). Si está `img`, la corrección muestra además la imagen de esa página, para ver el respaldo sin abrir el PDF. Sin `file` (cuando el PDF no está en el repo) muestra solo la imagen, con `label` como rótulo: `{ "label": "Unidad 3, diap. 52", "page": 52, "confidence": "high", "img": "slides/u3-52.webp" }`. |
+| `source` | opcional | `{ "file": "sources/x.pdf", "page": 12, "confidence": "high" | "medium" | "low", "img": "sources/pages/x-p12.webp" }`, más `crop` opcional (ver [Referencias a la teoría](#referencias-a-la-teoría)).\| "medium" \| "low", "img": "sources/pages/x-p12.webp" }`. Muestra "Ver en la teoría", que abre `x.pdf#page=12`. `page` es la página física del PDF (empieza en 1). Si está `img`, la corrección muestra además la imagen de esa página, para ver el respaldo sin abrir el PDF. Sin `file` (cuando el PDF no está en el repo) muestra solo la imagen, con `label` como rótulo: `{ "label": "Unidad 3, diap. 52", "page": 52, "confidence": "high", "img": "slides/u3-52.webp" }`. |
 
 ### Puntaje
 
@@ -243,4 +243,11 @@ python scripts/render-source-pages.py redes/1er-parcial
 ```
 
 Escribe `sources/pages/<pdf>-p<N>.webp`, completa `source.img` en `questions.json` y borra las imágenes que ya
-no se usan. Hay que volver a correrlo después de cambiar la página o la confianza de un `source`.
+no se usan. Hay que volver a correrlo después de cambiar la página, la confianza o el recorte de un `source`.
+
+Cuando la página tiene mucho más que la respuesta, `source.crop` muestra solo una parte: es una lista de
+recuadros `[x0, y0, x1, y1]` en porcentaje de la imagen de la página (sin los márgenes blancos), que se apilan
+uno debajo del otro. Por ejemplo, `"crop": [[0, 58.5, 100, 66]]` deja la franja entre el 58,5 % y el 66 % de
+la altura. Cada recorte se guarda como `sources/pages/<pdf>-p<N>-<hash>.webp`, así dos preguntas de la misma
+página pueden mostrar partes distintas. Las del 2do parcial de ASI usan recortes, porque el apunte es texto
+corrido en A4.
