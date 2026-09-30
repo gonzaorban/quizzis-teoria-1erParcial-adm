@@ -324,9 +324,11 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     qs.forEach(record);
     saveState();
     const by = (st) => qs.filter((q) => statusOf(q) === st).length;
-    bulkMsg = `<p class="sent" tabindex="-1">Se ${qs.length === 1 ? "envió 1 respuesta" : `enviaron ${qs.length} respuestas`}:
+    const scored = view.map((i) => DATA.questions[i]).filter(isScored);
+    const done = scored.filter((q) => state.answers[q.id]).length;
+    bulkMsg = `<p class="sent" tabindex="-1">Se ${qs.length === 1 ? "envió <b>1</b> pregunta marcada que faltaba enviar" : `enviaron las <b>${qs.length}</b> preguntas marcadas que faltaban enviar`}:
       <b class="c-ok">✔︎ ${by("ok")}</b> · <b class="c-bad">✘︎ ${by("bad")}</b> · <b class="c-part">◐︎ ${by("part")}</b>.
-      Las correcciones están en cada pregunta.</p>`;
+      En total llevás <b>${done} de ${scored.length}</b> respondidas. Las correcciones están en cada pregunta.</p>`;
     render();
     $("submitAll").querySelector(".sent").focus();
   });
