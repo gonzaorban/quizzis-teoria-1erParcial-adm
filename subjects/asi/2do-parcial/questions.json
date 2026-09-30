@@ -417,7 +417,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
-      "text": "El contenido del entrenamiento puede incluir cuatro tipos de cambio de comportamiento. ¿Cuáles son? (Seleccioná todas las correctas)",
+      "text": "¿Qué tipos de cambio de comportamiento puede incluir el contenido del entrenamiento? (Seleccioná todas las correctas)",
       "opts": [
         "Transmisión de información",
         "Desarrollo de habilidades",
@@ -1961,7 +1961,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
-      "text": "Los estándares del proceso de control pueden expresarse en cuatro tipos. ¿Cuáles son? (Seleccioná todas las correctas)",
+      "text": "¿En qué tipos pueden expresarse los estándares del proceso de control? (Seleccioná todas las correctas)",
       "opts": [
         "Cantidad",
         "Calidad",
