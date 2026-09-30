@@ -11,6 +11,7 @@
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" href="img/favicon-96.png" type="image/png" sizes="96x96">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script>try{var t=localStorage.getItem("quiz-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="stylesheet" href="engine/quiz.css">
 </head>
 <body>
@@ -24,10 +25,11 @@
   </footer>
 </div>
 <script type="module">
-import { esc, repoLink, backToTop } from "./engine/quiz.js";
+import { esc, topActions, initTheme, backToTop } from "./engine/quiz.js";
 import { loadSubject, isReady, plural } from "./engine/subject.js";
 
-document.getElementById("topbar").innerHTML = repoLink();
+document.getElementById("topbar").innerHTML = topActions();
+initTheme();
 backToTop();
 
 const list = document.getElementById("subjects");

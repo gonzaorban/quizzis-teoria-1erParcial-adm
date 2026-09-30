@@ -38,9 +38,59 @@ const GITHUB_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3
 // database cylinder: the "¿Cómo se guardan mis respuestas?" button
 const STORAGE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>';
 
-// GitHub mark + repo name, used by the landing and every subject page
+// GitHub mark + repo name, shown by topActions
 export function repoLink() {
   return `<a class="repo" href="${REPO_URL}" target="_blank" rel="noopener noreferrer" title="Código fuente en GitHub (se abre en una pestaña nueva)">${GITHUB_ICON}<span>gonzaorban/quizzis-utn</span></a>`;
+}
+
+// Light/dark toggle. An explicit choice is kept in localStorage and set as data-theme on <html> (each page's
+// <head> applies it before the first paint); without one the page follows the system setting.
+const THEME_KEY = "quiz-theme";
+const MOON_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+const SUN_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>';
+const systemDark = () => matchMedia("(prefers-color-scheme: dark)");
+const isDark = () => {
+  const t = document.documentElement.dataset.theme;
+  return t ? t === "dark" : systemDark().matches;
+};
+// the icon shows the mode the button switches to
+const toggleAttrs = (dark) => ({ pressed: String(dark), title: `Cambiar a modo ${dark ? "claro" : "oscuro"}`, icon: dark ? SUN_ICON : MOON_ICON });
+
+// repo link + theme toggle, right-aligned in the topbar of the landing and every subject page
+export function topActions() {
+  const a = toggleAttrs(isDark());
+  return `<div class="top-actions">${repoLink()}<button class="repo theme-toggle" type="button" data-theme-toggle aria-label="Modo oscuro" aria-pressed="${a.pressed}" title="${a.title}">${a.icon}</button></div>`;
+}
+
+function syncThemeToggles() {
+  const a = toggleAttrs(isDark());
+  document.querySelectorAll("[data-theme-toggle]").forEach((b) => {
+    b.setAttribute("aria-pressed", a.pressed);
+    b.title = a.title;
+    b.innerHTML = a.icon;
+  });
+}
+
+function setTheme(theme) {
+  if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+  else delete document.documentElement.dataset.theme;
+  syncThemeToggles();
+}
+
+// Wires every theme toggle rendered by topActions, added once per page by the landing, initSubject and initQuiz
+let themeReady = false;
+export function initTheme() {
+  if (themeReady) return;
+  themeReady = true;
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest("[data-theme-toggle]")) return;
+    const theme = isDark() ? "light" : "dark";
+    setTheme(theme);
+    try { localStorage.setItem(THEME_KEY, theme); } catch (err) { /* storage unavailable: this page only */ }
+  });
+  systemDark().addEventListener("change", syncThemeToggles);
+  // same choice in every open tab
+  addEventListener("storage", (e) => { if (e.key === THEME_KEY) setTheme(e.newValue); });
 }
 
 // Floating "Volver arriba" pill centered at the top, added once per page by the landing, initSubject
@@ -94,6 +144,7 @@ const fmt = (n) => n.toFixed(2).replace(".", ",");
 // legacyKey: storage key used before the subject was split by exam; read once if the new key is empty
 export async function initQuiz({ slug, exam, legacyKey, root = document.getElementById("app") }) {
   backToTop();
+  initTheme();
   const dataUrl = new URL("questions.json", document.baseURI);
   let DATA;
   try {
@@ -106,7 +157,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     return;
   }
   applyAccent(DATA);
-  const heading = `<div class="topbar">${crumbs(DATA.subject)}${repoLink()}</div>
+  const heading = `<div class="topbar">${crumbs(DATA.subject)}${topActions()}</div>
     ${DATA.exam ? `<p class="kicker">${esc(DATA.exam)}</p>` : ""}
     <h1>${esc(DATA.subject)}</h1>
     ${DATA.description ? `<p class="sub">${esc(DATA.description)}</p>` : ""}`;
