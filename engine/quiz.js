@@ -182,6 +182,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   let view = [];          // question indexes after filters
   let cur = 0;            // position inside view (in "all" mode: last card touched)
   let optOrder = {};      // question id -> shuffled option order
+  let rowOrder = {};      // match question id -> shuffled stem order (the bank lists stems in answer order)
   let drafts = {};        // question id -> in-progress answer (not checked yet)
   let bulkMsg = "";       // result of the last "Enviar todas", shown until the next change
   let gridView = null;    // view the dot grid was built for
@@ -211,6 +212,13 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       optOrder[q.id] = state.shuffleO && q.type !== "tf" ? shuffle(idx) : idx;
     }
     return optOrder[q.id];
+  }
+  function rowsFor(q) {
+    if (!rowOrder[q.id]) {
+      const idx = [...q.stems.keys()];
+      rowOrder[q.id] = state.shuffleO ? shuffle(idx) : idx;
+    }
+    return rowOrder[q.id];
   }
   function statusOf(q) {
     const a = state.answers[q.id];
@@ -452,8 +460,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       const answer = saved ? saved.ans : (drafts[q.id] || (q.type === "match" ? q.stems.map(() => -1) : []));
       if (q.type === "match") {
         const order = orderFor(q);
-        body = q.stems.map((stem, i) => {
-          const sel = answer[i];
+        body = rowsFor(q).map((i) => {
+          const stem = q.stems[i], sel = answer[i];
           let cls = "pair", fix = "";
           if (locked) {
             cls += sel === q.correct[i] ? " is-ok" : " is-bad";
@@ -533,7 +541,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     const [cls, label] = s >= 0.999 ? ["ok", "Correcta"] : s <= 0 ? ["bad", "Incorrecta"] : ["part", "Parcialmente correcta"];
     let key;
     if (q.type === "match") {
-      key = `<ul>${q.stems.map((st, i) => `<li>${esc(st)} → ${esc(q.choices[q.correct[i]])}</li>`).join("")}</ul>`;
+      key = `<ul>${rowsFor(q).map((i) => `<li>${esc(q.stems[i])} → ${esc(q.choices[q.correct[i]])}</li>`).join("")}</ul>`;
     } else if (q.correct.length > 1) {
       key = `<ul>${q.correct.map((c) => `<li>${esc(q.opts[c])}</li>`).join("")}</ul>`;
     } else {
@@ -559,9 +567,11 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     if (!c || state.answers[c.q.id]) return;
     const { card, q } = c;
     const opts = card.querySelector(".opts");
-    drafts[q.id] = q.type === "match"
-      ? [...opts.querySelectorAll("select")].map((s) => +s.value)
-      : [...opts.querySelectorAll("input:checked")].map((i) => +i.value);
+    // selects are in shuffled row order: data-i maps each one back to its stem
+    if (q.type === "match") {
+      drafts[q.id] = q.stems.map(() => -1);
+      opts.querySelectorAll("select").forEach((s) => { drafts[q.id][+s.dataset.i] = +s.value; });
+    } else drafts[q.id] = [...opts.querySelectorAll("input:checked")].map((i) => +i.value);
     const check = card.querySelector(".check");
     if (check) check.disabled = !hasAnswer(q, drafts[q.id]);
     bulkMsg = "";
@@ -579,6 +589,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       delete state.answers[c.q.id];
       delete drafts[c.q.id];
       delete optOrder[c.q.id];
+      delete rowOrder[c.q.id];
       saveState();
       update(c.p);
       focusIn(c.p, ".opts input, .opts select, .check");
@@ -653,7 +664,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   $("shuffleO").checked = state.shuffleO;
   $("statusFilter").addEventListener("change", (e) => { state.status = e.target.value; applyFilters(); });
   $("shuffleQ").addEventListener("change", (e) => { state.shuffleQ = e.target.checked; applyFilters(); });
-  $("shuffleO").addEventListener("change", (e) => { state.shuffleO = e.target.checked; optOrder = {}; saveState(); render(); });
+  $("shuffleO").addEventListener("change", (e) => { state.shuffleO = e.target.checked; optOrder = {}; rowOrder = {}; saveState(); render(); });
   $("viewMode").querySelectorAll(".seg").forEach((b) => b.addEventListener("click", () => {
     if (state.mode === b.dataset.mode) return;
     state.mode = b.dataset.mode;
@@ -673,7 +684,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   });
   $("reset").addEventListener("click", () => {
     if (!confirm("¿Borrar todas tus respuestas guardadas?")) return;
-    state.answers = {}; drafts = {}; optOrder = {};
+    state.answers = {}; drafts = {}; optOrder = {}; rowOrder = {};
     applyFilters();
   });
   // keyboard, "one" mode only: 1–9 pick options, Enter sends (or goes on once sent), arrows navigate
