@@ -13,6 +13,11 @@ para buscar una pregunta con Ctrl+F.
 Cada pregunta se envía por separado. Si quedan preguntas con opciones marcadas sin enviar, al final aparece
 **Enviar todas** para corregirlas de una vez; las que no tienen nada marcado quedan sin responder.
 
+Cuando se responden todas las preguntas que se están viendo, aparece **Repetir las incorrectas**: borra esas
+respuestas y deja el filtro en «las que estoy repitiendo», para volver a intentar solo las erradas o
+parciales hasta tenerlas todas bien. Cada cuestionario explica arriba, en «Cómo funciona este cuestionario»,
+los botones, los filtros, el puntaje y cómo se guardan las respuestas.
+
 En la vista "Una por vez" hay atajos de teclado: `1`–`9` marcan opciones, `Enter` envía la respuesta (o
 pasa a la siguiente si ya estaba enviada) y `←` `→` cambian de pregunta.
 
@@ -93,6 +98,9 @@ y abrí la URL que imprime (por defecto <http://localhost:3000>).
 los paths relativos de cada parcial (`questions.json`, `img/…`, `sources/…`) no se resuelven. Cualquier servidor que publique el sitio tiene que hacer lo mismo.
 
 ## Cargar las preguntas de un parcial preparado
+
+Antes de escribir o cambiar preguntas, leé [`criterios.md`](criterios.md): de dónde tiene que salir cada
+pregunta y cómo escribir las opciones para que no se pueda acertar por el largo o por el orden.
 
 El 2do parcial de Redes ya tiene su carpeta, su página y un `questions.json` sin
 preguntas; mientras `questions` esté vacío, la materia lo muestra como «Próximamente». Para cargarlo, completá
@@ -217,6 +225,10 @@ Recorre `subjects/*/subject.json` y el `questions.json` de cada parcial, y verif
 - que `subject` y `exam` de cada `questions.json` coincidan con `subject.json`
 
 Un parcial con `questions` vacío no es un error: se informa como «Próximamente».
+
+También informa en cuántas preguntas de opción simple la correcta es la opción más larga. Si pasa bastante
+más seguido que por azar, avisa con ⚠ y lista las preguntas donde la correcta es más de 1,5 veces más larga
+que los distractores (ver [`criterios.md`](criterios.md)). Ese aviso no cuenta como error.
 
 Si encuentra errores, sale con código 1.
 
