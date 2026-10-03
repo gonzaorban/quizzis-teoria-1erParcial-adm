@@ -30,6 +30,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Qué procesos incluye el subsistema de desarrollo de RRHH? (Seleccioná todas las correctas)",
       "opts": [
         "Entrenamiento",
@@ -58,6 +59,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Dentro del subsistema de desarrollo, ¿qué diferencia hay entre sus tres estratos?",
       "opts": [
         "Entrenamiento y desarrollo de personal tratan el aprendizaje individual (enfoque microscópico); el desarrollo organizacional aborda cómo aprende y se desarrolla la organización (enfoque macroscópico)",
@@ -82,6 +84,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es la finalidad del subsistema de desarrollo de RRHH?",
       "opts": [
         "Atraer candidatos calificados desde el mercado de recursos humanos y seleccionar, entre ellos, a los que mejor se ajustan a los requisitos de los cargos vacantes de la organización",
@@ -106,6 +109,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Según el apunte, el desarrollo de una persona debe entenderse como:",
       "opts": [
         "Un evento puntual de capacitación que ocurre una sola vez, al ingresar a la organización",
@@ -130,6 +134,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es el resultado de los procesos de desarrollo de RRHH?",
       "opts": [
         "Una estructura salarial equitativa respecto del mercado laboral, obtenida mediante la evaluación de cargos y la investigación salarial",
@@ -153,6 +158,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada resultado del entrenamiento con el nivel en el que se evalúa:",
       "stems": [
         "Mejoramiento de la imagen de la empresa y del clima organizacional",
@@ -189,6 +195,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "El aprendizaje, columna vertebral del desarrollo, se define como:",
       "opts": [
         "El proceso complejo que permite a los individuos adquirir nuevos comportamientos que les aseguren su supervivencia o adaptación al medio físico o cultural",
@@ -213,6 +220,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada descripción con la ley del aprendizaje correspondiente:",
       "stems": [
         "La persona tiende a mantener el comportamiento que percibe recompensador y a eliminar el que no le trae recompensa",
@@ -255,6 +263,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Según la ley del descongelamiento, para que un comportamiento viejo sea sustituido por uno nuevo deben cumplirse tres condiciones:",
       "opts": [
         "Recompensa inmediata, castigo y repetición",
@@ -279,6 +288,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cuáles de los siguientes son conceptos clave del aprendizaje según el apunte? (Seleccioná todas las correctas)",
       "opts": [
         "Se aprende con conocimientos y experiencias",
@@ -306,6 +316,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "El entrenamiento (capacitación) es:",
       "opts": [
         "Un proceso educativo a largo plazo, impartido en las escuelas y también en las empresas, que prepara al hombre para ejercer una profesión con objetivos amplios",
@@ -330,6 +341,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada etapa de la educación profesional con lo que busca:",
       "stems": [
         "Preparar al hombre para ejercer una profesión (objetivos amplios, a largo plazo)",
@@ -360,6 +372,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es el orden correcto de las etapas del proceso de entrenamiento?",
       "opts": [
         "Programación → Inventario de necesidades → Evaluación de resultados → Ejecución",
@@ -384,6 +397,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "El entrenamiento se asemeja a un sistema abierto. Relacioná cada elemento con el componente del sistema:",
       "stems": [
         "Individuos en entrenamiento, recursos empresariales, información, habilidades",
@@ -417,6 +431,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Qué tipos de cambio de comportamiento puede incluir el contenido del entrenamiento? (Seleccioná todas las correctas)",
       "opts": [
         "Transmisión de información",
@@ -446,6 +461,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cuáles son los principales objetivos del entrenamiento? (Seleccioná todas las correctas)",
       "opts": [
         "Preparar al personal para la ejecución inmediata de las diversas tareas del cargo",
@@ -473,6 +489,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "tf",
+      "catedra": false,
       "text": "El entrenamiento es una responsabilidad de línea y una función de staff: el organismo de línea asume la responsabilidad del entrenamiento y obtiene asesoría especializada del organismo de staff.",
       "opts": [
         "Verdadero",
@@ -496,6 +513,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿De qué factores depende la ejecución del entrenamiento? (Seleccioná todas las correctas)",
       "opts": [
         "Adecuación del programa a las necesidades de la organización",
@@ -526,6 +544,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cuáles de los siguientes son medios para relevar (inventariar) las necesidades de capacitación? (Seleccioná todas las correctas)",
       "opts": [
         "Evaluación del desempeño",
@@ -557,6 +576,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada nivel de análisis del inventario de necesidades con el sistema involucrado:",
       "stems": [
         "Análisis organizacional",
@@ -587,6 +607,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "En el análisis de operaciones y tareas, las necesidades de entrenamiento se obtienen como:",
       "opts": [
         "Habilidades del ocupante del cargo − requisitos exigidos por el cargo",
@@ -611,6 +632,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Clasificá cada situación como indicador a priori o a posteriori de necesidades de entrenamiento:",
       "stems": [
         "Se incorporará el servicio de capacitación en Active Directory in company",
@@ -650,6 +672,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada pregunta de la programación del entrenamiento con lo que define:",
       "stems": [
         "¿Qué debe enseñarse?",
@@ -695,6 +718,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cuáles de los siguientes aspectos debe incluir la planeación de un programa de entrenamiento? (Seleccioná todas las correctas)",
       "opts": [
         "Enfoque de una necesidad específica cada vez",
@@ -726,6 +750,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Las técnicas de entrenamiento pueden clasificarse en cuanto a:",
       "opts": [
         "Costo, duración y cantidad de participantes",
@@ -750,6 +775,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada grupo de técnicas con su clasificación en cuanto al uso:",
       "stems": [
         "Lectura, recursos audiovisuales, instrucción asistida por computador",
@@ -780,6 +806,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada afirmación con el tipo de entrenamiento según el lugar de aplicación:",
       "stems": [
         "Es muy práctico y de bajo costo",
@@ -811,6 +838,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "En cuanto al tiempo, el entrenamiento de inducción o de integración a la empresa:",
       "opts": [
         "Se realiza fuera del lugar de trabajo, después del ingreso, y busca perfeccionar a los empleados con antigüedad para una carrera dentro de su profesión",
@@ -835,6 +863,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál de las siguientes definiciones corresponde al desarrollo organizacional (DO)?",
       "opts": [
         "Un proceso educativo a corto plazo, aplicado de manera sistemática y organizada, que prepara a cada empleado para las tareas de su cargo actual (enfoque microscópico)",
@@ -858,6 +887,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cuáles son elementos del desarrollo organizacional? (Seleccioná todas las correctas)",
       "opts": [
         "Orientación a largo plazo",
@@ -885,6 +915,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es el orden de las etapas del proceso de DO?",
       "opts": [
         "Recolección y análisis de datos → Diagnóstico → Acción de intervención → Evaluación",
@@ -907,6 +938,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada cambio con la clase de cambio organizacional:",
       "stems": [
         "Fusionar, crear o eliminar departamentos, o subcontratarlos",
@@ -940,6 +972,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Las fuerzas que originan el cambio organizacional desde el ambiente (nuevas tecnologías, cambios en los valores de la sociedad, nuevas oportunidades o limitaciones) se denominan:",
       "opts": [
         "Endógenas",
@@ -964,6 +997,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Según el apunte, la única manera posible de cambiar las organizaciones es:",
       "opts": [
         "Reemplazar a los gerentes de línea por agentes de cambio externos que impongan nuevas normas y procedimientos de trabajo",
@@ -988,6 +1022,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es la finalidad del subsistema de mantenimiento de RRHH?",
       "opts": [
         "Preparar al personal para la ejecución inmediata de las diversas tareas del cargo y brindarle oportunidades de desarrollo personal continuo",
@@ -1012,6 +1047,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada síntesis con la dimensión del subsistema de mantenimiento:",
       "stems": [
         "Cargos y funciones que desarrolla el individuo a lo largo de su vida laboral",
@@ -1045,6 +1081,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada afirmación con higiene o con seguridad en el trabajo:",
       "stems": [
         "Se relaciona con el diagnóstico y la prevención de enfermedades ocupacionales",
@@ -1074,6 +1111,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué debe equilibrar un plan de carreras?",
       "opts": [
         "Los salarios internos de cada puesto con los que pagan otras empresas del mercado laboral por cargos similares",
@@ -1098,6 +1136,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es el orden de las etapas para elaborar un plan de carrera?",
       "opts": [
         "1) Determinar el talento existente y potencial para ocuparlos; 2) Analizar las competencias que requieren los puestos; 3) Determinar el avance entre los puestos relacionados",
@@ -1122,6 +1161,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cuáles son objetivos del plan (administración) de carrera? (Seleccioná todas las correctas)",
       "opts": [
         "Organizar y planificar las sucesiones y reemplazos",
@@ -1149,6 +1189,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada situación con el tipo de movimiento de personal:",
       "stems": [
         "Asumir funciones superiores dentro de la misma área (ascenso o promoción)",
@@ -1180,6 +1221,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cómo se relacionan la decisión de participar y la decisión de producir?",
       "opts": [
         "Son simultáneas e independientes: la persona decide a la vez si participa y cuánto produce, y la organización solo interviene fijando los incentivos que ofrece a cambio",
@@ -1204,6 +1246,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Según Chiavenato, ¿quién es el responsable en una organización de lograr el equilibrio entre incentivos y contribuciones?",
       "opts": [
         "Cada empleado, ajustando sus propias contribuciones a lo que recibe",
@@ -1227,6 +1270,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Por qué se afirma que en las cuestiones salariales se debe hablar de equidad y no de igualdad?",
       "opts": [
         "Porque la igualdad obligaría a pagar lo que indica el mercado, mientras que la equidad permite fijar cada salario libremente, sin respetar el mínimo ni el convenio colectivo",
@@ -1251,6 +1295,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Según la teoría de la inequidad, cuando una persona percibe que la relación entre sus recompensas y sus contribuciones no es equivalente a la de los demás:",
       "opts": [
         "Siente injusticia e insatisfacción (o culpa, si cobra de más) y tiende a reducir el desequilibrio cambiando lo que puede modificar: sus contribuciones",
@@ -1275,6 +1320,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Según Chiavenato, ¿qué es la compensación?",
       "opts": [
         "Solo el pago del salario básico mensual, es decir, la remuneración fija que recibe el empleado en efectivo por el cargo que ocupa",
@@ -1299,6 +1345,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada elemento con el tipo de compensación:",
       "stems": [
         "Salario directo, premios y comisiones",
@@ -1329,6 +1376,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "El salario, dada su complejidad, puede considerarse de varias formas. Relacioná cada descripción con la forma correspondiente:",
       "stems": [
         "Retribución recibida como contraprestación del servicio en el cargo ocupado",
@@ -1368,6 +1416,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué diferencia hay entre un reajuste salarial y un aumento salarial?",
       "opts": [
         "El reajuste incrementa el salario real (lo que el empleado puede comprar); el aumento solo actualiza el salario nominal según la inflación",
@@ -1392,6 +1441,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Para las organizaciones, el salario es a la vez:",
       "opts": [
         "Un costo (se refleja en el costo del producto o servicio final) y una inversión (se aplica dinero en el factor trabajo buscando un retorno mayor)",
@@ -1416,6 +1466,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cómo se compone el esquema de compensaciones en la Argentina? (Seleccioná todas las correctas)",
       "opts": [
         "Remuneración fija (ingresos regulares en efectivo, salario básico)",
@@ -1444,6 +1495,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cuáles son los principios que se desprenden de la definición jurídica de las compensaciones en la Argentina? (Seleccioná todas las correctas)",
       "opts": [
         "Inelasticidad a la baja",
@@ -1471,6 +1523,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué significa evaluar un puesto (cargo)?",
       "opts": [
         "Calificar la actuación, pasada o presente, de la persona que ocupa el puesto según normas de desempeño establecidas, para localizar problemas",
@@ -1495,6 +1548,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué herramienta suministra la información para evaluar un puesto?",
       "opts": [
         "La evaluación del desempeño del ocupante",
@@ -1519,6 +1573,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Según Soria, la importancia de cada puesto resulta de dos factores:",
       "opts": [
         "La antigüedad del ocupante (dimensión cuantitativa) y su edad y experiencia previa en el cargo (dimensión cualitativa)",
@@ -1543,6 +1598,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "En los métodos analíticos, como la evaluación por puntos, ¿qué grupos de factores de evaluación se consideran según Chiavenato? (Seleccioná todas las correctas)",
       "opts": [
         "Requisitos intelectuales",
@@ -1566,6 +1622,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cómo funciona el método no analítico de «Clasificación de cargos por categorías»?",
       "opts": [
         "Cada cargo se descompone en factores de evaluación, cada factor se divide en grados con un valor en puntos, y la suma de los puntos obtenidos ubica al cargo en una clase de puntos",
@@ -1588,6 +1645,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cómo funciona el método analítico de «Evaluación por puntos»?",
       "opts": [
         "Se definen previamente categorías (clases) con su descripción, y cada cargo, considerado como un todo, se compara con ellas y se ubica en la categoría que mejor le corresponde",
@@ -1610,6 +1668,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es la principal diferencia entre un método de evaluación de cargos no analítico y uno analítico?",
       "opts": [
         "El no analítico compara el cargo como un todo y no es cuantitativo; el analítico descompone el cargo en factores y lo evalúa cuantitativamente",
@@ -1634,6 +1693,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuándo conviene aplicar un método analítico y cuándo uno no analítico?",
       "opts": [
         "El analítico, en organizaciones pequeñas o con pocos cargos, por su sencillez y bajo costo; el no analítico, en organizaciones con muchos cargos o cargos complejos, por su mayor precisión y objetividad",
@@ -1657,6 +1717,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué es una política salarial?",
       "opts": [
         "Una ley nacional que fija el salario mínimo y los básicos que las empresas deben respetar al definir la remuneración de sus empleados",
@@ -1681,6 +1742,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "multi",
+      "catedra": false,
       "text": "¿Qué debe contener una política salarial? (Seleccioná todas las correctas)",
       "opts": [
         "Estructura de cargos y salarios",
@@ -1708,6 +1770,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada propósito con el tipo de reajuste salarial:",
       "stems": [
         "Restablecer el valor real de los salarios frente a los cambios de la coyuntura económica",
@@ -1741,6 +1804,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "Según la política salarial, el salario de admisión de un empleado nuevo debe:",
       "opts": [
         "Coincidir con el límite superior de la franja salarial, para atraer al candidato y retenerlo desde el inicio",
@@ -1765,6 +1829,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es la diferencia entre un incentivo y un beneficio social?",
       "opts": [
         "El incentivo es un derecho que se goza por el simple hecho de pertenecer a la organización; el beneficio social es una compensación variable a la que se accede al alcanzar una condición predeterminada",
@@ -1789,6 +1854,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Clasificá cada ejemplo:",
       "stems": [
         "10% del sueldo básico, por única vez, al analista que obtenga 85 puntos o más en la evaluación de 360°",
@@ -1820,6 +1886,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada grupo de beneficios con su clasificación según sus objetivos:",
       "stems": [
         "Asistencia médica y odontológica, préstamos, complementación de la pensión",
@@ -1850,6 +1917,7 @@
       "topic": "CC",
       "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
       "type": "info",
+      "catedra": false,
       "text": "Finalmente, elaborá un mapa conceptual de los subsistemas de Desarrollo y de Mantenimiento e identificá las relaciones entre ambos.",
       "answer": "DESARROLLO: equilibrar las competencias de las personas con las necesidades actuales y futuras de la organización.\n• Base: el aprendizaje y sus leyes (efecto, estímulo, intensidad, frecuencia, continuidad, descongelamiento, complejidad creciente).\n• Entrenamiento: inventario de necesidades → programación → ejecución → evaluación de resultados.\n• Desarrollo de personal.\n• Desarrollo organizacional: cambio planeado, sistémico y a largo plazo (datos → diagnóstico → intervención → evaluación).\n\nMANTENIMIENTO: retener al empleado adecuado, satisfecho y motivado.\n• Plan de carrera y movimientos de personal.\n• Administración de compensaciones: evaluación de cargos (equilibrio interno), investigación salarial (equilibrio externo), política salarial, remuneración variable y beneficios sociales.\n• Higiene y seguridad.\n• Relaciones laborales.\n\nRELACIONES\n• El plan de carrera necesita que el desarrollo prepare a las personas para los puestos siguientes (plan de sucesión).\n• Las recompensas del mantenimiento (ascensos, reajustes por mérito, incentivos) refuerzan el aprendizaje (leyes del efecto y del estímulo).\n• Ambos se apoyan en el análisis y la descripción de cargos: el desarrollo, para detectar necesidades (requisitos del cargo − habilidades del ocupante); el mantenimiento, para evaluar cargos.\n• Ambos usan la evaluación del desempeño: para inventariar necesidades de entrenamiento y para decidir promociones y remuneración variable.\n• Los resultados buscados por el entrenamiento (menos rotación y ausentismo) coinciden con los objetivos de los beneficios sociales.\n• El DO transforma la cultura y el clima, que influyen en la satisfacción que el mantenimiento busca sostener."
     },
@@ -1858,6 +1926,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué procesos incluye el subsistema de control (seguimiento) de RRHH?",
       "opts": [
         "El reclutamiento y la selección de personal, apoyados en la descripción de cargos y en los exámenes de los candidatos",
@@ -1882,6 +1951,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada afirmación con el proceso del subsistema de seguimiento al que corresponde:",
       "stems": [
         "Es una apreciación sistemática del desempeño de cada persona en el cargo o de su potencial de desarrollo futuro",
@@ -1913,6 +1983,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "La función de la auditoría de RRHH no es solo señalar fallas y problemas, sino también presentar sugerencias y soluciones. Por eso se dice que su papel es esencialmente:",
       "opts": [
         "Punitivo",
@@ -1937,6 +2008,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es el orden de las etapas del proceso de control?",
       "opts": [
         "Seguimiento del desempeño → Establecimiento de estándares → Comparación con los estándares → Acción correctiva",
@@ -1961,6 +2033,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿En qué tipos pueden expresarse los estándares del proceso de control? (Seleccioná todas las correctas)",
       "opts": [
         "Cantidad",
@@ -1990,6 +2063,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada estándar de control con su tipo:",
       "stems": [
         "Índice de rotación",
@@ -2027,6 +2101,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "En la etapa de comparación, los límites dentro de los cuales la variación del desempeño se acepta como normal o deseable se denominan:",
       "opts": [
         "Umbral de desempeño",
@@ -2051,6 +2126,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Según el principio de excepción, la acción correctiva:",
       "opts": [
         "Incide solo sobre los casos excepcionales, es decir, lo que se aleja de los estándares más allá de la tolerancia",
@@ -2075,6 +2151,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "Para que el proceso de control sea eficaz, ¿qué criterios debe atender? (Seleccioná todas las correctas)",
       "opts": [
         "Administrar por excepción",
@@ -2107,6 +2184,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "tf",
+      "catedra": false,
       "text": "La evaluación del desempeño se relaciona con el proceso de control: es el mecanismo que se usa en la etapa de seguimiento (medición) del desempeño real, cuyos resultados luego se comparan con los estándares.",
       "opts": [
         "Verdadero",
@@ -2129,6 +2207,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "La evaluación del desempeño es:",
       "opts": [
         "Un fin en sí mismo: se realiza para archivar la calificación de cada empleado en su legajo, sin necesidad de comunicarle el resultado al evaluado",
@@ -2153,6 +2232,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada fuente con la información que aporta al subsistema de seguimiento de RRHH:",
       "stems": [
         "Alineamiento y planificación de los RRHH",
@@ -2183,6 +2263,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Lo que provee el subsistema de seguimiento sirve a los demás subsistemas. Relacioná cada subsistema con el uso que le da:",
       "stems": [
         "Subsistema de provisión",
@@ -2214,6 +2295,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué implica la auditoría de la función de personal de los gerentes de línea?",
       "opts": [
         "Evaluar el desempeño técnico de los gerentes de línea en sus tareas productivas, comparándolo con los estándares de cantidad, calidad, tiempo y costos de su área",
@@ -2238,6 +2320,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Qué técnicas se usan para obtener información sobre las actividades de RRHH en una auditoría? (Seleccioná todas las correctas)",
       "opts": [
         "Entrevistas (incluidas las de salida) y encuestas o sondeos de opinión",
@@ -2267,6 +2350,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Un cuello de botella es:",
       "opts": [
         "El componente más caro del sistema informático, que por eso debe reemplazarse primero (terapia de reposición) cuando se busca mejorar las prestaciones",
@@ -2291,6 +2375,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿A qué puede deberse un cuello de botella? (Seleccioná todas las correctas)",
       "opts": [
         "Un componente de hardware",
@@ -2318,6 +2403,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es el procedimiento para solucionar los cuellos de botella?",
       "opts": [
         "Reemplazar de inmediato el componente más lento (terapia de reposición) → verificar que el sistema responda mejor → dar por terminado el estudio sin volver a comprobar",
@@ -2342,6 +2428,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada acción con la terapia para eliminar cuellos de botella:",
       "stems": [
         "Cambiar ficheros de un disco a otro",
@@ -2373,6 +2460,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿A qué terapia se le suele dar prioridad para eliminar un cuello de botella, y por qué?",
       "opts": [
         "A la reposición (upgrading), porque siempre garantiza la mayor mejora",
@@ -2397,6 +2485,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cuáles son las técnicas para evaluar sistemas informáticos? (Seleccioná todas las correctas)",
       "opts": [
         "Monitorización",
@@ -2424,6 +2513,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué técnica debe usarse para evaluar el comportamiento de un sistema en el que algún elemento (hardware o software) todavía no está instalado?",
       "opts": [
         "Monitorización",
@@ -2448,6 +2538,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué establece la ley de Amdahl?",
       "opts": [
         "Que la utilización de un dispositivo es igual a su productividad multiplicada por su tiempo de servicio, para cualquier período de observación: U = X · S",
@@ -2472,6 +2563,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué tipo de técnica de evaluación de sistemas informáticos es la ley de Amdahl?",
       "opts": [
         "Modelado (técnica analítica)",
@@ -2496,6 +2588,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Como administrador de recursos, ¿para qué te sirve el resultado de aplicar la ley de Amdahl?",
       "opts": [
         "Para medir la carga real del sistema mientras lo usan los usuarios y detectar, a partir de esas mediciones, en qué componentes se producen los cuellos de botella",
@@ -2520,6 +2613,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Un programa usa la CPU durante el 60 % del tiempo (f = 0,6). Si se instala una CPU 3 veces más rápida (k = 3), ¿cuál es la aceleración global?",
       "opts": [
         "3",
@@ -2542,6 +2636,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada caso límite de la ley de Amdahl con su resultado:",
       "stems": [
         "f = 0 (el componente no se usa)",
@@ -2572,6 +2667,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué es un monitor?",
       "opts": [
         "El programa que genera la carga de prueba (real o sintética) con la que se comparan distintos sistemas informáticos, básicamente a partir del tiempo necesario para su ejecución",
@@ -2597,6 +2693,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Por qué se habla de «monitorización» y no de «medición»?",
       "opts": [
         "Porque los monitores no pueden cuantificar ninguna variable del sistema: solo muestran gráficos cualitativos de la actividad para que el usuario los interprete",
@@ -2621,6 +2718,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada descripción con la característica del monitor:",
       "stems": [
         "Energía que sustrae al sistema observado; debe ser tan poca que no altere los resultados",
@@ -2660,6 +2758,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Para qué pueden utilizarse los monitores? (Seleccioná todas las correctas)",
       "opts": [
         "Conocer la utilización de los recursos del sistema y los cuellos de botella",
@@ -2688,6 +2787,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada afirmación con la técnica de monitorización:",
       "stems": [
         "Inserta código suplementario (traps) en el sistema operativo, que se activa ante cada cambio de estado",
@@ -2723,6 +2823,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "El muestreo puede usarse con dos objetivos distintos:",
       "opts": [
         "Generar la carga de prueba sintética del sistema, y comparar distintos sistemas informáticos según el tiempo que tardan en ejecutarla",
@@ -2747,6 +2848,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada función con el elemento del monitor:",
       "stems": [
         "Conecta el monitor con los puntos del sistema que contienen información relevante",
@@ -2783,6 +2885,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "tf",
+      "catedra": false,
       "text": "Si la fase de análisis e interpretación se realiza en paralelo con la detección y la captura de eventos, se trata de un sistema de medida en tiempo real.",
       "opts": [
         "Verdadero",
@@ -2805,6 +2908,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada grupo de monitores con el criterio de clasificación:",
       "stems": [
         "De eventos y de muestreo",
@@ -2833,6 +2937,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Un monitor batch:",
       "opts": [
         "Procesa los datos recogidos a medida que los recibe y presenta resultados parciales",
@@ -2857,6 +2962,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Los monitores software:",
       "opts": [
         "Son dispositivos electrónicos externos que se conectan a puntos del sistema para detectar niveles o señales eléctricas; no usan recursos del sistema que observan ni interfieren",
@@ -2881,6 +2987,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Cómo se puede implantar un monitor software? (Seleccioná todas las correctas)",
       "opts": [
         "Adición de un nuevo programa",
@@ -2908,6 +3015,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "En un monitor software hay un conflicto entre la precisión de las medidas y la interferencia porque:",
       "opts": [
         "Más observaciones dan más precisión pero sobrecargan el sistema y las medidas dejan de ser fiables; menos observaciones cargan menos pero pueden no reflejar todo",
@@ -2932,6 +3040,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Respecto de las consideraciones temporales de un monitor software, ¿qué diferencia hay entre medir por muestreo y hacer medidas directas?",
       "opts": [
         "Las medidas directas usan tiempos medios: son más fáciles de implementar pero menos precisas; el muestreo captura los instantes exactos de inicio y fin: es más preciso pero más complejo",
@@ -2956,6 +3065,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Al medir una duración con un reloj de intervalo T, el error:",
       "opts": [
         "Siempre es exactamente T, sin importar cuánto dure el fenómeno medido, así que achicar T no cambia nada",
@@ -2980,6 +3090,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Con qué se relacionan los problemas de precisión de un monitor software? (Seleccioná todas las correctas)",
       "opts": [
         "El retraso en el inicio de actividades",
@@ -3009,6 +3120,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "tf",
+      "catedra": false,
       "text": "En general, la prioridad de un monitor software debe ser mayor que la de los acontecimientos que debe observar.",
       "opts": [
         "Verdadero",
@@ -3031,6 +3143,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "Los monitores hardware:",
       "opts": [
         "Son programas o ampliaciones del sistema operativo que acceden al estado del sistema e informan al usuario; son baratos y fáciles de instalar y de quitar",
@@ -3055,6 +3168,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Relacioná cada función con el componente del esquema simple de un monitor hardware:",
       "stems": [
         "Filtra las señales que llegan de las sondas",
@@ -3088,6 +3202,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es la principal utilización de los monitores híbridos?",
       "opts": [
         "Monitorizar aplicaciones de usuario en computadoras hogareñas y smartphones, porque son baratos y fáciles de instalar",
@@ -3112,6 +3227,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Cómo funciona un monitor híbrido?",
       "opts": [
         "Agrega sobre el sistema operativo una pequeña parte de código que envía información a un monitor hardware, que observa continuamente la ejecución del procesador principal",
@@ -3136,6 +3252,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "match",
+      "catedra": false,
       "text": "Completá el cuadro comparativo entre monitores hardware y software:",
       "stems": [
         "Dominio de medición del monitor hardware",
@@ -3175,6 +3292,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es la diferencia entre benchmarking y benchmark?",
       "opts": [
         "Son sinónimos: ambos términos designan, indistintamente, la técnica de comparar sistemas informáticos y la herramienta que genera la carga de prueba",
@@ -3197,6 +3315,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "tf",
+      "catedra": false,
       "text": "Benchmarking y medición son lo mismo: en ambos casos solo se recolectan datos del sistema.",
       "opts": [
         "Verdadero",
@@ -3219,6 +3338,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Qué factores del entorno de la prueba influyen en el rendimiento que mide un benchmarking? (Seleccioná todas las correctas)",
       "opts": [
         "El tipo y la versión del sistema operativo",
@@ -3250,6 +3370,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Qué errores pueden aparecer al aplicar benchmarking? (Seleccioná todas las correctas)",
       "opts": [
         "Representar en la carga de test solo los comportamientos medios",
@@ -3280,6 +3401,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Qué circunstancias pueden influir en los resultados de un benchmarking? Elegí las principales dificultades que plantea el apunte. (Seleccioná todas las correctas)",
       "opts": [
         "Cómo determinar una carga característica suficientemente reducida para ser manejable y suficientemente extensa para ser representativa",
@@ -3305,6 +3427,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuál es el orden de los pasos del benchmarking según Puigjaner?",
       "opts": [
         "Seleccionar el benchmark → Definir el objetivo (qué y por qué) → Determinar el entorno, las métricas y los factores que influyen → Ejecutar el benchmark → Analizar los resultados",
@@ -3329,6 +3452,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "Al seleccionar el benchmark, ¿qué características debe tener? (Seleccioná todas las correctas)",
       "opts": [
         "Representatividad",
@@ -3358,6 +3482,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Cuáles son las unidades utilizadas en benchmarking?",
       "opts": [
         "Siempre se expresan en MIPS (millones de instrucciones por segundo), porque es la única unidad que permite comparar equipos de distintos fabricantes",
@@ -3382,6 +3507,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué es un benchmark general?",
       "opts": [
         "Un conjunto de programas extraídos de la carga real y considerados representativos de ella (por ejemplo, un juego)",
@@ -3406,6 +3532,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "multi",
+      "catedra": false,
       "text": "¿Para qué se utilizan los benchmarks? (Seleccioná todas las correctas)",
       "opts": [
         "Adquisición y configuración de equipos o sistemas",
@@ -3436,6 +3563,7 @@
       "topic": "CC",
       "section": "Unidad 5: Subsistema de Seguimiento",
       "type": "single",
+      "catedra": false,
       "text": "¿Qué puede utilizarse para monitorizar computadoras personales y smartphones?",
       "opts": [
         "Monitores hardware: sondas que se conectan a puntos de la placa del equipo para detectar niveles o señales eléctricas, porque son los únicos que no producen interferencias en el sistema observado",

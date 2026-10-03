@@ -74,6 +74,7 @@ function checkExam(slug, exam, meta) {
     else if (allIds.has(q.id)) e(`id duplicado (ya existe en ${allIds.get(q.id)})`);
     else allIds.set(q.id, label);
     if (!(String(q.topic) in data.topics)) e(`topic '${q.topic}' no existe en 'topics'`);
+    if (typeof q.catedra !== "boolean") e("falta 'catedra' (true si la pregunta es de la cátedra y no se modifica; ver criterios.md)");
     if (!TYPES.includes(q.type)) { e(`type inválido '${q.type}'`); return; }
     if (typeof q.text !== "string" || !q.text.trim()) e("falta 'text'");
 
@@ -116,16 +117,18 @@ function checkExam(slug, exam, meta) {
   const byType = {};
   data.questions.forEach((q) => { byType[q.type] = (byType[q.type] || 0) + 1; });
   const withSource = data.questions.filter((q) => q.source).length;
-  console.log(`· ${label}: ${data.questions.length} preguntas, ${Object.keys(data.topics).length} temas, ` +
+  const fromCatedra = data.questions.filter((q) => q.catedra === true).length;
+  console.log(`· ${label}: ${data.questions.length} preguntas (${fromCatedra} de la cátedra), ${Object.keys(data.topics).length} temas, ` +
     `${JSON.stringify(byType)}${withSource ? `, ${withSource} con source` : ""}`);
   checkLengths(label, data.questions);
 }
 
 // criterios.md: the right option shouldn't give itself away by being the longest. Warns (doesn't fail) when, among
-// the single-answer questions with 3+ options, it is the longest much more often than chance would give
+// the single-answer questions with 3+ options, it is the longest much more often than chance would give.
+// Questions from the cátedra (catedra: true) are left as they are, so they don't count
 const LONG_RATIO = 1.5;
 function checkLengths(label, questions) {
-  const qs = questions.filter((q) => q.type === "single" && Array.isArray(q.opts) && q.opts.length > 2 &&
+  const qs = questions.filter((q) => q.catedra === false && q.type === "single" && Array.isArray(q.opts) && q.opts.length > 2 &&
     Array.isArray(q.correct) && q.correct.length === 1);
   if (qs.length < 5) return;
   let longest = 0, chance = 0;
@@ -138,7 +141,7 @@ function checkLengths(label, questions) {
     const avg = others.reduce((a, b) => a + b, 0) / others.length;
     if (c > LONG_RATIO * avg) long.push(q.id);
   }
-  const msg = `la correcta es la opción más larga en ${longest} de ${qs.length} preguntas de opción simple (por azar, ~${Math.round(chance)})`;
+  const msg = `la correcta es la opción más larga en ${longest} de ${qs.length} preguntas de opción simple que no son de la cátedra (por azar, ~${Math.round(chance)})`;
   if (longest <= Math.max(chance * 1.5, chance + 3)) return console.log(`  ${msg}`);
   console.log(`  ⚠ ${msg}. Ver criterios.md.`);
   if (long.length) console.log(`    Correcta más de ${String(LONG_RATIO).replace(".", ",")} veces más larga que los distractores (${long.length}): ` +
