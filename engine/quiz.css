@@ -54,6 +54,10 @@ h1{font:700 2.1rem/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing
 .intro summary::-webkit-details-marker{display:none}
 .intro p{margin:8px 0 0}
 .intro b{color:var(--ink)}
+.howto h3{margin:14px 0 4px;font-size:.95rem;color:var(--ink)}
+.howto ul{margin:0;padding-left:20px}
+.howto li{margin:4px 0}
+.howto .storage-info{margin-top:0;border-top:none;padding-top:0}
 .legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .legend span{font-size:.8rem;padding:3px 10px;border-radius:999px;font-weight:700}
 .lg-ok{background:var(--ok-bg);color:var(--ok)}
@@ -194,6 +198,7 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:8px;
 .submit-all p{margin:0 0 10px}
 .submit-all p:only-child{margin:0}
 .submit-all .sent:focus{outline:none}
+.submit-all .actions{margin-top:0}
 .submit-all .c-ok{color:var(--ok)} .submit-all .c-bad{color:var(--bad)} .submit-all .c-part{color:var(--part)}
 
 /* "Volver arriba": pill centered at the top while scrolled down */
