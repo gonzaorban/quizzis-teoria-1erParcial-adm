@@ -54,6 +54,10 @@ h1{font:700 2.1rem/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing
 .intro summary::-webkit-details-marker{display:none}
 .intro p{margin:8px 0 0}
 .intro b{color:var(--ink)}
+.howto h3{margin:14px 0 4px;font-size:.95rem;color:var(--ink)}
+.howto ul{margin:0;padding-left:20px}
+.howto li{margin:4px 0}
+.howto .storage-info{margin-top:0;border-top:none;padding-top:0}
 .legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .legend span{font-size:.8rem;padding:3px 10px;border-radius:999px;font-weight:700}
 .lg-ok{background:var(--ok-bg);color:var(--ok)}
@@ -65,9 +69,16 @@ h1{font:700 2.1rem/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing
 .wire.striped{background:repeating-linear-gradient(115deg,var(--stripe) 0 5px,var(--tc) 5px 10px)}
 
 .filters{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px}
-.filters summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.filters summary{cursor:pointer;font-weight:700;list-style:none}
 .filters summary::-webkit-details-marker{display:none}
-.filters summary .hint{font-weight:400;color:var(--muted);font-size:.9rem}
+.filters summary .hint{font-weight:400;color:var(--muted);font-size:.9rem;margin-left:auto}
+/* collapsible panels: a chevron at the right that points down when closed and up when open */
+.intro summary,.filters summary{display:flex;align-items:center;gap:10px}
+.intro summary::after,.filters summary::after{content:"";flex:none;margin-left:auto;width:20px;height:20px;background:var(--muted);mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") center/contain no-repeat;transition:rotate .2s}
+.filters summary::after{margin-left:0}
+.intro[open] > summary::after,.filters[open] > summary::after{rotate:180deg}
+.intro summary:hover::after,.filters summary:hover::after{background:var(--accent)}
+@media (prefers-reduced-motion:reduce){.intro summary::after,.filters summary::after{transition:none}}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:transparent;border-radius:999px;padding:7px 12px 7px 10px;cursor:pointer;font-size:.92rem;min-height:40px;text-align:left}
 .chip[aria-pressed="true"]{border-color:var(--ink);background:var(--bg);font-weight:700}
@@ -200,6 +211,7 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:8px;
 .submit-all p{margin:0 0 10px}
 .submit-all p:only-child{margin:0}
 .submit-all .sent:focus{outline:none}
+.submit-all .actions{margin-top:0}
 .submit-all .c-ok{color:var(--ok)} .submit-all .c-bad{color:var(--bad)} .submit-all .c-part{color:var(--part)}
 
 /* "Volver arriba": pill centered at the top while scrolled down */

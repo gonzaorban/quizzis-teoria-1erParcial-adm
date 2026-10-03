@@ -35,8 +35,8 @@ const hasAnswer = (q, ans) => !!ans && (q.type === "match" ? ans.some((a) => a >
 export const REPO_URL = "https://github.com/gonzaorban/quizzis-utn/";
 const GITHUB_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>';
 
-// database cylinder: the "¿Cómo se guardan mis respuestas?" button
-const STORAGE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>';
+// question mark in a circle: the button that opens "Cómo funciona este cuestionario"
+const HELP_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg>';
 
 // GitHub mark + repo name, shown by topActions
 export function repoLink() {
@@ -189,7 +189,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)");
 
   function loadState() {
-    const base = { answers: {}, topics: topicIds.slice(), section: "all", status: "all", shuffleQ: false, shuffleO: true, mode: "one" };
+    // retry: ids being repeated with "Repetir las incorrectas", shown while status is "retry"
+    const base = { answers: {}, topics: topicIds.slice(), section: "all", status: "all", retry: [], shuffleQ: false, shuffleO: true, mode: "one" };
     try {
       const raw = localStorage.getItem(STORE_KEY) || (legacyKey && localStorage.getItem(legacyKey));
       if (!raw) return base;
@@ -197,6 +198,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       s.topics = s.topics.map(String).filter((t) => topicIds.includes(t));
       if (pick && !s.topics.length) s.topics = topicIds.slice();
       if (s.section !== "all" && !sections.includes(s.section)) s.section = "all";
+      if (!Array.isArray(s.retry)) s.retry = [];
+      if (s.status === "retry" && !s.retry.length) s.status = "all";
       if (s.mode !== "all") s.mode = "one";
       return s;
     } catch (e) { return base; }
@@ -230,8 +233,47 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   // ---------- layout ----------
   const intro = DATA.about && DATA.about.length
     ? `<details class="intro" id="intro" open><summary>Sobre este banco de preguntas</summary>${DATA.about.join("")}</details>` : "";
+  // same guide in every exam; open until the first answer is sent
+  const howto = `<details class="intro howto" id="howto" ${Object.keys(state.answers).length ? "" : "open"}>
+    <summary>Cómo funciona este cuestionario</summary>
+    <h3>Responder</h3>
+    <ul>
+      <li>Elegí una opción (o varias, si dice «Seleccioná una o más opciones») y tocá <b>Enviar respuesta</b>. En las de relacionar, elegí una opción en cada desplegable.</li>
+      <li>Al enviar ves la corrección: en verde lo correcto, en rojo lo incorrecto, y la explicación con la página de la teoría de donde sale.</li>
+      <li>Si marcaste varias preguntas sin enviarlas, aparece <b>Enviar todas</b> para corregirlas juntas.</li>
+      <li><b>Responder de nuevo</b> borra tu respuesta a esa pregunta para volver a intentarla.</li>
+      <li>Cuando respondés todas las preguntas que estás viendo, aparece <b>Repetir las incorrectas</b>: te deja respondiendo solo las que erraste o te salieron a medias, hasta tenerlas todas bien.</li>
+    </ul>
+    <h3>Puntaje</h3>
+    <p>Cada pregunta vale 1 punto, al estilo Moodle: en las de selección múltiple cada opción mal marcada descuenta una bien marcada, y en las de relacionar vale cada fila. Las tarjetas informativas no suman puntaje.</p>
+    <h3>${esc(L.topics)} y opciones</h3>
+    <ul>
+      <li><b>${esc(L.topics)}</b>: ${pick
+        ? `tocá un botón para practicar solo eso; tocando otros los sumás o los sacás. <b>${esc(L.allTopics)}</b> vuelve a mostrar todo.`
+        : `cada botón se prende o se apaga al tocarlo. <b>${esc(L.allTopics)}</b> y <b>${esc(L.noTopics)}</b> los prenden o apagan todos.`}</li>
+      ${sections.length ? `<li><b>${esc(L.section)}</b>: filtra las preguntas por ${esc(L.section.toLowerCase())}.</li>` : ""}
+      <li><b>Mostrar</b>: todas, solo las que todavía no respondiste, o las incorrectas o parciales.</li>
+      <li><b>Mezclar preguntas</b> cambia el orden de las preguntas; <b>Mezclar opciones</b>, el de las opciones y el de las filas de las preguntas de relacionar.</li>
+      <li><b>Una por vez</b> muestra una pregunta con <b>Anterior</b> y <b>Siguiente</b>; <b>Todas en una página</b> las muestra juntas, para buscarlas con Ctrl+F. Los números de abajo llevan a cada pregunta y su color indica cómo te fue.</li>
+      <li><b>Borrar mis respuestas</b> empieza de cero.</li>
+    </ul>
+    <h3>Cómo se guardan tus respuestas</h3>
+    <div class="storage-info">
+      <p>Se guardan en este navegador cuando las enviás. No hace falta cuenta, pero tampoco pasan a otro navegador ni a otro dispositivo.</p>
+      <table>
+        <thead><tr><th scope="col">Acción</th><th scope="col">Respuestas enviadas</th><th scope="col">Marcadas sin enviar</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">F5 / recargar</th><td>Se mantienen</td><td>Se pierden</td></tr>
+          <tr><th scope="row">Cerrar la pestaña o el navegador y volver</th><td>Se mantienen</td><td>Se pierden</td></tr>
+          <tr><th scope="row">Abrir el mismo parcial en otra pestaña</th><td>Aparecen las enviadas hasta ese momento</td><td>No aparecen</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="kbd-hint">Con teclado, en «Una por vez»: <kbd>1</kbd>–<kbd>9</kbd> marcan opciones, <kbd>Enter</kbd> envía la respuesta o pasa a la siguiente, <kbd>←</kbd> <kbd>→</kbd> cambian de pregunta.</p>
+  </details>`;
   root.innerHTML = `<div class="wrap">
     ${heading}
+    ${howto}
     ${intro}
     <details class="filters" id="filters" open>
       <summary><span>${esc(L.topics)} y opciones</span><span class="hint" id="filterHint"></span></summary>
@@ -253,6 +295,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
             <option value="all">todas</option>
             <option value="pending">sin responder</option>
             <option value="wrong">incorrectas o parciales</option>
+            <option value="retry" id="retryOpt">las que estoy repitiendo</option>
           </select>
         </label>
         <label><input type="checkbox" id="shuffleQ"> Mezclar preguntas</label>
@@ -260,18 +303,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       </div>
       <div class="row" style="margin-top:6px">
         <button class="linkbtn" id="reset" type="button">Borrar mis respuestas</button>
-        <button class="linkbtn storage-btn" id="storageBtn" type="button" aria-expanded="false" aria-controls="storageInfo">${STORAGE_ICON}¿Cómo se guardan mis respuestas?</button>
-      </div>
-      <div class="storage-info" id="storageInfo" hidden>
-        <p>Tus respuestas se guardan en este navegador cuando las enviás.</p>
-        <table>
-          <thead><tr><th scope="col">Acción</th><th scope="col">Respuestas enviadas</th><th scope="col">Marcadas sin enviar</th></tr></thead>
-          <tbody>
-            <tr><th scope="row">F5 / recargar</th><td>Se mantienen</td><td>Se pierden</td></tr>
-            <tr><th scope="row">Cerrar la pestaña o el navegador y volver</th><td>Se mantienen</td><td>Se pierden</td></tr>
-            <tr><th scope="row">Abrir el mismo parcial en otra pestaña</th><td>Aparecen las enviadas hasta ese momento</td><td>No aparecen</td></tr>
-          </tbody>
-        </table>
+        <button class="linkbtn storage-btn" id="howtoBtn" type="button">${HELP_ICON}Cómo funciona y cómo se guardan mis respuestas</button>
       </div>
     </details>
     <div class="stats" id="stats"></div>
@@ -282,12 +314,9 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     </div>
     <main id="main"></main>
     <div class="submit-all" id="submitAll" hidden></div>
+    <div class="submit-all" id="finish" hidden></div>
     <div class="grid" id="grid" aria-label="Ir a pregunta"></div>
-    <footer class="foot">
-      <p>Puntaje por pregunta al estilo Moodle: en las de opción múltiple cada error descuenta un acierto; en las de emparejar vale cada par. Tu progreso queda guardado en este navegador.</p>
-      <p class="kbd-hint">Con teclado, en «Una por vez»: <kbd>1</kbd>–<kbd>9</kbd> marcan opciones, <kbd>Enter</kbd> envía la respuesta o pasa a la siguiente, <kbd>←</kbd> <kbd>→</kbd> cambian de pregunta.</p>
-      ${DATA.footer ? `<p>${DATA.footer}</p>` : ""}
-    </footer>
+    ${DATA.footer ? `<footer class="foot"><p>${DATA.footer}</p></footer>` : ""}
   </div>`;
   const $ = (id) => document.getElementById(id);
 
@@ -328,6 +357,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
       const q = DATA.questions[i];
       if (!state.topics.includes(String(q.topic))) return false;
       if (state.section !== "all" && q.section !== state.section) return false;
+      if (state.status === "retry") return state.retry.includes(q.id);
       const st = statusOf(q);
       if (state.status === "pending") return st === "pending";
       if (state.status === "wrong") return st === "bad" || st === "part";
@@ -407,6 +437,35 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     $("submitAll").querySelector(".sent").focus();
   });
 
+  // once every scored question in the view is answered: the summary and "Repetir las incorrectas"
+  const toRetry = () => view.map((i) => DATA.questions[i]).filter((q) => isScored(q) && statusOf(q) !== "ok");
+  function renderFinish() {
+    const scored = view.map((i) => DATA.questions[i]).filter(isScored);
+    const box = $("finish");
+    box.hidden = !scored.length || scored.some((q) => !state.answers[q.id]);
+    if (box.hidden) return;
+    const n = toRetry().length;
+    const by = (st) => scored.filter((q) => statusOf(q) === st).length;
+    const back = state.status === "retry" ? `<button class="btn" type="button" id="backAll">Volver a todas las preguntas</button>` : "";
+    box.innerHTML = `<p>${state.status === "retry" ? "Terminaste esta vuelta" : "Respondiste todas las preguntas"}:
+        <b class="c-ok">✔︎ ${by("ok")}</b> · <b class="c-bad">✘︎ ${by("bad")}</b> · <b class="c-part">◐︎ ${by("part")}</b>.
+        ${n ? "Podés volver a intentar las que erraste o te salieron a medias." : "¡Todas correctas!"}</p>
+      <div class="actions">${n ? `<button class="btn primary" type="button" id="retryWrong">Repetir las incorrectas (${n})</button>` : ""}${back}</div>`;
+  }
+  $("finish").addEventListener("click", (e) => {
+    const btn = e.target.closest("button");
+    if (!btn) return;
+    if (btn.id === "retryWrong") {
+      const ids = toRetry().map((q) => q.id);
+      ids.forEach((id) => { delete state.answers[id]; delete drafts[id]; delete optOrder[id]; delete rowOrder[id]; });
+      setStatus("retry", ids);
+    } else if (btn.id === "backAll") setStatus("all");
+    else return;
+    const first = $("main").querySelector(".card");
+    if (first) first.scrollIntoView({ block: "start" });
+    focusIn(0, ".opts input, .opts select, .check");
+  });
+
   function renderFigure(q) {
     if (!q.img) return "";
     const cap = q.type === "info" ? "" : `<figcaption>${esc(DATA.imageCaption || "Imagen de referencia")}</figcaption>`;
@@ -419,6 +478,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     renderStats();
     renderGrid();
     renderSubmitAll();
+    renderFinish();
     $("viewMode").querySelectorAll(".seg").forEach((b) => b.setAttribute("aria-pressed", b.dataset.mode === state.mode));
     const main = $("main");
     main.dataset.mode = state.mode;
@@ -443,6 +503,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     renderStats();
     renderGrid();
     renderSubmitAll();
+    renderFinish();
     cardAt(p).outerHTML = cardHTML(DATA.questions[view[p]], p);
   }
 
@@ -656,13 +717,14 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
 
   // ---------- global controls ----------
   $("statusFilter").value = state.status;
+  $("retryOpt").hidden = !state.retry.length;
   if ($("sectionFilter")) {
     $("sectionFilter").value = state.section;
     $("sectionFilter").addEventListener("change", (e) => { state.section = e.target.value; applyFilters(); });
   }
   $("shuffleQ").checked = state.shuffleQ;
   $("shuffleO").checked = state.shuffleO;
-  $("statusFilter").addEventListener("change", (e) => { state.status = e.target.value; applyFilters(); });
+  $("statusFilter").addEventListener("change", (e) => setStatus(e.target.value, e.target.value === "retry" ? state.retry : []));
   $("shuffleQ").addEventListener("change", (e) => { state.shuffleQ = e.target.checked; applyFilters(); });
   $("shuffleO").addEventListener("change", (e) => { state.shuffleO = e.target.checked; optOrder = {}; rowOrder = {}; saveState(); render(); });
   $("viewMode").querySelectorAll(".seg").forEach((b) => b.addEventListener("click", () => {
@@ -677,15 +739,23 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     $("allTopics").addEventListener("click", () => { state.topics = topicIds.slice(); buildChips(); applyFilters(); });
     $("noTopics").addEventListener("click", () => { state.topics = []; buildChips(); applyFilters(); });
   }
-  $("storageBtn").addEventListener("click", (e) => {
-    const open = e.currentTarget.getAttribute("aria-expanded") !== "true";
-    e.currentTarget.setAttribute("aria-expanded", open);
-    $("storageInfo").hidden = !open;
+  $("howtoBtn").addEventListener("click", () => {
+    $("howto").open = true;
+    $("howto").scrollIntoView({ block: "start" });
+    $("howto").querySelector("summary").focus({ preventScroll: true });
   });
+  // "retry" keeps the ids being repeated; any other status drops them
+  function setStatus(status, retry = []) {
+    state.status = status;
+    state.retry = status === "retry" ? retry : [];
+    $("statusFilter").value = status;
+    $("retryOpt").hidden = !state.retry.length;
+    applyFilters();
+  }
   $("reset").addEventListener("click", () => {
     if (!confirm("¿Borrar todas tus respuestas guardadas?")) return;
     state.answers = {}; drafts = {}; optOrder = {}; rowOrder = {};
-    applyFilters();
+    setStatus(state.status === "retry" ? "all" : state.status);
   });
   // keyboard, "one" mode only: 1–9 pick options, Enter sends (or goes on once sent), arrows navigate
   document.addEventListener("keydown", (e) => {
