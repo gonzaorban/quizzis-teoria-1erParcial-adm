@@ -177,6 +177,9 @@ página no aparezca primero con el otro tema.
 ```
 
 `about` y `footer` se insertan como HTML sin escapar. Son contenido del repo, no de los usuarios.
+`about` lleva solo lo propio del banco: de dónde salen las preguntas, qué significa cada tema o categoría y
+las salvedades. Cómo usar el cuestionario lo explica el motor en «Cómo funciona este cuestionario», igual
+en todos los parciales, así que no se repite en `about`. `footer` lleva los créditos o la lista de fuentes.
 En `topics`, `striped` dibuja la muestra rayada (como los pares de cable T568B) y `note` agrega una
 aclaración sobre el tema, visible en los filtros y en cada pregunta.
 

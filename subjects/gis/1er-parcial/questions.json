@@ -16,7 +16,7 @@
   "imageCaption": "Figura del apunte",
   "about": [
     "<p>Selección del banco de <a href=\"https://github.com/matiasgzlez/GIS\" target=\"_blank\" rel=\"noopener noreferrer\">1er Parcial GIS</a>: solo las preguntas de los temas marcados como importantes (o «pregunta de parcial») en clase y las del <b>1er parcial de septiembre de 2025</b> con sus variantes. Con <b>Origen</b> podés practicar solo las del parcial.</p>",
-    "<p>Están en el orden de lectura de los apuntes. Al responder, se muestra la página del apunte de donde sale la pregunta; tocala para verla en tamaño completo.</p>"
+    "<p>Están en el orden de lectura de los apuntes.</p>"
   ],
   "footer": "Material de la cátedra de Sistemas de Información Geográfica de UTN FRRe (Ing. Ilse Hodapp – Ing. Rodrigo Valdés): Unidades 1 a 4 y el cuadernillo <i>Conceptos cartográficos</i> del IGN (España), además de lo visto en clase.",
   "topics": {

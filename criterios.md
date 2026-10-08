@@ -37,7 +37,9 @@ criterios y con `"catedra": false`.
 - Cuando el PDF está en el repo, la pregunta lleva `source` con la página donde está la respuesta (ver
   [Referencias a la teoría](README.md#referencias-a-la-teoría)).
 - En `about` se nombra de dónde sale el banco. Si el material está en Google Drive, se enlaza el archivo:
-  quien tiene acceso lo abre, y quien no, ve la pantalla de Google para pedirlo.
+  quien tiene acceso lo abre, y quien no, ve la pantalla de Google para pedirlo. `about` no explica cómo
+  usar el cuestionario (responder, colores, avisos, tarjetas informativas): eso ya está en «Cómo funciona
+  este cuestionario».
 
 ## Opciones
 
