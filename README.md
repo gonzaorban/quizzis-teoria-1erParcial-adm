@@ -29,7 +29,7 @@ Materias y parciales incluidos:
 | Materia | Parcial | Carpeta | Preguntas |
 |---|---|---|---|
 | Administración de Sistemas de Información | 1er parcial | `subjects/asi/1er-parcial/` | 87 (78 con puntaje + 9 informativas) |
-| | 2do parcial | `subjects/asi/2do-parcial/` | 128 de los cuestionarios de la cátedra (127 con puntaje + 1 informativa), por unidad |
+| | 2do parcial | `subjects/asi/2do-parcial/` | 237 (235 con puntaje + 2 informativas): los cuestionarios de la cátedra de las Unidades 4, 5 y 6, cada uno como categoría, y la Evaluación Formativa 3 |
 | Redes de Datos | 1er parcial | `subjects/redes/1er-parcial/` | 97 (89 con link a la página de la teoría) |
 | | 2do parcial | `subjects/redes/2do-parcial/` | todavía ninguna (aparece como «Próximamente») |
 | Sistemas de Información Geográfica | 1er parcial | `subjects/gis/1er-parcial/` | 84 (las ★ importantes y las 33 del 1er parcial 2025, con la página del apunte) |
@@ -56,7 +56,7 @@ subjects/
       index.html        # carga el motor con initQuiz({ slug: "asi", exam: "1er-parcial" })
       questions.json
       img/              # imágenes referenciadas por las preguntas
-    2do-parcial/        # preguntas de los cuestionarios de la cátedra (Unidades 4 y 5)
+    2do-parcial/        # cuestionarios de la cátedra (Unidades 4, 5 y 6) y Evaluación Formativa 3
       index.html
       questions.json
       sources/          # PDFs de teoría (y sus páginas como imagen en pages/)
@@ -268,3 +268,7 @@ uno debajo del otro. Por ejemplo, `"crop": [[0, 58.5, 100, 66]]` deja la franja 
 la altura. Cada recorte se guarda como `sources/pages/<pdf>-p<N>-<hash>.webp`, así dos preguntas de la misma
 página pueden mostrar partes distintas. Las del 2do parcial de ASI usan recortes, porque el apunte es texto
 corrido en A4.
+
+Si la respuesta sigue en otra página, el recuadro lleva la página como quinto valor: `[x0, y0, x1, y1, página]`.
+Por ejemplo, `"crop": [[0, 80, 100, 100], [0, 0, 100, 12, 5]]` muestra el final de la página de `source.page` y,
+debajo, el principio de la página 5. `source.page` sigue siendo la página que abre «Ver en la teoría».
