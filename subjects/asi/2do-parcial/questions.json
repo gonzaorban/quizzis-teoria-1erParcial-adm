@@ -15,13 +15,18 @@
   "about": [
     "<p><b>Cómo usar:</b> elegí una opción (o varias, si la pregunta lo indica) y tocá <b>Enviar respuesta</b>. Se marca en verde la respuesta correcta y en rojo si tu elección fue incorrecta. Con el filtro <b>Unidad</b> podés practicar solo la Unidad 4 o la Unidad 5.</p>",
     "<div class=\"legend\"><span class=\"lg-ok\">Respuesta respaldada por el apunte de teoría</span><span class=\"lg-warn\">⚠ Respuesta deducida o conclusión propia — verificar con la cátedra</span><span class=\"lg-info\">Tarjeta informativa (sin puntaje)</span></div>",
-    "<p><b>Cuestionarios Cátedra:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, y Seguimiento de Recursos), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de las Unidades 4 y 5.</p>"
+    "<p><b>Cuestionarios Cátedra:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, y Seguimiento de Recursos), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de las Unidades 4 y 5.</p>",
+    "<p><b>Eval. Formativa 3 — Unidades 4 y 5:</b> son las preguntas de la evaluación formativa, tal cual las tomó la cátedra y con la respuesta confirmada en la corrección. La justificación sale del apunte de teoría.</p>"
   ],
-  "footer": "Generado a partir de los cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos) y del apunte de teoría de las Unidades 4 y 5. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
+  "footer": "Generado a partir de los cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos), de la Evaluación Formativa 3 (Unidades 4 y 5) y del apunte de teoría de las Unidades 4 y 5. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
   "topics": {
     "CC": {
       "name": "Cuestionarios Cátedra",
       "color": "#2F6FD6"
+    },
+    "EF3": {
+      "name": "Eval. Formativa 3 — Unidades 4 y 5",
+      "color": "#2E9E57"
     }
   },
   "questions": [
@@ -3581,6 +3586,145 @@
         "confidence": "medium"
       },
       "note": "La cátedra indica que esta pregunta requiere elaborar una conclusión propia: la respuesta se deduce de las características de los monitores software."
+    },
+    {
+      "id": "asi-p2-142",
+      "topic": "EF3",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuáles serían Fuentes de Verificación válidas del siguiente estándar de desempeño?:\n\"Demostrar una actitud receptiva, ética y transparente durante el proceso de auditoría externa ISO 27001, colaborando de manera proactiva en la entrega de evidencias técnicas y aceptando de forma constructiva las observaciones para la mejora de los controles.\"",
+      "opts": [
+        "Observación directa sin registros asociados.",
+        "Comentarios de los compañeros sin una fuente de registro o evaluación formal.",
+        "Actas de reuniones de auditoria"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Una fuente de verificación tiene que dejar un registro que respalde el desempeño: la auditoría se basa en verificaciones, seguimiento, registros y estadísticas (apunte U5, pág. 13). Las actas de las reuniones de auditoría documentan la actitud y la colaboración; la observación sin registros y los comentarios sin evaluación formal no dejan evidencia verificable.",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 13,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "asi-p2-143",
+      "topic": "EF3",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "catedra": true,
+      "text": "La empresa de electrodomésticos decidió migrar la infraestructura de sus sistemas de Stock, Ventas y Facturación a un proveedor de servicios en la nube, lo que cambiará las herramientas y los procedimientos de trabajo del área de TIC. Todavía no se dictó ninguna capacitación sobre la nueva plataforma. Al mismo tiempo, en los últimos meses la jefatura de TIC registró un aumento de incidentes de seguridad por configuraciones incorrectas en los entornos de prueba, y los tiempos de resolución de tickets de soporte se duplicaron.\nLa decisión de migrar a la nube y el aumento de incidentes y tiempos de resolución se clasifican, respectivamente, como indicadores:",
+      "opts": [
+        "A priori y a priori, porque ambos permiten anticipar la necesidad de capacitar al equipo de TIC.",
+        "A posteriori y a priori, porque la migración ya fue decidida y los incidentes anticipan problemas futuros.",
+        "A priori y a posteriori.",
+        "A posteriori y a posteriori, porque ambos son consecuencia de la falta de planificación de la migración."
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "La migración cambia métodos y procesos de trabajo: es un evento que genera necesidades futuras de entrenamiento fácilmente previsibles (indicador a priori). El aumento de incidentes y de los tiempos de resolución son problemas provocados por necesidades de entrenamiento no atendidas (indicadores a posteriori) (apunte U4, págs. 8-9).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 30.5, 100, 56.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p8-917da4.webp"
+      }
+    },
+    {
+      "id": "asi-p2-144",
+      "topic": "EF3",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "catedra": true,
+      "text": "En una Plataforma Digital, se detecta a través de los logs de auditoría que la funcionalidad mayor demandada por los usuarios de la misma es la solicitud de un Reporte. Es necesario determinar hasta que cantidad de transacciones y usuarios el sistema puede soportar en forma concurrente antes de experimentar fallos o errores bajo condiciones de estrés extremo.\nQué herramientas utilizaría a fin de analizar el comportamiento del sistema:",
+      "opts": [
+        "Herramientas de monitoreo.",
+        "Herramientas de benchmarking"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El benchmarking analiza el rendimiento del sistema poniendo énfasis en la carga de trabajo: se lo somete a una carga característica (acá, el reporte con cada vez más usuarios y transacciones) y se comparan los resultados. En la medición (monitoreo) solo se recolectan datos del sistema (apunte U5, pág. 32).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0, 5.5, 100, 20.3]],
+        "img": "sources/pages/u5-seguimiento-p32-194d22.webp"
+      }
+    },
+    {
+      "id": "asi-p2-145",
+      "topic": "EF3",
+      "section": "Unidad 5: Subsistema de Seguimiento",
+      "type": "single",
+      "catedra": true,
+      "text": "Luego de realizar la medición del desempeño del colaborador, el siguiente paso inmediato dentro del proceso de control consiste en formular las propuestas de mejora y acciones correctivas. ¿Es correcto este procedimiento?",
+      "opts": [
+        "Sí",
+        "No"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Las etapas del proceso de control son: establecimiento de los estándares, seguimiento o monitoreo del desempeño, comparación del desempeño con los estándares y acción correctiva, si es necesaria. Después de medir el desempeño hay que compararlo con el estándar y ver si los desvíos están dentro de la tolerancia; la acción correctiva solo corresponde en los casos excepcionales (apunte U5, págs. 7-9).",
+      "source": {
+        "file": "sources/u5-seguimiento.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 38.5, 100, 58]],
+        "img": "sources/pages/u5-seguimiento-p7-fd7a2f.webp"
+      }
+    },
+    {
+      "id": "asi-p2-146",
+      "topic": "EF3",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "catedra": true,
+      "text": "Como parte de su estrategia de crecimiento en el eCommerce, la empresa de electrodomésticos decidió lanzar una aplicación móvil de compras para Android e iOS. El área de TIC debe reforzar las competencias de su equipo de 12 desarrolladores, que hasta ahora trabajó principalmente en aplicaciones web. RR.HH. y la jefatura de TIC aplicaron una evaluación técnica de conocimientos sobre desarrollo móvil multiplataforma. Los resultados mostraron que la mayoría del equipo tiene un dominio bajo de React Native y de KPM.\nA fines de preparar la capacitación, ¿como procedería?",
+      "opts": [
+        "Comparar los resultados de la evaluación con lo que establece el DyAC , para identificar la brecha entre el perfil actual de cada desarrollador y el perfil exigido, y a partir de ella elaborar el plan de formación.",
+        "Capacitar a todo el equipo en ambos frameworks por igual, ya que el proyecto móvil es prioritario para la estrategia de la empresa.",
+        "Consultar al líder técnico cuál de los dos frameworks prefiere y armar el plan de formación según su criterio."
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "El análisis de las operaciones (nivel de tareas) descompone el cargo para verificar las habilidades, conocimientos y cualidades que exige: la diferencia entre lo que pide el cargo y lo que tiene quien lo ocupa es la necesidad de entrenamiento sobre la que se arma el programa (apunte U4, págs. 6-7). Capacitar a todos por igual o según la preferencia del líder no parte de esa brecha.",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 7,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "asi-p2-147",
+      "topic": "EF3",
+      "section": "Unidad 4: Subsistema de Desarrollo y Mantenimiento de RRHH",
+      "type": "single",
+      "catedra": true,
+      "text": "Como parte del desarrollo de su eje estratégico de crecimiento en el eCommerce, una empresa de venta de electrodomésticos decidió fortalecer su unidad de Negocios Digitales mediante una Plataforma Integrada de eCommerce, que unifique la información de los sistemas de Stock, Ventas, Facturación y Logística. La Gerencia General definió esta iniciativa como prioridad para los próximos tres años. Aún no se determinó qué equipos ni qué cargos deberán incorporar nuevas competencias para operar la plataforma, ni se relevaron los conocimientos actuales del personal.\nLa decisión descripta corresponde a:",
+      "opts": [
+        "Un inventario de necesidades a nivel de tareas, porque la integración de los sistemas modifica los procesos operativos de Stock, Ventas, Facturación y Logística.",
+        "Un inventario de necesidades a nivel organizacional, porque parte de los objetivos estratégicos y de la orientación general de la empresa.",
+        "Un inventario de necesidades a nivel de recursos humanos, porque la plataforma exigirá que el personal desarrolle nuevos conocimientos y habilidades."
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El análisis organizacional parte de los objetivos de la organización y determina dónde deberá hacer énfasis el entrenamiento; su resultado es el inventario de necesidades a nivel organizacional. Todavía no se analizaron la fuerza laboral (nivel de recursos humanos) ni los cargos (nivel de tareas) (apunte U4, pág. 6).",
+      "source": {
+        "file": "sources/u4-desarrollo-y-mantenimiento-rrhh.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 25.5]],
+        "img": "sources/pages/u4-desarrollo-y-mantenimiento-rrhh-p6-6d8a2c.webp"
+      }
     }
   ]
 }
