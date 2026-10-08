@@ -107,11 +107,12 @@ function checkExam(slug, exam, meta) {
       if (!Number.isInteger(s?.page) || s.page < 1) e("source.page debe ser un entero ≥ 1");
       if (!CONFIDENCE.includes(s?.confidence)) e(`source.confidence debe ser ${CONFIDENCE.join("|")}`);
       if (s?.img !== undefined && !fs.existsSync(path.join(dir, s.img))) e(`no existe la imagen ${s.img}`);
-      // recortes de la página: [x0, y0, x1, y1] en % de la imagen (los usa render-source-pages.py)
-      const box = (b) => Array.isArray(b) && b.length === 4 && b.every((v) => typeof v === "number" && v >= 0 && v <= 100) &&
-        b[0] < b[2] && b[1] < b[3];
+      // recortes de la página: [x0, y0, x1, y1] en % de la imagen (los usa render-source-pages.py), con un quinto
+      // valor opcional: la página de donde sale el recuadro, si no es source.page
+      const box = (b) => Array.isArray(b) && (b.length === 4 || (b.length === 5 && Number.isInteger(b[4]) && b[4] >= 1)) &&
+        b.slice(0, 4).every((v) => typeof v === "number" && v >= 0 && v <= 100) && b[0] < b[2] && b[1] < b[3];
       if (s?.crop !== undefined && !(Array.isArray(s.crop) && s.crop.length && s.crop.every(box)))
-        e("source.crop debe ser una lista de [x0, y0, x1, y1] entre 0 y 100, con x0 < x1 e y0 < y1");
+        e("source.crop debe ser una lista de [x0, y0, x1, y1] (o [x0, y0, x1, y1, página]) entre 0 y 100, con x0 < x1 e y0 < y1");
     }
   });
   const byType = {};

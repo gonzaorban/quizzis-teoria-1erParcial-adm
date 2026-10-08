@@ -2,7 +2,8 @@
 # show it without opening the PDF. Writes sources/pages/<pdf>-p<N>.webp and sets "source.img" on the question;
 # questions whose source is not high confidence lose "source.img". Safe to run again after changing sources.
 # With "source.crop" (a list of [x0, y0, x1, y1] boxes, in % of the page image) it keeps only those parts of
-# the page, stacked top to bottom, in sources/pages/<pdf>-p<N>-<hash>.webp.
+# the page, stacked top to bottom, in sources/pages/<pdf>-p<N>-<hash>.webp. A box with a fifth value
+# ([x0, y0, x1, y1, page]) is cut from that page instead, for answers that continue on the next page.
 # Requires PyMuPDF and Pillow (pip install pymupdf pillow). Usage:
 #   python scripts/render-source-pages.py <materia>/<parcial>   (ej.: redes/1er-parcial)
 import hashlib
@@ -32,10 +33,24 @@ def content_box(img):
     return ImageChops.difference(img, Image.new("RGB", img.size, "white")).convert("L").point(lambda v: 255 if v > 12 else 0).getbbox()
 
 
-def crop(img, boxes):
-    w, h = img.size
+def page_image(file, n):
+    key = (file, n)
+    if key not in pages:
+        doc = docs.setdefault(file, pymupdf.open(subject / file))
+        page = doc[n - 1]
+        pix = page.get_pixmap(matrix=pymupdf.Matrix(WIDTH / page.rect.width, WIDTH / page.rect.width), alpha=False)
+        img = Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB")
+        # trim the white bands around 16:9 slides printed on A4
+        box = content_box(img)
+        pages[key] = img.crop(box) if box else img
+    return pages[key]
+
+
+def crop(file, default_page, boxes):
     parts = []
-    for x0, y0, x1, y1 in boxes:
+    for x0, y0, x1, y1, *n in boxes:
+        img = page_image(file, n[0] if n else default_page)
+        w, h = img.size
         part = img.crop((round(w * x0 / 100), round(h * y0 / 100), round(w * x1 / 100), round(h * y1 / 100)))
         # drop the blank lines at the top and bottom of the box, but keep its left margin so the stacked parts
         # stay aligned
@@ -53,7 +68,7 @@ def crop(img, boxes):
     return stacked
 
 
-docs, used = {}, set()
+docs, pages, used = {}, {}, set()
 for q in data["questions"]:
     src = q.get("source")
     if not src:
@@ -69,16 +84,10 @@ for q in data["questions"]:
     if name in used:
         continue
     used.add(name)
-    doc = docs.setdefault(src["file"], pymupdf.open(subject / src["file"]))
-    page = doc[src["page"] - 1]
-    pix = page.get_pixmap(matrix=pymupdf.Matrix(WIDTH / page.rect.width, WIDTH / page.rect.width), alpha=False)
-    img = Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB")
-    # trim the white bands around 16:9 slides printed on A4
-    box = content_box(img)
-    if box:
-        img = img.crop(box)
     if src.get("crop"):
-        img = crop(img, src["crop"])
+        img = crop(src["file"], src["page"], src["crop"])
+    else:
+        img = page_image(src["file"], src["page"])
     img.save(out / name, "WEBP", quality=QUALITY, method=6)
 
 for stale in out.glob("*.webp"):
