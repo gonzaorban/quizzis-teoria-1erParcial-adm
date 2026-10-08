@@ -231,15 +231,23 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   }
 
   // ---------- layout ----------
+  // both open until the first answer is sent
+  const firstVisit = !Object.keys(state.answers).length;
+  // what is particular to this bank (sources, categories, caveats); how to use the quiz goes in howto
   const intro = DATA.about && DATA.about.length
-    ? `<details class="intro" id="intro" open><summary>Sobre este banco de preguntas</summary>${DATA.about.join("")}</details>` : "";
-  // same guide in every exam; open until the first answer is sent
-  const howto = `<details class="intro howto" id="howto" ${Object.keys(state.answers).length ? "" : "open"}>
+    ? `<details class="intro" id="intro" ${firstVisit ? "open" : ""}><summary>Sobre este banco de preguntas</summary>${DATA.about.join("")}</details>` : "";
+  // same guide in every exam; the lines about notes, info cards and theory pages only show if the bank has them
+  const hasNotes = DATA.questions.some((q) => q.note);
+  const hasInfo = DATA.questions.some((q) => q.type === "info");
+  const hasPages = DATA.questions.some((q) => q.img || (q.source && q.source.img));
+  const howto = `<details class="intro howto" id="howto" ${firstVisit ? "open" : ""}>
     <summary>Cómo funciona este cuestionario</summary>
     <h3>Responder</h3>
     <ul>
       <li>Elegí una opción (o varias, si dice «Seleccioná una o más opciones») y tocá <b>Enviar respuesta</b>. En las de relacionar, elegí una opción en cada desplegable.</li>
-      <li>Al enviar ves la corrección: en verde lo correcto, en rojo lo incorrecto, y la explicación con la página de la teoría de donde sale.</li>
+      <li>Al enviar ves la corrección: en verde lo correcto, en rojo lo incorrecto, y la explicación con la página de la teoría de donde sale.${hasPages ? " Tocá una imagen para verla en tamaño completo." : ""}</li>
+      ${hasNotes ? `<li>Algunas preguntas muestran al corregir un aviso <b>Atención</b>: por ejemplo, si la respuesta no está confirmada por la cátedra y se dedujo del material. En esos casos conviene verificarla.</li>` : ""}
+      ${hasInfo ? `<li>Las <b>tarjetas informativas</b> (cuadros, relaciones, gráficos) no se responden: tocá <b>Ver respuesta</b> para verla.</li>` : ""}
       <li>Si marcaste varias preguntas sin enviarlas, aparece <b>Enviar todas</b> para corregirlas juntas.</li>
       <li><b>Responder de nuevo</b> borra tu respuesta a esa pregunta para volver a intentarla.</li>
       <li>Cuando respondés todas las preguntas que estás viendo, aparece <b>Repetir las incorrectas</b>: te deja respondiendo solo las que erraste o te salieron a medias, hasta tenerlas todas bien.</li>
@@ -273,8 +281,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   </details>`;
   root.innerHTML = `<div class="wrap">
     ${heading}
-    ${howto}
     ${intro}
+    ${howto}
     <details class="filters" id="filters" open>
       <summary><span>${esc(L.topics)} y opciones</span><span class="hint" id="filterHint"></span></summary>
       <div class="chips" id="chips" role="group" aria-label="Filtrar por ${esc(L.topics.toLowerCase())}"></div>

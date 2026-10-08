@@ -13,12 +13,10 @@
     "feedback": "Justificación según el apunte"
   },
   "about": [
-    "<p><b>Cómo usar:</b> elegí una opción (o varias, si la pregunta lo indica) y tocá <b>Enviar respuesta</b>. Se marca en verde la respuesta correcta y en rojo si tu elección fue incorrecta. Con el filtro <b>Unidad</b> podés practicar solo la Unidad 4 o la Unidad 5.</p>",
-    "<div class=\"legend\"><span class=\"lg-ok\">Respuesta respaldada por el apunte de teoría</span><span class=\"lg-warn\">⚠ Respuesta deducida o conclusión propia — verificar con la cátedra</span><span class=\"lg-info\">Tarjeta informativa (sin puntaje)</span></div>",
     "<p><b>Cuestionarios Cátedra:</b> son las preguntas de los cuestionarios de estudio de la cátedra (Desarrollo y Mantenimiento de RRHH, y Seguimiento de Recursos), convertidas a opción múltiple. La cátedra no publica las respuestas: la opción correcta y la justificación salen del apunte de teoría de las Unidades 4 y 5.</p>",
     "<p><b>Eval. Formativa 3 — Unidades 4 y 5:</b> son las preguntas de la evaluación formativa, tal cual las tomó la cátedra y con la respuesta confirmada en la corrección. La justificación sale del apunte de teoría.</p>"
   ],
-  "footer": "Generado a partir de los cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos), de la Evaluación Formativa 3 (Unidades 4 y 5) y del apunte de teoría de las Unidades 4 y 5. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
+  "footer": "Fuentes: cuestionarios de estudio de la cátedra (Subsistema de Desarrollo y Mantenimiento de RRHH · Subsistema de Seguimiento de Recursos), Evaluación Formativa 3 (Unidades 4 y 5) y apunte de teoría de las Unidades 4 y 5. Los cuestionarios de la cátedra no constituyen las preguntas de los exámenes.",
   "topics": {
     "CC": {
       "name": "Cuestionarios Cátedra",
