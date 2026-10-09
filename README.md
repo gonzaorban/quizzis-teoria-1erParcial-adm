@@ -31,7 +31,7 @@ Materias y parciales incluidos:
 | Administración de Sistemas de Información | 1er parcial | `subjects/asi/1er-parcial/` | 87 (78 con puntaje + 9 informativas) |
 | | 2do parcial | `subjects/asi/2do-parcial/` | 128 de los cuestionarios de la cátedra (127 con puntaje + 1 informativa), por unidad |
 | Redes de Datos | 1er parcial | `subjects/redes/1er-parcial/` | 97 (89 con link a la página de la teoría) |
-| | 2do parcial | `subjects/redes/2do-parcial/` | todavía ninguna (aparece como «Próximamente») |
+| | 2do parcial | `subjects/redes/2do-parcial/` | 219 del PDF de parciales (las revisiones del cuestionario de estudio), 120 con la retroalimentación de la cátedra como imagen |
 | Sistemas de Información Geográfica | 1er parcial | `subjects/gis/1er-parcial/` | 84 (las ★ importantes y las 33 del 1er parcial 2025, con la página del apunte) |
 
 Las de GIS salen del banco de [matiasgzlez/GIS](https://github.com/matiasgzlez/GIS): solo las marcadas como
@@ -68,7 +68,11 @@ subjects/
       questions.json
       sources/          # PDFs de teoría + mapping-report.md
         pages/          # páginas de los PDFs como imagen (las genera render-source-pages.py)
-    2do-parcial/        # preparado, sin preguntas todavía
+    2do-parcial/        # preguntas del PDF de parciales (revisiones del cuestionario de estudio)
+      index.html
+      questions.json
+      img/              # retroalimentación de la cátedra (diapositivas) y la figura de una pregunta
+      revisiones/       # el PDF de parciales, cortado en un archivo por intento
   gis/
     index.html, subject.json
     1er-parcial/
@@ -102,10 +106,10 @@ los paths relativos de cada parcial (`questions.json`, `img/…`, `sources/…`)
 Antes de escribir o cambiar preguntas, leé [`criterios.md`](criterios.md): de dónde tiene que salir cada
 pregunta y cómo escribir las opciones para que no se pueda acertar por el largo o por el orden.
 
-El 2do parcial de Redes ya tiene su carpeta, su página y un `questions.json` sin
-preguntas; mientras `questions` esté vacío, la materia lo muestra como «Próximamente». Para cargarlo, completá
-`topics` y `questions` en `subjects/<slug>/2do-parcial/questions.json` siguiendo el esquema de abajo (las
-imágenes van en `img/` o `sources/` dentro de esa misma carpeta) y corré `node scripts/validate.mjs`.
+Un parcial puede tener su carpeta, su página y un `questions.json` sin preguntas; mientras `questions` esté
+vacío, la materia lo muestra como «Próximamente». Para cargarlo, completá `topics` y `questions` en
+`subjects/<slug>/<parcial>/questions.json` siguiendo el esquema de abajo (las imágenes van en `img/` o
+`sources/` dentro de esa misma carpeta) y corré `node scripts/validate.mjs`.
 
 Los ids de las preguntas empiezan con `<slug>-` y son únicos en todo el sitio. Para no chocar con los del
 1er parcial conviene usar un prefijo propio, por ejemplo `redes-p2-01` o `asi-p2-01`.
@@ -190,14 +194,15 @@ aclaración sobre el tema, visible en los filtros y en cada pregunta.
 | `catedra` | todos | `true` si la pregunta viene tal cual del material de la cátedra o de un parcial (no se modifica); `false` si la armamos a partir del material. Ver [`criterios.md`](criterios.md). |
 | `text` | todos | Enunciado. Los saltos de línea (`\n`) se respetan. |
 | `opts` | single, multi, tf | Opciones. En `tf` son `["Verdadero", "Falso"]`. |
-| `correct` | single, multi, tf, match | Índices correctos. En `match`, uno por stem: índice en `choices`. `[]` = sin respuesta confirmada (no se corrige). |
+| `correct` | single, multi, tf, match | Índices correctos. En `match`, uno por stem: índice en `choices`. `[]` = sin respuesta confirmada (no se corrige). Una `single` puede tener más de uno cuando la cátedra acepta varias opciones (cualquiera suma el puntaje); en ese caso necesita `note`. |
 | `stems`, `choices` | match | Ítems a emparejar y opciones del desplegable. |
 | `answer` | info | Texto que se revela con "Ver respuesta". Las `info` no suman puntaje. |
 | `fb` | opcional | Explicación de la cátedra. |
 | `tip` | opcional | Comentario breve y discreto bajo el encabezado de la pregunta, visible antes de responder (por ejemplo, «Suele tomarse en el parcial»). |
 | `note` | opcional | Aviso que se muestra al responder (por ejemplo, una respuesta dudosa). |
 | `section` | opcional | Sub-agrupación (por ejemplo, "1er parcial 2024"). Se muestra como badge y habilita el filtro por sección. |
-| `img` | opcional | Ruta relativa a la carpeta del parcial (`img/x.jpg`). |
+| `img` | opcional | Ruta relativa a la carpeta del parcial (`img/x.jpg`). Se muestra al corregir, con `imageCaption` como título. |
+| `figure` | opcional | Imagen que forma parte del enunciado (por ejemplo, un esquema con los datos de la pregunta): se muestra antes de responder, debajo del texto. Ruta relativa como `img`. |
 | `source` | opcional | `{ "file": "sources/x.pdf", "page": 12, "confidence": "high" | "medium" | "low", "img": "sources/pages/x-p12.webp" }`, más `crop` opcional (ver [Referencias a la teoría](#referencias-a-la-teoría)).\| "medium" \| "low", "img": "sources/pages/x-p12.webp" }`. Muestra "Ver en la teoría", que abre `x.pdf#page=12`. `page` es la página física del PDF (empieza en 1). Si está `img`, la corrección muestra además la imagen de esa página, para ver el respaldo sin abrir el PDF. Sin `file` (cuando el PDF no está en el repo) muestra solo la imagen, con `label` como rótulo: `{ "label": "Unidad 3, diap. 52", "page": 52, "confidence": "high", "img": "slides/u3-52.webp" }`. |
 
 ### Puntaje
@@ -221,7 +226,7 @@ Recorre `subjects/*/subject.json` y el `questions.json` de cada parcial, y verif
 - índices de `correct` dentro de rango
 - `match` con tantos `correct` como `stems`
 - campos obligatorios por tipo, y `catedra` (`true` o `false`) en todas las preguntas
-- que existan los archivos de `img` y `source` (y que un `source` sin `file` tenga `img` y `label`)
+- que existan los archivos de `img`, `figure` y `source` (y que un `source` sin `file` tenga `img` y `label`)
 - que `subjects.json` y los `exams` de cada `subject.json` estén sincronizados con las carpetas
 - que `subject` y `exam` de cada `questions.json` coincidan con `subject.json`
 

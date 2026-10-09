@@ -472,6 +472,13 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
     return `<figure class="figure">${cap}<img src="${esc(asset(q.img))}" alt="Esquema de la pregunta" loading="lazy"></figure>`;
   }
 
+  // a figure the question can't be answered without: shown with the statement, before answering
+  function renderQuestionFigure(q) {
+    if (!q.figure) return "";
+    return `<figure class="figure qfigure"><a href="${esc(asset(q.figure))}" target="_blank" rel="noopener" title="Ver la imagen en tamaño completo">
+      <img src="${esc(asset(q.figure))}" alt="Figura de la pregunta" loading="lazy"></a></figure>`;
+  }
+
   const cardAt = (p) => $("main").querySelector(`.card[data-p="${p}"]`);
 
   function render() {
@@ -543,7 +550,8 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
             const isCorrect = q.correct.includes(o);
             if (checked && isCorrect) { cls += " is-ok"; tag = "Correcta"; }
             else if (checked && !isCorrect) { cls += " is-bad"; tag = "Incorrecta"; }
-            else if (!checked && isCorrect) { cls += " is-missed"; tag = "Faltó marcar"; }
+            // a single with several right options is fully right with any one of them
+            else if (!checked && isCorrect && (q.type === "multi" || saved.score < 1)) { cls += " is-missed"; tag = "Faltó marcar"; }
           }
           return `<label class="${cls}"><input type="${inputType}" name="q-${esc(q.id)}" value="${o}" ${checked ? "checked" : ""} ${locked ? "disabled" : ""}>
             <span>${esc(q.opts[o])}</span>${tag ? `<span class="tag">${tag}</span>` : ""}</label>`;
@@ -566,6 +574,7 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
           ${q.tip ? `<span class="qtip">${esc(q.tip)}</span>` : ""}
         </div>
         <p class="qtext">${esc(q.text)}</p>
+        ${renderQuestionFigure(q)}
         <p class="kind">${kindLabel[q.type]}</p>
         ${body ? `<div class="opts">${body}</div>` : ""}
         <div class="actions">${actions}</div>
