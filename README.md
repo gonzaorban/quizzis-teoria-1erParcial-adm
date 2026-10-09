@@ -31,7 +31,7 @@ Materias y parciales incluidos:
 | Administración de Sistemas de Información | 1er parcial | `subjects/asi/1er-parcial/` | 87 (78 con puntaje + 9 informativas) |
 | | 2do parcial | `subjects/asi/2do-parcial/` | 237 (235 con puntaje + 2 informativas): los cuestionarios de la cátedra de las Unidades 4, 5 y 6, cada uno como categoría, y la Evaluación Formativa 3 |
 | Redes de Datos | 1er parcial | `subjects/redes/1er-parcial/` | 97 (89 con link a la página de la teoría) |
-| | 2do parcial | `subjects/redes/2do-parcial/` | 219 del PDF de parciales (las revisiones del cuestionario de estudio), por unidad (4 a 8), 120 con la retroalimentación de la cátedra como imagen |
+| | 2do parcial | `subjects/redes/2do-parcial/` | 219 del PDF de parciales (las revisiones del cuestionario de estudio), por unidad (4 a 8), 120 con la retroalimentación de la cátedra como imagen y 186 con link a la página de la teoría (175 con el recorte de la diapositiva) |
 | Sistemas de Información Geográfica | 1er parcial | `subjects/gis/1er-parcial/` | 84 (las ★ importantes y las 33 del 1er parcial 2025, con la página del apunte) |
 
 Las de GIS salen del banco de [matiasgzlez/GIS](https://github.com/matiasgzlez/GIS): solo las marcadas como
@@ -73,6 +73,7 @@ subjects/
       questions.json
       img/              # retroalimentación de la cátedra (diapositivas) y la figura de una pregunta
       revisiones/       # el PDF de parciales, cortado en un archivo por intento
+      sources/          # PDFs de teoría de las Unidades 4 a 9 (y los recortes de las diapositivas en pages/)
   gis/
     index.html, subject.json
     1er-parcial/
@@ -206,7 +207,7 @@ aclaración sobre el tema, visible en los filtros y en cada pregunta.
 | `section` | opcional | Sub-agrupación (por ejemplo, "1er parcial 2024"). Se muestra como badge y habilita el filtro por sección. |
 | `img` | opcional | Ruta relativa a la carpeta del parcial (`img/x.jpg`). Se muestra al corregir, con `imageCaption` como título. |
 | `figure` | opcional | Imagen que forma parte del enunciado (por ejemplo, un esquema con los datos de la pregunta): se muestra antes de responder, debajo del texto. Ruta relativa como `img`. |
-| `source` | opcional | `{ "file": "sources/x.pdf", "page": 12, "confidence": "high" | "medium" | "low", "img": "sources/pages/x-p12.webp" }`, más `crop` opcional (ver [Referencias a la teoría](#referencias-a-la-teoría)).\| "medium" \| "low", "img": "sources/pages/x-p12.webp" }`. Muestra "Ver en la teoría", que abre `x.pdf#page=12`. `page` es la página física del PDF (empieza en 1). Si está `img`, la corrección muestra además la imagen de esa página, para ver el respaldo sin abrir el PDF. Sin `file` (cuando el PDF no está en el repo) muestra solo la imagen, con `label` como rótulo: `{ "label": "Unidad 3, diap. 52", "page": 52, "confidence": "high", "img": "slides/u3-52.webp" }`. |
+| `source` | opcional | `{ "file": "sources/x.pdf", "page": 12, "confidence": "high" \| "medium" \| "low", "img": "sources/pages/x-p12.webp" }`, más `crop` opcional (ver [Referencias a la teoría](#referencias-a-la-teoría)). Muestra "Ver en la teoría", que abre `x.pdf#page=12`, con una aclaración si la confianza es media (la página trata el tema, pero no da la respuesta completa) o baja. `page` es la página física del PDF (empieza en 1). Si está `img`, la corrección muestra además la imagen de esa página, para ver el respaldo sin abrir el PDF. En un parcial con los PDFs en el repo, una pregunta sin `source` (salvo las `info`) muestra «No figura en los apuntes de teoría». Sin `file` (cuando el PDF no está en el repo) muestra solo la imagen, con `label` como rótulo: `{ "label": "Unidad 3, diap. 52", "page": 52, "confidence": "high", "img": "slides/u3-52.webp" }`. |
 
 ### Puntaje
 
@@ -272,7 +273,8 @@ recuadros `[x0, y0, x1, y1]` en porcentaje de la imagen de la página (sin los m
 uno debajo del otro. Por ejemplo, `"crop": [[0, 58.5, 100, 66]]` deja la franja entre el 58,5 % y el 66 % de
 la altura. Cada recorte se guarda como `sources/pages/<pdf>-p<N>-<hash>.webp`, así dos preguntas de la misma
 página pueden mostrar partes distintas. Las del 2do parcial de ASI usan recortes, porque el apunte es texto
-corrido en A4.
+corrido en A4, y las del 2do parcial de Redes también, para mostrar solo los renglones o el diagrama de la
+diapositiva que responden la pregunta.
 
 Si la respuesta sigue en otra página, el recuadro lleva la página como quinto valor: `[x0, y0, x1, y1, página]`.
 Por ejemplo, `"crop": [[0, 80, 100, 100], [0, 0, 100, 12, 5]]` muestra el final de la página de `source.page` y,
