@@ -240,12 +240,14 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   const hasNotes = DATA.questions.some((q) => q.note);
   const hasInfo = DATA.questions.some((q) => q.type === "info");
   const hasPages = DATA.questions.some((q) => q.img || (q.source && q.source.img));
+  // the theory PDFs are in the repo: a question without "source" is one whose answer is not in them
+  const hasTheory = DATA.questions.some((q) => q.source && q.source.file);
   const howto = `<details class="intro howto" id="howto" ${firstVisit ? "open" : ""}>
     <summary>Cómo funciona este cuestionario</summary>
     <h3>Responder</h3>
     <ul>
       <li>Elegí una opción (o varias, si dice «Seleccioná una o más opciones») y tocá <b>Enviar respuesta</b>. En las de relacionar, elegí una opción en cada desplegable.</li>
-      <li>Al enviar ves la corrección: en verde lo correcto, en rojo lo incorrecto, y la explicación con la página de la teoría de donde sale.${hasPages ? " Tocá una imagen para verla en tamaño completo." : ""}</li>
+      <li>Al enviar ves la corrección: en verde lo correcto, en rojo lo incorrecto, y la explicación con la página de la teoría de donde sale.${hasTheory ? " Si la respuesta no está en los apuntes de teoría, la corrección lo indica." : ""}${hasPages ? " Tocá una imagen para verla en tamaño completo." : ""}</li>
       ${hasNotes ? `<li>Algunas preguntas muestran al corregir un aviso <b>Atención</b>: por ejemplo, si la respuesta no está confirmada por la cátedra y se dedujo del material. En esos casos conviene verificarla.</li>` : ""}
       ${hasInfo ? `<li>Las <b>tarjetas informativas</b> (cuadros, relaciones, gráficos) no se responden: tocá <b>Ver respuesta</b> para verla.</li>` : ""}
       <li>Si marcaste varias preguntas sin enviarlas, aparece <b>Enviar todas</b> para corregirlas juntas.</li>
@@ -591,14 +593,17 @@ export async function initQuiz({ slug, exam, legacyKey, root = document.getEleme
   }
 
   // theory PDF page backing the question (source.page is the physical PDF page): a picture of the page when
-  // source.img exists, plus the link to the PDF. Without file, only the picture, captioned with source.label
+  // source.img exists, plus the link to the PDF. Without file, only the picture, captioned with source.label.
+  // Without source, in a bank with theory PDFs, says that the answer is not in them (info cards summarize several
+  // pages, so they are left out)
   function renderSource(q) {
-    if (!q.source) return "";
+    if (!q.source) return hasTheory && q.type !== "info" ? `<p class="source none">No figura en los apuntes de teoría.</p>` : "";
     const { file, page, confidence, img, label } = q.source;
     if (!file) return `<figure class="figure source-page"><figcaption>En la teoría: ${esc(label)}</figcaption>
       <a href="${esc(asset(img))}" target="_blank" rel="noopener" title="Ver la imagen en tamaño completo"><img src="${esc(asset(img))}" alt="${esc(label)}" loading="lazy"></a></figure>`;
     const name = file.split("/").pop();
-    const low = confidence === "low" ? " · referencia aproximada (confianza baja)" : "";
+    const low = confidence === "low" ? " · referencia aproximada (confianza baja)"
+      : confidence === "medium" ? " · trata el tema, pero no da la respuesta completa" : "";
     const shot = img ? `<figure class="figure source-page"><figcaption>En la teoría: ${esc(name)}, pág. ${page}</figcaption>
       <a href="${esc(asset(img))}" target="_blank" rel="noopener" title="Ver la imagen en tamaño completo"><img src="${esc(asset(img))}" alt="Página ${page} de ${esc(name)}" loading="lazy"></a></figure>` : "";
     return `${shot}<p class="source"><a href="${esc(asset(file))}#page=${page}" target="_blank" rel="noopener" title="Se abre en una pestaña nueva">Ver en la teoría (${esc(name)}, pág. ${page})${low}</a></p>`;

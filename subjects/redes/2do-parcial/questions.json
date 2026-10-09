@@ -14,27 +14,28 @@
   "about": [
     "<p><b>De dónde salen las preguntas:</b> todas están sacadas, tal cual, del <b>PDF de parciales</b>: las revisiones de 24 intentos de la <i>Segunda Instancia de Evaluación (Cuestionario de Estudio)</i> del aula virtual (2023 y 2025). Las preguntas repetidas entre intentos aparecen una sola vez, y la respuesta correcta es la que da el aula virtual en la revisión.</p>",
     "<p>Al responder se muestra la retroalimentación de la cátedra que traía la revisión (texto y diapositivas). El PDF, cortado en un archivo por intento, está en <a href=\"https://github.com/gonzaorban/quizzis-utn/tree/main/subjects/redes/2do-parcial/revisiones\" target=\"_blank\" rel=\"noopener noreferrer\">revisiones/</a>.</p>",
-    "<p><b>Unidades:</b> la revisión del aula virtual no dice de qué unidad es cada pregunta; la asignamos según el programa y se va a revisar cuando estén los apuntes de teoría. Ninguna pregunta del cuestionario es de la Unidad 9 (gestión y administración de redes).</p>"
+    "<p><b>Teoría:</b> al responder, 175 preguntas muestran también el recorte de la diapositiva de los apuntes de la cátedra que respalda la respuesta, con el enlace a esa página del PDF; otras 11 tienen solo el enlace, porque la diapositiva trata el tema pero no da la respuesta. Las 33 restantes no tienen respaldo en estos apuntes (por ejemplo, las de criptografía, que el apunte de la Unidad 8 solo nombra en un repaso). Los apuntes (Unidades 4 a 9) están en <a href=\"https://github.com/gonzaorban/quizzis-utn/tree/main/subjects/redes/2do-parcial/sources\" target=\"_blank\" rel=\"noopener noreferrer\">sources/</a>.</p>",
+    "<p><b>Unidades:</b> la revisión del aula virtual no dice de qué unidad es cada pregunta; la asignamos según el apunte de teoría donde está la respuesta, y las que no figuran en los apuntes, según el tema que tratan. Ninguna pregunta del cuestionario es de la Unidad 9 (administración de redes).</p>"
   ],
   "topics": {
     "4": {
-      "name": "U4 · Capa de red: IP e ICMP",
+      "name": "U4 · Protocolo IP y direccionamiento",
       "color": "#E8772E"
     },
     "5": {
-      "name": "U5 · Direccionamiento y ruteo",
+      "name": "U5 · Ruteo IP: RIP y OSPF",
       "color": "#2E9E57"
     },
     "6": {
-      "name": "U6 · Transporte: TCP y UDP",
+      "name": "U6 · Transporte (TCP y UDP), DHCP y DNS",
       "color": "#2F6FD6"
     },
     "7": {
-      "name": "U7 · Ruteo avanzado",
+      "name": "U7 · Ruteo externo (BGP), QoS y MPLS",
       "color": "#8A5A3B"
     },
     "8": {
-      "name": "U8 · VPNs y seguridad",
+      "name": "U8 · Seguridad y VPNs",
       "color": "#7B3FA0"
     }
   },
@@ -53,7 +54,42 @@
       "correct": [
         1
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[62.9, 18.7, 95.6, 48.9]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p7-4ab698.webp"
+      }
+    },
+    {
+      "id": "redes-p2-002",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Una dirección IPv4 con 32 ceros (marque las opción u opciones que considere correctas)",
+      "opts": [
+        "No se utiliza en ningún caso",
+        "Se utiliza para indicar dirección/mascara por defecto",
+        "Nunca es una dirección válida de destino",
+        "Se utiliza para pruebas de la pila local",
+        "Es permitido solamente en el arranque",
+        "No existe ninguna dirección de esas características en la convencion IPv4"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[2.8, 74.6, 100, 91.1], [0, 0, 100, 82, 15]],
+        "img": "sources/pages/u4-direccionamiento-ip-p14-fc35b2.webp"
+      }
     },
     {
       "id": "redes-p2-003",
@@ -69,26 +105,33 @@
       "correct": [
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[62.9, 48.3, 93.7, 73.3], [51.6, 49.5, 87.4, 67.2, 8]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p7-56633f.webp"
+      }
     },
     {
-      "id": "redes-p2-004",
+      "id": "redes-p2-005",
       "topic": 4,
       "type": "multi",
       "catedra": true,
-      "text": "Las principales funciones de la capa de red son:",
+      "text": "Se dice que los routers contienen o filtran :",
       "opts": [
-        "Controlar la congestión",
-        "Conmutación",
-        "Controlar el flujo",
-        "Hallar el camino"
+        "Direcciones de difusión local",
+        "Direcciones de difusión dirigida",
+        "Las direcciones cuyas máscaras están con todos sus bits con valor 0",
+        "Dominios de difusión",
+        "Las direcciones cuyas máscaras en las porcion de host están con todos sus bits con valor 1"
       ],
       "correct": [
-        1,
+        0,
         3
       ],
-      "fb": "",
-      "img": "img/redes-p2-004.webp"
+      "fb": ""
     },
     {
       "id": "redes-p2-006",
@@ -105,7 +148,14 @@
       "correct": [
         1
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 4,
+        "confidence": "high",
+        "crop": [[0, 22, 100, 40]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p4-a3e51c.webp"
+      }
     },
     {
       "id": "redes-p2-007",
@@ -122,7 +172,35 @@
       "correct": [
         1
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 5,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "redes-p2-008",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de difusión de la Red o Subred?",
+      "opts": [
+        "Porque la máscara está con todos sus bits en cero",
+        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor 1",
+        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor cero"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 82]],
+        "img": "sources/pages/u4-direccionamiento-ip-p15-763ab7.webp"
+      }
     },
     {
       "id": "redes-p2-009",
@@ -180,7 +258,40 @@
         1,
         3
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 100], [0, 0, 100, 48, 12]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p11-20620e.webp"
+      }
+    },
+    {
+      "id": "redes-p2-012",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Tengo la dirección 200.194.48.0/24, y deseo subnetear para conseguir 8 subredes con 32 direcciones cada una ¿Cuantos bits tengo que avanzar en la máscara?",
+      "opts": [
+        "7",
+        "5",
+        "6",
+        "8",
+        "3",
+        "4"
+      ],
+      "correct": [
+        4
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 22,
+        "confidence": "high",
+        "crop": [[3.0, 17.1, 94.3, 32.1]],
+        "img": "sources/pages/u4-direccionamiento-ip-p22-909d56.webp"
+      }
     },
     {
       "id": "redes-p2-013",
@@ -195,7 +306,39 @@
       "correct": [
         0
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 7,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "redes-p2-014",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos clases de direcciones estableció la convención original de direccionamiento IPv4?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "4",
+        "3",
+        "8"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-014.webp",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 10, 100, 24], [0, 51.5, 100, 92]],
+        "img": "sources/pages/u4-direccionamiento-ip-p12-53db18.webp"
+      }
     },
     {
       "id": "redes-p2-015",
@@ -218,6 +361,111 @@
         4,
         5
       ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[0, 25, 100, 96]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p6-942086.webp"
+      }
+    },
+    {
+      "id": "redes-p2-016",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Un dirección IPv4 : (marque las opciones que sean verdaderas para la convención de direccionamiento IPv4)",
+      "opts": [
+        "Tiene una longitud de 32 bits",
+        "Conforman un espacio de direccionamiento plano",
+        "Se utiliza el mecanismo de máscara para establecer la porción de red",
+        "La convención establece que tiene una porción de red y una porción de host",
+        "Se puede representar con notación decimal separando cuatro grupos de 8 bits y pasando cada grupo a decimal",
+        "Tienen significación global",
+        "Un router puede determinar la dirección de red haciendo una operación AND entre la dirección IP y su correspondiente máscara"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0, 12.7, 99.0, 39.3], [14.9, 21.3, 89.2, 31.6, 8], [11.9, 27.2, 88.3, 44.0, 9]],
+        "img": "sources/pages/u4-direccionamiento-ip-p5-81e4a2.webp"
+      }
+    },
+    {
+      "id": "redes-p2-017",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual dirección/rango se reserva para loopback, esta destinada para pruebas de TCP/IP y también para la comunicación de procesos internos en la máquina local en IPv4? (marque una sola opción correcta)",
+      "opts": [
+        "127.255.255.255",
+        "127.0.0.0/8",
+        "127.0.0.0",
+        "127.0.0.1"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[0, 63.8, 100, 79.4]],
+        "img": "sources/pages/u4-direccionamiento-ip-p14-a4cee2.webp"
+      }
+    },
+    {
+      "id": "redes-p2-018",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la organización que opera a nivel internacional, responsable de asignar espacio de direcciones numéricas de protocolo de Internet (IP), identificadores de protocolo y de las funciones de gestión?",
+      "opts": [
+        "ICANN",
+        "IANA",
+        "ARIN",
+        "Internet Society"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La Internet Assigned Numbers Authority (cuyo acrónimo es IANA), es la Agencia de Asignación de Números de Internet. Era el antiguo registro central de los protocolos Internet, como puertos, números de protocolo y empresa, opciones y códigos. Fue sustituido en 1998 por ICANN.",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 40.7, 100.0, 73.0]],
+        "img": "sources/pages/u4-direccionamiento-ip-p10-f398c0.webp"
+      }
+    },
+    {
+      "id": "redes-p2-019",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Que problema se puede producir si durante la aplicación de la técnica de VLSM, en un paso posterior utilizo una máscara mas corta que en un paso anterior?",
+      "opts": [
+        "Se produce una reutilización de direcciones",
+        "Se duplica el rango de direcciones",
+        "Se aumenta el rango de direcciones",
+        "Se produce el denominado \"solapamiento de direcciones\""
+      ],
+      "correct": [
+        0,
+        3
+      ],
       "fb": ""
     },
     {
@@ -236,7 +484,154 @@
         1,
         3
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 40]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p23-537465.webp"
+      }
+    },
+    {
+      "id": "redes-p2-021",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cómo conviene ordenar los requerimientos de direcciones por segmento para aplicar la técnica VLSM?",
+      "opts": [
+        "De menor a mayor",
+        "De mayor a menor"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "En realidad para trabajar de forma ordenada y evitar el error de solapamiento de direcciones conviene establecer el orden de los requerimientos de mayor a menor",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0, 3.3, 99.0, 19.3]],
+        "img": "sources/pages/u4-direccionamiento-ip-p30-e077b8.webp"
+      }
+    },
+    {
+      "id": "redes-p2-022",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos clases/rangos de direcciones privadas definió la convención de direcciones IPv4?",
+      "opts": [
+        "7",
+        "3",
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Clase A: 10.0.0.0 a 10.255.255.255 (8 bits red, 24 bits hosts). Por Ej La red militar norteamericana\nClase B: 172.16.0.0 a 172.31.255.255 (12 bits red, 20 bits hosts). Un ejemplo de uso: universidades y grandes compañías.\nClase C: 192.168.0.0 a 192.168.255.255 (16 bits red, 16 bits hosts). Para uso de compañías medias y pequeñas además pequeños proveedores de Internet (ISP).",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[0, 21.1, 100, 63.7]],
+        "img": "sources/pages/u4-direccionamiento-ip-p14-ed8039.webp"
+      }
+    },
+    {
+      "id": "redes-p2-023",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos registros regionales para números de Internet existen?",
+      "opts": [
+        "7",
+        "4",
+        "5",
+        "8",
+        "6",
+        "3"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-023.webp",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 10, 100, 86]],
+        "img": "sources/pages/u4-direccionamiento-ip-p11-2dea0f.webp"
+      }
+    },
+    {
+      "id": "redes-p2-024",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual o cuales fueron las técnicas que permitieron abordar el problema agotamiento de direcciones?",
+      "opts": [
+        "Subnetting",
+        "Protocolos Classless",
+        "CIDR",
+        "VLSM",
+        "NAT",
+        "Sumarización de rutas"
+      ],
+      "correct": [
+        0,
+        3,
+        4
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 17,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "redes-p2-025",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de Red o Subred?",
+      "opts": [
+        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor 1",
+        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor cero",
+        "Porque la máscara está con todos sus bits en cero"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-025.webp",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[11.9, 43.8, 88.3, 55.6]],
+        "img": "sources/pages/u4-direccionamiento-ip-p9-9bc422.webp"
+      }
+    },
+    {
+      "id": "redes-p2-026",
+      "topic": 4,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un prefijo IPv4 puede tener máscara /32",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La afirmación es verdadera, el prefijo puede tener másca /32 y tiene como destino un host específico"
     },
     {
       "id": "redes-p2-027",
@@ -252,7 +647,13 @@
       "correct": [
         1
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 24,
+        "confidence": "high",
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p24.webp"
+      }
     },
     {
       "id": "redes-p2-028",
@@ -288,7 +689,14 @@
       "correct": [
         0
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 22,
+        "confidence": "high",
+        "crop": [[0, 42.6, 98.5, 75.6]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p22-fc28c4.webp"
+      }
     },
     {
       "id": "redes-p2-030",
@@ -307,7 +715,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-030.webp"
+      "img": "img/redes-p2-030.webp",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[62.9, 18.5, 94.1, 43.3]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p14-fdcf08.webp"
+      }
     },
     {
       "id": "redes-p2-031",
@@ -325,7 +740,12 @@
       "correct": [
         0
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 28,
+        "confidence": "medium"
+      }
     },
     {
       "id": "redes-p2-032",
@@ -363,7 +783,14 @@
         3,
         4
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 18], [0, 43.8, 100, 51.3]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p23-cf4bb1.webp"
+      }
     },
     {
       "id": "redes-p2-034",
@@ -378,7 +805,14 @@
       "correct": [
         1
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[3, 49, 57, 78]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p13-067cc8.webp"
+      }
     },
     {
       "id": "redes-p2-035",
@@ -395,7 +829,14 @@
       "correct": [
         0
       ],
-      "fb": "Comentario de la cátedra sobre «Proporciona un mecanismo para transformar direcciones IP en direcciones físicas»: hay una mejor opción de respuesta."
+      "fb": "Comentario de la cátedra sobre «Proporciona un mecanismo para transformar direcciones IP en direcciones físicas»: hay una mejor opción de respuesta.",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[62.9, 18.1, 95.5, 74.0]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p13-4e1e29.webp"
+      }
     },
     {
       "id": "redes-p2-036",
@@ -411,7 +852,14 @@
       "correct": [
         1
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 40]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p23-537465.webp"
+      }
     },
     {
       "id": "redes-p2-037",
@@ -438,7 +886,36 @@
         7
       ],
       "fb": "",
-      "img": "img/redes-p2-037.webp"
+      "img": "img/redes-p2-037.webp",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 18,
+        "confidence": "high",
+        "crop": [[36.7, 4.2, 96.4, 29.7]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p18-9eb8a5.webp"
+      }
+    },
+    {
+      "id": "redes-p2-038",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Cunado un computador IPv4 tiene que comunicarse con un computador IPv6 utiliza Direcciones Ipv4 encapsuladas en IPv6:",
+      "opts": [
+        "Tipo 2",
+        "Tipo 1"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0.9, 20.3, 89.6, 38.9]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p34-eb5137.webp"
+      }
     },
     {
       "id": "redes-p2-039",
@@ -453,7 +930,14 @@
       "correct": [
         0
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[30, 2, 100, 68]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p32-b2b59e.webp"
+      }
     },
     {
       "id": "redes-p2-040",
@@ -469,7 +953,12 @@
       "correct": [
         0
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 40,
+        "confidence": "medium"
+      }
     },
     {
       "id": "redes-p2-041",
@@ -491,7 +980,14 @@
         3,
         4
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 45,
+        "confidence": "high",
+        "crop": [[2.9, 15.1, 96.0, 39.1]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p45-bb2e25.webp"
+      }
     },
     {
       "id": "redes-p2-042",
@@ -509,7 +1005,59 @@
       "correct": [
         3
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 32,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "redes-p2-043",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Cuantos niveles de agregación tiene una dirección IPv6",
+      "opts": [
+        "Cinco",
+        "Cuatro",
+        "Tres"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Tiene tres niveles TLA (Top-Level Agregator) NLA (Next-Level Agregator) SLA (Site-Level Agregator)",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 35,
+        "confidence": "high",
+        "crop": [[2.9, 12.5, 92.0, 24.5]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p35-ddc47b.webp"
+      }
+    },
+    {
+      "id": "redes-p2-044",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Las direcciones IPv6 son jerárquicas, y por ello existe una técnica denominada:",
+      "opts": [
+        "Formato de Prefijo",
+        "Asignación por niveles",
+        "Asignación geográfica",
+        "Direcciones encapsuladas"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0, 38, 100, 84]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p33-d42a2b.webp"
+      }
     },
     {
       "id": "redes-p2-045",
@@ -543,7 +1091,36 @@
         2,
         3
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[51.6, 10.7, 93.1, 52.4], [20, 27, 97, 42, 43]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p42-edb495.webp"
+      }
+    },
+    {
+      "id": "redes-p2-047",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Cuando dos computadores IPv6 comunicantes a través de una interred IPv4 utilizan Direcciones Ipv4 encapsuladas en IPv6 del:",
+      "opts": [
+        "Tipo 2",
+        "Tipo 1"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0.9, 20.3, 89.6, 38.9]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p34-eb5137.webp"
+      }
     },
     {
       "id": "redes-p2-048",
@@ -562,7 +1139,14 @@
         2,
         3
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0, 7.4, 97.9, 29.9]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p46-72900d.webp"
+      }
     },
     {
       "id": "redes-p2-049",
@@ -595,7 +1179,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-050.webp"
+      "img": "img/redes-p2-050.webp",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[2.9, 59.1, 94.4, 76.4]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p40-51665e.webp"
+      }
     },
     {
       "id": "redes-p2-051",
@@ -611,7 +1202,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-051.webp"
+      "img": "img/redes-p2-051.webp",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[51.6, 10.7, 92.6, 32.1]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p42-cb0eb6.webp"
+      }
     },
     {
       "id": "redes-p2-052",
@@ -632,7 +1230,12 @@
         4
       ],
       "fb": "Para éste ítem en particular, se recomienda la lectura del libro \"Redes de compuradoras e Internet\" de Fred Halsall, 5º edición paginas 431/432",
-      "img": "img/redes-p2-052.webp"
+      "img": "img/redes-p2-052.webp",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 40,
+        "confidence": "medium"
+      }
     },
     {
       "id": "redes-p2-053",
@@ -647,7 +1250,14 @@
       "correct": [
         1
       ],
-      "fb": "El protocolo IPv6, prevé el mecanismo Neighbour Discovery que hace innecesario el uso de ARP"
+      "fb": "El protocolo IPv6, prevé el mecanismo Neighbour Discovery que hace innecesario el uso de ARP",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0, 7.4, 97.8, 19.2]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p46-dce7d3.webp"
+      }
     },
     {
       "id": "redes-p2-054",
@@ -670,7 +1280,14 @@
         5
       ],
       "fb": "",
-      "img": "img/redes-p2-054.webp"
+      "img": "img/redes-p2-054.webp",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[2.9, 15.1, 96.7, 27.1]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p40-b83243.webp"
+      }
     },
     {
       "id": "redes-p2-055",
@@ -702,7 +1319,14 @@
         7
       ],
       "fb": "",
-      "img": "img/redes-p2-055.webp"
+      "img": "img/redes-p2-055.webp",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[8.3, 27.8, 90.9, 93.3]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p30-445c71.webp"
+      }
     },
     {
       "id": "redes-p2-056",
@@ -720,7 +1344,14 @@
         1,
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 47,
+        "confidence": "high",
+        "crop": [[2.9, 15.1, 93.6, 39.1]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p47-4bb522.webp"
+      }
     },
     {
       "id": "redes-p2-057",
@@ -737,349 +1368,70 @@
         1,
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u4-arp-rarp-ip-icmp.pdf",
+        "page": 47,
+        "confidence": "high",
+        "crop": [[2.9, 15.1, 93.6, 39.1]],
+        "img": "sources/pages/u4-arp-rarp-ip-icmp-p47-4bb522.webp"
+      }
     },
     {
-      "id": "redes-p2-002",
+      "id": "redes-p2-088",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Marque aquellas opciones que considera correctas para el concepto de Sumarización de Rutas",
+      "opts": [
+        "Se reduce la complejidad de las tablas de enrutamiento, reduciendo la cantidad de rutas.",
+        "Reduce los requerimientos de procesamiento ya que minimiza los procedimientos de actualización de rutas y se reduce la cantidad de rutas a evaluar.",
+        "Se reduce el volumen de información de enrutamiento publicado.",
+        "Se puede utilizar cuando el rango o grupo de direcciones es contiguo",
+        "Se puede utilizar con cualquier rango o grupo de direcciones",
+        "Reduce los requerimientos de memoria RAM en los dispositivos ya que se reduce el tamaño de la tabla de ruteo."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u4-direccionamiento-ip.pdf",
+        "page": 38,
+        "confidence": "high",
+        "crop": [[10.7, 7.4, 86.8, 58.3], [11.3, 23.0, 87.9, 47.6, 39]],
+        "img": "sources/pages/u4-direccionamiento-ip-p38-330e00.webp"
+      }
+    },
+    {
+      "id": "redes-p2-004",
       "topic": 5,
       "type": "multi",
       "catedra": true,
-      "text": "Una dirección IPv4 con 32 ceros (marque las opción u opciones que considere correctas)",
+      "text": "Las principales funciones de la capa de red son:",
       "opts": [
-        "No se utiliza en ningún caso",
-        "Se utiliza para indicar dirección/mascara por defecto",
-        "Nunca es una dirección válida de destino",
-        "Se utiliza para pruebas de la pila local",
-        "Es permitido solamente en el arranque",
-        "No existe ninguna dirección de esas características en la convencion IPv4"
+        "Controlar la congestión",
+        "Conmutación",
+        "Controlar el flujo",
+        "Hallar el camino"
       ],
       "correct": [
         1,
-        2,
-        4
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-005",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "Se dice que los routers contienen o filtran :",
-      "opts": [
-        "Direcciones de difusión local",
-        "Direcciones de difusión dirigida",
-        "Las direcciones cuyas máscaras están con todos sus bits con valor 0",
-        "Dominios de difusión",
-        "Las direcciones cuyas máscaras en las porcion de host están con todos sus bits con valor 1"
-      ],
-      "correct": [
-        0,
         3
       ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-008",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de difusión de la Red o Subred?",
-      "opts": [
-        "Porque la máscara está con todos sus bits en cero",
-        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor 1",
-        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor cero"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-012",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "Tengo la dirección 200.194.48.0/24, y deseo subnetear para conseguir 8 subredes con 32 direcciones cada una ¿Cuantos bits tengo que avanzar en la máscara?",
-      "opts": [
-        "7",
-        "5",
-        "6",
-        "8",
-        "3",
-        "4"
-      ],
-      "correct": [
-        4
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-014",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cuántos clases de direcciones estableció la convención original de direccionamiento IPv4?",
-      "opts": [
-        "5",
-        "6",
-        "7",
-        "4",
-        "3",
-        "8"
-      ],
-      "correct": [
-        0
-      ],
       "fb": "",
-      "img": "img/redes-p2-014.webp"
-    },
-    {
-      "id": "redes-p2-016",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "Un dirección IPv4 : (marque las opciones que sean verdaderas para la convención de direccionamiento IPv4)",
-      "opts": [
-        "Tiene una longitud de 32 bits",
-        "Conforman un espacio de direccionamiento plano",
-        "Se utiliza el mecanismo de máscara para establecer la porción de red",
-        "La convención establece que tiene una porción de red y una porción de host",
-        "Se puede representar con notación decimal separando cuatro grupos de 8 bits y pasando cada grupo a decimal",
-        "Tienen significación global",
-        "Un router puede determinar la dirección de red haciendo una operación AND entre la dirección IP y su correspondiente máscara"
-      ],
-      "correct": [
-        0,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-017",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cual dirección/rango se reserva para loopback, esta destinada para pruebas de TCP/IP y también para la comunicación de procesos internos en la máquina local en IPv4? (marque una sola opción correcta)",
-      "opts": [
-        "127.255.255.255",
-        "127.0.0.0/8",
-        "127.0.0.0",
-        "127.0.0.1"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-018",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cual es la organización que opera a nivel internacional, responsable de asignar espacio de direcciones numéricas de protocolo de Internet (IP), identificadores de protocolo y de las funciones de gestión?",
-      "opts": [
-        "ICANN",
-        "IANA",
-        "ARIN",
-        "Internet Society"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "La Internet Assigned Numbers Authority (cuyo acrónimo es IANA), es la Agencia de Asignación de Números de Internet. Era el antiguo registro central de los protocolos Internet, como puertos, números de protocolo y empresa, opciones y códigos. Fue sustituido en 1998 por ICANN."
-    },
-    {
-      "id": "redes-p2-019",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Que problema se puede producir si durante la aplicación de la técnica de VLSM, en un paso posterior utilizo una máscara mas corta que en un paso anterior?",
-      "opts": [
-        "Se produce una reutilización de direcciones",
-        "Se duplica el rango de direcciones",
-        "Se aumenta el rango de direcciones",
-        "Se produce el denominado \"solapamiento de direcciones\""
-      ],
-      "correct": [
-        0,
-        3
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-021",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cómo conviene ordenar los requerimientos de direcciones por segmento para aplicar la técnica VLSM?",
-      "opts": [
-        "De menor a mayor",
-        "De mayor a menor"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "En realidad para trabajar de forma ordenada y evitar el error de solapamiento de direcciones conviene establecer el orden de los requerimientos de mayor a menor"
-    },
-    {
-      "id": "redes-p2-022",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cuántos clases/rangos de direcciones privadas definió la convención de direcciones IPv4?",
-      "opts": [
-        "7",
-        "3",
-        "4",
-        "5",
-        "6",
-        "8"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Clase A: 10.0.0.0 a 10.255.255.255 (8 bits red, 24 bits hosts). Por Ej La red militar norteamericana\nClase B: 172.16.0.0 a 172.31.255.255 (12 bits red, 20 bits hosts). Un ejemplo de uso: universidades y grandes compañías.\nClase C: 192.168.0.0 a 192.168.255.255 (16 bits red, 16 bits hosts). Para uso de compañías medias y pequeñas además pequeños proveedores de Internet (ISP)."
-    },
-    {
-      "id": "redes-p2-023",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cuántos registros regionales para números de Internet existen?",
-      "opts": [
-        "7",
-        "4",
-        "5",
-        "8",
-        "6",
-        "3"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": "",
-      "img": "img/redes-p2-023.webp"
-    },
-    {
-      "id": "redes-p2-024",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cual o cuales fueron las técnicas que permitieron abordar el problema agotamiento de direcciones?",
-      "opts": [
-        "Subnetting",
-        "Protocolos Classless",
-        "CIDR",
-        "VLSM",
-        "NAT",
-        "Sumarización de rutas"
-      ],
-      "correct": [
-        0,
-        3,
-        4
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-025",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de Red o Subred?",
-      "opts": [
-        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor 1",
-        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor cero",
-        "Porque la máscara está con todos sus bits en cero"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "",
-      "img": "img/redes-p2-025.webp"
-    },
-    {
-      "id": "redes-p2-026",
-      "topic": 5,
-      "type": "tf",
-      "catedra": true,
-      "text": "Un prefijo IPv4 puede tener máscara /32",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "La afirmación es verdadera, el prefijo puede tener másca /32 y tiene como destino un host específico"
-    },
-    {
-      "id": "redes-p2-038",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "Cunado un computador IPv4 tiene que comunicarse con un computador IPv6 utiliza Direcciones Ipv4 encapsuladas en IPv6:",
-      "opts": [
-        "Tipo 2",
-        "Tipo 1"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-043",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "Cuantos niveles de agregación tiene una dirección IPv6",
-      "opts": [
-        "Cinco",
-        "Cuatro",
-        "Tres"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": "Tiene tres niveles TLA (Top-Level Agregator) NLA (Next-Level Agregator) SLA (Site-Level Agregator)"
-    },
-    {
-      "id": "redes-p2-044",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "Las direcciones IPv6 son jerárquicas, y por ello existe una técnica denominada:",
-      "opts": [
-        "Formato de Prefijo",
-        "Asignación por niveles",
-        "Asignación geográfica",
-        "Direcciones encapsuladas"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-047",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "Cuando dos computadores IPv6 comunicantes a través de una interred IPv4 utilizan Direcciones Ipv4 encapsuladas en IPv6 del:",
-      "opts": [
-        "Tipo 2",
-        "Tipo 1"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": ""
+      "img": "img/redes-p2-004.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 1,
+        "confidence": "high",
+        "crop": [[0, 48.4, 51.4, 65.5]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p1-f18e82.webp"
+      }
     },
     {
       "id": "redes-p2-058",
@@ -1094,7 +1446,14 @@
       "correct": [
         1
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[12.2, 80.4, 84.4, 92.4]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p8-d7f88f.webp"
+      }
     },
     {
       "id": "redes-p2-059",
@@ -1126,7 +1485,37 @@
       "correct": [
         1
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[13.7, 48.3, 82.4, 64.4]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p2-ea7048.webp"
+      }
+    },
+    {
+      "id": "redes-p2-061",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "OSPF utiliza para todos sus mensajes:",
+      "opts": [
+        "Un encabezado de longitud variable mas el contenido (tipo de mensaje)",
+        "Un encabezado distinto de 24 bytes mas el contenido (tipo de mensaje)",
+        "Un encabezado de longitud fija de 24 bytes mas el contenido (tipo de mensaje)"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 35,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 92]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p35-28360f.webp"
+      }
     },
     {
       "id": "redes-p2-062",
@@ -1143,7 +1532,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-062.webp"
+      "img": "img/redes-p2-062.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[17.4, 64.3, 87.1, 81.7]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p2-15605c.webp"
+      }
     },
     {
       "id": "redes-p2-063",
@@ -1159,7 +1555,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-063.webp"
+      "img": "img/redes-p2-063.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[13.5, 17.7, 85.0, 88.8]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p13-7374f6.webp"
+      }
     },
     {
       "id": "redes-p2-064",
@@ -1228,7 +1631,14 @@
         4,
         5
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 4,
+        "confidence": "high",
+        "crop": [[13.7, 28.2, 80.0, 72.3]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p4-8859e8.webp"
+      }
     },
     {
       "id": "redes-p2-068",
@@ -1247,7 +1657,14 @@
         3
       ],
       "fb": "",
-      "note": "En el cuestionario es de opción simple, pero la cátedra da como correctas dos opciones: cualquiera de las dos suma el puntaje completo."
+      "note": "En el cuestionario es de opción simple, pero la cátedra da como correctas dos opciones: cualquiera de las dos suma el puntaje completo.",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[9.5, 48.5, 88.9, 83.2]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p9-f71aef.webp"
+      }
     },
     {
       "id": "redes-p2-069",
@@ -1299,7 +1716,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-071.webp"
+      "img": "img/redes-p2-071.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[12.2, 59.1, 84.7, 64.4]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p8-d61f37.webp"
+      }
     },
     {
       "id": "redes-p2-072",
@@ -1348,7 +1772,14 @@
         3,
         4
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 2,
+        "confidence": "high",
+        "crop": [[13.7, 20.3, 49.1, 48.4]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p2-f88817.webp"
+      }
     },
     {
       "id": "redes-p2-074",
@@ -1370,6 +1801,84 @@
       ],
       "fb": "",
       "img": "img/redes-p2-074.webp"
+    },
+    {
+      "id": "redes-p2-075",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Usted Utilizaría el protocolo OSPF en una red muy pequeña?",
+      "opts": [
+        "Preferiría un protocolo sencillo y fácil de implementar como RIP pues para la pequeña escala no afectan sus limitaciones",
+        "Si por la velocidad de convergencia"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-076",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de los siguientes son tipos de mensaje de OSPF-LSAs (Anuncio de Estado de Enlace del protocolo OSPF)",
+      "opts": [
+        "LS Update Actualización de estado de enlace",
+        "Anuncio de Router",
+        "Anuncio de Red",
+        "Anuncio de enlace sumarizado ASBR",
+        "LS Request solicitud de estado de enlace",
+        "Anuncio de enlace sumarizado AR",
+        "Anuncio de enlace sumarizado ABR"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "fb": "",
+      "img": "img/redes-p2-076.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 41,
+        "confidence": "high",
+        "crop": [[30.6, 77.3, 68.2, 98.6]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p41-19e2e3.webp"
+      }
+    },
+    {
+      "id": "redes-p2-079",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cual de los siguientes son tipos de mensaje correspondientes al protocolo OSPF",
+      "opts": [
+        "Mensaje Descripción BD",
+        "LSA Anuncio de Estado de Enlace",
+        "LS Update",
+        "SP Sumarización de rutas",
+        "Mensaje HELLO",
+        "SN Sumarización de redes",
+        "LS Update Request"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-079.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[12.5, 17.1, 87.4, 89.2]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p26-d6fc94.webp"
+      }
     },
     {
       "id": "redes-p2-080",
@@ -1409,7 +1918,14 @@
       "correct": [
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[13.5, 46.2, 83.0, 75.6]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p11-94cbf8.webp"
+      }
     },
     {
       "id": "redes-p2-082",
@@ -1425,7 +1941,14 @@
       "correct": [
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[40, 63.5, 90, 75]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p7-783aea.webp"
+      }
     },
     {
       "id": "redes-p2-083",
@@ -1449,7 +1972,14 @@
         5,
         6
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[9.4, 18.3, 71.8, 89.0]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p17-a8a0d4.webp"
+      }
     },
     {
       "id": "redes-p2-084",
@@ -1467,7 +1997,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-084.webp"
+      "img": "img/redes-p2-084.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[9.4, 18.3, 45.1, 36.9]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p17-3c5e39.webp"
+      }
     },
     {
       "id": "redes-p2-085",
@@ -1499,30 +2036,14 @@
       "correct": [
         0
       ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-088",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "Marque aquellas opciones que considera correctas para el concepto de Sumarización de Rutas",
-      "opts": [
-        "Se reduce la complejidad de las tablas de enrutamiento, reduciendo la cantidad de rutas.",
-        "Reduce los requerimientos de procesamiento ya que minimiza los procedimientos de actualización de rutas y se reduce la cantidad de rutas a evaluar.",
-        "Se reduce el volumen de información de enrutamiento publicado.",
-        "Se puede utilizar cuando el rango o grupo de direcciones es contiguo",
-        "Se puede utilizar con cualquier rango o grupo de direcciones",
-        "Reduce los requerimientos de memoria RAM en los dispositivos ya que se reduce el tamaño de la tabla de ruteo."
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3,
-        5
-      ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[12.2, 37.7, 82.5, 59.1]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p8-0e7b1e.webp"
+      }
     },
     {
       "id": "redes-p2-089",
@@ -1541,7 +2062,14 @@
         0,
         4
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[13.5, 25.2, 74.8, 68.9]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p13-5f39b6.webp"
+      }
     },
     {
       "id": "redes-p2-090",
@@ -1557,7 +2085,14 @@
       "correct": [
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[0, 8, 100, 100]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p15-03b713.webp"
+      }
     },
     {
       "id": "redes-p2-091",
@@ -1575,676 +2110,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-095",
-      "topic": 5,
-      "type": "tf",
-      "catedra": true,
-      "text": "El protocolo de ruteo RIP versión 2 soluciona los problemas de convergencia lenta",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-096",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "En el protocolo RIP:",
-      "opts": [
-        "Cada ruteador envía su tabla completa a todos sus vecinos",
-        "Cada ruteador envía su tabla completa a todos los ruteadores",
-        "Cada ruteador anuncia a sus vecinos las redes directamente conectadas",
-        "los ruteadores no anuncian rutas por las interfaces que aprendieron dichas rutas"
-      ],
-      "correct": [
-        0,
-        3
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-114",
-      "topic": 6,
-      "type": "single",
-      "catedra": true,
-      "text": "• Si un extremo TCP no tiene nada para enviar, no envía nada\n• Cuando el otro extremo ignora el estado del proceso, puede decidir enviar una sonda\n• Si la respuesta es positiva, incrementa el temporizador y sigue esperando\n• Si es negativa, puede dar por terminada la conexión.\n• Su valor es de 2 horas! (se puede cambiar) Estas son características de un temporizador denominado:",
-      "opts": [
-        "RTO",
-        "Keepalive",
-        "2MSL",
-        "Hello",
-        "Persist"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "",
-      "img": "img/redes-p2-114.webp"
-    },
-    {
-      "id": "redes-p2-115",
-      "topic": 6,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cual extremo controla la congestión en TCP?",
-      "opts": [
-        "Receptor",
-        "Emisor"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "",
-      "img": "img/redes-p2-115.webp"
-    },
-    {
-      "id": "redes-p2-116",
-      "topic": 6,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Que mecanismo permite establecer multiples conexiones simultaneas sobre el mismo servidor?",
-      "opts": [
-        "Demultiplexación basada en dirección de host",
-        "Demultiplexación basada en dirección de puertos",
-        "Demultiplexación basada en dirección del servidor",
-        "Demultiplexación basada en dirección de red"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "",
-      "img": "img/redes-p2-116.webp"
-    },
-    {
-      "id": "redes-p2-117",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "Indique cual de las siguientes opciones son verdaderas para el vencimiento del temporizador RTO",
-      "opts": [
-        "Al ocurrir RTO guardamos la mitad de la ventana actual en ssthresh=min(W,cwnd)/2 y cwnd=1 MSS",
-        "Se agrega un nuevo parámetro, ssthresh, o umbral de Slow Start. Se inicializa en 65.536",
-        "Superado el SStresh la ventana aumenta linealmente con 1 MSS en cada ronda",
-        "Ssthres nos indica hasta cuándo hacemos SS, y cuándo empezamos a hacer CA",
-        "Iniciamos SS hasta que cwnd >= ssthresh",
-        "A partir de que cwnd >= ssthresh, hacemos cwnd=cwnd+(MSS * MSS/cwnd) con cada ACK recibido correctamente",
-        "Se aplica SS hasta que ocurra un RTO",
-        "Se utilizan dos fases: Slow Start y Congestion Avoidance"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "fb": "SStresh = 16 MSS y cuando ocurrio RTO cwnd =32 MSS",
-      "img": "img/redes-p2-117.webp"
-    },
-    {
-      "id": "redes-p2-118",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "Indique característica de funcionamiento de TCP",
-      "opts": [
-        "Full Duplex",
-        "Apertura puertos: Activa → C; Pasiva → S",
-        "Entrega confiable de un flujo no estructurado de octetos Orientado a la conexión (stream)",
-        "Se sigue la tupla (p, IPo, Po, IPd, Pd)",
-        "Abstracción: VC entre procesos en <> máq Establecimiento, transmisión, liberación conex.",
-        "Número de secuencia para cada octeto",
-        "Utilización de buffers"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-119",
-      "topic": 6,
-      "type": "single",
-      "catedra": true,
-      "text": "• Permite que expiren todos los segmentos que pueden haber quedado en la subred evitando “reencarnación”.\n• No se puede reusar durante este tiempo\n• Su valor suele definirse en 2 minutos; aunque a veces se implementa con 1 minuto, o 30 segundos. Estas son características de un temporizador denominado:",
-      "opts": [
-        "Keepalive",
-        "Persist",
-        "RTO",
-        "2MSL",
-        "Hello"
-      ],
-      "correct": [
-        3
-      ],
-      "fb": "",
-      "img": "img/redes-p2-119.webp"
-    },
-    {
-      "id": "redes-p2-120",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cuales son temporizadores de TCP?",
-      "opts": [
-        "2MSL",
-        "Persist",
-        "Keepalive",
-        "RTO",
-        "Hello"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "fb": "",
-      "img": "img/redes-p2-120.webp"
-    },
-    {
-      "id": "redes-p2-121",
-      "topic": 6,
-      "type": "single",
-      "catedra": true,
-      "text": "• Como vimos, un extremo TCP puede anunciar una ventana=0 si no desea recibir datos por un tiempo\n• Cómo puede el otro extremo, saber si aún continúa activo?\n• Cuando recibe una ventana=0, inicia un temporizador\n• Cada vez que expira, se envía una sonda(el último acuse) y si se recibe respuesta positiva, actualiza el temporizador y sigue esperando. Estas son características de un temporizador denominado:",
-      "opts": [
-        "2MSL",
-        "Keepalive",
-        "RTO",
-        "Hello",
-        "Persist"
-      ],
-      "correct": [
-        4
-      ],
-      "fb": "",
-      "img": "img/redes-p2-121.webp"
-    },
-    {
-      "id": "redes-p2-122",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Como encuentran su destino dos procesos comunicantes mediante TCP /UDP? ¿direcciones de capa de transporte?",
-      "opts": [
-        "Se asignan mediante la abstracción de SOCKET. Se identifican con la tupla (p, IPo, Po, Ipd, Pd)",
-        "Una vez asignados, identifican unívocamente un proceso (TCP/UDP) en una máquina determinada (IP)",
-        "las direcciones de capa de transporte son los PUERTOS → abstracción de conexiones lógicas de procesos con la red: SAPs",
-        "Los gestiona el SO. Se dividen en CLIENTES y SERVIDORES. Operación sincrónica c/buffers"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-123",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cuales de las siguientes opciones son válidas en control de flujo TCP?",
-      "opts": [
-        "Puede ajustarse dinámicamente, si cambian las condiciones en el receptor",
-        "En cada segmento, el extremo TCP anuncia la cantidad de octetos que pueden quedar pendientes de confirmación",
-        "Cuando el receptor no desea recibir más datos, pero mantener abierta la conexión, anuncia una ventana=0",
-        "Es la ventana del emisor",
-        "Es la VENTANA del receptor (W)"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        4
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-124",
-      "topic": 6,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cual extremo controla el flujo en TCP?",
-      "opts": [
-        "Receptor",
-        "Emisor"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "",
-      "img": "img/redes-p2-124.webp"
-    },
-    {
-      "id": "redes-p2-125",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cual de las siguientes opciones son correctas para TCP con ECN?",
-      "opts": [
-        "Señalizar ECN en los encabezados TCP",
-        "Es un mecanismo de notificación implícito",
-        "El router marca y descarta el paquete notificando al extremo sobre la congestión con el campo ECN=11",
-        "El emisor activa el bit ECT(ECN CapableTransport) de la cabecera IP solicitando ECN a cualquier router que detecte congestión",
-        "Requiere modificaciones a los encabezados IP y TCP",
-        "Routers notifican al origen TCP de una congestión incipiente",
-        "Utiliza los 6 bits del campo reservado del encabezado TCP",
-        "Utiliza los bits 6 y 7 del campo TOS (encabezado IPv4)"
-      ],
-      "correct": [
-        0,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-126",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cual describe mejor al servicio suministrado por TCP?",
-      "opts": [
-        "Entrega no confiable sobre conexión de circuito virtual",
-        "Entrega confiable sobre datagramas no confiables",
-        "Entrega confiable sobre conexión de circuito virtual",
-        "Entrega no confiable sobre datagramas no confiables"
-      ],
-      "correct": [
-        1,
-        2
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-127",
-      "topic": 6,
-      "type": "tf",
-      "catedra": true,
-      "text": "Al iniciar una conexion TCP ambos extremos anuncian el mismo valor en la opción MSS",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Cada extremo utiliza un MSS. No siempre coinciden"
-    },
-    {
-      "id": "redes-p2-128",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "Cuál de las siguientes opciones, están relacionadas o son válidas para maximizar la performance en redes de gran producto AB-R: las LFN (Long, Fat Networks).",
-      "opts": [
-        "Se debe medir el RTT para cada segmento",
-        "Se utiliza PAWS",
-        "Para obtener el tamaño real, el receptor vuelve a desplazar en sentido contrario, la misma cant.de bits",
-        "La opción escalamiento activada, indica en cuántos bits el emisor ha desplazado el campo W (hacia la derecha)",
-        "Escalamiento de ventana",
-        "Se utiliza la opción TIMESTAMPS"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "fb": "Comentario de la cátedra sobre «Para obtener el tamaño real, el receptor vuelve a desplazar…»: se establece en el SYN y no se puede cambiar.",
-      "img": "img/redes-p2-128.webp"
-    },
-    {
-      "id": "redes-p2-129",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "El arranque lento en TCP consiste en:",
-      "opts": [
-        "Agregar otro parámetro denominado ventana de congestión cwnd",
-        "Tiene un valor inicial de 65536 bits",
-        "Se inicializa en 1 MSS, y se aumenta en 1 con cada ACK recibido",
-        "El extremo emisor puede enviar, como máximo, mín(W,cwnd) octetos antes de esperar un acuse",
-        "Siempre se mide en octetos"
-      ],
-      "correct": [
-        0,
-        2,
-        3,
-        4
-      ],
-      "fb": "",
-      "img": "img/redes-p2-129.webp"
-    },
-    {
-      "id": "redes-p2-130",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "La recepción de tres o mas acuses duplicados TDACK, indican la existencia de congestión leve, indique cual de los siguientes mecanismos se aplican:",
-      "opts": [
-        "Slow Start",
-        "FAST RECOVERY",
-        "Congestion Avoidance",
-        "FAST RETRANSMIT"
-      ],
-      "correct": [
-        2,
-        3
-      ],
-      "fb": "",
-      "img": "img/redes-p2-130.webp"
-    },
-    {
-      "id": "redes-p2-131",
-      "topic": 6,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cual temporizador de TCP permite adaptarse a las variaciones de retardo en la subred?",
-      "opts": [
-        "2MSL",
-        "Keepalive",
-        "Hello",
-        "RTO",
-        "Persist"
-      ],
-      "correct": [
-        3
-      ],
-      "fb": "",
-      "img": "img/redes-p2-131.webp"
-    },
-    {
-      "id": "redes-p2-132",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cuales de las siguientes opciones son correctas con respecto al cálculo del Pseudoencabezado TCP/UDP?",
-      "opts": [
-        "Utiliza 16 bytes de pseudoencabezado para el computo del checksum",
-        "Viola directamente el principio de separación de capas y la independencia de protocolos",
-        "Utiliza 12 bytes de pseudoencabezado para el computo del checksum",
-        "Utiliza 20 bytes de pseudoencabezado para el computo del checksum",
-        "Se utiliza para garantizar la entrega al destino correcto"
-      ],
-      "correct": [
-        1,
-        2,
-        4
-      ],
-      "fb": "",
-      "img": "img/redes-p2-132.webp"
-    },
-    {
-      "id": "redes-p2-133",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "Indique algunas características de la capa de transporte",
-      "opts": [
-        "Provee conectividad y sincronización entre aplicaciones finales de datos",
-        "Normalmente es la última capa implementada como software dentro del SO",
-        "Control de Flujo /Control de Errores",
-        "Multiplexación de aplicaciones sobre uno o varios enlaces",
-        "Conectividad EXTREMO-A-EXTREMO entre procesos"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ],
-      "fb": "",
-      "img": "img/redes-p2-133.webp"
-    },
-    {
-      "id": "redes-p2-134",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cual de los siguientes mecanismos de control de congestión en TCP, son de ciclo abierto?",
-      "opts": [
-        "Slow Start",
-        "TCP con ECN",
-        "Congestion Avoidance"
-      ],
-      "correct": [
-        0,
-        2
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-135",
-      "topic": 6,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cual describe mejor al servicio suministrado por UDP?",
-      "opts": [
-        "Entrega no confiable sobre datagramas no confiables",
-        "Entrega no confiable sobre conexión de circuito virtual",
-        "Entrega confiable sobre conexión de circuito virtual"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-136",
-      "topic": 6,
-      "type": "multi",
-      "catedra": true,
-      "text": "Los números de secuencia en TCP: (marque las opciones válidas para el ítem)",
-      "opts": [
-        "Se utiliza uno para cada sentido de la conexión (piggybacking)",
-        "Se asignan inicialmente en forma aleatoria (ISN)",
-        "Indica la posición del próximo octeto de datos a ser recibido, en el stream de bytes",
-        "Son ACUMULATIVOS. Se pueden comparar con un PUNTERO"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-061",
-      "topic": 7,
-      "type": "single",
-      "catedra": true,
-      "text": "OSPF utiliza para todos sus mensajes:",
-      "opts": [
-        "Un encabezado de longitud variable mas el contenido (tipo de mensaje)",
-        "Un encabezado distinto de 24 bytes mas el contenido (tipo de mensaje)",
-        "Un encabezado de longitud fija de 24 bytes mas el contenido (tipo de mensaje)"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-067",
-      "topic": 7,
-      "type": "multi",
-      "catedra": true,
-      "text": "En un sistema de núcleo, un enrutador que no participa del núcleo:",
-      "opts": [
-        "Siempre va a tener el inconveniente del salto extra si su destino está conectado a otro router de núcleo que no sea el suyo",
-        "Si el camino a su destino es mas corto a través de un router al cual no esta conectado no puede utilizarlo",
-        "Debe dirigir todo su tráfico al router de núcleo al cual esta conectado"
-      ],
-      "correct": [
-        0,
-        1,
-        2
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-075",
-      "topic": 7,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Usted Utilizaría el protocolo OSPF en una red muy pequeña?",
-      "opts": [
-        "Preferiría un protocolo sencillo y fácil de implementar como RIP pues para la pequeña escala no afectan sus limitaciones",
-        "Si por la velocidad de convergencia"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-076",
-      "topic": 7,
-      "type": "multi",
-      "catedra": true,
-      "text": "Cuales de los siguientes son tipos de mensaje de OSPF-LSAs (Anuncio de Estado de Enlace del protocolo OSPF)",
-      "opts": [
-        "LS Update Actualización de estado de enlace",
-        "Anuncio de Router",
-        "Anuncio de Red",
-        "Anuncio de enlace sumarizado ASBR",
-        "LS Request solicitud de estado de enlace",
-        "Anuncio de enlace sumarizado AR",
-        "Anuncio de enlace sumarizado ABR"
-      ],
-      "correct": [
-        1,
-        2,
-        3,
-        5,
-        6
-      ],
-      "fb": "",
-      "img": "img/redes-p2-076.webp"
-    },
-    {
-      "id": "redes-p2-077",
-      "topic": 7,
-      "type": "single",
-      "catedra": true,
-      "text": "Un Sistema Autónomo es:",
-      "opts": [
-        "Un sistema de enlaces y ruteadores dentro de una organización",
-        "Un conjunto de enlaces y ruteadores bajo una única autoridad administrativa",
-        "Un ISP"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Un Sistema Autónomo es un conjunto de enlaces y ruteadores bajo una única autoridad administrativa. Cada sistema autónomo es una unidad administrativa que se diferencia y reconoce a través de un ID de sistema autónomo. IANA (Internet Assigned Numbers Authority) es el organismo responsable de la asignación de los ID de sistemas autónomos. El ID de sistema autónomo es un número de 16 bits, con un valor posible entre 1 y 65535. Su uso y asignación está orientado por la RFC 1930. Los sistemas autónomos 64512 a 65535 están reservados para uso privado"
-    },
-    {
-      "id": "redes-p2-078",
-      "topic": 7,
-      "type": "multi",
-      "catedra": true,
-      "text": "Que características tiene un sistema de ruteo con nucleo o backbone",
-      "opts": [
-        "Se pueden conectar dos núcleos mediante un par de conjuntos de rutas por omisión",
-        "Presentan el inconveniente de salto extra",
-        "Se tiene que definir que enrutadores participan del núcleo y cuales no",
-        "Presentan el inconveniente de redes ocultas",
-        "Tienen problemas de escala"
-      ],
-      "correct": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-079",
-      "topic": 7,
-      "type": "multi",
-      "catedra": true,
-      "text": "Cual de los siguientes son tipos de mensaje correspondientes al protocolo OSPF",
-      "opts": [
-        "Mensaje Descripción BD",
-        "LSA Anuncio de Estado de Enlace",
-        "LS Update",
-        "SP Sumarización de rutas",
-        "Mensaje HELLO",
-        "SN Sumarización de redes",
-        "LS Update Request"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        4
-      ],
-      "fb": "",
-      "img": "img/redes-p2-079.webp"
-    },
-    {
-      "id": "redes-p2-086",
-      "topic": 7,
-      "type": "single",
-      "catedra": true,
-      "text": "En los enrutadores y sus tablas de ruteo, al mecanismo de permitir que la información aprendida por una fuente sea publicada hacia otros dispositivos utilizando un protocolo diferente se lo conoce como",
-      "opts": [
-        "Redistribución de Protocolo",
-        "Redistribución de tablas",
-        "Redistribución de rutas"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-092",
-      "topic": 7,
-      "type": "single",
-      "catedra": true,
-      "text": "En un sistema de núcleo, el router de borde está conectado a un grupo de routers internos que a su vez conectan otros routers de menor jerarquía, si una red está conectada a uno de estos router de menor jerarquía, ¿quien es el responsable de anunciar su ruta hacia el núcleo?",
-      "opts": [
-        "los routers intermedios",
-        "Una autoridad administrativa",
-        "El router al cual está directamente conectado",
-        "El router de núcleo"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "El router R4 es el router más estrechamente asociado con red local 4, pero se encuentra a 2 saltos del router de núcleo próximo. Así, R4 debe depender de router R3 para encaminar paquetes a la red 4. El caso es que R4 sabe de red local 4 pero no puede pasar datagramas directamente desde R1. El Router R3 está a un salto del núcleo y puede garantizar pasar paquetes, pero no se conecta directamente a la red local 4. Entonces, parece incorrecto asignar responsabilidad a R3 para anunciar la red 4. Solucionar este dilema requerirá que nosotros introduzcamos el concepto de Sistema Autónomo donde, la arquitectura debería ser pensada como una organización sola que tiene muchas redes bajo su control. Debido a que las redes y routers caen bajo una única autoridad administrativa, esa autoridad puede garantizar que las rutas internas permanecen consistentes y viables. Además, la autoridad administrativa puede escoger uno de sus routers para informar al mundo exterior de las redes dentro de la organización. En el ejemplo de la figura, porque router R2, R3, y R4 yacen bajo el control de una autoridad administrativa, esa autoridad puede hacer que R3 anuncie las redes 2, 3, y 4 (R3 ya sabe de la red 1 porque tiene una conexión directa a ella).",
-      "img": "img/redes-p2-092.webp"
-    },
-    {
       "id": "redes-p2-093",
-      "topic": 7,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Cuales son los tipos de router que intervienen en anuncian rutas sumarizadas en OSPF",
@@ -2260,11 +2127,18 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-093.webp"
+      "img": "img/redes-p2-093.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0.1, 41.0, 99.0, 95.8]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p42-49edf8.webp"
+      }
     },
     {
       "id": "redes-p2-094",
-      "topic": 7,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Cuales de las siguientes son características del protocolo de ruteo OSPF",
@@ -2293,7 +2167,773 @@
         9
       ],
       "fb": "",
-      "img": "img/redes-p2-094.webp"
+      "img": "img/redes-p2-094.webp",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 21,
+        "confidence": "high",
+        "crop": [[10.9, 21.1, 87.6, 89.3]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p21-90cc51.webp"
+      }
+    },
+    {
+      "id": "redes-p2-095",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "El protocolo de ruteo RIP versión 2 soluciona los problemas de convergencia lenta",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[9.4, 18.3, 71.8, 89.0]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p17-a8a0d4.webp"
+      }
+    },
+    {
+      "id": "redes-p2-096",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "En el protocolo RIP:",
+      "opts": [
+        "Cada ruteador envía su tabla completa a todos sus vecinos",
+        "Cada ruteador envía su tabla completa a todos los ruteadores",
+        "Cada ruteador anuncia a sus vecinos las redes directamente conectadas",
+        "los ruteadores no anuncian rutas por las interfaces que aprendieron dichas rutas"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u5-ruteo-y-ruteo-interno.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[13.5, 46.2, 83.0, 75.6], [0, 8, 100, 100, 14]],
+        "img": "sources/pages/u5-ruteo-y-ruteo-interno-p11-5b0868.webp"
+      }
+    },
+    {
+      "id": "redes-p2-114",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "• Si un extremo TCP no tiene nada para enviar, no envía nada\n• Cuando el otro extremo ignora el estado del proceso, puede decidir enviar una sonda\n• Si la respuesta es positiva, incrementa el temporizador y sigue esperando\n• Si es negativa, puede dar por terminada la conexión.\n• Su valor es de 2 horas! (se puede cambiar) Estas son características de un temporizador denominado:",
+      "opts": [
+        "RTO",
+        "Keepalive",
+        "2MSL",
+        "Hello",
+        "Persist"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-114.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0.8, 17.8, 97.3, 67.0]],
+        "img": "sources/pages/u6-capa-de-transporte-p32-ddfc64.webp"
+      }
+    },
+    {
+      "id": "redes-p2-115",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual extremo controla la congestión en TCP?",
+      "opts": [
+        "Receptor",
+        "Emisor"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-115.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0.8, 72.0, 97.3, 87.7]],
+        "img": "sources/pages/u6-capa-de-transporte-p42-7ff76f.webp"
+      }
+    },
+    {
+      "id": "redes-p2-116",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Que mecanismo permite establecer multiples conexiones simultaneas sobre el mismo servidor?",
+      "opts": [
+        "Demultiplexación basada en dirección de host",
+        "Demultiplexación basada en dirección de puertos",
+        "Demultiplexación basada en dirección del servidor",
+        "Demultiplexación basada en dirección de red"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-116.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 9,
+        "confidence": "high",
+        "img": "sources/pages/u6-capa-de-transporte-p9.webp"
+      }
+    },
+    {
+      "id": "redes-p2-117",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique cual de las siguientes opciones son verdaderas para el vencimiento del temporizador RTO",
+      "opts": [
+        "Al ocurrir RTO guardamos la mitad de la ventana actual en ssthresh=min(W,cwnd)/2 y cwnd=1 MSS",
+        "Se agrega un nuevo parámetro, ssthresh, o umbral de Slow Start. Se inicializa en 65.536",
+        "Superado el SStresh la ventana aumenta linealmente con 1 MSS en cada ronda",
+        "Ssthres nos indica hasta cuándo hacemos SS, y cuándo empezamos a hacer CA",
+        "Iniciamos SS hasta que cwnd >= ssthresh",
+        "A partir de que cwnd >= ssthresh, hacemos cwnd=cwnd+(MSS * MSS/cwnd) con cada ACK recibido correctamente",
+        "Se aplica SS hasta que ocurra un RTO",
+        "Se utilizan dos fases: Slow Start y Congestion Avoidance"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fb": "SStresh = 16 MSS y cuando ocurrio RTO cwnd =32 MSS",
+      "img": "img/redes-p2-117.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 37,
+        "confidence": "high",
+        "crop": [[1.3, 12.9, 96.8, 78.9]],
+        "img": "sources/pages/u6-capa-de-transporte-p37-c625a1.webp"
+      }
+    },
+    {
+      "id": "redes-p2-118",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique característica de funcionamiento de TCP",
+      "opts": [
+        "Full Duplex",
+        "Apertura puertos: Activa → C; Pasiva → S",
+        "Entrega confiable de un flujo no estructurado de octetos Orientado a la conexión (stream)",
+        "Se sigue la tupla (p, IPo, Po, IPd, Pd)",
+        "Abstracción: VC entre procesos en <> máq Establecimiento, transmisión, liberación conex.",
+        "Número de secuencia para cada octeto",
+        "Utilización de buffers"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 35.3, 90.5, 90.1]],
+        "img": "sources/pages/u6-capa-de-transporte-p13-34f2cd.webp"
+      }
+    },
+    {
+      "id": "redes-p2-119",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "• Permite que expiren todos los segmentos que pueden haber quedado en la subred evitando “reencarnación”.\n• No se puede reusar durante este tiempo\n• Su valor suele definirse en 2 minutos; aunque a veces se implementa con 1 minuto, o 30 segundos. Estas son características de un temporizador denominado:",
+      "opts": [
+        "Keepalive",
+        "Persist",
+        "RTO",
+        "2MSL",
+        "Hello"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-119.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 27,
+        "confidence": "high",
+        "crop": [[3.7, 14.0, 95.4, 56.7]],
+        "img": "sources/pages/u6-capa-de-transporte-p27-841f62.webp"
+      }
+    },
+    {
+      "id": "redes-p2-120",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales son temporizadores de TCP?",
+      "opts": [
+        "2MSL",
+        "Persist",
+        "Keepalive",
+        "RTO",
+        "Hello"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-120.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[0, 19.9, 98.6, 72.4]],
+        "img": "sources/pages/u6-capa-de-transporte-p25-772173.webp"
+      }
+    },
+    {
+      "id": "redes-p2-121",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "• Como vimos, un extremo TCP puede anunciar una ventana=0 si no desea recibir datos por un tiempo\n• Cómo puede el otro extremo, saber si aún continúa activo?\n• Cuando recibe una ventana=0, inicia un temporizador\n• Cada vez que expira, se envía una sonda(el último acuse) y si se recibe respuesta positiva, actualiza el temporizador y sigue esperando. Estas son características de un temporizador denominado:",
+      "opts": [
+        "2MSL",
+        "Keepalive",
+        "RTO",
+        "Hello",
+        "Persist"
+      ],
+      "correct": [
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-121.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0.5, 18.2, 97.1, 71.6]],
+        "img": "sources/pages/u6-capa-de-transporte-p30-fe6cba.webp"
+      }
+    },
+    {
+      "id": "redes-p2-122",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Como encuentran su destino dos procesos comunicantes mediante TCP /UDP? ¿direcciones de capa de transporte?",
+      "opts": [
+        "Se asignan mediante la abstracción de SOCKET. Se identifican con la tupla (p, IPo, Po, Ipd, Pd)",
+        "Una vez asignados, identifican unívocamente un proceso (TCP/UDP) en una máquina determinada (IP)",
+        "las direcciones de capa de transporte son los PUERTOS → abstracción de conexiones lógicas de procesos con la red: SAPs",
+        "Los gestiona el SO. Se dividen en CLIENTES y SERVIDORES. Operación sincrónica c/buffers"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[2.1, 26.2, 96.1, 88.2]],
+        "img": "sources/pages/u6-capa-de-transporte-p6-4adef9.webp"
+      }
+    },
+    {
+      "id": "redes-p2-123",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales de las siguientes opciones son válidas en control de flujo TCP?",
+      "opts": [
+        "Puede ajustarse dinámicamente, si cambian las condiciones en el receptor",
+        "En cada segmento, el extremo TCP anuncia la cantidad de octetos que pueden quedar pendientes de confirmación",
+        "Cuando el receptor no desea recibir más datos, pero mantener abierta la conexión, anuncia una ventana=0",
+        "Es la ventana del emisor",
+        "Es la VENTANA del receptor (W)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 21,
+        "confidence": "high",
+        "img": "sources/pages/u6-capa-de-transporte-p21.webp"
+      }
+    },
+    {
+      "id": "redes-p2-124",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual extremo controla el flujo en TCP?",
+      "opts": [
+        "Receptor",
+        "Emisor"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-124.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 42,
+        "confidence": "high",
+        "crop": [[0.8, 72.0, 97.3, 87.7]],
+        "img": "sources/pages/u6-capa-de-transporte-p42-7ff76f.webp"
+      }
+    },
+    {
+      "id": "redes-p2-126",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual describe mejor al servicio suministrado por TCP?",
+      "opts": [
+        "Entrega no confiable sobre conexión de circuito virtual",
+        "Entrega confiable sobre datagramas no confiables",
+        "Entrega confiable sobre conexión de circuito virtual",
+        "Entrega no confiable sobre datagramas no confiables"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[4.0, 44.8, 90.5, 54.7]],
+        "img": "sources/pages/u6-capa-de-transporte-p13-96cb44.webp"
+      }
+    },
+    {
+      "id": "redes-p2-127",
+      "topic": 6,
+      "type": "tf",
+      "catedra": true,
+      "text": "Al iniciar una conexion TCP ambos extremos anuncian el mismo valor en la opción MSS",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Cada extremo utiliza un MSS. No siempre coinciden",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 43,
+        "confidence": "high",
+        "crop": [[0.9, 25.7, 87.8, 39.5]],
+        "img": "sources/pages/u6-capa-de-transporte-p43-2fec33.webp"
+      }
+    },
+    {
+      "id": "redes-p2-128",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuál de las siguientes opciones, están relacionadas o son válidas para maximizar la performance en redes de gran producto AB-R: las LFN (Long, Fat Networks).",
+      "opts": [
+        "Se debe medir el RTT para cada segmento",
+        "Se utiliza PAWS",
+        "Para obtener el tamaño real, el receptor vuelve a desplazar en sentido contrario, la misma cant.de bits",
+        "La opción escalamiento activada, indica en cuántos bits el emisor ha desplazado el campo W (hacia la derecha)",
+        "Escalamiento de ventana",
+        "Se utiliza la opción TIMESTAMPS"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "Comentario de la cátedra sobre «Para obtener el tamaño real, el receptor vuelve a desplazar…»: se establece en el SYN y no se puede cambiar.",
+      "img": "img/redes-p2-128.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 44,
+        "confidence": "high",
+        "crop": [[0.9, 52.2, 96.4, 83.2], [0.9, 33.9, 97.5, 78.9, 45]],
+        "img": "sources/pages/u6-capa-de-transporte-p44-1484b2.webp"
+      }
+    },
+    {
+      "id": "redes-p2-129",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "El arranque lento en TCP consiste en:",
+      "opts": [
+        "Agregar otro parámetro denominado ventana de congestión cwnd",
+        "Tiene un valor inicial de 65536 bits",
+        "Se inicializa en 1 MSS, y se aumenta en 1 con cada ACK recibido",
+        "El extremo emisor puede enviar, como máximo, mín(W,cwnd) octetos antes de esperar un acuse",
+        "Siempre se mide en octetos"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-129.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0.9, 33.6, 97.4, 81.6]],
+        "img": "sources/pages/u6-capa-de-transporte-p34-57501b.webp"
+      }
+    },
+    {
+      "id": "redes-p2-130",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "La recepción de tres o mas acuses duplicados TDACK, indican la existencia de congestión leve, indique cual de los siguientes mecanismos se aplican:",
+      "opts": [
+        "Slow Start",
+        "FAST RECOVERY",
+        "Congestion Avoidance",
+        "FAST RETRANSMIT"
+      ],
+      "correct": [
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-130.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[3.7, 31.0, 96.5, 71.6]],
+        "img": "sources/pages/u6-capa-de-transporte-p39-2b68c3.webp"
+      }
+    },
+    {
+      "id": "redes-p2-131",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual temporizador de TCP permite adaptarse a las variaciones de retardo en la subred?",
+      "opts": [
+        "2MSL",
+        "Keepalive",
+        "Hello",
+        "RTO",
+        "Persist"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-131.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[3.7, 10.6, 90.5, 22.1]],
+        "img": "sources/pages/u6-capa-de-transporte-p26-191e57.webp"
+      }
+    },
+    {
+      "id": "redes-p2-132",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales de las siguientes opciones son correctas con respecto al cálculo del Pseudoencabezado TCP/UDP?",
+      "opts": [
+        "Utiliza 16 bytes de pseudoencabezado para el computo del checksum",
+        "Viola directamente el principio de separación de capas y la independencia de protocolos",
+        "Utiliza 12 bytes de pseudoencabezado para el computo del checksum",
+        "Utiliza 20 bytes de pseudoencabezado para el computo del checksum",
+        "Se utiliza para garantizar la entrega al destino correcto"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-132.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[2.9, 15.0, 95.6, 94.2]],
+        "img": "sources/pages/u6-capa-de-transporte-p10-30d576.webp"
+      }
+    },
+    {
+      "id": "redes-p2-133",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique algunas características de la capa de transporte",
+      "opts": [
+        "Provee conectividad y sincronización entre aplicaciones finales de datos",
+        "Normalmente es la última capa implementada como software dentro del SO",
+        "Control de Flujo /Control de Errores",
+        "Multiplexación de aplicaciones sobre uno o varios enlaces",
+        "Conectividad EXTREMO-A-EXTREMO entre procesos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-133.webp",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 3,
+        "confidence": "high",
+        "crop": [[5.1, 27.3, 91.9, 78.6], [0, 22, 100, 98, 4]],
+        "img": "sources/pages/u6-capa-de-transporte-p3-898e35.webp"
+      }
+    },
+    {
+      "id": "redes-p2-134",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de los siguientes mecanismos de control de congestión en TCP, son de ciclo abierto?",
+      "opts": [
+        "Slow Start",
+        "TCP con ECN",
+        "Congestion Avoidance"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 37,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "redes-p2-135",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual describe mejor al servicio suministrado por UDP?",
+      "opts": [
+        "Entrega no confiable sobre datagramas no confiables",
+        "Entrega no confiable sobre conexión de circuito virtual",
+        "Entrega confiable sobre conexión de circuito virtual"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[2.9, 18.3, 71.7, 32.8]],
+        "img": "sources/pages/u6-capa-de-transporte-p8-71508e.webp"
+      }
+    },
+    {
+      "id": "redes-p2-136",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Los números de secuencia en TCP: (marque las opciones válidas para el ítem)",
+      "opts": [
+        "Se utiliza uno para cada sentido de la conexión (piggybacking)",
+        "Se asignan inicialmente en forma aleatoria (ISN)",
+        "Indica la posición del próximo octeto de datos a ser recibido, en el stream de bytes",
+        "Son ACUMULATIVOS. Se pueden comparar con un PUNTERO"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u6-capa-de-transporte.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[2.1, 15.6, 93.2, 77.5]],
+        "img": "sources/pages/u6-capa-de-transporte-p15-d9754c.webp"
+      }
+    },
+    {
+      "id": "redes-p2-067",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "En un sistema de núcleo, un enrutador que no participa del núcleo:",
+      "opts": [
+        "Siempre va a tener el inconveniente del salto extra si su destino está conectado a otro router de núcleo que no sea el suyo",
+        "Si el camino a su destino es mas corto a través de un router al cual no esta conectado no puede utilizarlo",
+        "Debe dirigir todo su tráfico al router de núcleo al cual esta conectado"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 62]],
+        "img": "sources/pages/u7-ruteo-avanzado-p9-fbcad1.webp"
+      }
+    },
+    {
+      "id": "redes-p2-077",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "Un Sistema Autónomo es:",
+      "opts": [
+        "Un sistema de enlaces y ruteadores dentro de una organización",
+        "Un conjunto de enlaces y ruteadores bajo una única autoridad administrativa",
+        "Un ISP"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Un Sistema Autónomo es un conjunto de enlaces y ruteadores bajo una única autoridad administrativa. Cada sistema autónomo es una unidad administrativa que se diferencia y reconoce a través de un ID de sistema autónomo. IANA (Internet Assigned Numbers Authority) es el organismo responsable de la asignación de los ID de sistemas autónomos. El ID de sistema autónomo es un número de 16 bits, con un valor posible entre 1 y 65535. Su uso y asignación está orientado por la RFC 1930. Los sistemas autónomos 64512 a 65535 están reservados para uso privado",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[0, 76, 100, 97]],
+        "img": "sources/pages/u7-ruteo-avanzado-p11-d72c98.webp"
+      }
+    },
+    {
+      "id": "redes-p2-078",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Que características tiene un sistema de ruteo con nucleo o backbone",
+      "opts": [
+        "Se pueden conectar dos núcleos mediante un par de conjuntos de rutas por omisión",
+        "Presentan el inconveniente de salto extra",
+        "Se tiene que definir que enrutadores participan del núcleo y cuales no",
+        "Presentan el inconveniente de redes ocultas",
+        "Tienen problemas de escala"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 62], [0, 0, 100, 80, 10]],
+        "img": "sources/pages/u7-ruteo-avanzado-p9-14691e.webp"
+      }
+    },
+    {
+      "id": "redes-p2-086",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "En los enrutadores y sus tablas de ruteo, al mecanismo de permitir que la información aprendida por una fuente sea publicada hacia otros dispositivos utilizando un protocolo diferente se lo conoce como",
+      "opts": [
+        "Redistribución de Protocolo",
+        "Redistribución de tablas",
+        "Redistribución de rutas"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 14,
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "redes-p2-092",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "En un sistema de núcleo, el router de borde está conectado a un grupo de routers internos que a su vez conectan otros routers de menor jerarquía, si una red está conectada a uno de estos router de menor jerarquía, ¿quien es el responsable de anunciar su ruta hacia el núcleo?",
+      "opts": [
+        "los routers intermedios",
+        "Una autoridad administrativa",
+        "El router al cual está directamente conectado",
+        "El router de núcleo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El router R4 es el router más estrechamente asociado con red local 4, pero se encuentra a 2 saltos del router de núcleo próximo. Así, R4 debe depender de router R3 para encaminar paquetes a la red 4. El caso es que R4 sabe de red local 4 pero no puede pasar datagramas directamente desde R1. El Router R3 está a un salto del núcleo y puede garantizar pasar paquetes, pero no se conecta directamente a la red local 4. Entonces, parece incorrecto asignar responsabilidad a R3 para anunciar la red 4. Solucionar este dilema requerirá que nosotros introduzcamos el concepto de Sistema Autónomo donde, la arquitectura debería ser pensada como una organización sola que tiene muchas redes bajo su control. Debido a que las redes y routers caen bajo una única autoridad administrativa, esa autoridad puede garantizar que las rutas internas permanecen consistentes y viables. Además, la autoridad administrativa puede escoger uno de sus routers para informar al mundo exterior de las redes dentro de la organización. En el ejemplo de la figura, porque router R2, R3, y R4 yacen bajo el control de una autoridad administrativa, esa autoridad puede hacer que R3 anuncie las redes 2, 3, y 4 (R3 ya sabe de la red 1 porque tiene una conexión directa a ella).",
+      "img": "img/redes-p2-092.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 80]],
+        "img": "sources/pages/u7-ruteo-avanzado-p10-f2aa74.webp"
+      }
     },
     {
       "id": "redes-p2-097",
@@ -2309,7 +2949,13 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-097.webp"
+      "img": "img/redes-p2-097.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 4,
+        "confidence": "high",
+        "img": "sources/pages/u7-ruteo-avanzado-p4.webp"
+      }
     },
     {
       "id": "redes-p2-098",
@@ -2331,7 +2977,14 @@
         3,
         5
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[43.9, 20.2, 97.8, 61.6]],
+        "img": "sources/pages/u7-ruteo-avanzado-p24-79eff8.webp"
+      }
     },
     {
       "id": "redes-p2-099",
@@ -2347,7 +3000,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-099.webp"
+      "img": "img/redes-p2-099.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 33,
+        "confidence": "high",
+        "crop": [[0.9, 73.6, 87.9, 80.6]],
+        "img": "sources/pages/u7-ruteo-avanzado-p33-825c61.webp"
+      }
     },
     {
       "id": "redes-p2-100",
@@ -2364,7 +3024,14 @@
       "correct": [
         2
       ],
-      "fb": "BGP es un protocolo que funciona sobre TCP por el puerto 179. BGP permite el encaminamiento de los paquetes IP que se intercambian entre los distintos AS. Para ello, es necesario el intercambio de prefijos de rutas entre los diferentes AS de forma dinámica, lo cual se lleva a cabo mediante el establecimiento de sesiones BGP inter-AS sobre conexiones TCP. Este tipo de operación proporciona comunicación fiable y esconde todos los detalles dela red por la que se pasa."
+      "fb": "BGP es un protocolo que funciona sobre TCP por el puerto 179. BGP permite el encaminamiento de los paquetes IP que se intercambian entre los distintos AS. Para ello, es necesario el intercambio de prefijos de rutas entre los diferentes AS de forma dinámica, lo cual se lleva a cabo mediante el establecimiento de sesiones BGP inter-AS sobre conexiones TCP. Este tipo de operación proporciona comunicación fiable y esconde todos los detalles dela red por la que se pasa.",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 51.3, 92.2, 67.3]],
+        "img": "sources/pages/u7-ruteo-avanzado-p13-abfe13.webp"
+      }
     },
     {
       "id": "redes-p2-101",
@@ -2385,7 +3052,14 @@
         3,
         4
       ],
-      "fb": "Comentario de la cátedra sobre «Balanceo de Cargas»: error grave de concepto; marcar esta opción anula la pregunta."
+      "fb": "Comentario de la cátedra sobre «Balanceo de Cargas»: error grave de concepto; marcar esta opción anula la pregunta.",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[3.7, 17.1, 89.8, 79.1]],
+        "img": "sources/pages/u7-ruteo-avanzado-p14-50fe1f.webp"
+      }
     },
     {
       "id": "redes-p2-102",
@@ -2402,7 +3076,12 @@
         0
       ],
       "fb": "Sesiones BGP: En una sesión BGP participan sólo dos routers (peers). En cualquier momento una red puede tener muchas sesiones BGP concurrentes y también una misma pasarela puede participar en muchas sesiones BGP. En la sesión BGP se lleva a cabo el proceso denominado peering, que consiste en que un AS informa a otro sobre las redes que puede alcanzar a partir de éste.",
-      "img": "img/redes-p2-102.webp"
+      "img": "img/redes-p2-102.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 13,
+        "confidence": "medium"
+      }
     },
     {
       "id": "redes-p2-103",
@@ -2424,7 +3103,14 @@
         4
       ],
       "fb": "",
-      "img": "img/redes-p2-103.webp"
+      "img": "img/redes-p2-103.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 16,
+        "confidence": "high",
+        "crop": [[14.7, 28.1, 86.1, 84.2]],
+        "img": "sources/pages/u7-ruteo-avanzado-p16-6ce258.webp"
+      }
     },
     {
       "id": "redes-p2-104",
@@ -2460,7 +3146,14 @@
         12
       ],
       "fb": "",
-      "img": "img/redes-p2-104.webp"
+      "img": "img/redes-p2-104.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 15.5, 92.2, 91.4]],
+        "img": "sources/pages/u7-ruteo-avanzado-p13-0fb186.webp"
+      }
     },
     {
       "id": "redes-p2-105",
@@ -2477,7 +3170,14 @@
         1,
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 22,
+        "confidence": "high",
+        "crop": [[0, 43.9, 97.5, 87.9]],
+        "img": "sources/pages/u7-ruteo-avanzado-p22-60f65e.webp"
+      }
     },
     {
       "id": "redes-p2-106",
@@ -2492,7 +3192,14 @@
       "correct": [
         0
       ],
-      "fb": "La conectividad entre los routers de borde que intercambian sus informaciones BGP mediante I-BGP en un mismo AS vendrá asegurada por el protocolo IGP utilizado. Si un router de borde no es capaz de alcanzar una ruta de su propio AS, la cual le ha sido anunciada por un vecino interno, esta ruta no será propagada a los vecinos BGP internos o externos. El router BGP TAMBIEN debe correr un IGP (ej.OSPF) → Redistribución/etiquetado. iBGP, eBGP"
+      "fb": "La conectividad entre los routers de borde que intercambian sus informaciones BGP mediante I-BGP en un mismo AS vendrá asegurada por el protocolo IGP utilizado. Si un router de borde no es capaz de alcanzar una ruta de su propio AS, la cual le ha sido anunciada por un vecino interno, esta ruta no será propagada a los vecinos BGP internos o externos. El router BGP TAMBIEN debe correr un IGP (ej.OSPF) → Redistribución/etiquetado. iBGP, eBGP",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[3.7, 78.0, 91.9, 90.8]],
+        "img": "sources/pages/u7-ruteo-avanzado-p14-1ad639.webp"
+      }
     },
     {
       "id": "redes-p2-107",
@@ -2508,7 +3215,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-107.webp"
+      "img": "img/redes-p2-107.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0.9, 14.9, 96.8, 60.3]],
+        "img": "sources/pages/u7-ruteo-avanzado-p32-387e2d.webp"
+      }
     },
     {
       "id": "redes-p2-108",
@@ -2525,7 +3239,13 @@
         0
       ],
       "fb": "A diferencia de la mayoría de protocolos que propagan información de enrutamiento, un Protocolo de Gateway Exterior no solamente reporta el set de destinos que puede alcanzar. En lugar de eso, los protocolos exteriores deben proveer información que es correcta desde perspectiva de la persona externa. Hay dos asuntos: Las políticas y las rutas óptimas. El asunto de política es obvio: Un router dentro de un sistema autónomo puede tener permitido un destino dado, mientras los terceros tiene prohibido alcanzar el mismo destino. El asunto de rutas óptimas quiere decir que un router debe anunciar un siguiente salto que es óptimo desde la perspectiva de la persona ajena. En la figura el router R2 corre BGP y reporta información desde la perspectiva de la persona ajena, no de su propia tabla de enrutamiento. En la figura, el router R2 ha sido designado para hablar a BGP en nombre del sistema autónomo. Debe informar la asequibilidad a las redes 1 a 4. Sin embargo, al informar un siguiente salto, reporta la red 1 como alcanzable a través de router R1, las redes 3 y 4 como alcanzable a través de router R3, y la red 2 como alcanzable a través de R2.",
-      "img": "img/redes-p2-108.webp"
+      "img": "img/redes-p2-108.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 30,
+        "confidence": "high",
+        "img": "sources/pages/u7-ruteo-avanzado-p30.webp"
+      }
     },
     {
       "id": "redes-p2-109",
@@ -2541,7 +3261,14 @@
         1
       ],
       "fb": "Incorrecto, BGP solo anuncia accesibilidad, no rutas óptimas",
-      "img": "img/redes-p2-109.webp"
+      "img": "img/redes-p2-109.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 31,
+        "confidence": "high",
+        "crop": [[2.9, 20.8, 98.2, 64.1]],
+        "img": "sources/pages/u7-ruteo-avanzado-p31-65fc88.webp"
+      }
     },
     {
       "id": "redes-p2-110",
@@ -2557,7 +3284,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-110.webp"
+      "img": "img/redes-p2-110.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 32,
+        "confidence": "high",
+        "crop": [[0.9, 64.5, 96.8, 81.7]],
+        "img": "sources/pages/u7-ruteo-avanzado-p32-158b65.webp"
+      }
     },
     {
       "id": "redes-p2-111",
@@ -2579,7 +3313,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-111.webp"
+      "img": "img/redes-p2-111.webp",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 25,
+        "confidence": "high",
+        "crop": [[6.5, 34.5, 82.0, 70.2], [0, 15.0, 97.3, 97.3, 26]],
+        "img": "sources/pages/u7-ruteo-avanzado-p25-9648d4.webp"
+      }
     },
     {
       "id": "redes-p2-112",
@@ -2594,7 +3335,14 @@
       "correct": [
         0
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[0, 60.8, 99.8, 91.5]],
+        "img": "sources/pages/u7-ruteo-avanzado-p24-a3507c.webp"
+      }
     },
     {
       "id": "redes-p2-113",
@@ -2620,7 +3368,47 @@
         5,
         7
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-ruteo-avanzado.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 51.3, 92.2, 73.2]],
+        "img": "sources/pages/u7-ruteo-avanzado-p13-8bd982.webp"
+      }
+    },
+    {
+      "id": "redes-p2-125",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes opciones son correctas para TCP con ECN?",
+      "opts": [
+        "Señalizar ECN en los encabezados TCP",
+        "Es un mecanismo de notificación implícito",
+        "El router marca y descarta el paquete notificando al extremo sobre la congestión con el campo ECN=11",
+        "El emisor activa el bit ECT(ECN CapableTransport) de la cabecera IP solicitando ECN a cualquier router que detecte congestión",
+        "Requiere modificaciones a los encabezados IP y TCP",
+        "Routers notifican al origen TCP de una congestión incipiente",
+        "Utiliza los 6 bits del campo reservado del encabezado TCP",
+        "Utiliza los bits 6 y 7 del campo TOS (encabezado IPv4)"
+      ],
+      "correct": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fb": "",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 23,
+        "confidence": "high",
+        "crop": [[0, 10, 100, 80]],
+        "img": "sources/pages/u7-introduccion-a-qos-p23-5fba3b.webp"
+      }
     },
     {
       "id": "redes-p2-137",
@@ -2640,7 +3428,14 @@
       "correct": [
         5
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 5,
+        "confidence": "high",
+        "crop": [[0.6, 72.7, 98.3, 84.1]],
+        "img": "sources/pages/u7-introduccion-a-qos-p5-7096e1.webp"
+      }
     },
     {
       "id": "redes-p2-138",
@@ -2661,7 +3456,14 @@
         4
       ],
       "fb": "",
-      "img": "img/redes-p2-138.webp"
+      "img": "img/redes-p2-138.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 22,
+        "confidence": "high",
+        "crop": [[1.8, 31.4, 98.2, 73.7]],
+        "img": "sources/pages/u7-introduccion-a-qos-p22-b49bf6.webp"
+      }
     },
     {
       "id": "redes-p2-139",
@@ -2683,7 +3485,14 @@
         3,
         4
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 92]],
+        "img": "sources/pages/u7-introduccion-a-qos-p7-28360f.webp"
+      }
     },
     {
       "id": "redes-p2-140",
@@ -2704,7 +3513,14 @@
         4
       ],
       "fb": "",
-      "img": "img/redes-p2-140.webp"
+      "img": "img/redes-p2-140.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[1.4, 31.7, 93.9, 62.5]],
+        "img": "sources/pages/u7-introduccion-a-qos-p17-dd113b.webp"
+      }
     },
     {
       "id": "redes-p2-141",
@@ -2725,7 +3541,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-141.webp"
+      "img": "img/redes-p2-141.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 35,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 78]],
+        "img": "sources/pages/u7-introduccion-a-qos-p35-0ba114.webp"
+      }
     },
     {
       "id": "redes-p2-142",
@@ -2742,7 +3565,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-142.webp"
+      "img": "img/redes-p2-142.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0, 18, 100, 85]],
+        "img": "sources/pages/u7-introduccion-a-qos-p13-ffeb69.webp"
+      }
     },
     {
       "id": "redes-p2-143",
@@ -2766,7 +3596,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-143.webp"
+      "img": "img/redes-p2-143.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 49,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 24]],
+        "img": "sources/pages/u7-introduccion-a-qos-p49-724cf9.webp"
+      }
     },
     {
       "id": "redes-p2-144",
@@ -2787,7 +3624,14 @@
         4
       ],
       "fb": "",
-      "img": "img/redes-p2-144.webp"
+      "img": "img/redes-p2-144.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0, 10, 100, 92]],
+        "img": "sources/pages/u7-introduccion-a-qos-p29-38af8d.webp"
+      }
     },
     {
       "id": "redes-p2-145",
@@ -2820,7 +3664,14 @@
         11
       ],
       "fb": "",
-      "img": "img/redes-p2-145.webp"
+      "img": "img/redes-p2-145.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[9.5, 28.8, 95.9, 54.2], [0, 8, 100, 93, 34]],
+        "img": "sources/pages/u7-introduccion-a-qos-p28-81b962.webp"
+      }
     },
     {
       "id": "redes-p2-146",
@@ -2837,7 +3688,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-146.webp"
+      "img": "img/redes-p2-146.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 17,
+        "confidence": "high",
+        "crop": [[1.4, 79.7, 93.9, 89.5]],
+        "img": "sources/pages/u7-introduccion-a-qos-p17-0a2785.webp"
+      }
     },
     {
       "id": "redes-p2-147",
@@ -2864,7 +3722,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-147.webp"
+      "img": "img/redes-p2-147.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 30,
+        "confidence": "high",
+        "crop": [[0, 23, 100, 85]],
+        "img": "sources/pages/u7-introduccion-a-qos-p30-b082c3.webp"
+      }
     },
     {
       "id": "redes-p2-148",
@@ -2880,7 +3745,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-148.webp"
+      "img": "img/redes-p2-148.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 47,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 92]],
+        "img": "sources/pages/u7-introduccion-a-qos-p47-28360f.webp"
+      }
     },
     {
       "id": "redes-p2-149",
@@ -2918,7 +3790,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-150.webp"
+      "img": "img/redes-p2-150.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 47,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 92]],
+        "img": "sources/pages/u7-introduccion-a-qos-p47-28360f.webp"
+      }
     },
     {
       "id": "redes-p2-151",
@@ -2935,7 +3814,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-151.webp"
+      "img": "img/redes-p2-151.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 34,
+        "confidence": "high",
+        "crop": [[0, 10, 100, 44.5]],
+        "img": "sources/pages/u7-introduccion-a-qos-p34-2f0ba1.webp"
+      }
     },
     {
       "id": "redes-p2-152",
@@ -2953,7 +3839,14 @@
         1,
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 11,
+        "confidence": "high",
+        "crop": [[1.0, 15.2, 92.5, 47.5]],
+        "img": "sources/pages/u7-introduccion-a-qos-p11-4b8a81.webp"
+      }
     },
     {
       "id": "redes-p2-153",
@@ -2972,7 +3865,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-153.webp"
+      "img": "img/redes-p2-153.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[4.5, 17.3, 95.9, 86.1]],
+        "img": "sources/pages/u7-introduccion-a-qos-p28-4ab2a8.webp"
+      }
     },
     {
       "id": "redes-p2-154",
@@ -2991,7 +3891,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-154.webp"
+      "img": "img/redes-p2-154.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 19,
+        "confidence": "high",
+        "crop": [[2.9, 19.0, 92.3, 84.0]],
+        "img": "sources/pages/u7-introduccion-a-qos-p19-0dbe29.webp"
+      }
     },
     {
       "id": "redes-p2-155",
@@ -3008,7 +3915,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-155.webp"
+      "img": "img/redes-p2-155.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 9,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 93]],
+        "img": "sources/pages/u7-introduccion-a-qos-p9-10fda3.webp"
+      }
     },
     {
       "id": "redes-p2-156",
@@ -3026,7 +3940,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-156.webp"
+      "img": "img/redes-p2-156.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[1.4, 13.7, 97.8, 47.1]],
+        "img": "sources/pages/u7-introduccion-a-qos-p10-8a1fcc.webp"
+      }
     },
     {
       "id": "redes-p2-157",
@@ -3060,7 +3981,14 @@
         11,
         12
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 37,
+        "confidence": "high",
+        "crop": [[1.0, 15.2, 96.0, 88.3], [9.5, 53.9, 95.9, 79.4, 28]],
+        "img": "sources/pages/u7-introduccion-a-qos-p37-f03f6c.webp"
+      }
     },
     {
       "id": "redes-p2-158",
@@ -3098,7 +4026,14 @@
         1,
         2
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 38.6, 97.1, 63.8]],
+        "img": "sources/pages/u7-introduccion-a-qos-p8-12111e.webp"
+      }
     },
     {
       "id": "redes-p2-160",
@@ -3114,7 +4049,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-160.webp"
+      "img": "img/redes-p2-160.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 50,
+        "confidence": "high",
+        "crop": [[8.1, 17.2, 97.7, 79.5]],
+        "img": "sources/pages/u7-introduccion-a-qos-p50-a6aebc.webp"
+      }
     },
     {
       "id": "redes-p2-161",
@@ -3133,7 +4075,14 @@
         1,
         3
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 63.1, 97.1, 80.8]],
+        "img": "sources/pages/u7-introduccion-a-qos-p8-5287de.webp"
+      }
     },
     {
       "id": "redes-p2-162",
@@ -3151,7 +4100,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-162.webp"
+      "img": "img/redes-p2-162.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 8,
+        "confidence": "high",
+        "crop": [[0, 80.2, 76.8, 87.6]],
+        "img": "sources/pages/u7-introduccion-a-qos-p8-c88063.webp"
+      }
     },
     {
       "id": "redes-p2-163",
@@ -3174,7 +4130,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-163.webp"
+      "img": "img/redes-p2-163.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 93]],
+        "img": "sources/pages/u7-introduccion-a-qos-p39-10fda3.webp"
+      }
     },
     {
       "id": "redes-p2-164",
@@ -3195,7 +4158,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-164.webp"
+      "img": "img/redes-p2-164.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 51,
+        "confidence": "high",
+        "crop": [[1.3, 20.9, 99.2, 84.7]],
+        "img": "sources/pages/u7-introduccion-a-qos-p51-01b695.webp"
+      }
     },
     {
       "id": "redes-p2-165",
@@ -3227,7 +4197,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-166.webp"
+      "img": "img/redes-p2-166.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 57,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 92]],
+        "img": "sources/pages/u7-introduccion-a-qos-p57-28360f.webp"
+      }
     },
     {
       "id": "redes-p2-167",
@@ -3278,7 +4255,14 @@
       ],
       "fb": "En esta figura se muestra un ejemplo de cómo podría tener lugar el apilamiento de etiquetas. Supongamos que los ISP A y C (cuyas redes soportan MPLS) deciden unirse utilizando los servicios del ISP B, que internamente también utiliza MPLS. A y C contratan con B un enlace virtual entre los routers V e Y de un determinado caudal. El ISP B configura en su red MPLS un LSP (Label Switch Path) entre los routers W y X, a los que están conectados los ISPs A y C, respectivamente. A y C han de acordar el número de etiqueta que utilizarán para la FEC correspondiente a esta conexión (en este ejemplo la etiqueta 2, verde) pero dicha etiqueta no es vista por B. Inversamente B ha de utilizar una etiqueta en el LSP que define, en este ejemplo la 7 roja. Para el LSP formado por A y C el router de ingreso es U y el de egreso es Z. Para el LSP de B el router de ingreso es W y el de egreso es X. Evidentemente si, como es lo normal, los LSP son bidireccionales los routers de ingreso serían de egreso para el sentido opuesto, y viceversa. En la práctica es como si A y C hubieran construido un túnel entre V e Y haciendo uso del LSP de B. Durante su viaje por el túnel el paquete posee dos etiquetas MPLS ordenadas en forma de pila (la verde debajo y la roja arriba). A efectos del contador TTL en cada salto solo se decrementa el contador de mayor nivel en la pila. Así por ejemplo el salto de W a X no afecta el TTL de la etiqueta verde, que vale lo mismo que cuando salió de V. Ahora bien, cuando el paquete llega al router de egreso del segundo nivel (en este caso X) la etiqueta roja es destruida y el valor de su contador trasvasado al TTL de la etiqueta inferior (la verde en este caso). Un tratamiento análogo se da con el TTL del paquete IP, que no ve alterado su valor en todo el trayecto MPLS (de U a Z), pero cuyo TTL se decrementa en Z en 6 unidades, tantas como saltos han tenido lugar en todas las redes MPLS por las que ha pasado.",
       "figure": "img/mpls-ttl.webp",
-      "img": "img/redes-p2-168.webp"
+      "img": "img/redes-p2-168.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 60,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 92]],
+        "img": "sources/pages/u7-introduccion-a-qos-p60-28360f.webp"
+      }
     },
     {
       "id": "redes-p2-169",
@@ -3301,7 +4285,14 @@
         4
       ],
       "fb": "En líneas dedicadas (protocolo PPP) y redes locales la etiqueta MPLS se coloca inmediatamente detrás de la información de nivel de enlace y delante del paquete de nivel de red. En caso de que haya más de una etiqueta MPLS se orgnaizarán todas juntas en forma de pila, colocándose primero la más alta en la pila. En ATM y Frame Relay, a fin de aprovechar los mecanismos de conmutación inherentes de estas redes, la etiqueta MPLS más alta en la pila se coloca directamente en el campo que corresponde al VPI/VCI en ATM, o al DLCI en Frame Relay..El resto de etiquetas se colocan, caso de existir, inmediatamente delante del paquete de nivel de red, como si fuera parte de este a efectos del nivel de enlace. De esta forma cuando un paquete MPLS viaja por una red ATM o Frame Relay puede ser conmutado de forma natural, sin que la red tenga que hacer nada especial, salvo en el caso de los routers de ingreso y de egreso que habrán de poner o quitar la etiqueta.",
-      "img": "img/redes-p2-169.webp"
+      "img": "img/redes-p2-169.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 58,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 92]],
+        "img": "sources/pages/u7-introduccion-a-qos-p58-28360f.webp"
+      }
     },
     {
       "id": "redes-p2-170",
@@ -3321,7 +4312,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-170.webp"
+      "img": "img/redes-p2-170.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 54,
+        "confidence": "high",
+        "crop": [[2.9, 7.6, 94.9, 28.4]],
+        "img": "sources/pages/u7-introduccion-a-qos-p54-240386.webp"
+      }
     },
     {
       "id": "redes-p2-171",
@@ -3340,7 +4338,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-171.webp"
+      "img": "img/redes-p2-171.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 52,
+        "confidence": "high",
+        "crop": [[0, 48, 100, 93]],
+        "img": "sources/pages/u7-introduccion-a-qos-p52-26e677.webp"
+      }
     },
     {
       "id": "redes-p2-172",
@@ -3365,7 +4370,14 @@
         5
       ],
       "fb": "",
-      "img": "img/redes-p2-172.webp"
+      "img": "img/redes-p2-172.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 56,
+        "confidence": "high",
+        "crop": [[4.4, 23.7, 93.5, 82.1]],
+        "img": "sources/pages/u7-introduccion-a-qos-p56-3fc11f.webp"
+      }
     },
     {
       "id": "redes-p2-173",
@@ -3385,7 +4397,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-173.webp"
+      "img": "img/redes-p2-173.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 61,
+        "confidence": "high",
+        "crop": [[4.4, 72.3, 87.5, 82.1]],
+        "img": "sources/pages/u7-introduccion-a-qos-p61-a2b917.webp"
+      }
     },
     {
       "id": "redes-p2-174",
@@ -3406,7 +4425,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-174.webp"
+      "img": "img/redes-p2-174.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 54,
+        "confidence": "high",
+        "crop": [[2.9, 27.5, 90.9, 39.1], [7.9, 81.9, 95.8, 92.8]],
+        "img": "sources/pages/u7-introduccion-a-qos-p54-82b3b0.webp"
+      }
     },
     {
       "id": "redes-p2-175",
@@ -3427,7 +4453,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-175.webp"
+      "img": "img/redes-p2-175.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 54,
+        "confidence": "high",
+        "crop": [[2.9, 56.3, 96.1, 92.8], [0, 10, 100, 92, 55]],
+        "img": "sources/pages/u7-introduccion-a-qos-p54-fd042e.webp"
+      }
     },
     {
       "id": "redes-p2-176",
@@ -3449,7 +4482,14 @@
         4
       ],
       "fb": "Ver “REDES E INTERNET DE ALTA VELOCIDAD. RENDIMIENTO Y CALIDAD DE SERVICIO” Autor: STALLINGS, WILLIAMS. 2a Edición, Pearson Prentice Hall, 2004. ISBN 84-205-3921-X. Página 538/539",
-      "img": "img/redes-p2-176.webp"
+      "img": "img/redes-p2-176.webp",
+      "source": {
+        "file": "sources/u7-introduccion-a-qos.pdf",
+        "page": 56,
+        "confidence": "high",
+        "crop": [[9.4, 23.7, 90.8, 44.5], [0, 40, 100, 52, 57]],
+        "img": "sources/pages/u7-introduccion-a-qos-p56-1db32d.webp"
+      }
     },
     {
       "id": "redes-p2-177",
@@ -3469,7 +4509,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-177.webp"
+      "img": "img/redes-p2-177.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 20,
+        "confidence": "high",
+        "crop": [[2.9, 67.1, 94.4, 90.7]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p20-c249c9.webp"
+      }
     },
     {
       "id": "redes-p2-178",
@@ -3485,7 +4532,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-178.webp"
+      "img": "img/redes-p2-178.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 36,
+        "confidence": "high",
+        "crop": [[0.9, 14.7, 80.6, 26.7]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p36-c7b13f.webp"
+      }
     },
     {
       "id": "redes-p2-179",
@@ -3501,7 +4555,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-179.webp"
+      "img": "img/redes-p2-179.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 13,
+        "confidence": "high",
+        "crop": [[0.9, 15.1, 90.5, 27.1]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p13-fccdc7.webp"
+      }
     },
     {
       "id": "redes-p2-180",
@@ -3522,7 +4583,14 @@
         4
       ],
       "fb": "",
-      "img": "img/redes-p2-180.webp"
+      "img": "img/redes-p2-180.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[2.9, 67.1, 85.3, 77.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p24-342846.webp"
+      }
     },
     {
       "id": "redes-p2-181",
@@ -3549,7 +4617,14 @@
         6
       ],
       "fb": "",
-      "img": "img/redes-p2-181.webp"
+      "img": "img/redes-p2-181.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 57,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 100], [0.9, 60.2, 89.7, 71.5, 60]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p57-e0309e.webp"
+      }
     },
     {
       "id": "redes-p2-182",
@@ -3565,7 +4640,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-182.webp"
+      "img": "img/redes-p2-182.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 60,
+        "confidence": "high",
+        "crop": [[0.9, 21.5, 90.4, 32.6]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p60-1ceb68.webp"
+      }
     },
     {
       "id": "redes-p2-183",
@@ -3600,7 +4682,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-184.webp"
+      "img": "img/redes-p2-184.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 48,
+        "confidence": "high",
+        "crop": [[2.9, 32.3, 92.5, 43.0]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p48-0191da.webp"
+      }
     },
     {
       "id": "redes-p2-185",
@@ -3617,7 +4706,13 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-185.webp"
+      "img": "img/redes-p2-185.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 12,
+        "confidence": "high",
+        "img": "sources/pages/u8-seguridad-y-vpn-p12.webp"
+      }
     },
     {
       "id": "redes-p2-186",
@@ -3633,7 +4728,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-186.webp"
+      "img": "img/redes-p2-186.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[2.9, 67.1, 85.3, 77.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p24-342846.webp"
+      }
     },
     {
       "id": "redes-p2-187",
@@ -3654,7 +4756,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-187.webp"
+      "img": "img/redes-p2-187.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 7,
+        "confidence": "high",
+        "crop": [[2.5, 5.6, 97.2, 100]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p7-378877.webp"
+      }
     },
     {
       "id": "redes-p2-188",
@@ -3670,7 +4779,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-188.webp"
+      "img": "img/redes-p2-188.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[2.9, 27.1, 95.6, 69.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p15-3322bb.webp"
+      }
     },
     {
       "id": "redes-p2-189",
@@ -3709,7 +4825,14 @@
         3,
         4
       ],
-      "fb": ""
+      "fb": "",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 6,
+        "confidence": "high",
+        "crop": [[36.5, 34.1, 93.8, 38.3], [2.5, 62.9, 97.2, 79.0, 7]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p6-7ee29a.webp"
+      }
     },
     {
       "id": "redes-p2-191",
@@ -3743,7 +4866,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-192.webp"
+      "img": "img/redes-p2-192.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0.9, 12.5, 95.3, 57.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p46-674a83.webp"
+      }
     },
     {
       "id": "redes-p2-193",
@@ -3766,7 +4896,14 @@
         4
       ],
       "fb": "",
-      "img": "img/redes-p2-193.webp"
+      "img": "img/redes-p2-193.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 28,
+        "confidence": "high",
+        "crop": [[0.9, 19.8, 96.3, 71.4]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p28-c42156.webp"
+      }
     },
     {
       "id": "redes-p2-194",
@@ -3782,7 +4919,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-194.webp"
+      "img": "img/redes-p2-194.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[2.9, 15.1, 55.9, 21.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p15-b39adf.webp"
+      }
     },
     {
       "id": "redes-p2-195",
@@ -3798,7 +4942,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-195.webp"
+      "img": "img/redes-p2-195.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[2.9, 19.1, 94.0, 29.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p24-ca9ad1.webp"
+      }
     },
     {
       "id": "redes-p2-196",
@@ -3823,7 +4974,14 @@
         5
       ],
       "fb": "",
-      "img": "img/redes-p2-196.webp"
+      "img": "img/redes-p2-196.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0.9, 12.5, 95.3, 57.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p46-674a83.webp"
+      }
     },
     {
       "id": "redes-p2-197",
@@ -3858,7 +5016,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-198.webp"
+      "img": "img/redes-p2-198.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 15,
+        "confidence": "high",
+        "crop": [[2.9, 15.1, 95.6, 87.1]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p15-d5ad9b.webp"
+      }
     },
     {
       "id": "redes-p2-199",
@@ -3878,7 +5043,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-199.webp"
+      "img": "img/redes-p2-199.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 29,
+        "confidence": "high",
+        "crop": [[0.9, 17.2, 67.4, 36.6]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p29-a3b57c.webp"
+      }
     },
     {
       "id": "redes-p2-200",
@@ -3894,7 +5066,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-200.webp"
+      "img": "img/redes-p2-200.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 46,
+        "confidence": "high",
+        "crop": [[0.9, 12.5, 95.3, 57.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p46-674a83.webp"
+      }
     },
     {
       "id": "redes-p2-201",
@@ -3911,7 +5090,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-201.webp"
+      "img": "img/redes-p2-201.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 12,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 45]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p12-96f33e.webp"
+      }
     },
     {
       "id": "redes-p2-202",
@@ -3927,7 +5113,14 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-202.webp"
+      "img": "img/redes-p2-202.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 40,
+        "confidence": "high",
+        "crop": [[2.9, 17.7, 95.5, 61.8]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p40-d78e14.webp"
+      }
     },
     {
       "id": "redes-p2-203",
@@ -3959,7 +5152,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-204.webp"
+      "img": "img/redes-p2-204.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[0.9, 12.5, 94.6, 24.5]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p14-f84a6f.webp"
+      }
     },
     {
       "id": "redes-p2-205",
@@ -3976,7 +5176,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-205.webp"
+      "img": "img/redes-p2-205.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 10,
+        "confidence": "high",
+        "crop": [[0, 0, 100, 50]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p10-61fd5c.webp"
+      }
     },
     {
       "id": "redes-p2-206",
@@ -4018,7 +5225,14 @@
         2
       ],
       "fb": "",
-      "img": "img/redes-p2-207.webp"
+      "img": "img/redes-p2-207.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 48,
+        "confidence": "high",
+        "crop": [[2.9, 27.0, 77.5, 32.4], [2.9, 75.0, 91.2, 80.4]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p48-e29f12.webp"
+      }
     },
     {
       "id": "redes-p2-208",
@@ -4037,7 +5251,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-208.webp"
+      "img": "img/redes-p2-208.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 24,
+        "confidence": "high",
+        "crop": [[2.9, 12.5, 95.4, 84.5]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p24-dbd6b3.webp"
+      }
     },
     {
       "id": "redes-p2-209",
@@ -4092,7 +5313,12 @@
         6
       ],
       "fb": "",
-      "img": "img/redes-p2-210.webp"
+      "img": "img/redes-p2-210.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 19,
+        "confidence": "medium"
+      }
     },
     {
       "id": "redes-p2-211",
@@ -4150,7 +5376,14 @@
         5
       ],
       "fb": "",
-      "img": "img/redes-p2-213.webp"
+      "img": "img/redes-p2-213.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 39,
+        "confidence": "high",
+        "crop": [[2.9, 46.6, 95.7, 97.3]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p39-7b3c74.webp"
+      }
     },
     {
       "id": "redes-p2-214",
@@ -4171,7 +5404,13 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-214.webp"
+      "img": "img/redes-p2-214.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 43,
+        "confidence": "high",
+        "img": "sources/pages/u8-seguridad-y-vpn-p43.webp"
+      }
     },
     {
       "id": "redes-p2-215",
@@ -4192,7 +5431,14 @@
         4
       ],
       "fb": "",
-      "img": "img/redes-p2-215.webp"
+      "img": "img/redes-p2-215.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 20,
+        "confidence": "high",
+        "crop": [[2.9, 18.2, 93.4, 49.4]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p20-331fad.webp"
+      }
     },
     {
       "id": "redes-p2-216",
@@ -4208,7 +5454,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-216.webp"
+      "img": "img/redes-p2-216.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 27,
+        "confidence": "high",
+        "crop": [[6.2, 83.3, 93.8, 96.6]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p27-a0cfce.webp"
+      }
     },
     {
       "id": "redes-p2-217",
@@ -4224,7 +5477,14 @@
         1
       ],
       "fb": "",
-      "img": "img/redes-p2-217.webp"
+      "img": "img/redes-p2-217.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 26,
+        "confidence": "high",
+        "crop": [[0, 24.4, 92.6, 36.4]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p26-884648.webp"
+      }
     },
     {
       "id": "redes-p2-218",
@@ -4241,7 +5501,13 @@
         0
       ],
       "fb": "",
-      "img": "img/redes-p2-218.webp"
+      "img": "img/redes-p2-218.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 10,
+        "confidence": "high",
+        "img": "sources/pages/u8-seguridad-y-vpn-p10.webp"
+      }
     },
     {
       "id": "redes-p2-219",
@@ -4261,7 +5527,14 @@
         3
       ],
       "fb": "",
-      "img": "img/redes-p2-219.webp"
+      "img": "img/redes-p2-219.webp",
+      "source": {
+        "file": "sources/u8-seguridad-y-vpn.pdf",
+        "page": 14,
+        "confidence": "high",
+        "crop": [[0.9, 40.4, 84.3, 52.5]],
+        "img": "sources/pages/u8-seguridad-y-vpn-p14-8b1d06.webp"
+      }
     }
   ]
 }
