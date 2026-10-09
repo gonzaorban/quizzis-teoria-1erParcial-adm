@@ -91,11 +91,14 @@ function checkExam(slug, exam, meta) {
       if (!Array.isArray(q.opts) || q.opts.length < 2) e("'opts' necesita al menos 2 opciones");
       else if (!inRange(q.correct, q.opts.length)) e(`índices de 'correct' fuera de rango (0..${q.opts.length - 1})`);
       else if (new Set(q.correct).size !== q.correct.length) e("'correct' tiene índices repetidos");
-      else if ((q.type === "single" || q.type === "tf") && q.correct.length > 1) e(`${q.type} admite una sola respuesta correcta`);
+      else if (q.type === "tf" && q.correct.length > 1) e("tf admite una sola respuesta correcta");
+      // a single with several right options: any of them scores, so the review has to say why (Moodle allows it)
+      else if (q.type === "single" && q.correct.length > 1 && !q.note) e("single con varias correctas necesita 'note' que lo explique");
       if (q.type === "tf" && q.opts?.length !== 2) e("tf necesita exactamente 2 opciones");
     }
 
     if (q.img !== undefined && !fs.existsSync(path.join(dir, q.img))) e(`no existe la imagen ${q.img}`);
+    if (q.figure !== undefined && !fs.existsSync(path.join(dir, q.figure))) e(`no existe la figura ${q.figure}`);
     if (q.source !== undefined) {
       const s = q.source;
       if (s?.file === undefined) {

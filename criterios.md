@@ -13,7 +13,8 @@ Hay dos clases de preguntas, y cada pregunta indica a cuál pertenece con el cam
   o de parciales (cuestionarios, evaluaciones formativas, parciales anteriores), con sus opciones.
   **No se modifican**: se respetan el enunciado, las opciones y la respuesta correcta, aunque no cumplan
   los criterios de abajo (por ejemplo, si la correcta es la más larga o hay una opción «todas las
-  anteriores»). Todo el 1er parcial de ASI y todo el 1er parcial de Redes son de esta clase. El 1er
+  anteriores»). Todo el 1er parcial de ASI y los dos parciales de Redes (el 2do sale del PDF de
+  parciales, las revisiones del cuestionario de estudio) son de esta clase. El 1er
   parcial de GIS también está marcado como de la cátedra hasta revisar de dónde salen sus preguntas.
 - **Preguntas armadas a partir del material** (`"catedra": false`): las que escribimos nosotros con
   base en el apunte, por ejemplo al convertir a opción múltiple una pregunta abierta de un cuestionario

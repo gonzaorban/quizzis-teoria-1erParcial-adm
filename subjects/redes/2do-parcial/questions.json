@@ -1,10 +1,4267 @@
 {
   "subject": "Redes de Datos",
   "exam": "2do parcial",
-  "description": "Banco de preguntas (ISI, UTN FRRe) armado desde los cuestionarios de estudio.",
+  "description": "Banco de preguntas (ISI, UTN FRRe) sacado del PDF de parciales: las revisiones del cuestionario de estudio.",
   "accent": "#2F6FD6",
   "accentDark": "#5B8FE6",
   "emptyFeedback": "La cátedra no incluyó explicación para esta pregunta.",
-  "topics": {},
-  "questions": []
+  "topicFilter": "pick",
+  "labels": {
+    "topics": "Unidades",
+    "allTopics": "Todas las unidades"
+  },
+  "imageCaption": "Retroalimentación de la cátedra",
+  "about": [
+    "<p><b>De dónde salen las preguntas:</b> todas están sacadas, tal cual, del <b>PDF de parciales</b>: las revisiones de 24 intentos de la <i>Segunda Instancia de Evaluación (Cuestionario de Estudio)</i> del aula virtual (2023 y 2025). Las preguntas repetidas entre intentos aparecen una sola vez, y la respuesta correcta es la que da el aula virtual en la revisión.</p>",
+    "<p>Al responder se muestra la retroalimentación de la cátedra que traía la revisión (texto y diapositivas). El PDF, cortado en un archivo por intento, está en <a href=\"https://github.com/gonzaorban/quizzis-utn/tree/main/subjects/redes/2do-parcial/revisiones\" target=\"_blank\" rel=\"noopener noreferrer\">revisiones/</a>.</p>",
+    "<p><b>Unidades:</b> la revisión del aula virtual no dice de qué unidad es cada pregunta; la asignamos según el programa y se va a revisar cuando estén los apuntes de teoría. Ninguna pregunta del cuestionario es de la Unidad 9 (gestión y administración de redes).</p>"
+  ],
+  "topics": {
+    "4": {
+      "name": "U4 · Capa de red: IP e ICMP",
+      "color": "#E8772E"
+    },
+    "5": {
+      "name": "U5 · Direccionamiento y ruteo",
+      "color": "#2E9E57"
+    },
+    "6": {
+      "name": "U6 · Transporte: TCP y UDP",
+      "color": "#2F6FD6"
+    },
+    "7": {
+      "name": "U7 · Ruteo avanzado",
+      "color": "#8A5A3B"
+    },
+    "8": {
+      "name": "U8 · VPNs y seguridad",
+      "color": "#7B3FA0"
+    }
+  },
+  "questions": [
+    {
+      "id": "redes-p2-001",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "El MTU indica:",
+      "opts": [
+        "La fragmentación",
+        "La cantidad de bytes que puede tener el payload del enlace",
+        "El tamaño máximo del paquete IP"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-003",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "En IPv4 el proceso de fragmentación se puede producir en:",
+      "opts": [
+        "Destino",
+        "Origen",
+        "En los enrutadores de la sub-red"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-004",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Las principales funciones de la capa de red son:",
+      "opts": [
+        "Controlar la congestión",
+        "Conmutación",
+        "Controlar el flujo",
+        "Hallar el camino"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-004.webp"
+    },
+    {
+      "id": "redes-p2-006",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "El protocolo IP provee un servicio de:",
+      "opts": [
+        "orientado a circuito de máximo esfuerzo",
+        "entrega sin conexión no confiable",
+        "entrega con conexión de máximo esfuerzo",
+        "entrega sin conexión confiable"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-007",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Cuantos Bytes tiene un encabezado mínimo IPv4",
+      "opts": [
+        "48 bytes",
+        "20 bytes",
+        "1500 Bytes",
+        "64 bytes"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-009",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuáles opciones son verdaderas para el campo TTL de IPv4",
+      "opts": [
+        "Cuando su valor llega a cero, se descarta el paquete y se informa al origen",
+        "Cada ruteador del camino decrementa su valor en 1",
+        "En determinadas condiciones se ignora un TTL igual a cero y se reenvia el datagrama",
+        "En caso de ruteadores recargados cada ruteador registra el tiempo local cuando llega el datagrama y decrementa el campo ttl por el número de segundos que el datagrama permanece en el ruteador"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-010",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Los campos que jamas cambian en un encabezado IPv4 durante el proceso de ruteo son:",
+      "opts": [
+        "Header Checksum",
+        "TTL",
+        "Identificación",
+        "Dirección Origen",
+        "Dirección Destino"
+      ],
+      "correct": [
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-011",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cual de las siguientes son validas para el campo opciones de IPv4:",
+      "opts": [
+        "Ruteo Fuente",
+        "Registro de Ruta",
+        "No fragmentar",
+        "Sello de Hora"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-013",
+      "topic": 4,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un paquete correspondiente a un fragmento IPv4 puede volver a fragmentarse varias veces",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-015",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes opciones son válidas para el campo TOS de IPv4?",
+      "opts": [
+        "Los bits 6 y 7 no se utilizan",
+        "Si los tres primeros bits están en cero significa prioridad normal",
+        "Los tres primero bits Indican Prioridad",
+        "Si están en cero indica descarte",
+        "Este campo fue modificado para acomodar DSCP en ServDiff",
+        "si el valor en decimal de los tres primeros bits es 7, significa control de red"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-020",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "El bit del campo no fragmentar puesto a 1 se utiliza para:",
+      "opts": [
+        "Indicar al enrutador que fragmente el paquete al tamaño de MTU de la red de salida",
+        "Impedir que se produzca el proceso de fragmentación",
+        "Hacer mas eficiente la conmutación de paquetes grandes",
+        "Calcular la MTU mínima de un determinado camino"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-027",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Si un paquete se descarta porque el receptor no dispone de buffers de memoria libre debido a una situación de sobrecarga temporal:",
+      "opts": [
+        "descarta el paquete y envía al destino que hay congestión mediante mensaje ICMP source quench",
+        "descarta el paquete y envía al origen un mensaje ICMP source quench",
+        "devuelve un mensaje ICMP \"parameter error\""
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-028",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Al hacer una prueba de accesibilidad con \"Ping\", resulta que es fallida y nos informa \"Tiempo de espera agotado\", esto es debido a:",
+      "opts": [
+        "que el Host está configurado para no contestar mensajes ICMP",
+        "la red esta congestionada y las respuestas no llegan",
+        "Que el Host se encuentra detras de un \"Firewall\"",
+        "que el HOST no existe o no se encuentra en la red"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-029",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Al hacer una prueba de accesibilidad con \"Ping\", resulta que es fallida y nos informa \"Destino Inalcanzable\", esto es debido a:",
+      "opts": [
+        "que el HOST no existe o no se encuentra en la red",
+        "la red esta congestionada y las respuestas no llegan",
+        "que el Host esta configurado para no contestar mensajes ICMP",
+        "Que el Host se encuentra detras de un \"Firewall\""
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-030",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "El protocolo RARP",
+      "opts": [
+        "ARP, es un protocolo estático. Por lo que la tabla de búsqueda debe estar siempre actualizada para permitir la conexión de nuevas tarjetas de interfaz de red",
+        "Permite a una máquina sin disco conocer su dirección física",
+        "El protocolo RARP le permite a la estación de trabajo averiguar su dirección IP desde una tabla de búsqueda entre las direcciones MAC (direcciones físicas) y las direcciones IP alojada en un router ubicado en la misma red de área local (LAN)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-030.webp"
+    },
+    {
+      "id": "redes-p2-031",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Que tipo de mensaje ICMP se utiliza en las pruebas de rendimiento?",
+      "opts": [
+        "time-stamp request/reply",
+        "redirect",
+        "source quench",
+        "echo request/reply",
+        "Parámeter error"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-032",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Para enviar un datagrama desde una lan a otra lan diferente, el protocolo arp:",
+      "opts": [
+        "el protocolo ARP del router se denomina proxy ARP",
+        "Envía por difusión un ARP request a todo el segmento",
+        "el router del segmento responde con su propia IP / MAC"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-033",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Al hacer una prueba de accesibilidad con \"Ping\", resulta que es fallida y nos informa \"Destino Inalcanzable\", como se puede determinar que la red es inalcanzable o un computador de esa red es inalcanzable? (marque las opciones que son correctas)",
+      "opts": [
+        "por el campo tipo =0 del mensaje ICMP",
+        "por el campo tipo=4 del mensaje ICMP",
+        "por el contenido del campo código=7 del mensaje ICMP",
+        "por el contenido del campo tipo=3 del mensaje ICMP",
+        "por el contenido del campo código=6 del mensaje ICMP"
+      ],
+      "correct": [
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-034",
+      "topic": 4,
+      "type": "tf",
+      "catedra": true,
+      "text": "ARP tiene encabezado de formato fijo",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-035",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "ARP:",
+      "opts": [
+        "Todas las opciones son correctas",
+        "Es un protocolo de bajo nivel que oculta el direccionamiento físico subyacente de la red",
+        "Proporciona un mecanismo para transformar direcciones IP en direcciones físicas",
+        "ARP es parte del sistema físico de la red, no forma parte de los protocolos de red de redes"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Comentario de la cátedra sobre «Proporciona un mecanismo para transformar direcciones IP en direcciones físicas»: hay una mejor opción de respuesta."
+    },
+    {
+      "id": "redes-p2-036",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Durante el procedimiento de descubrimiento de MTU del camino, se envía un datagrama con el bit de no fragmentar activado, si en el camino encuentra un enrutador que no puede enviar el datagrama sin fragmentar, descarta el datagrama y devuelve un mensaje ICMP indicando que es necesaria la fragmentación y el tamaño de la MTU posible. Esto lo hace mediante:",
+      "opts": [
+        "con un mensaje ICMP tiempo excedido además del tamaño MTU",
+        "El campo código ICMP",
+        "El campo tipo ICMP"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-037",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique las funciones principales asociadas a ICMP",
+      "opts": [
+        "Notificación de cambio de ruta",
+        "Corrección de errores",
+        "Control de flujo",
+        "Comprobación de equipo alcanzable",
+        "Control de congestión",
+        "Direccionamiento en subredes",
+        "Medición de rendimiento",
+        "Informe de errores"
+      ],
+      "correct": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fb": "",
+      "img": "img/redes-p2-037.webp"
+    },
+    {
+      "id": "redes-p2-039",
+      "topic": 4,
+      "type": "tf",
+      "catedra": true,
+      "text": "La cabecera mínima en IPv4 tiene 13 campos mientras que la cabecera mínima en IPv6 solo tiene 8 campos",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-040",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Cual de las siguiente opciones son verdaderas",
+      "opts": [
+        "Para los jumbogramas el campo longitud de de carga útil indica la longitud del paquete en bytes pero excluye la cabecera principal e incluye los 8 bytes de la cabecera de extensión",
+        "Para los jumbogramas el campo longitud de de carga útil indica la longitud del paquete en bytes pero incluye la cabecera principal y los 8 bytes de la cabecera de extensión",
+        "Para los jumbogramas el campo longitud de de carga útil indica la longitud del paquete en bytes pero excluye la cabecera principal y los 8 bytes de la cabecera de extensión"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-041",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de las siguientes opciones son verdaderas en la autenticación y encapsulado de datos IPv6",
+      "opts": [
+        "Utiliza cifrado modo transporte",
+        "Utiliza cifrado modo túnel",
+        "Utiliza ESP",
+        "La suma de comprobación de los contenidos del paquete se transporta en la cabecera de autenticación del paquete",
+        "Antes de intercambiar datos los computadores comunicantes deben intercambiar las claves secretas"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-042",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Cuantos Bytes tiene un encabezado mínimo IPv6",
+      "opts": [
+        "64 bytes",
+        "20 bytes",
+        "1500 bytes",
+        "40 bytes",
+        "48 bytes"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-045",
+      "topic": 4,
+      "type": "tf",
+      "catedra": true,
+      "text": "El campo \"longitud de carga útil\" de IPv6, tiene el mismo significado que el campo \"longitud total\" en IPv4",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El significado es distinto pues el campo \"longitud total\" de IPv4 incluye el número de bytes de la cabecera del datagrama"
+    },
+    {
+      "id": "redes-p2-046",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de las siguientes opciones son verdaderas para la fragmentación en IPv6",
+      "opts": [
+        "La cabecera de fragmentación incluye el bit D (don't fragment)",
+        "Se utiliza el procedimiento de descubrimiento de MTU",
+        "Si no se conoce la MTU mínima, se utiliza MTU=576 Bytes",
+        "La cabecera de fragmentación tiene un identificador de 32 bits"
+      ],
+      "correct": [
+        1,
+        2,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-048",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Autonfiguración en IPv6, utiliza:",
+      "opts": [
+        "ARP",
+        "Mensajes solicitud de encaminador ICMPv6",
+        "Descubrimiento de Vecino",
+        "DHCP"
+      ],
+      "correct": [
+        1,
+        2,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-049",
+      "topic": 4,
+      "type": "single",
+      "catedra": true,
+      "text": "Para el contenido del campo \"longitud de carga útil\" de IPv6, el valor mínimo es de:",
+      "opts": [
+        "576 bytes",
+        "64 Kbytes",
+        "536 bytes",
+        "64 bytes"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-050",
+      "topic": 4,
+      "type": "tf",
+      "catedra": true,
+      "text": "En el protocolo IPv6, cuando se utilizan opciones salto a salto, se debe poner en cero el valor del campo \"cabecera siguiente\"",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-050.webp"
+    },
+    {
+      "id": "redes-p2-051",
+      "topic": 4,
+      "type": "tf",
+      "catedra": true,
+      "text": "En IPv6 se eliminó la fragmentación en los routers",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-051.webp"
+    },
+    {
+      "id": "redes-p2-052",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales opciones son validas para el campo \"longitud de carga útil\" de IPv6,",
+      "opts": [
+        "Su valor es cero si el siguiente encabezado es opción salto a salto \"jumbograma\"",
+        "576 bytes",
+        "536 bytes",
+        "64 bytes",
+        "64 Kbytes",
+        "65536 Kbytes"
+      ],
+      "correct": [
+        0,
+        4
+      ],
+      "fb": "Para éste ítem en particular, se recomienda la lectura del libro \"Redes de compuradoras e Internet\" de Fred Halsall, 5º edición paginas 431/432",
+      "img": "img/redes-p2-052.webp"
+    },
+    {
+      "id": "redes-p2-053",
+      "topic": 4,
+      "type": "tf",
+      "catedra": true,
+      "text": "Es imprescindible el uso de ARP en IPv6",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El protocolo IPv6, prevé el mecanismo Neighbour Discovery que hace innecesario el uso de ARP"
+    },
+    {
+      "id": "redes-p2-054",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cual de las siguientes opciones IPv6 se procesan en el destino",
+      "opts": [
+        "Encriptación",
+        "Opciones Salto a Salto",
+        "Enrutamiento",
+        "Fragmentación",
+        "Autenticación",
+        "Opciones de destino"
+      ],
+      "correct": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "fb": "",
+      "img": "img/redes-p2-054.webp"
+    },
+    {
+      "id": "redes-p2-055",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de las siguientes opciones son verdaderas para IPv6",
+      "opts": [
+        "Formato cabecera simplificado",
+        "Utiliza direcciones de 16 Bytes",
+        "Define direcciones de Monodifusión",
+        "Mejoras Multicast",
+        "Las direcciones IPv6 son jerárquicas",
+        "Características para QoS",
+        "Características para Seguridad",
+        "Utiliza Autoconfiguración",
+        "Utiliza Cheksum de 32 bits",
+        "Optimiza fragmentación en los enrutadores",
+        "Hace servicio de entrega confiable"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fb": "",
+      "img": "img/redes-p2-055.webp"
+    },
+    {
+      "id": "redes-p2-056",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique las técnicas de interoperabilidad entre IPv6 e IPv4",
+      "opts": [
+        "Protocolos Duales",
+        "Traductores de nivel de aplicación",
+        "Pilas Duales y encapsulado en túnel"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-057",
+      "topic": 4,
+      "type": "multi",
+      "catedra": true,
+      "text": "Las técnicas mas utilizadas en la interoperabilidad de IPv6 / IPv4 son:",
+      "opts": [
+        "Traductores de nivel de aplicación",
+        "Protocolos Duales",
+        "Pilas duales y encapsulado en túnel"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-002",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Una dirección IPv4 con 32 ceros (marque las opción u opciones que considere correctas)",
+      "opts": [
+        "No se utiliza en ningún caso",
+        "Se utiliza para indicar dirección/mascara por defecto",
+        "Nunca es una dirección válida de destino",
+        "Se utiliza para pruebas de la pila local",
+        "Es permitido solamente en el arranque",
+        "No existe ninguna dirección de esas características en la convencion IPv4"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-005",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Se dice que los routers contienen o filtran :",
+      "opts": [
+        "Direcciones de difusión local",
+        "Direcciones de difusión dirigida",
+        "Las direcciones cuyas máscaras están con todos sus bits con valor 0",
+        "Dominios de difusión",
+        "Las direcciones cuyas máscaras en las porcion de host están con todos sus bits con valor 1"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-008",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de difusión de la Red o Subred?",
+      "opts": [
+        "Porque la máscara está con todos sus bits en cero",
+        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor 1",
+        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor cero"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-012",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Tengo la dirección 200.194.48.0/24, y deseo subnetear para conseguir 8 subredes con 32 direcciones cada una ¿Cuantos bits tengo que avanzar en la máscara?",
+      "opts": [
+        "7",
+        "5",
+        "6",
+        "8",
+        "3",
+        "4"
+      ],
+      "correct": [
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-014",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos clases de direcciones estableció la convención original de direccionamiento IPv4?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "4",
+        "3",
+        "8"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-014.webp"
+    },
+    {
+      "id": "redes-p2-016",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Un dirección IPv4 : (marque las opciones que sean verdaderas para la convención de direccionamiento IPv4)",
+      "opts": [
+        "Tiene una longitud de 32 bits",
+        "Conforman un espacio de direccionamiento plano",
+        "Se utiliza el mecanismo de máscara para establecer la porción de red",
+        "La convención establece que tiene una porción de red y una porción de host",
+        "Se puede representar con notación decimal separando cuatro grupos de 8 bits y pasando cada grupo a decimal",
+        "Tienen significación global",
+        "Un router puede determinar la dirección de red haciendo una operación AND entre la dirección IP y su correspondiente máscara"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-017",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual dirección/rango se reserva para loopback, esta destinada para pruebas de TCP/IP y también para la comunicación de procesos internos en la máquina local en IPv4? (marque una sola opción correcta)",
+      "opts": [
+        "127.255.255.255",
+        "127.0.0.0/8",
+        "127.0.0.0",
+        "127.0.0.1"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-018",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la organización que opera a nivel internacional, responsable de asignar espacio de direcciones numéricas de protocolo de Internet (IP), identificadores de protocolo y de las funciones de gestión?",
+      "opts": [
+        "ICANN",
+        "IANA",
+        "ARIN",
+        "Internet Society"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La Internet Assigned Numbers Authority (cuyo acrónimo es IANA), es la Agencia de Asignación de Números de Internet. Era el antiguo registro central de los protocolos Internet, como puertos, números de protocolo y empresa, opciones y códigos. Fue sustituido en 1998 por ICANN."
+    },
+    {
+      "id": "redes-p2-019",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Que problema se puede producir si durante la aplicación de la técnica de VLSM, en un paso posterior utilizo una máscara mas corta que en un paso anterior?",
+      "opts": [
+        "Se produce una reutilización de direcciones",
+        "Se duplica el rango de direcciones",
+        "Se aumenta el rango de direcciones",
+        "Se produce el denominado \"solapamiento de direcciones\""
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-021",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cómo conviene ordenar los requerimientos de direcciones por segmento para aplicar la técnica VLSM?",
+      "opts": [
+        "De menor a mayor",
+        "De mayor a menor"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "En realidad para trabajar de forma ordenada y evitar el error de solapamiento de direcciones conviene establecer el orden de los requerimientos de mayor a menor"
+    },
+    {
+      "id": "redes-p2-022",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos clases/rangos de direcciones privadas definió la convención de direcciones IPv4?",
+      "opts": [
+        "7",
+        "3",
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Clase A: 10.0.0.0 a 10.255.255.255 (8 bits red, 24 bits hosts). Por Ej La red militar norteamericana\nClase B: 172.16.0.0 a 172.31.255.255 (12 bits red, 20 bits hosts). Un ejemplo de uso: universidades y grandes compañías.\nClase C: 192.168.0.0 a 192.168.255.255 (16 bits red, 16 bits hosts). Para uso de compañías medias y pequeñas además pequeños proveedores de Internet (ISP)."
+    },
+    {
+      "id": "redes-p2-023",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos registros regionales para números de Internet existen?",
+      "opts": [
+        "7",
+        "4",
+        "5",
+        "8",
+        "6",
+        "3"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-023.webp"
+    },
+    {
+      "id": "redes-p2-024",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual o cuales fueron las técnicas que permitieron abordar el problema agotamiento de direcciones?",
+      "opts": [
+        "Subnetting",
+        "Protocolos Classless",
+        "CIDR",
+        "VLSM",
+        "NAT",
+        "Sumarización de rutas"
+      ],
+      "correct": [
+        0,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-025",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de Red o Subred?",
+      "opts": [
+        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor 1",
+        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor cero",
+        "Porque la máscara está con todos sus bits en cero"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-025.webp"
+    },
+    {
+      "id": "redes-p2-026",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un prefijo IPv4 puede tener máscara /32",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La afirmación es verdadera, el prefijo puede tener másca /32 y tiene como destino un host específico"
+    },
+    {
+      "id": "redes-p2-038",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Cunado un computador IPv4 tiene que comunicarse con un computador IPv6 utiliza Direcciones Ipv4 encapsuladas en IPv6:",
+      "opts": [
+        "Tipo 2",
+        "Tipo 1"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-043",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Cuantos niveles de agregación tiene una dirección IPv6",
+      "opts": [
+        "Cinco",
+        "Cuatro",
+        "Tres"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Tiene tres niveles TLA (Top-Level Agregator) NLA (Next-Level Agregator) SLA (Site-Level Agregator)"
+    },
+    {
+      "id": "redes-p2-044",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Las direcciones IPv6 son jerárquicas, y por ello existe una técnica denominada:",
+      "opts": [
+        "Formato de Prefijo",
+        "Asignación por niveles",
+        "Asignación geográfica",
+        "Direcciones encapsuladas"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-047",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Cuando dos computadores IPv6 comunicantes a través de una interred IPv4 utilizan Direcciones Ipv4 encapsuladas en IPv6 del:",
+      "opts": [
+        "Tipo 2",
+        "Tipo 1"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-058",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "En las tablas de ruteo se guardan solo direcciones de red y fisicas",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-059",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "RIP es quizás el protocolo más implementado en redes de pequeña escala",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Por su sencillez y facilidad de administración, muchos dispositivos (algunos routers para pequeñas oficinas, por ejemplo) tienen activado RIP por defecto. También puede ocurrir encontrarse con firewalls que soportan RIP pero no OSPF o EIGRP"
+    },
+    {
+      "id": "redes-p2-060",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "La información que hay en las tablas de los enrutadores se completa específicamente por los:",
+      "opts": [
+        "algoritmos dinámicos",
+        "Protocolos de Ruteo",
+        "algoritmos estáticos",
+        "algoritmos de ruteo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-062",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Como toma la decisión de conmutación un enrutador?",
+      "opts": [
+        "por los protocolos de ruteo",
+        "Por los algoritmos de ruteo",
+        "Algoritmo unificado de ruteo"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-062.webp"
+    },
+    {
+      "id": "redes-p2-063",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "La técnica de horizonte dividido funciona en todas las topologías",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-063.webp"
+    },
+    {
+      "id": "redes-p2-064",
+      "topic": 5,
+      "type": "match",
+      "catedra": true,
+      "text": "El principio de optimalidad establece que:",
+      "stems": [
+        "El principio de optimalidad establece que:",
+        "El principio de optimalidad establece que si (J,K) no es optimo puede ∈ opt(I,K)",
+        "El principio de optimalidad establece que puede no puede existir"
+      ],
+      "choices": [
+        "si J ∈ opt(I,K) ⇒ (J,K) es óptimo",
+        "Esto es incorrecto",
+        "(J,K) con mejor camino si ∈ opt(I,K)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-064.webp"
+    },
+    {
+      "id": "redes-p2-065",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Seleccione características de ruteo jerarquico",
+      "opts": [
+        "Divide la red en regiones. Los ruteadores solamente saben la estructura interna de sus regiones.",
+        "Para una subred de N ruteadores el número óptimo de niveles es lnN.",
+        "No es adaptativo",
+        "Las tablas de ruta crecen con la red. Después de algún punto no es práctico mantener toda la información sobre la red en cada ruteador."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-065.webp"
+    },
+    {
+      "id": "redes-p2-066",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "El contenido típico de una tabla de ruteo incluye:",
+      "opts": [
+        "Métrica (costo)",
+        "Dirección IP del próximo salto",
+        "Protocolo origen de la información",
+        "Máscara de subred",
+        "Dirección IP de la RED de destino",
+        "Interface de salida",
+        "Dirección IP de origen"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-068",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Que sucede si un host recibe un datagrama cuya dirección no coincide con alguna de sus interfaces y tiene definida una ruta por defecto?",
+      "opts": [
+        "Descartar el datagrama sin más",
+        "Debe conmutar el datagrama a la ruta por defecto sin más",
+        "Debe redirigir el datagrama a la ruta por defecto generando un datagrama ICMP al origen",
+        "Debe descartar el datagrama y generar un datagrama ICMP al origen"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "fb": "",
+      "note": "En el cuestionario es de opción simple, pero la cátedra da como correctas dos opciones: cualquiera de las dos suma el puntaje completo."
+    },
+    {
+      "id": "redes-p2-069",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "El algoritmo de vector distancia es también conocido por:",
+      "opts": [
+        "Algoritmo de Dijktra",
+        "Algoritmo de Ford-Fulkerson",
+        "Algoritmo de Bellman-Ford"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-070",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Seleccione algoritmos de enrutamiento estático:",
+      "opts": [
+        "Vector Distancia",
+        "Inundación",
+        "Estado de enlace",
+        "Ruta mas corta (Dijktra)"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-071",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Si en una tabla de ruteo existe una ruta por defecto:",
+      "opts": [
+        "Se la compara al principio",
+        "Directamente se mandan todos los datagramas por esa ruta",
+        "Se la compara al final"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-071.webp"
+    },
+    {
+      "id": "redes-p2-072",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Que propiedades debiera tener un algoritmo de enrutamiento",
+      "opts": [
+        "Estabilidad",
+        "Optimización",
+        "Complejidad",
+        "Velocidad",
+        "Exactitud",
+        "Sencillez",
+        "Equidad",
+        "Robustez"
+      ],
+      "correct": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fb": "",
+      "img": "img/redes-p2-072.webp"
+    },
+    {
+      "id": "redes-p2-073",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales son las principales características del ruteo IP",
+      "opts": [
+        "Controlado por tablas",
+        "Información parcial",
+        "Salto al siguiente",
+        "Máximo esfuerzo",
+        "Sin conexión"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-074",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de las siguientes opciones son verdaderas para enrutamiento por estado de enlace:",
+      "opts": [
+        "Utiliza el algoritmo de Dijktra para calcular la ruta mas corta a los demás enrutadores",
+        "Rápida convergencia con baja complejidad",
+        "La parte mas complicada del algoritmo, es la distribución de los paquetes de estado de enlace",
+        "No es necesario que cada enrutador tenga una idea razonable del retardo a cada uno de sus vecinos",
+        "Rápida convergencia con alta complejidad"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-074.webp"
+    },
+    {
+      "id": "redes-p2-080",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "En el enrutamiento por estado de enlace, cada ruteador debe:",
+      "opts": [
+        "Enviar el paquete con lo aprendido a todos los routers de la topología",
+        "Descubrir a sus vecinos y conocer sus direcciones de red",
+        "Construir un paquete que indique todo lo que acaba de aprender",
+        "Medir el retardo o costo para cada uno de sus vecinos",
+        "Calcular la ruta más corta a todos los demas routers",
+        "Enviar su tabla de ruteo completa, solamente a sus vecinos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-081",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "A que protocolo de ruteo se aplicaría la siguiente sentencia: Los vecinos calculan las métricas e instalan las rutas que sean estrictamente menores",
+      "opts": [
+        "OSPF versión 1",
+        "OSPF versión 3",
+        "RIP versión 2",
+        "RIP"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-082",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Que sucede si un router recibe un datagrama cuya dirección no coincide con alguna de sus interfaces y no tiene definida una ruta por defecto",
+      "opts": [
+        "Descartar el datagrama sin más",
+        "Debe redirigir el datagrama a otro router que tenga definida la ruta por defecto generando un datagrama ICMP \"Redirect\"",
+        "Debe descartar el datagrama y generar un datagrama ICMP al origen"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-083",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Marque las opciones que son válidas para RIP versión 2 y no lo son para RIP versión 1",
+      "opts": [
+        "Utiliza el puerto UDP 520",
+        "Soluciona la convergencia lenta",
+        "Soporte de autenticación con clave encriptada",
+        "Envía actualizaciones de enrutamiento a través de la dirección de multicast 224.0.0.9",
+        "Utiliza Multicast",
+        "Soporte de Classless",
+        "Soporte para etiquetado (BGP)"
+      ],
+      "correct": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-084",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Que clase de ruteo se implementa con RIP versión 2",
+      "opts": [
+        "classless",
+        "ruteo con máscara por defecto",
+        "classfull",
+        "ruteo basado en clase"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-084.webp"
+    },
+    {
+      "id": "redes-p2-085",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "A los algoritmos de enrutamiento no adpatativos se los utiliza en enrutamiento estático",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-087",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuáles son los prefijos de red de una tabla de ruteo que son examinados en primer lugar?",
+      "opts": [
+        "Los más largos",
+        "Los directamente conectados",
+        "Los que pertenecen a redes que no están directamente conectadas",
+        "Los más cortos"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-088",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Marque aquellas opciones que considera correctas para el concepto de Sumarización de Rutas",
+      "opts": [
+        "Se reduce la complejidad de las tablas de enrutamiento, reduciendo la cantidad de rutas.",
+        "Reduce los requerimientos de procesamiento ya que minimiza los procedimientos de actualización de rutas y se reduce la cantidad de rutas a evaluar.",
+        "Se reduce el volumen de información de enrutamiento publicado.",
+        "Se puede utilizar cuando el rango o grupo de direcciones es contiguo",
+        "Se puede utilizar con cualquier rango o grupo de direcciones",
+        "Reduce los requerimientos de memoria RAM en los dispositivos ya que se reduce el tamaño de la tabla de ruteo."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-089",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "El problema de conteo a Infinito que tiene el algoritmo de vector distancia se puede mitigar con:",
+      "opts": [
+        "Horizonte dividido",
+        "Inundacion Controlada",
+        "Mapeo de interfaces",
+        "Optimizando los temporizadores",
+        "Envenenamiento de rutas"
+      ],
+      "correct": [
+        0,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-090",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuál es la métrica que anuncia RIP para envenenar una ruta?",
+      "opts": [
+        "15",
+        "Infinito",
+        "16"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-091",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "El árbol de optimalidad es aquel que se forma por las rutas óptimas desde todos los orígenes a un destino dado",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-095",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "El protocolo de ruteo RIP versión 2 soluciona los problemas de convergencia lenta",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-096",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "En el protocolo RIP:",
+      "opts": [
+        "Cada ruteador envía su tabla completa a todos sus vecinos",
+        "Cada ruteador envía su tabla completa a todos los ruteadores",
+        "Cada ruteador anuncia a sus vecinos las redes directamente conectadas",
+        "los ruteadores no anuncian rutas por las interfaces que aprendieron dichas rutas"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-114",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "• Si un extremo TCP no tiene nada para enviar, no envía nada\n• Cuando el otro extremo ignora el estado del proceso, puede decidir enviar una sonda\n• Si la respuesta es positiva, incrementa el temporizador y sigue esperando\n• Si es negativa, puede dar por terminada la conexión.\n• Su valor es de 2 horas! (se puede cambiar) Estas son características de un temporizador denominado:",
+      "opts": [
+        "RTO",
+        "Keepalive",
+        "2MSL",
+        "Hello",
+        "Persist"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-114.webp"
+    },
+    {
+      "id": "redes-p2-115",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual extremo controla la congestión en TCP?",
+      "opts": [
+        "Receptor",
+        "Emisor"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-115.webp"
+    },
+    {
+      "id": "redes-p2-116",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Que mecanismo permite establecer multiples conexiones simultaneas sobre el mismo servidor?",
+      "opts": [
+        "Demultiplexación basada en dirección de host",
+        "Demultiplexación basada en dirección de puertos",
+        "Demultiplexación basada en dirección del servidor",
+        "Demultiplexación basada en dirección de red"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-116.webp"
+    },
+    {
+      "id": "redes-p2-117",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique cual de las siguientes opciones son verdaderas para el vencimiento del temporizador RTO",
+      "opts": [
+        "Al ocurrir RTO guardamos la mitad de la ventana actual en ssthresh=min(W,cwnd)/2 y cwnd=1 MSS",
+        "Se agrega un nuevo parámetro, ssthresh, o umbral de Slow Start. Se inicializa en 65.536",
+        "Superado el SStresh la ventana aumenta linealmente con 1 MSS en cada ronda",
+        "Ssthres nos indica hasta cuándo hacemos SS, y cuándo empezamos a hacer CA",
+        "Iniciamos SS hasta que cwnd >= ssthresh",
+        "A partir de que cwnd >= ssthresh, hacemos cwnd=cwnd+(MSS * MSS/cwnd) con cada ACK recibido correctamente",
+        "Se aplica SS hasta que ocurra un RTO",
+        "Se utilizan dos fases: Slow Start y Congestion Avoidance"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fb": "SStresh = 16 MSS y cuando ocurrio RTO cwnd =32 MSS",
+      "img": "img/redes-p2-117.webp"
+    },
+    {
+      "id": "redes-p2-118",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique característica de funcionamiento de TCP",
+      "opts": [
+        "Full Duplex",
+        "Apertura puertos: Activa → C; Pasiva → S",
+        "Entrega confiable de un flujo no estructurado de octetos Orientado a la conexión (stream)",
+        "Se sigue la tupla (p, IPo, Po, IPd, Pd)",
+        "Abstracción: VC entre procesos en <> máq Establecimiento, transmisión, liberación conex.",
+        "Número de secuencia para cada octeto",
+        "Utilización de buffers"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-119",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "• Permite que expiren todos los segmentos que pueden haber quedado en la subred evitando “reencarnación”.\n• No se puede reusar durante este tiempo\n• Su valor suele definirse en 2 minutos; aunque a veces se implementa con 1 minuto, o 30 segundos. Estas son características de un temporizador denominado:",
+      "opts": [
+        "Keepalive",
+        "Persist",
+        "RTO",
+        "2MSL",
+        "Hello"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-119.webp"
+    },
+    {
+      "id": "redes-p2-120",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales son temporizadores de TCP?",
+      "opts": [
+        "2MSL",
+        "Persist",
+        "Keepalive",
+        "RTO",
+        "Hello"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-120.webp"
+    },
+    {
+      "id": "redes-p2-121",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "• Como vimos, un extremo TCP puede anunciar una ventana=0 si no desea recibir datos por un tiempo\n• Cómo puede el otro extremo, saber si aún continúa activo?\n• Cuando recibe una ventana=0, inicia un temporizador\n• Cada vez que expira, se envía una sonda(el último acuse) y si se recibe respuesta positiva, actualiza el temporizador y sigue esperando. Estas son características de un temporizador denominado:",
+      "opts": [
+        "2MSL",
+        "Keepalive",
+        "RTO",
+        "Hello",
+        "Persist"
+      ],
+      "correct": [
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-121.webp"
+    },
+    {
+      "id": "redes-p2-122",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Como encuentran su destino dos procesos comunicantes mediante TCP /UDP? ¿direcciones de capa de transporte?",
+      "opts": [
+        "Se asignan mediante la abstracción de SOCKET. Se identifican con la tupla (p, IPo, Po, Ipd, Pd)",
+        "Una vez asignados, identifican unívocamente un proceso (TCP/UDP) en una máquina determinada (IP)",
+        "las direcciones de capa de transporte son los PUERTOS → abstracción de conexiones lógicas de procesos con la red: SAPs",
+        "Los gestiona el SO. Se dividen en CLIENTES y SERVIDORES. Operación sincrónica c/buffers"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-123",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales de las siguientes opciones son válidas en control de flujo TCP?",
+      "opts": [
+        "Puede ajustarse dinámicamente, si cambian las condiciones en el receptor",
+        "En cada segmento, el extremo TCP anuncia la cantidad de octetos que pueden quedar pendientes de confirmación",
+        "Cuando el receptor no desea recibir más datos, pero mantener abierta la conexión, anuncia una ventana=0",
+        "Es la ventana del emisor",
+        "Es la VENTANA del receptor (W)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-124",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual extremo controla el flujo en TCP?",
+      "opts": [
+        "Receptor",
+        "Emisor"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-124.webp"
+    },
+    {
+      "id": "redes-p2-125",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes opciones son correctas para TCP con ECN?",
+      "opts": [
+        "Señalizar ECN en los encabezados TCP",
+        "Es un mecanismo de notificación implícito",
+        "El router marca y descarta el paquete notificando al extremo sobre la congestión con el campo ECN=11",
+        "El emisor activa el bit ECT(ECN CapableTransport) de la cabecera IP solicitando ECN a cualquier router que detecte congestión",
+        "Requiere modificaciones a los encabezados IP y TCP",
+        "Routers notifican al origen TCP de una congestión incipiente",
+        "Utiliza los 6 bits del campo reservado del encabezado TCP",
+        "Utiliza los bits 6 y 7 del campo TOS (encabezado IPv4)"
+      ],
+      "correct": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-126",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual describe mejor al servicio suministrado por TCP?",
+      "opts": [
+        "Entrega no confiable sobre conexión de circuito virtual",
+        "Entrega confiable sobre datagramas no confiables",
+        "Entrega confiable sobre conexión de circuito virtual",
+        "Entrega no confiable sobre datagramas no confiables"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-127",
+      "topic": 6,
+      "type": "tf",
+      "catedra": true,
+      "text": "Al iniciar una conexion TCP ambos extremos anuncian el mismo valor en la opción MSS",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Cada extremo utiliza un MSS. No siempre coinciden"
+    },
+    {
+      "id": "redes-p2-128",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuál de las siguientes opciones, están relacionadas o son válidas para maximizar la performance en redes de gran producto AB-R: las LFN (Long, Fat Networks).",
+      "opts": [
+        "Se debe medir el RTT para cada segmento",
+        "Se utiliza PAWS",
+        "Para obtener el tamaño real, el receptor vuelve a desplazar en sentido contrario, la misma cant.de bits",
+        "La opción escalamiento activada, indica en cuántos bits el emisor ha desplazado el campo W (hacia la derecha)",
+        "Escalamiento de ventana",
+        "Se utiliza la opción TIMESTAMPS"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "Comentario de la cátedra sobre «Para obtener el tamaño real, el receptor vuelve a desplazar…»: se establece en el SYN y no se puede cambiar.",
+      "img": "img/redes-p2-128.webp"
+    },
+    {
+      "id": "redes-p2-129",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "El arranque lento en TCP consiste en:",
+      "opts": [
+        "Agregar otro parámetro denominado ventana de congestión cwnd",
+        "Tiene un valor inicial de 65536 bits",
+        "Se inicializa en 1 MSS, y se aumenta en 1 con cada ACK recibido",
+        "El extremo emisor puede enviar, como máximo, mín(W,cwnd) octetos antes de esperar un acuse",
+        "Siempre se mide en octetos"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-129.webp"
+    },
+    {
+      "id": "redes-p2-130",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "La recepción de tres o mas acuses duplicados TDACK, indican la existencia de congestión leve, indique cual de los siguientes mecanismos se aplican:",
+      "opts": [
+        "Slow Start",
+        "FAST RECOVERY",
+        "Congestion Avoidance",
+        "FAST RETRANSMIT"
+      ],
+      "correct": [
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-130.webp"
+    },
+    {
+      "id": "redes-p2-131",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual temporizador de TCP permite adaptarse a las variaciones de retardo en la subred?",
+      "opts": [
+        "2MSL",
+        "Keepalive",
+        "Hello",
+        "RTO",
+        "Persist"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-131.webp"
+    },
+    {
+      "id": "redes-p2-132",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales de las siguientes opciones son correctas con respecto al cálculo del Pseudoencabezado TCP/UDP?",
+      "opts": [
+        "Utiliza 16 bytes de pseudoencabezado para el computo del checksum",
+        "Viola directamente el principio de separación de capas y la independencia de protocolos",
+        "Utiliza 12 bytes de pseudoencabezado para el computo del checksum",
+        "Utiliza 20 bytes de pseudoencabezado para el computo del checksum",
+        "Se utiliza para garantizar la entrega al destino correcto"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-132.webp"
+    },
+    {
+      "id": "redes-p2-133",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique algunas características de la capa de transporte",
+      "opts": [
+        "Provee conectividad y sincronización entre aplicaciones finales de datos",
+        "Normalmente es la última capa implementada como software dentro del SO",
+        "Control de Flujo /Control de Errores",
+        "Multiplexación de aplicaciones sobre uno o varios enlaces",
+        "Conectividad EXTREMO-A-EXTREMO entre procesos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-133.webp"
+    },
+    {
+      "id": "redes-p2-134",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de los siguientes mecanismos de control de congestión en TCP, son de ciclo abierto?",
+      "opts": [
+        "Slow Start",
+        "TCP con ECN",
+        "Congestion Avoidance"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-135",
+      "topic": 6,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual describe mejor al servicio suministrado por UDP?",
+      "opts": [
+        "Entrega no confiable sobre datagramas no confiables",
+        "Entrega no confiable sobre conexión de circuito virtual",
+        "Entrega confiable sobre conexión de circuito virtual"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-136",
+      "topic": 6,
+      "type": "multi",
+      "catedra": true,
+      "text": "Los números de secuencia en TCP: (marque las opciones válidas para el ítem)",
+      "opts": [
+        "Se utiliza uno para cada sentido de la conexión (piggybacking)",
+        "Se asignan inicialmente en forma aleatoria (ISN)",
+        "Indica la posición del próximo octeto de datos a ser recibido, en el stream de bytes",
+        "Son ACUMULATIVOS. Se pueden comparar con un PUNTERO"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-061",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "OSPF utiliza para todos sus mensajes:",
+      "opts": [
+        "Un encabezado de longitud variable mas el contenido (tipo de mensaje)",
+        "Un encabezado distinto de 24 bytes mas el contenido (tipo de mensaje)",
+        "Un encabezado de longitud fija de 24 bytes mas el contenido (tipo de mensaje)"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-067",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "En un sistema de núcleo, un enrutador que no participa del núcleo:",
+      "opts": [
+        "Siempre va a tener el inconveniente del salto extra si su destino está conectado a otro router de núcleo que no sea el suyo",
+        "Si el camino a su destino es mas corto a través de un router al cual no esta conectado no puede utilizarlo",
+        "Debe dirigir todo su tráfico al router de núcleo al cual esta conectado"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-075",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Usted Utilizaría el protocolo OSPF en una red muy pequeña?",
+      "opts": [
+        "Preferiría un protocolo sencillo y fácil de implementar como RIP pues para la pequeña escala no afectan sus limitaciones",
+        "Si por la velocidad de convergencia"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-076",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de los siguientes son tipos de mensaje de OSPF-LSAs (Anuncio de Estado de Enlace del protocolo OSPF)",
+      "opts": [
+        "LS Update Actualización de estado de enlace",
+        "Anuncio de Router",
+        "Anuncio de Red",
+        "Anuncio de enlace sumarizado ASBR",
+        "LS Request solicitud de estado de enlace",
+        "Anuncio de enlace sumarizado AR",
+        "Anuncio de enlace sumarizado ABR"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "fb": "",
+      "img": "img/redes-p2-076.webp"
+    },
+    {
+      "id": "redes-p2-077",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "Un Sistema Autónomo es:",
+      "opts": [
+        "Un sistema de enlaces y ruteadores dentro de una organización",
+        "Un conjunto de enlaces y ruteadores bajo una única autoridad administrativa",
+        "Un ISP"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Un Sistema Autónomo es un conjunto de enlaces y ruteadores bajo una única autoridad administrativa. Cada sistema autónomo es una unidad administrativa que se diferencia y reconoce a través de un ID de sistema autónomo. IANA (Internet Assigned Numbers Authority) es el organismo responsable de la asignación de los ID de sistemas autónomos. El ID de sistema autónomo es un número de 16 bits, con un valor posible entre 1 y 65535. Su uso y asignación está orientado por la RFC 1930. Los sistemas autónomos 64512 a 65535 están reservados para uso privado"
+    },
+    {
+      "id": "redes-p2-078",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Que características tiene un sistema de ruteo con nucleo o backbone",
+      "opts": [
+        "Se pueden conectar dos núcleos mediante un par de conjuntos de rutas por omisión",
+        "Presentan el inconveniente de salto extra",
+        "Se tiene que definir que enrutadores participan del núcleo y cuales no",
+        "Presentan el inconveniente de redes ocultas",
+        "Tienen problemas de escala"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-079",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cual de los siguientes son tipos de mensaje correspondientes al protocolo OSPF",
+      "opts": [
+        "Mensaje Descripción BD",
+        "LSA Anuncio de Estado de Enlace",
+        "LS Update",
+        "SP Sumarización de rutas",
+        "Mensaje HELLO",
+        "SN Sumarización de redes",
+        "LS Update Request"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-079.webp"
+    },
+    {
+      "id": "redes-p2-086",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "En los enrutadores y sus tablas de ruteo, al mecanismo de permitir que la información aprendida por una fuente sea publicada hacia otros dispositivos utilizando un protocolo diferente se lo conoce como",
+      "opts": [
+        "Redistribución de Protocolo",
+        "Redistribución de tablas",
+        "Redistribución de rutas"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-092",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "En un sistema de núcleo, el router de borde está conectado a un grupo de routers internos que a su vez conectan otros routers de menor jerarquía, si una red está conectada a uno de estos router de menor jerarquía, ¿quien es el responsable de anunciar su ruta hacia el núcleo?",
+      "opts": [
+        "los routers intermedios",
+        "Una autoridad administrativa",
+        "El router al cual está directamente conectado",
+        "El router de núcleo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El router R4 es el router más estrechamente asociado con red local 4, pero se encuentra a 2 saltos del router de núcleo próximo. Así, R4 debe depender de router R3 para encaminar paquetes a la red 4. El caso es que R4 sabe de red local 4 pero no puede pasar datagramas directamente desde R1. El Router R3 está a un salto del núcleo y puede garantizar pasar paquetes, pero no se conecta directamente a la red local 4. Entonces, parece incorrecto asignar responsabilidad a R3 para anunciar la red 4. Solucionar este dilema requerirá que nosotros introduzcamos el concepto de Sistema Autónomo donde, la arquitectura debería ser pensada como una organización sola que tiene muchas redes bajo su control. Debido a que las redes y routers caen bajo una única autoridad administrativa, esa autoridad puede garantizar que las rutas internas permanecen consistentes y viables. Además, la autoridad administrativa puede escoger uno de sus routers para informar al mundo exterior de las redes dentro de la organización. En el ejemplo de la figura, porque router R2, R3, y R4 yacen bajo el control de una autoridad administrativa, esa autoridad puede hacer que R3 anuncie las redes 2, 3, y 4 (R3 ya sabe de la red 1 porque tiene una conexión directa a ella).",
+      "img": "img/redes-p2-092.webp"
+    },
+    {
+      "id": "redes-p2-093",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales son los tipos de router que intervienen en anuncian rutas sumarizadas en OSPF",
+      "opts": [
+        "Router de borde de sistema autónomo",
+        "Router Internos",
+        "Router de área",
+        "Router de borde de área"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-093.webp"
+    },
+    {
+      "id": "redes-p2-094",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de las siguientes son características del protocolo de ruteo OSPF",
+      "opts": [
+        "Tiene soporte de autenticación",
+        "Redistribución de información de ruteo externo (BGP)",
+        "Soporta enlaces virtuales",
+        "Ruteo por TOS",
+        "Divide el Sistema Autónomo en áreas",
+        "RFC 1131 (v1); 1247 (v2); 2328 (V2 Final)",
+        "Tiene optimizaciones para funcionamiento en LAN",
+        "Soporta rutas específicas de Host, subred y red",
+        "Balance de carga",
+        "Protocolo Abierto de Estado de Enlace (LS)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fb": "",
+      "img": "img/redes-p2-094.webp"
+    },
+    {
+      "id": "redes-p2-097",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un router de backbone no puede tener rutas por defecto",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-097.webp"
+    },
+    {
+      "id": "redes-p2-098",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "La información de enrutamiento que intercambia BGP está referida a la accesibilidad de las redes de destino, e incluye entre otros los siguientes elementos: (marque los que son correctos para BGP)",
+      "opts": [
+        "El listado de todas las redes accesibles al final de esa ruta de sistemas autónomos",
+        "Una serie de \"atributos\" que definen el modo en que será tratada la ruta: origen de la información de la ruta, peso de la ruta, preferencia local.",
+        "Optimizaciones para funcionamiento en LANs",
+        "La dirección IP de la puerta de entrada al próximo sistema autónomo en la ruta",
+        "Rutas específicas de host, de subred y de red",
+        "La ruta expresada como la sucesión de sistemas autónomos que es necesario atravesar (salto por salto) para alcanzar la red de destino."
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-099",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un Router Arbitrer (route-server) mantiene solo información de accesibilidad positiva",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-099.webp"
+    },
+    {
+      "id": "redes-p2-100",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cómo intercambia BGP la información entre pares?",
+      "opts": [
+        "Mediante un enlace cifrado",
+        "Mediante una sesión UDP",
+        "Mediante una sesión TCP",
+        "Mediante una conexión punto a punto"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "BGP es un protocolo que funciona sobre TCP por el puerto 179. BGP permite el encaminamiento de los paquetes IP que se intercambian entre los distintos AS. Para ello, es necesario el intercambio de prefijos de rutas entre los diferentes AS de forma dinámica, lo cual se lleva a cabo mediante el establecimiento de sesiones BGP inter-AS sobre conexiones TCP. Este tipo de operación proporciona comunicación fiable y esconde todos los detalles dela red por la que se pasa."
+    },
+    {
+      "id": "redes-p2-101",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cual de los siguientes son conceptos fundamentales de BGP",
+      "opts": [
+        "Tráfico permitido vs. tráfico prohibido",
+        "Balanceo de Cargas",
+        "Accesibilidad Administrativa",
+        "Selecciona un solo camino p/cada prefijo que aprenda",
+        "Basado en políticas"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "fb": "Comentario de la cátedra sobre «Balanceo de Cargas»: error grave de concepto; marcar esta opción anula la pregunta."
+    },
+    {
+      "id": "redes-p2-102",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuantos enrutadores pueden participar de una sola \"sesion\" BGP?",
+      "opts": [
+        "Dos",
+        "Todos los de los sistemas autónomos adyacentes",
+        "Todos los routers que tienen actualizaciones"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Sesiones BGP: En una sesión BGP participan sólo dos routers (peers). En cualquier momento una red puede tener muchas sesiones BGP concurrentes y también una misma pasarela puede participar en muchas sesiones BGP. En la sesión BGP se lleva a cabo el proceso denominado peering, que consiste en que un AS informa a otro sobre las redes que puede alcanzar a partir de éste.",
+      "img": "img/redes-p2-102.webp"
+    },
+    {
+      "id": "redes-p2-103",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Marque cual de las siguientes opciones, son mensajes correspondientes a BGP4",
+      "opts": [
+        "HELLO",
+        "UPDATE",
+        "NOTIFICATION",
+        "KEPPALIVE",
+        "OPEN"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-103.webp"
+    },
+    {
+      "id": "redes-p2-104",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "De las siguientes opciones, marque cuáles son características de BGP4",
+      "opts": [
+        "Ruteo basado en políticas",
+        "Agregación/sumarización de rutas",
+        "Coordinación entre varios “BGP speakers” en el AS",
+        "Soporte de CIDR",
+        "Soporta balanceo de cargas",
+        "Garantiza consistencia global",
+        "Comunicación inter-AS",
+        "Propagación información de accesibilidad (no costo)",
+        "Paradigama del próximo salto",
+        "Soporta rutas múltiples",
+        "Autenticación",
+        "Transporte confiable (TCP). Mantenimiento sesiones",
+        "Ni VD ni EE: Vector Camino (PV) - “coloreado” rutas"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "fb": "",
+      "img": "img/redes-p2-104.webp"
+    },
+    {
+      "id": "redes-p2-105",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes afirmaciones son correctas con respecto al formato de los prefijos en BGP?",
+      "opts": [
+        "Se anuncia el tipo de máscara y el prefijo",
+        "Utiliza un formato comprimido de 5 octetos, donde el primer octeto indica la longitud de la máscara en bits y los otro cuatro octetos para una dirección IPv4",
+        "Se pensó en un formato comprimido para evitar consumir demasiado espacio"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-106",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un router de borde BGP, debe correr también un protocolo de ruteo interior como por ej: OSPF",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La conectividad entre los routers de borde que intercambian sus informaciones BGP mediante I-BGP en un mismo AS vendrá asegurada por el protocolo IGP utilizado. Si un router de borde no es capaz de alcanzar una ruta de su propio AS, la cual le ha sido anunciada por un vecino interno, esta ruta no será propagada a los vecinos BGP internos o externos. El router BGP TAMBIEN debe correr un IGP (ej.OSPF) → Redistribución/etiquetado. iBGP, eBGP"
+    },
+    {
+      "id": "redes-p2-107",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "La afirmación \"BGP4 es particularmente adecuado para Sistemas Autónomos con varias conexiones a otros Sistemas Autónomos\" es:",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-107.webp"
+    },
+    {
+      "id": "redes-p2-108",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "BGP anuncia accesibilidad a sus pares desde la perspectiva del:",
+      "opts": [
+        "Del receptor",
+        "Propio sistema autónomo",
+        "Del emisor"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "A diferencia de la mayoría de protocolos que propagan información de enrutamiento, un Protocolo de Gateway Exterior no solamente reporta el set de destinos que puede alcanzar. En lugar de eso, los protocolos exteriores deben proveer información que es correcta desde perspectiva de la persona externa. Hay dos asuntos: Las políticas y las rutas óptimas. El asunto de política es obvio: Un router dentro de un sistema autónomo puede tener permitido un destino dado, mientras los terceros tiene prohibido alcanzar el mismo destino. El asunto de rutas óptimas quiere decir que un router debe anunciar un siguiente salto que es óptimo desde la perspectiva de la persona ajena. En la figura el router R2 corre BGP y reporta información desde la perspectiva de la persona ajena, no de su propia tabla de enrutamiento. En la figura, el router R2 ha sido designado para hablar a BGP en nombre del sistema autónomo. Debe informar la asequibilidad a las redes 1 a 4. Sin embargo, al informar un siguiente salto, reporta la red 1 como alcanzable a través de router R1, las redes 3 y 4 como alcanzable a través de router R3, y la red 2 como alcanzable a través de R2.",
+      "img": "img/redes-p2-108.webp"
+    },
+    {
+      "id": "redes-p2-109",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "La solución al problema del salto extra lo ofrece BGP y los sistemas autónomos",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Incorrecto, BGP solo anuncia accesibilidad, no rutas óptimas",
+      "img": "img/redes-p2-109.webp"
+    },
+    {
+      "id": "redes-p2-110",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "BGP de por sí mantiene la coherencia y consistencia en las rutas a través de los sistemas autónomos",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-110.webp"
+    },
+    {
+      "id": "redes-p2-111",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Es sabido que BGP tiene muchos atributos, marque de la siguiente lista algunos atributos BGP vistos en la teoría",
+      "opts": [
+        "AS_PATH",
+        "COMMUNITY",
+        "ORIGINATOR_ID",
+        "NEXT_HOP",
+        "ORIGIN"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-111.webp"
+    },
+    {
+      "id": "redes-p2-112",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "El formato de los atributos en BGP es la tupla (tipo, longitud, valor)",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-113",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Se dice de manera incorrecta que BGP es un protocolo de Vector Distancia Avanzado, pero esto no así. Marque las opciones que son BGP y no las tiene un protocolo de Vector Distancia",
+      "opts": [
+        "Utiliza actualizaciones incrementales o disparadas por eventos",
+        "Utiliza mensajes HELLO",
+        "Utiliza TCP como protocolo en la capa de transporte, lo que asegura una comunicación confiable orientada a la conexión. Utiliza el puerto 179 de TCP",
+        "Puede contener información de mas de 250.000 rutas",
+        "Las actualizaciones de enrutamiento pueden contener tanto información referida a nuevas rutas disponibles, como a rutas que han dejado de estar disponibles",
+        "El transporte de información sobre conexiones TCP confiables asegura mayor eficiencia para la comunicación de volúmenes importantes de información como son los que corresponden a la cantidad de rutas que requiere hoy Internet",
+        "Utiliza el puerto UDP 520",
+        "Dado que no se requieren actualizaciones periódicas, sólo envía mensajes de keepalive"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-137",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es el parámetro fundamental que define la aplicación de QoS?",
+      "opts": [
+        "Clasificar el Tráfico",
+        "El ancho de banda",
+        "Los aspectos de seguridad",
+        "Controlar los flujos",
+        "Los aspectos de disponibilidad",
+        "La congestión",
+        "El control de admisión"
+      ],
+      "correct": [
+        5
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-138",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "El manejo activo de colas (AQM) evita los siguientes inconvenientes relacionados con la congestión: (marque los correctos)",
+      "opts": [
+        "Descarte de paquetes de control",
+        "Apropiación de buffers",
+        "Descarte aleatorio de paquetes",
+        "Desborde de los buffers",
+        "Sincronización global"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-138.webp"
+    },
+    {
+      "id": "redes-p2-139",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Marque las opciones correspondientes a parámetros típicos de QsO",
+      "opts": [
+        "Disponibilidad",
+        "Jitter",
+        "Ancho de Banda",
+        "Pérdida de paquetes",
+        "Retardo o RTT (Roud Trip Delay)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-140",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes opciones son verdaderas para un mecanismo de cubeta con fichas?",
+      "opts": [
+        "da salida a una tasa constante",
+        "da un patrón más rígido",
+        "Se almacenan paquetes y se les da salida a una tasa constante. Los paquetes que no caben se descartan",
+        "da salida a las ráfagas",
+        "No descarta paquetes",
+        "Los paquetes que no caben se descartan"
+      ],
+      "correct": [
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-140.webp"
+    },
+    {
+      "id": "redes-p2-141",
+      "topic": 7,
+      "type": "match",
+      "catedra": true,
+      "text": "Con el protocolo RSVP, en el establecimiento de la reserva:",
+      "stems": [
+        "La fuente o servidor",
+        "El destino o receptor"
+      ],
+      "choices": [
+        "proporciona información de encaminamiento hacia arriba con el mensaje Path",
+        "inicia una reserva mediante el mensaje Resv, los cuales se propagan haca arriba en el árbol de distribución"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-141.webp"
+    },
+    {
+      "id": "redes-p2-142",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la diferencia fundamental entre \"Congestion Management\" y \"Congestion Avoidance\"?",
+      "opts": [
+        "La eficiencia",
+        "El descarte de paquetes",
+        "El \"alisado del tráfico\""
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-142.webp"
+    },
+    {
+      "id": "redes-p2-143",
+      "topic": 7,
+      "type": "match",
+      "catedra": true,
+      "text": "¿Cual es la granularidad de QoS? para:",
+      "stems": [
+        "Best Effort",
+        "IntServ",
+        "DiffServ"
+      ],
+      "choices": [
+        "Ninguna - igual para todos los paquetes",
+        "Per-Flow",
+        "Per-Class"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-143.webp"
+    },
+    {
+      "id": "redes-p2-144",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales son los tipos de servicio en IntServ?",
+      "opts": [
+        "Carga Controlada",
+        "AF - Assured Forwarding",
+        "Best Effort",
+        "EF - Expedited Forwarding",
+        "Garantizado"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-144.webp"
+    },
+    {
+      "id": "redes-p2-145",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes características son correctas para IntServ?",
+      "opts": [
+        "El usuario solicita de antemano los recursos que necesita; cada router del trayecto ha de tomar nota y efectuar la reserva solicitada.",
+        "Problemas de escalabilidad",
+        "Secuencia de datagramas que pertenecen a la misma sesión y deben recibir idéntica QoS",
+        "El usuario marca los paquetes con un determinado nivel de prioridad; los routers van agregando las demandas de los usuarios y propagándolas por el trayecto",
+        "Mantener simple los core routers",
+        "Define un ámbito DS",
+        "Protocolo de señalización RSVP",
+        "Mejor escalabilidad",
+        "Comportamiento en cada salto (PHB)",
+        "Se configura en cada router por separado",
+        "Orientado a conexión",
+        "Soft State: guarda/refresca periódicamente el estado de las conexiones",
+        "Marcado de paquetes (DSCP). SLA",
+        "Agrupamiento paquetes similares (BA)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        6,
+        10,
+        11
+      ],
+      "fb": "",
+      "img": "img/redes-p2-145.webp"
+    },
+    {
+      "id": "redes-p2-146",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la diferencia fundamental entre \"POLICING\" y \"TRAFFIC SHAPING\"?",
+      "opts": [
+        "El \"alisado del tráfico\"",
+        "El descarte de paquetes",
+        "La eficiencia"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-146.webp"
+    },
+    {
+      "id": "redes-p2-147",
+      "topic": 7,
+      "type": "match",
+      "catedra": true,
+      "text": "En IntServ las aplicaciones se clasifican en:",
+      "stems": [
+        "Inelásticas (Tiempo Real) tolerantes a perdidas",
+        "Inelásticas, intolerantes a pérdidas",
+        "Elásticas, intolerantes a pérdidas",
+        "Elásticas, tolerantes a pérdidas"
+      ],
+      "choices": [
+        "Flujos Multimedia en modo ‘streaming’, videoconferencia, telefonía sobre Internet, etc.",
+        "Emulación de circuitos (simulación de líneas dedicadas)",
+        "Datos sobre TCP: FTP, Web, e-mail",
+        "Datos UDP: DNS, SNMP, NTP, etc."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-147.webp"
+    },
+    {
+      "id": "redes-p2-148",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Es mejor aplicar DiffServ en las redes de acceso",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-148.webp"
+    },
+    {
+      "id": "redes-p2-149",
+      "topic": 7,
+      "type": "match",
+      "catedra": true,
+      "text": "El protocolo RSVP, puede hacer uso del campo:",
+      "stems": [
+        "En IPv4",
+        "En IPv6"
+      ],
+      "choices": [
+        "TOS",
+        "Etiquetas de Flujo",
+        "Clase de Servicio"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "fb": "Ver libro \"Redes e Internet de Alta Velocidad Rendimiento y Calidad de Servicio\" W. Stallings 2º Ed, pag. 526",
+      "img": "img/redes-p2-149.webp"
+    },
+    {
+      "id": "redes-p2-150",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Es mejor aplicar DiffServ en las redes de Núcleo",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-150.webp"
+    },
+    {
+      "id": "redes-p2-151",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "Con el protocolo RSVP, el encargado de mantener actualizado el \"Soft State\" es el:",
+      "opts": [
+        "La fuente o servidor",
+        "El destino o receptor",
+        "Router"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-151.webp"
+    },
+    {
+      "id": "redes-p2-152",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique los principales mecanismos de QoS",
+      "opts": [
+        "Señalización de QoS",
+        "Políticas, Gestión y Contabilidad",
+        "QoS en cada nodo (admisión, encolamiento, descarte, etc.)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-153",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales son los mecanismos desarrollados / estandarizados para QoS en Capa de Red?",
+      "opts": [
+        "Tipos de Servicio en ATM",
+        "Categorías de Servicio en ATM",
+        "IntServ (Integrated Services - ISA) y protocolo RSVP.",
+        "DiffServ (Differentiated Services)"
+      ],
+      "correct": [
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-153.webp"
+    },
+    {
+      "id": "redes-p2-154",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual de las siguientes políticas de encolamiento no permite QoS?",
+      "opts": [
+        "PQ (Priority Queuing)",
+        "FIFO (FIRST INPUT FIRST OUPUT)",
+        "FQ (Fair Queuing)",
+        "CBQ (Class Based Queuing)",
+        "WFQ (Wheigted Fair Queuing)"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-154.webp"
+    },
+    {
+      "id": "redes-p2-155",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "En que condiciones de la red es útil la aplicación de QoS",
+      "opts": [
+        "Congestión severa o fuerte",
+        "Congestión Moderada",
+        "Sin Congestión"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-155.webp"
+    },
+    {
+      "id": "redes-p2-156",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es de los siguientes factores afectaría mas una aplicación de tiempo real?",
+      "opts": [
+        "RTT",
+        "Retardo",
+        "Jitter",
+        "Descarte"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-156.webp"
+    },
+    {
+      "id": "redes-p2-157",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes características son correctas para DiffServ?",
+      "opts": [
+        "El usuario solicita de antemano los recursos que necesita; cada router del trayecto ha de tomar nota y efectuar la reserva solicitada.",
+        "El usuario marca los paquetes con un determinado nivel de prioridad; los routers van agregando las demandas de los usuarios y propagándolas por el trayecto",
+        "Soft State: guarda/refresca periódicamente el estado de las conexiones",
+        "Secuencia de datagramas que pertenecen a la misma sesión y deben recibir idéntica QoS",
+        "Mejor escalabilidad",
+        "Marcado de paquetes (DSCP). SLA",
+        "Orientado a conexión",
+        "Se configura en cada router por separado",
+        "Mantener simple los core routers",
+        "Comportamiento en cada salto (PHB)",
+        "Problemas de escalabilidad",
+        "Agrupamiento paquetes similares (BA)",
+        "Define un ámbito DS",
+        "Protocolo de señalización RSVP"
+      ],
+      "correct": [
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-158",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Las causas de la congestión pueden ser:",
+      "opts": [
+        "Procesadores lentos",
+        "Buffers insuficientes",
+        "Receptores lentos",
+        "Escaso ancho de banda",
+        "Emisores demasiado rápidos"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-159",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales fueron los primeros esfuerzos en mejorar la QoS en Internet?",
+      "opts": [
+        "Aumentar el ancho de banda disponible en los enlaces troncales",
+        "Desarrollar un protocolo de conmutación rápida para los routers (MPLS)",
+        "Dotar de mecanismos de QoS a IP (ISA/DS)",
+        "Disminuir la probabilidad de error (BER) en los backbones"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-160",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "IntServ y DiffServ pueden coexistir",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-160.webp"
+    },
+    {
+      "id": "redes-p2-161",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales son los principales inconvenientes de Internet (modelo Best Effort)?",
+      "opts": [
+        "El retardo",
+        "El Jitter",
+        "El escaso ancho de banda",
+        "La congestión",
+        "La Inseguridad"
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-162",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es un concepto muy importante para poder discriminar categorías o tipos de servicio?",
+      "opts": [
+        "Establecer reglas de escalabilidad",
+        "Descartar paquetes en el ingreso de las redes del proveedor",
+        "Establecer mecanismos de descarte en transito por las redes de los proveedores",
+        "Introducir Inequidad"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-162.webp"
+    },
+    {
+      "id": "redes-p2-163",
+      "topic": 7,
+      "type": "match",
+      "catedra": true,
+      "text": "¿Cómo se procede al marcado de paquetes en DiffServ - DSCP?",
+      "stems": [
+        "En IPv4",
+        "En IPv6"
+      ],
+      "choices": [
+        "Los seis primeros bits del octeto TOS",
+        "seis primeros bits del octeto Traffic Class",
+        "los ocho bits del octeto TOS",
+        "los bits de precedencia del octeto TOS"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-163.webp"
+    },
+    {
+      "id": "redes-p2-164",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Seleccione de entre las siguientes opciones, cuales son las motivaciones para el desarrollo de MPLS",
+      "opts": [
+        "Es difícil encaminar eficientemente los datagramas, cuando hay que respetar reglas externas, ajenas a la dirección de destino, o enrutamiento por políticas de uso",
+        "Políticas de enrutamineto en enlaces troncales",
+        "Hacer muy eficiente la conmutación dentro de la red del ISP",
+        "Utilizar el modelo QoS de ATM a nivel de Red"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-164.webp"
+    },
+    {
+      "id": "redes-p2-165",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "La etiqueta MPLS forma parte de la cabecera de IPv6",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-166",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuantos campos tiene una etiqueta MPLS?",
+      "opts": [
+        "Tiene 4 campos: Etiqueta,Experimental,\"S\",TTL",
+        "Tiene 3 campos: Etiqueta,Experimental,TTL",
+        "Tiene un solo campo con bits de \"Flags\""
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-166.webp"
+    },
+    {
+      "id": "redes-p2-167",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un nodo MPLS (LSR) es capaz de enviar paquetes nativos de nivel de red",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Esto es verdadero, pues los nodos MPLS también ejecutan protocolos de enrutamiento de nivel 3 (ver “REDES E INTERNET DE ALTA VELOCIDAD. RENDIMIENTO Y CALIDAD DESERVICIO” Autor: STALLINGS, WILLIAMS. 2a Edición, Pearson Prentice Hall, 2004.ISBN 84-205-3921-X. Página 537"
+    },
+    {
+      "id": "redes-p2-168",
+      "topic": 7,
+      "type": "match",
+      "catedra": true,
+      "text": "Examine cuidadosamente la siguiente figura, luego conteste las preguntas de abajo escribiendo (en números) el correspondiente valor de TTL para cada etiqueta por la que se pregunta",
+      "stems": [
+        "Valor de TTL para la etiqueta 2 ( ) con la que ingresa al LSR llamado W",
+        "El valor TTL para la etiqueta 8 ( ) correspondiente a la red MPLS del ISP C",
+        "Valor de TTL para la etiqueta 4 ( ) de la red MPLS del ISP A",
+        "El valor para TTL para la etiqueta 7 ( ) correspondiente a la red MPLS del ISP B",
+        "El valor TTL para la etiqueta 2 ( ) correspondiente a la red MPLS del ISP B",
+        "El valor del campo TTL tendra el paquete IP, al salir del LSR llamado Z",
+        "El valor TTL para la etiqueta 2 ( ) con la que ingresa al LSR llamado Y"
+      ],
+      "choices": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correct": [
+        4,
+        1,
+        5,
+        3,
+        4,
+        0,
+        2
+      ],
+      "fb": "En esta figura se muestra un ejemplo de cómo podría tener lugar el apilamiento de etiquetas. Supongamos que los ISP A y C (cuyas redes soportan MPLS) deciden unirse utilizando los servicios del ISP B, que internamente también utiliza MPLS. A y C contratan con B un enlace virtual entre los routers V e Y de un determinado caudal. El ISP B configura en su red MPLS un LSP (Label Switch Path) entre los routers W y X, a los que están conectados los ISPs A y C, respectivamente. A y C han de acordar el número de etiqueta que utilizarán para la FEC correspondiente a esta conexión (en este ejemplo la etiqueta 2, verde) pero dicha etiqueta no es vista por B. Inversamente B ha de utilizar una etiqueta en el LSP que define, en este ejemplo la 7 roja. Para el LSP formado por A y C el router de ingreso es U y el de egreso es Z. Para el LSP de B el router de ingreso es W y el de egreso es X. Evidentemente si, como es lo normal, los LSP son bidireccionales los routers de ingreso serían de egreso para el sentido opuesto, y viceversa. En la práctica es como si A y C hubieran construido un túnel entre V e Y haciendo uso del LSP de B. Durante su viaje por el túnel el paquete posee dos etiquetas MPLS ordenadas en forma de pila (la verde debajo y la roja arriba). A efectos del contador TTL en cada salto solo se decrementa el contador de mayor nivel en la pila. Así por ejemplo el salto de W a X no afecta el TTL de la etiqueta verde, que vale lo mismo que cuando salió de V. Ahora bien, cuando el paquete llega al router de egreso del segundo nivel (en este caso X) la etiqueta roja es destruida y el valor de su contador trasvasado al TTL de la etiqueta inferior (la verde en este caso). Un tratamiento análogo se da con el TTL del paquete IP, que no ve alterado su valor en todo el trayecto MPLS (de U a Z), pero cuyo TTL se decrementa en Z en 6 unidades, tantas como saltos han tenido lugar en todas las redes MPLS por las que ha pasado.",
+      "figure": "img/mpls-ttl.webp",
+      "img": "img/redes-p2-168.webp"
+    },
+    {
+      "id": "redes-p2-169",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Dónde se ubica la etiqueta MPLS en una trama de enlace?",
+      "opts": [
+        "En Frame Relay, a fin de aprovechar los mecanismos de conmutación inherentes de estas redes, la etiqueta MPLS más alta en la pila se coloca directamente en el campo que corresponde al DLCI.",
+        "En ATM, a fin de aprovechar los mecanismos de conmutación inherentes de estas redes, la etiqueta MPLS más alta en la pila se coloca directamente en el campo que corresponde al VPI/VCI",
+        "En líneas dedicadas (protocolo PPP) y redes locales la etiqueta MPLS se coloca inmediatamente detrás de la información de nivel de enlace y delante del paquete de nivel de red. En caso de que haya más de una etiqueta MPLS se orgnaizarán todas juntas en forma de pila, colocándose primero la más alta en la pila",
+        "En tramas Ethernet, es la conocida como IP pura. Puesto que IPv4 es un protocolo diseñado mucho antes que MPLS, en este caso, la etiqueta MPLS está ubicada después de la cabecera de nivel 2 y antes de la cabecera IP",
+        "En IEEE 802.2 , inmediatamente después del campo LLC"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "En líneas dedicadas (protocolo PPP) y redes locales la etiqueta MPLS se coloca inmediatamente detrás de la información de nivel de enlace y delante del paquete de nivel de red. En caso de que haya más de una etiqueta MPLS se orgnaizarán todas juntas en forma de pila, colocándose primero la más alta en la pila. En ATM y Frame Relay, a fin de aprovechar los mecanismos de conmutación inherentes de estas redes, la etiqueta MPLS más alta en la pila se coloca directamente en el campo que corresponde al VPI/VCI en ATM, o al DLCI en Frame Relay..El resto de etiquetas se colocan, caso de existir, inmediatamente delante del paquete de nivel de red, como si fuera parte de este a efectos del nivel de enlace. De esta forma cuando un paquete MPLS viaja por una red ATM o Frame Relay puede ser conmutado de forma natural, sin que la red tenga que hacer nada especial, salvo en el caso de los routers de ingreso y de egreso que habrán de poner o quitar la etiqueta.",
+      "img": "img/redes-p2-169.webp"
+    },
+    {
+      "id": "redes-p2-170",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "FEC (Forwarding Equivalence Class): (marque las opciones correctas)",
+      "opts": [
+        "un mismo flujo puede pertenecer a más de una FEC al mismo tiempo.",
+        "Conjunto de paquetes que entran en la red MPLS por la misma interfaz, que reciben la misma etiqueta y por tanto circulan por un mismo trayecto",
+        "Una FEC puede agrupar varios flujos",
+        "un mismo flujo no puede pertenecer a más de una FEC al mismo tiempo."
+      ],
+      "correct": [
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-170.webp"
+    },
+    {
+      "id": "redes-p2-171",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes opciones, son conceptos fundamentales de MPLS?",
+      "opts": [
+        "Etiquetado en el núcleo",
+        "Descarte de paquetes en el núcleo",
+        "Enrutar en el borde (Acceso), conmutar en el núcleo",
+        "Etiquetado en el acceso"
+      ],
+      "correct": [
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-171.webp"
+    },
+    {
+      "id": "redes-p2-172",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Un LSP: (marque las opciones correctas)",
+      "opts": [
+        "El enrutamiento del LSP se hace en base a la información que suministra el protocolo de routing, p.ej. OSPF o IS-IS",
+        "Siempre se usan algoritmos del estado del enlace, que permiten conocer la ruta completa",
+        "Puede crearse por un protocolo de señalización",
+        "Puede crearse de manera estática",
+        "Puede implementar una VPN",
+        "Si una vez fijado el LSP falla algún enlace hay que crear un nuevo LSP por otra ruta para poder pasar tráfico"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "",
+      "img": "img/redes-p2-172.webp"
+    },
+    {
+      "id": "redes-p2-173",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Seleccione de entre los siguientes algunos desarrollos que aplican conceptos de Ingeniería de Tráfico",
+      "opts": [
+        "QOSPF",
+        "RSVP-TE",
+        "BGP",
+        "MPLS-TE"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-173.webp"
+    },
+    {
+      "id": "redes-p2-174",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "El intercambio de rutas por etiqueta, también conocido como LSP : (marque las opciones relacionadas)",
+      "opts": [
+        "El último router en la ruta se encarga de eliminar las etiquetas del paquete y de pasar el paquete dependiendo de las cabeceras de su próxima capa.",
+        "Es equivalente a un circuito virtual en ATM o Frame Relay",
+        "Es una ruta establecida por un protocolo de señalización como LDP, RSVP o CR-LDP",
+        "La ruta es establecida basándose en los criterios de clase de equivalencia de reenvíos, siguiendo un criterio definido por FEC (Forwarding Equivalence Class)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-174.webp"
+    },
+    {
+      "id": "redes-p2-175",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuantos tipos de router puede haber en una red MPLS?",
+      "opts": [
+        "Routers ordinarios",
+        "Router LSR Frontera de Egreso",
+        "Router LSR Frontera de Ingreso",
+        "Routers LSR interiores"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-175.webp"
+    },
+    {
+      "id": "redes-p2-176",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Para una clase de equivalencia de reenvío (FEC), las etiquetas: (marcar las opciones válidas)",
+      "opts": [
+        "Se pueden asignar manualmente",
+        "Son de uso local únicamente",
+        "Se pueden asignar por LDP",
+        "Son de uso global",
+        "Se pueden asignar por RSVP mejorado"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "fb": "Ver “REDES E INTERNET DE ALTA VELOCIDAD. RENDIMIENTO Y CALIDAD DE SERVICIO” Autor: STALLINGS, WILLIAMS. 2a Edición, Pearson Prentice Hall, 2004. ISBN 84-205-3921-X. Página 538/539",
+      "img": "img/redes-p2-176.webp"
+    },
+    {
+      "id": "redes-p2-177",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "IPSec (Protocolo de seguridad en Internet) trabaja en modo:",
+      "opts": [
+        "Distribución de claves (IKE, ISAKMP, Oakley)",
+        "Autenticación + encriptación (ESP)",
+        "Túnel: se arma un nuevo DG que encapsula al original IPSec",
+        "Transporte: se agrega cabecera de seguridad al DG original",
+        "Autenticación (AH)"
+      ],
+      "correct": [
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-177.webp"
+    },
+    {
+      "id": "redes-p2-178",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "Es posible la utilización de VPN's con NAT",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-178.webp"
+    },
+    {
+      "id": "redes-p2-179",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la solución al ataque por reflexión, en un esquema de autenticación por clave secreta precompartida?",
+      "opts": [
+        "La utilización de HMAC (Hashed Message Authentication Code).",
+        "Utilizar MD5 o SHA-1 para luego encriptar con 3DES"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-179.webp"
+    },
+    {
+      "id": "redes-p2-180",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Una asociación de seguridad en IPSEC se define mediante:",
+      "opts": [
+        "la SPI",
+        "El camino",
+        "La dirección IP de origen",
+        "La dirección IP de destino",
+        "El modo"
+      ],
+      "correct": [
+        0,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-180.webp"
+    },
+    {
+      "id": "redes-p2-181",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Seleccione de entre las siguientes opciones algunos ataques y vulnerabilidades",
+      "opts": [
+        "SQL Injection",
+        "Buffer overrun/overflow",
+        "Ingeniería social",
+        "Phishing",
+        "Virus/Malware/Spyware",
+        "IPSec",
+        "ARP Spoofing/poisoning",
+        "Kerberos"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "fb": "",
+      "img": "img/redes-p2-181.webp"
+    },
+    {
+      "id": "redes-p2-182",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "Se puede concluir que la idea de implementar seguridad en una red se basa en niveles PROGRESIVOS y CRECIENTES de seguridad",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-182.webp"
+    },
+    {
+      "id": "redes-p2-183",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la gran ventaja de la criptografía asimétrica?",
+      "opts": [
+        "Soluciona la dificultad en la distribución de claves a gran escala",
+        "La utilización de pocos recursos computacionales",
+        "La longitud de las claves",
+        "La seguridad"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-183.webp"
+    },
+    {
+      "id": "redes-p2-184",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Que medida de seguridad me permite buscar patrones de comportamiento sospechosos u hostiles?",
+      "opts": [
+        "Bastion Host",
+        "IDS",
+        "Screened Host Firewall"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-184.webp"
+    },
+    {
+      "id": "redes-p2-185",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "En un Esquema de Autenticación utilizando clave privada compartida, un ataque de reflexión consiste en:",
+      "opts": [
+        "Abrir dos sesiones y contestar la primer sesión con el desafío obtenido de la segunda sesión",
+        "Abrir dos sesiones y contestar la segunda sesión con el desafío obtenido de la primer sesión",
+        "Abrir dos sesiones y desencriptar la segunda sesión con el desafío obtenido de la primer sesión"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-185.webp"
+    },
+    {
+      "id": "redes-p2-186",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "Una asociación de seguridad se define mediante: modo IPSEC utilizado (AH ó ESP); SPI; y dirección destino",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-186.webp"
+    },
+    {
+      "id": "redes-p2-187",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique algunas características del Hashing",
+      "opts": [
+        "Se puede usar con clave pública o privada",
+        "Se utiliza en FIRMA DIGITAL, cuando importa más la AUTENTICIDAD y el NO REPUDIO que la CONFIDENCIALIDAD",
+        "Unidireccional: P→MD(P) fácil; MD(P)→P imposible",
+        "Sensibilidad: Pocos cambios en P → muchos cambios en MD(P)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-187.webp"
+    },
+    {
+      "id": "redes-p2-188",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "La autenticación utilizando un centro de distribución de claves simple, es vulnerable al ataque por repetición",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-188.webp"
+    },
+    {
+      "id": "redes-p2-189",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual de los siguientes algoritmos es considerado como \"más seguro\"?",
+      "opts": [
+        "TDES",
+        "DES",
+        "AES"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-189.webp"
+    },
+    {
+      "id": "redes-p2-190",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique cuales son los principales \"aspectos\" de la seguridad",
+      "opts": [
+        "Disponibilidad",
+        "Autenticación",
+        "Confidencialidad",
+        "Integridad",
+        "No Repudio"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-191",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual de los siguientes algoritmos es inmune al ataque de \"encuentro a medio camino\"?",
+      "opts": [
+        "TRIPLE DES",
+        "DES",
+        "RSA"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-191.webp"
+    },
+    {
+      "id": "redes-p2-192",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la ventaja de un screening router respecto de un PROXY?",
+      "opts": [
+        "La aislación",
+        "La robustez",
+        "La performance"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-192.webp"
+    },
+    {
+      "id": "redes-p2-193",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Seleccione características de una VPN:",
+      "opts": [
+        "La autenticación puede ser manual, o puede estar integrada en algún esquema global",
+        "El tráfico debe ser encriptado, para no ser accedido en su tránsito por la Internet pública",
+        "Todos los componentes de la red, deben acordar y soportar las características de seguridad",
+        "Las redes deben estar autenticadas",
+        "No puede alterarse una vez establecida"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-193.webp"
+    },
+    {
+      "id": "redes-p2-194",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "Diffie Hellman es vulnerable al ataque MITM",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-194.webp"
+    },
+    {
+      "id": "redes-p2-195",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "IPSec no define los algoritmos de encriptación o autenticación a utilizar",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-195.webp"
+    },
+    {
+      "id": "redes-p2-196",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique cuales de las siguientes son opciones válidas de los Firewall a nivel de aplicación",
+      "opts": [
+        "Combinan hard y soft",
+        "Acepta paquetes por una interface, los examina y los reenvía",
+        "Generan una reducción de performance",
+        "Generalmente integrados en un PROXY",
+        "Establece las conexiones en nombre del host (proxy) y puede examinar en detalle cada protocolo y conexión",
+        "Integran uno o más filtros de paquetes"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "",
+      "img": "img/redes-p2-196.webp"
+    },
+    {
+      "id": "redes-p2-197",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la disciplina que ayuda para mantener “oculto” el contenido de un mensaje ante extraños?",
+      "opts": [
+        "Hashing",
+        "Criptoanálisis",
+        "Criptografía"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-197.webp"
+    },
+    {
+      "id": "redes-p2-198",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Diffie Hellman es vulnerable a MITM, además no sirve para la distribución de claves simétricas, indique posibles soluciones",
+      "opts": [
+        "La utilización conjunta de Triple DES y SHA",
+        "La utilización de Kerveros",
+        "La utilización de un KDC"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-198.webp"
+    },
+    {
+      "id": "redes-p2-199",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Indique los tipos de VPN:",
+      "opts": [
+        "A nivel transporte (SSL)",
+        "A nivel de Aplicación (Kerberos)",
+        "A nivel enlace (L2TP, PPTP)",
+        "A nivel red (IPSec, BGP MPLS)"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-199.webp"
+    },
+    {
+      "id": "redes-p2-200",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "Si se pretende filtrar el tráfico teniendo en cuenta detalles de aplicaciones, protocolos, sitios, direcciones, etc. Es conveniente utilizar:",
+      "opts": [
+        "\"screening router\"",
+        "PROXI"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-200.webp"
+    },
+    {
+      "id": "redes-p2-201",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "Un esquema de autenticación sencillo, que se basa en el intercambio de desafíos (nros aleatorios) y el uso de una clave de sesión precompartida se puede decir que:",
+      "opts": [
+        "Es vulnerable al ataque \"del cumpleaños\"",
+        "Es vulnerable al ataque de fuerza bruta",
+        "Es vulnerable al ataque por reflexión"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-201.webp"
+    },
+    {
+      "id": "redes-p2-202",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "Las listas de acceso en un router son la forma más rudimentaria y estricta de Firewall",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-202.webp"
+    },
+    {
+      "id": "redes-p2-203",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "La seguridad es algo transversal a las 7 capas del modelo OSI",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Esta afirmación es verdadera, si se examinan la serie de normas ISO/IEC 27000, se puede ver que existen estándares y recomendaciones para todos los niveles."
+    },
+    {
+      "id": "redes-p2-204",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la solución si A y B desean comunicarse, y no poseen una clave en común para utilizar un esquema de autenticación de clave secreta precompartida?",
+      "opts": [
+        "Se puede generar utilizando RSA",
+        "Se puede generar utilizando Kerveros",
+        "Se puede generar utilizando Diffie Hellman"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-204.webp"
+    },
+    {
+      "id": "redes-p2-205",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es el principal ataque que compromete la seguridad de RSA?",
+      "opts": [
+        "Fuerza Bruta",
+        "Ataque de encuentro a medio camino",
+        "MITM (Hombre en el medio)"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-205.webp"
+    },
+    {
+      "id": "redes-p2-206",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cuales son desventajas de la criptografía asimétrica?",
+      "opts": [
+        "LA distribución de claves",
+        "La lentitud, tres ordenes de veces peor que la simétrica",
+        "El consumo de recursos"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-206.webp"
+    },
+    {
+      "id": "redes-p2-207",
+      "topic": 8,
+      "type": "match",
+      "catedra": true,
+      "text": "Tipos de IDS",
+      "stems": [
+        "NIDS",
+        "HIDS",
+        "IPS"
+      ],
+      "choices": [
+        "Basados en red",
+        "Basados en host",
+        "pueden actuar en forma reactiva"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-207.webp"
+    },
+    {
+      "id": "redes-p2-208",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es el concepto clave en IPSEC?",
+      "opts": [
+        "La utilización de AH",
+        "La SPI (Security Parameter Index)",
+        "La utilización de ESP",
+        "La asociación de seguridad",
+        "Los algoritmos de encriptación"
+      ],
+      "correct": [
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-208.webp"
+    },
+    {
+      "id": "redes-p2-209",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es el gran problema del cifrado simétrico?",
+      "opts": [
+        "Su implementación impone mucha carga al procesador",
+        "La distribución de las claves",
+        "Emisor y receptor comparten la misma clave",
+        "No se pueden implementar por software"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-209.webp"
+    },
+    {
+      "id": "redes-p2-210",
+      "topic": 8,
+      "type": "match",
+      "catedra": true,
+      "text": "Establezca el orden adecuado para una autenticación utilizando Kerveros suponiendo aque \"Alice\" es quien inicia la sesión y \"Bob\" es el servidor que ejecutara la orden de \"Alice\"",
+      "stems": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "choices": [
+        "Alice teclea su nombre en una estación de trabajo",
+        "la estación de trabajo envia en texto plano al AS",
+        "recive KA [KS, KTGS (A,Ks)]",
+        "Alice teclea su contraseña y emite una solicitud de contacto para Bob",
+        "recive KS (B,KAB), KB, (A,KAB)",
+        "Alice emite a Bob KB(A,KAB), KABt",
+        "se recibe KAB(t+1)",
+        "el nombre se envia encriptado con KA"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fb": "",
+      "img": "img/redes-p2-210.webp"
+    },
+    {
+      "id": "redes-p2-211",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "El cifrado simétrico es pobre en integridad, autenticación y no repudio",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-211.webp"
+    },
+    {
+      "id": "redes-p2-212",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Con que nombre se conoce a la disciplina para romper algoritmos de encriptación?",
+      "opts": [
+        "Criptoanálisis",
+        "Cifrado",
+        "Principio de Kerchkoff"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-212.webp"
+    },
+    {
+      "id": "redes-p2-213",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes opciones son verdaderas para un FIREWALL?",
+      "opts": [
+        "Componente ESENCIAL para una red segura",
+        "Se pueden utilizar en diferentes configuraciones",
+        "Inspeccionan cada paquete, decidiendo si dejarlo pasar o descartarlo (silent drop)",
+        "Dispositivo que aísla redes, controlando y filtrando el tráfico",
+        "Basados en hard o en soft (iptables, ipchains)",
+        "Pueden estar integrados en los routers, aunque también pueden ser dispositivos separados"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fb": "",
+      "img": "img/redes-p2-213.webp"
+    },
+    {
+      "id": "redes-p2-214",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "Una DMZ (marque las opciones válidas)",
+      "opts": [
+        "Aisla servidores y equipos de la red interna",
+        "Se mantiene fuera del Firewall",
+        "Expone los servicios externos",
+        "Es por definición una zona desmilitarizada"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-214.webp"
+    },
+    {
+      "id": "redes-p2-215",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "IPSec (Protocolo de seguridad en Internet) brinda servicios de:",
+      "opts": [
+        "Modo túnel: se arma un nuevo DG que encapsula al original IPSec",
+        "Autenticación (AH)",
+        "Modo transporte: se agrega cabecera de seguridad al DG original",
+        "Autenticación + encriptación (ESP)",
+        "Distribución de claves (IKE, ISAKMP, Oakley)"
+      ],
+      "correct": [
+        1,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-215.webp"
+    },
+    {
+      "id": "redes-p2-216",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "Una Red Privada Virtual es:",
+      "opts": [
+        "un conjunto de enlaces dedicados (ej. FR, ATM,...) con un costo relativamente alto",
+        "Una red utilizando la Internet pública. La performance, el costo y la disponibilidad dependen del ISP seleccionado."
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-216.webp"
+    },
+    {
+      "id": "redes-p2-217",
+      "topic": 8,
+      "type": "tf",
+      "catedra": true,
+      "text": "IPSec no se puede configurar manualmente en cada router",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-217.webp"
+    },
+    {
+      "id": "redes-p2-218",
+      "topic": 8,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Como se soluciona el ataque MITM?",
+      "opts": [
+        "Utilizando una PKI – Public Key Infrastructure (CA)",
+        "Utilizando el algoritmo RSA",
+        "Utilizando algoritmos de clave pública"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-218.webp"
+    },
+    {
+      "id": "redes-p2-219",
+      "topic": 8,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿En que se fundamenta la fortaleza del algoritmo RSA?",
+      "opts": [
+        "Número primos menores de 500 bits",
+        "Números primos grandes",
+        "La imposibilidad de factorización de números primos grandes en corto tiempo",
+        "La primalidad de los números"
+      ],
+      "correct": [
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-219.webp"
+    }
+  ]
 }
