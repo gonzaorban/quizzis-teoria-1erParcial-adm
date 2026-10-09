@@ -7,59 +7,41 @@
   "emptyFeedback": "La cátedra no incluyó explicación para esta pregunta.",
   "topicFilter": "pick",
   "labels": {
-    "allTopics": "Todas"
+    "topics": "Unidades",
+    "allTopics": "Todas las unidades"
   },
   "imageCaption": "Retroalimentación de la cátedra",
   "about": [
     "<p><b>De dónde salen las preguntas:</b> todas están sacadas, tal cual, del <b>PDF de parciales</b>: las revisiones de 24 intentos de la <i>Segunda Instancia de Evaluación (Cuestionario de Estudio)</i> del aula virtual (2023 y 2025). Las preguntas repetidas entre intentos aparecen una sola vez, y la respuesta correcta es la que da el aula virtual en la revisión.</p>",
-    "<p>Al responder se muestra la retroalimentación de la cátedra que traía la revisión (texto y diapositivas). El PDF, cortado en un archivo por intento, está en <a href=\"https://github.com/gonzaorban/quizzis-utn/tree/main/subjects/redes/2do-parcial/revisiones\" target=\"_blank\" rel=\"noopener noreferrer\">revisiones/</a>.</p>"
+    "<p>Al responder se muestra la retroalimentación de la cátedra que traía la revisión (texto y diapositivas). El PDF, cortado en un archivo por intento, está en <a href=\"https://github.com/gonzaorban/quizzis-utn/tree/main/subjects/redes/2do-parcial/revisiones\" target=\"_blank\" rel=\"noopener noreferrer\">revisiones/</a>.</p>",
+    "<p><b>Unidades:</b> la revisión del aula virtual no dice de qué unidad es cada pregunta; la asignamos según el programa y se va a revisar cuando estén los apuntes de teoría. Ninguna pregunta del cuestionario es de la Unidad 9 (gestión y administración de redes).</p>"
   ],
   "topics": {
-    "1": {
-      "name": "Capa de red e IPv4",
+    "4": {
+      "name": "U4 · Capa de red: IP e ICMP",
       "color": "#E8772E"
     },
-    "2": {
-      "name": "ARP e ICMP",
-      "color": "#E8772E",
-      "striped": true
-    },
-    "3": {
-      "name": "IPv6",
+    "5": {
+      "name": "U5 · Direccionamiento y ruteo",
       "color": "#2E9E57"
     },
-    "4": {
-      "name": "Enrutamiento, RIP y OSPF",
-      "color": "#2E9E57",
-      "striped": true
-    },
-    "5": {
-      "name": "BGP",
+    "6": {
+      "name": "U6 · Transporte: TCP y UDP",
       "color": "#2F6FD6"
     },
-    "6": {
-      "name": "Transporte: TCP y UDP",
-      "color": "#2F6FD6",
-      "striped": true
-    },
     "7": {
-      "name": "Calidad de servicio (QoS)",
+      "name": "U7 · Ruteo avanzado",
       "color": "#8A5A3B"
     },
     "8": {
-      "name": "MPLS",
-      "color": "#8A5A3B",
-      "striped": true
-    },
-    "9": {
-      "name": "Seguridad",
+      "name": "U8 · VPNs y seguridad",
       "color": "#7B3FA0"
     }
   },
   "questions": [
     {
       "id": "redes-p2-001",
-      "topic": 1,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "El MTU indica:",
@@ -74,29 +56,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-002",
-      "topic": 1,
-      "type": "multi",
-      "catedra": true,
-      "text": "Una dirección IPv4 con 32 ceros (marque las opción u opciones que considere correctas)",
-      "opts": [
-        "No se utiliza en ningún caso",
-        "Se utiliza para indicar dirección/mascara por defecto",
-        "Nunca es una dirección válida de destino",
-        "Se utiliza para pruebas de la pila local",
-        "Es permitido solamente en el arranque",
-        "No existe ninguna dirección de esas características en la convencion IPv4"
-      ],
-      "correct": [
-        1,
-        2,
-        4
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-003",
-      "topic": 1,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "En IPv4 el proceso de fragmentación se puede producir en:",
@@ -112,7 +73,7 @@
     },
     {
       "id": "redes-p2-004",
-      "topic": 1,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Las principales funciones de la capa de red son:",
@@ -130,27 +91,8 @@
       "img": "img/redes-p2-004.webp"
     },
     {
-      "id": "redes-p2-005",
-      "topic": 1,
-      "type": "multi",
-      "catedra": true,
-      "text": "Se dice que los routers contienen o filtran :",
-      "opts": [
-        "Direcciones de difusión local",
-        "Direcciones de difusión dirigida",
-        "Las direcciones cuyas máscaras están con todos sus bits con valor 0",
-        "Dominios de difusión",
-        "Las direcciones cuyas máscaras en las porcion de host están con todos sus bits con valor 1"
-      ],
-      "correct": [
-        0,
-        3
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-006",
-      "topic": 1,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "El protocolo IP provee un servicio de:",
@@ -167,7 +109,7 @@
     },
     {
       "id": "redes-p2-007",
-      "topic": 1,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "Cuantos Bytes tiene un encabezado mínimo IPv4",
@@ -183,24 +125,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-008",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de difusión de la Red o Subred?",
-      "opts": [
-        "Porque la máscara está con todos sus bits en cero",
-        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor 1",
-        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor cero"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-009",
-      "topic": 1,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Cuáles opciones son verdaderas para el campo TTL de IPv4",
@@ -219,7 +145,7 @@
     },
     {
       "id": "redes-p2-010",
-      "topic": 1,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Los campos que jamas cambian en un encabezado IPv4 durante el proceso de ruteo son:",
@@ -239,7 +165,7 @@
     },
     {
       "id": "redes-p2-011",
-      "topic": 1,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Cual de las siguientes son validas para el campo opciones de IPv4:",
@@ -257,27 +183,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-012",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "Tengo la dirección 200.194.48.0/24, y deseo subnetear para conseguir 8 subredes con 32 direcciones cada una ¿Cuantos bits tengo que avanzar en la máscara?",
-      "opts": [
-        "7",
-        "5",
-        "6",
-        "8",
-        "3",
-        "4"
-      ],
-      "correct": [
-        4
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-013",
-      "topic": 1,
+      "topic": 4,
       "type": "tf",
       "catedra": true,
       "text": "Un paquete correspondiente a un fragmento IPv4 puede volver a fragmentarse varias veces",
@@ -291,28 +198,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-014",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cuántos clases de direcciones estableció la convención original de direccionamiento IPv4?",
-      "opts": [
-        "5",
-        "6",
-        "7",
-        "4",
-        "3",
-        "8"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "",
-      "img": "img/redes-p2-014.webp"
-    },
-    {
       "id": "redes-p2-015",
-      "topic": 1,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "¿Cual de las siguientes opciones son válidas para el campo TOS de IPv4?",
@@ -334,85 +221,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-016",
-      "topic": 1,
-      "type": "multi",
-      "catedra": true,
-      "text": "Un dirección IPv4 : (marque las opciones que sean verdaderas para la convención de direccionamiento IPv4)",
-      "opts": [
-        "Tiene una longitud de 32 bits",
-        "Conforman un espacio de direccionamiento plano",
-        "Se utiliza el mecanismo de máscara para establecer la porción de red",
-        "La convención establece que tiene una porción de red y una porción de host",
-        "Se puede representar con notación decimal separando cuatro grupos de 8 bits y pasando cada grupo a decimal",
-        "Tienen significación global",
-        "Un router puede determinar la dirección de red haciendo una operación AND entre la dirección IP y su correspondiente máscara"
-      ],
-      "correct": [
-        0,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-017",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cual dirección/rango se reserva para loopback, esta destinada para pruebas de TCP/IP y también para la comunicación de procesos internos en la máquina local en IPv4? (marque una sola opción correcta)",
-      "opts": [
-        "127.255.255.255",
-        "127.0.0.0/8",
-        "127.0.0.0",
-        "127.0.0.1"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-018",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cual es la organización que opera a nivel internacional, responsable de asignar espacio de direcciones numéricas de protocolo de Internet (IP), identificadores de protocolo y de las funciones de gestión?",
-      "opts": [
-        "ICANN",
-        "IANA",
-        "ARIN",
-        "Internet Society"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "La Internet Assigned Numbers Authority (cuyo acrónimo es IANA), es la Agencia de Asignación de Números de Internet. Era el antiguo registro central de los protocolos Internet, como puertos, números de protocolo y empresa, opciones y códigos. Fue sustituido en 1998 por ICANN."
-    },
-    {
-      "id": "redes-p2-019",
-      "topic": 1,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Que problema se puede producir si durante la aplicación de la técnica de VLSM, en un paso posterior utilizo una máscara mas corta que en un paso anterior?",
-      "opts": [
-        "Se produce una reutilización de direcciones",
-        "Se duplica el rango de direcciones",
-        "Se aumenta el rango de direcciones",
-        "Se produce el denominado \"solapamiento de direcciones\""
-      ],
-      "correct": [
-        0,
-        3
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-020",
-      "topic": 1,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "El bit del campo no fragmentar puesto a 1 se utiliza para:",
@@ -429,115 +239,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-021",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cómo conviene ordenar los requerimientos de direcciones por segmento para aplicar la técnica VLSM?",
-      "opts": [
-        "De menor a mayor",
-        "De mayor a menor"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "En realidad para trabajar de forma ordenada y evitar el error de solapamiento de direcciones conviene establecer el orden de los requerimientos de mayor a menor"
-    },
-    {
-      "id": "redes-p2-022",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cuántos clases/rangos de direcciones privadas definió la convención de direcciones IPv4?",
-      "opts": [
-        "7",
-        "3",
-        "4",
-        "5",
-        "6",
-        "8"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Clase A: 10.0.0.0 a 10.255.255.255 (8 bits red, 24 bits hosts). Por Ej La red militar norteamericana\nClase B: 172.16.0.0 a 172.31.255.255 (12 bits red, 20 bits hosts). Un ejemplo de uso: universidades y grandes compañías.\nClase C: 192.168.0.0 a 192.168.255.255 (16 bits red, 16 bits hosts). Para uso de compañías medias y pequeñas además pequeños proveedores de Internet (ISP)."
-    },
-    {
-      "id": "redes-p2-023",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cuántos registros regionales para números de Internet existen?",
-      "opts": [
-        "7",
-        "4",
-        "5",
-        "8",
-        "6",
-        "3"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": "",
-      "img": "img/redes-p2-023.webp"
-    },
-    {
-      "id": "redes-p2-024",
-      "topic": 1,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cual o cuales fueron las técnicas que permitieron abordar el problema agotamiento de direcciones?",
-      "opts": [
-        "Subnetting",
-        "Protocolos Classless",
-        "CIDR",
-        "VLSM",
-        "NAT",
-        "Sumarización de rutas"
-      ],
-      "correct": [
-        0,
-        3,
-        4
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-025",
-      "topic": 1,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de Red o Subred?",
-      "opts": [
-        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor 1",
-        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor cero",
-        "Porque la máscara está con todos sus bits en cero"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "",
-      "img": "img/redes-p2-025.webp"
-    },
-    {
-      "id": "redes-p2-026",
-      "topic": 1,
-      "type": "tf",
-      "catedra": true,
-      "text": "Un prefijo IPv4 puede tener máscara /32",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "La afirmación es verdadera, el prefijo puede tener másca /32 y tiene como destino un host específico"
-    },
-    {
       "id": "redes-p2-027",
-      "topic": 2,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "Si un paquete se descarta porque el receptor no dispone de buffers de memoria libre debido a una situación de sobrecarga temporal:",
@@ -553,7 +256,7 @@
     },
     {
       "id": "redes-p2-028",
-      "topic": 2,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Al hacer una prueba de accesibilidad con \"Ping\", resulta que es fallida y nos informa \"Tiempo de espera agotado\", esto es debido a:",
@@ -572,7 +275,7 @@
     },
     {
       "id": "redes-p2-029",
-      "topic": 2,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "Al hacer una prueba de accesibilidad con \"Ping\", resulta que es fallida y nos informa \"Destino Inalcanzable\", esto es debido a:",
@@ -589,7 +292,7 @@
     },
     {
       "id": "redes-p2-030",
-      "topic": 2,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "El protocolo RARP",
@@ -608,7 +311,7 @@
     },
     {
       "id": "redes-p2-031",
-      "topic": 2,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "¿Que tipo de mensaje ICMP se utiliza en las pruebas de rendimiento?",
@@ -626,7 +329,7 @@
     },
     {
       "id": "redes-p2-032",
-      "topic": 2,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Para enviar un datagrama desde una lan a otra lan diferente, el protocolo arp:",
@@ -644,7 +347,7 @@
     },
     {
       "id": "redes-p2-033",
-      "topic": 2,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Al hacer una prueba de accesibilidad con \"Ping\", resulta que es fallida y nos informa \"Destino Inalcanzable\", como se puede determinar que la red es inalcanzable o un computador de esa red es inalcanzable? (marque las opciones que son correctas)",
@@ -664,7 +367,7 @@
     },
     {
       "id": "redes-p2-034",
-      "topic": 2,
+      "topic": 4,
       "type": "tf",
       "catedra": true,
       "text": "ARP tiene encabezado de formato fijo",
@@ -679,7 +382,7 @@
     },
     {
       "id": "redes-p2-035",
-      "topic": 2,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "ARP:",
@@ -696,7 +399,7 @@
     },
     {
       "id": "redes-p2-036",
-      "topic": 2,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "Durante el procedimiento de descubrimiento de MTU del camino, se envía un datagrama con el bit de no fragmentar activado, si en el camino encuentra un enrutador que no puede enviar el datagrama sin fragmentar, descarta el datagrama y devuelve un mensaje ICMP indicando que es necesaria la fragmentación y el tamaño de la MTU posible. Esto lo hace mediante:",
@@ -712,7 +415,7 @@
     },
     {
       "id": "redes-p2-037",
-      "topic": 2,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Indique las funciones principales asociadas a ICMP",
@@ -738,23 +441,8 @@
       "img": "img/redes-p2-037.webp"
     },
     {
-      "id": "redes-p2-038",
-      "topic": 3,
-      "type": "single",
-      "catedra": true,
-      "text": "Cunado un computador IPv4 tiene que comunicarse con un computador IPv6 utiliza Direcciones Ipv4 encapsuladas en IPv6:",
-      "opts": [
-        "Tipo 2",
-        "Tipo 1"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-039",
-      "topic": 3,
+      "topic": 4,
       "type": "tf",
       "catedra": true,
       "text": "La cabecera mínima en IPv4 tiene 13 campos mientras que la cabecera mínima en IPv6 solo tiene 8 campos",
@@ -769,7 +457,7 @@
     },
     {
       "id": "redes-p2-040",
-      "topic": 3,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "Cual de las siguiente opciones son verdaderas",
@@ -785,7 +473,7 @@
     },
     {
       "id": "redes-p2-041",
-      "topic": 3,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Cuales de las siguientes opciones son verdaderas en la autenticación y encapsulado de datos IPv6",
@@ -807,7 +495,7 @@
     },
     {
       "id": "redes-p2-042",
-      "topic": 3,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "Cuantos Bytes tiene un encabezado mínimo IPv6",
@@ -824,41 +512,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-043",
-      "topic": 3,
-      "type": "single",
-      "catedra": true,
-      "text": "Cuantos niveles de agregación tiene una dirección IPv6",
-      "opts": [
-        "Cinco",
-        "Cuatro",
-        "Tres"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": "Tiene tres niveles TLA (Top-Level Agregator) NLA (Next-Level Agregator) SLA (Site-Level Agregator)"
-    },
-    {
-      "id": "redes-p2-044",
-      "topic": 3,
-      "type": "single",
-      "catedra": true,
-      "text": "Las direcciones IPv6 son jerárquicas, y por ello existe una técnica denominada:",
-      "opts": [
-        "Formato de Prefijo",
-        "Asignación por niveles",
-        "Asignación geográfica",
-        "Direcciones encapsuladas"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-045",
-      "topic": 3,
+      "topic": 4,
       "type": "tf",
       "catedra": true,
       "text": "El campo \"longitud de carga útil\" de IPv6, tiene el mismo significado que el campo \"longitud total\" en IPv4",
@@ -873,7 +528,7 @@
     },
     {
       "id": "redes-p2-046",
-      "topic": 3,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Cuales de las siguientes opciones son verdaderas para la fragmentación en IPv6",
@@ -891,23 +546,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-047",
-      "topic": 3,
-      "type": "single",
-      "catedra": true,
-      "text": "Cuando dos computadores IPv6 comunicantes a través de una interred IPv4 utilizan Direcciones Ipv4 encapsuladas en IPv6 del:",
-      "opts": [
-        "Tipo 2",
-        "Tipo 1"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-048",
-      "topic": 3,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Autonfiguración en IPv6, utiliza:",
@@ -926,7 +566,7 @@
     },
     {
       "id": "redes-p2-049",
-      "topic": 3,
+      "topic": 4,
       "type": "single",
       "catedra": true,
       "text": "Para el contenido del campo \"longitud de carga útil\" de IPv6, el valor mínimo es de:",
@@ -943,7 +583,7 @@
     },
     {
       "id": "redes-p2-050",
-      "topic": 3,
+      "topic": 4,
       "type": "tf",
       "catedra": true,
       "text": "En el protocolo IPv6, cuando se utilizan opciones salto a salto, se debe poner en cero el valor del campo \"cabecera siguiente\"",
@@ -959,7 +599,7 @@
     },
     {
       "id": "redes-p2-051",
-      "topic": 3,
+      "topic": 4,
       "type": "tf",
       "catedra": true,
       "text": "En IPv6 se eliminó la fragmentación en los routers",
@@ -975,7 +615,7 @@
     },
     {
       "id": "redes-p2-052",
-      "topic": 3,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Cuales opciones son validas para el campo \"longitud de carga útil\" de IPv6,",
@@ -996,7 +636,7 @@
     },
     {
       "id": "redes-p2-053",
-      "topic": 3,
+      "topic": 4,
       "type": "tf",
       "catedra": true,
       "text": "Es imprescindible el uso de ARP en IPv6",
@@ -1011,7 +651,7 @@
     },
     {
       "id": "redes-p2-054",
-      "topic": 3,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Cual de las siguientes opciones IPv6 se procesan en el destino",
@@ -1034,7 +674,7 @@
     },
     {
       "id": "redes-p2-055",
-      "topic": 3,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Cuales de las siguientes opciones son verdaderas para IPv6",
@@ -1066,7 +706,7 @@
     },
     {
       "id": "redes-p2-056",
-      "topic": 3,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Indique las técnicas de interoperabilidad entre IPv6 e IPv4",
@@ -1084,7 +724,7 @@
     },
     {
       "id": "redes-p2-057",
-      "topic": 3,
+      "topic": 4,
       "type": "multi",
       "catedra": true,
       "text": "Las técnicas mas utilizadas en la interoperabilidad de IPv6 / IPv4 son:",
@@ -1100,8 +740,350 @@
       "fb": ""
     },
     {
+      "id": "redes-p2-002",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Una dirección IPv4 con 32 ceros (marque las opción u opciones que considere correctas)",
+      "opts": [
+        "No se utiliza en ningún caso",
+        "Se utiliza para indicar dirección/mascara por defecto",
+        "Nunca es una dirección válida de destino",
+        "Se utiliza para pruebas de la pila local",
+        "Es permitido solamente en el arranque",
+        "No existe ninguna dirección de esas características en la convencion IPv4"
+      ],
+      "correct": [
+        1,
+        2,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-005",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Se dice que los routers contienen o filtran :",
+      "opts": [
+        "Direcciones de difusión local",
+        "Direcciones de difusión dirigida",
+        "Las direcciones cuyas máscaras están con todos sus bits con valor 0",
+        "Dominios de difusión",
+        "Las direcciones cuyas máscaras en las porcion de host están con todos sus bits con valor 1"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-008",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de difusión de la Red o Subred?",
+      "opts": [
+        "Porque la máscara está con todos sus bits en cero",
+        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor 1",
+        "Porque al efectuar la operación and con su máscara de red, resultan todos los bits de la porción de host con valor cero"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-012",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Tengo la dirección 200.194.48.0/24, y deseo subnetear para conseguir 8 subredes con 32 direcciones cada una ¿Cuantos bits tengo que avanzar en la máscara?",
+      "opts": [
+        "7",
+        "5",
+        "6",
+        "8",
+        "3",
+        "4"
+      ],
+      "correct": [
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-014",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos clases de direcciones estableció la convención original de direccionamiento IPv4?",
+      "opts": [
+        "5",
+        "6",
+        "7",
+        "4",
+        "3",
+        "8"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-014.webp"
+    },
+    {
+      "id": "redes-p2-016",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "Un dirección IPv4 : (marque las opciones que sean verdaderas para la convención de direccionamiento IPv4)",
+      "opts": [
+        "Tiene una longitud de 32 bits",
+        "Conforman un espacio de direccionamiento plano",
+        "Se utiliza el mecanismo de máscara para establecer la porción de red",
+        "La convención establece que tiene una porción de red y una porción de host",
+        "Se puede representar con notación decimal separando cuatro grupos de 8 bits y pasando cada grupo a decimal",
+        "Tienen significación global",
+        "Un router puede determinar la dirección de red haciendo una operación AND entre la dirección IP y su correspondiente máscara"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-017",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual dirección/rango se reserva para loopback, esta destinada para pruebas de TCP/IP y también para la comunicación de procesos internos en la máquina local en IPv4? (marque una sola opción correcta)",
+      "opts": [
+        "127.255.255.255",
+        "127.0.0.0/8",
+        "127.0.0.0",
+        "127.0.0.1"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-018",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cual es la organización que opera a nivel internacional, responsable de asignar espacio de direcciones numéricas de protocolo de Internet (IP), identificadores de protocolo y de las funciones de gestión?",
+      "opts": [
+        "ICANN",
+        "IANA",
+        "ARIN",
+        "Internet Society"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La Internet Assigned Numbers Authority (cuyo acrónimo es IANA), es la Agencia de Asignación de Números de Internet. Era el antiguo registro central de los protocolos Internet, como puertos, números de protocolo y empresa, opciones y códigos. Fue sustituido en 1998 por ICANN."
+    },
+    {
+      "id": "redes-p2-019",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Que problema se puede producir si durante la aplicación de la técnica de VLSM, en un paso posterior utilizo una máscara mas corta que en un paso anterior?",
+      "opts": [
+        "Se produce una reutilización de direcciones",
+        "Se duplica el rango de direcciones",
+        "Se aumenta el rango de direcciones",
+        "Se produce el denominado \"solapamiento de direcciones\""
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-021",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cómo conviene ordenar los requerimientos de direcciones por segmento para aplicar la técnica VLSM?",
+      "opts": [
+        "De menor a mayor",
+        "De mayor a menor"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "En realidad para trabajar de forma ordenada y evitar el error de solapamiento de direcciones conviene establecer el orden de los requerimientos de mayor a menor"
+    },
+    {
+      "id": "redes-p2-022",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos clases/rangos de direcciones privadas definió la convención de direcciones IPv4?",
+      "opts": [
+        "7",
+        "3",
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Clase A: 10.0.0.0 a 10.255.255.255 (8 bits red, 24 bits hosts). Por Ej La red militar norteamericana\nClase B: 172.16.0.0 a 172.31.255.255 (12 bits red, 20 bits hosts). Un ejemplo de uso: universidades y grandes compañías.\nClase C: 192.168.0.0 a 192.168.255.255 (16 bits red, 16 bits hosts). Para uso de compañías medias y pequeñas además pequeños proveedores de Internet (ISP)."
+    },
+    {
+      "id": "redes-p2-023",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuántos registros regionales para números de Internet existen?",
+      "opts": [
+        "7",
+        "4",
+        "5",
+        "8",
+        "6",
+        "3"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "",
+      "img": "img/redes-p2-023.webp"
+    },
+    {
+      "id": "redes-p2-024",
+      "topic": 5,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual o cuales fueron las técnicas que permitieron abordar el problema agotamiento de direcciones?",
+      "opts": [
+        "Subnetting",
+        "Protocolos Classless",
+        "CIDR",
+        "VLSM",
+        "NAT",
+        "Sumarización de rutas"
+      ],
+      "correct": [
+        0,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-025",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Como se sabe que una dirección IP corresponde a una dirección de Red o Subred?",
+      "opts": [
+        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor 1",
+        "Porque el resultado de la operación \"and\" tiene todos los bits de la porción de host con valor cero",
+        "Porque la máscara está con todos sus bits en cero"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-025.webp"
+    },
+    {
+      "id": "redes-p2-026",
+      "topic": 5,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un prefijo IPv4 puede tener máscara /32",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La afirmación es verdadera, el prefijo puede tener másca /32 y tiene como destino un host específico"
+    },
+    {
+      "id": "redes-p2-038",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Cunado un computador IPv4 tiene que comunicarse con un computador IPv6 utiliza Direcciones Ipv4 encapsuladas en IPv6:",
+      "opts": [
+        "Tipo 2",
+        "Tipo 1"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-043",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Cuantos niveles de agregación tiene una dirección IPv6",
+      "opts": [
+        "Cinco",
+        "Cuatro",
+        "Tres"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "Tiene tres niveles TLA (Top-Level Agregator) NLA (Next-Level Agregator) SLA (Site-Level Agregator)"
+    },
+    {
+      "id": "redes-p2-044",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Las direcciones IPv6 son jerárquicas, y por ello existe una técnica denominada:",
+      "opts": [
+        "Formato de Prefijo",
+        "Asignación por niveles",
+        "Asignación geográfica",
+        "Direcciones encapsuladas"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-047",
+      "topic": 5,
+      "type": "single",
+      "catedra": true,
+      "text": "Cuando dos computadores IPv6 comunicantes a través de una interred IPv4 utilizan Direcciones Ipv4 encapsuladas en IPv6 del:",
+      "opts": [
+        "Tipo 2",
+        "Tipo 1"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": ""
+    },
+    {
       "id": "redes-p2-058",
-      "topic": 4,
+      "topic": 5,
       "type": "tf",
       "catedra": true,
       "text": "En las tablas de ruteo se guardan solo direcciones de red y fisicas",
@@ -1116,7 +1098,7 @@
     },
     {
       "id": "redes-p2-059",
-      "topic": 4,
+      "topic": 5,
       "type": "tf",
       "catedra": true,
       "text": "RIP es quizás el protocolo más implementado en redes de pequeña escala",
@@ -1131,7 +1113,7 @@
     },
     {
       "id": "redes-p2-060",
-      "topic": 4,
+      "topic": 5,
       "type": "single",
       "catedra": true,
       "text": "La información que hay en las tablas de los enrutadores se completa específicamente por los:",
@@ -1147,24 +1129,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-061",
-      "topic": 4,
-      "type": "single",
-      "catedra": true,
-      "text": "OSPF utiliza para todos sus mensajes:",
-      "opts": [
-        "Un encabezado de longitud variable mas el contenido (tipo de mensaje)",
-        "Un encabezado distinto de 24 bytes mas el contenido (tipo de mensaje)",
-        "Un encabezado de longitud fija de 24 bytes mas el contenido (tipo de mensaje)"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-062",
-      "topic": 4,
+      "topic": 5,
       "type": "single",
       "catedra": true,
       "text": "¿Como toma la decisión de conmutación un enrutador?",
@@ -1181,7 +1147,7 @@
     },
     {
       "id": "redes-p2-063",
-      "topic": 4,
+      "topic": 5,
       "type": "tf",
       "catedra": true,
       "text": "La técnica de horizonte dividido funciona en todas las topologías",
@@ -1197,7 +1163,7 @@
     },
     {
       "id": "redes-p2-064",
-      "topic": 4,
+      "topic": 5,
       "type": "match",
       "catedra": true,
       "text": "El principio de optimalidad establece que:",
@@ -1221,7 +1187,7 @@
     },
     {
       "id": "redes-p2-065",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Seleccione características de ruteo jerarquico",
@@ -1241,7 +1207,7 @@
     },
     {
       "id": "redes-p2-066",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "El contenido típico de una tabla de ruteo incluye:",
@@ -1265,26 +1231,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-067",
-      "topic": 4,
-      "type": "multi",
-      "catedra": true,
-      "text": "En un sistema de núcleo, un enrutador que no participa del núcleo:",
-      "opts": [
-        "Siempre va a tener el inconveniente del salto extra si su destino está conectado a otro router de núcleo que no sea el suyo",
-        "Si el camino a su destino es mas corto a través de un router al cual no esta conectado no puede utilizarlo",
-        "Debe dirigir todo su tráfico al router de núcleo al cual esta conectado"
-      ],
-      "correct": [
-        0,
-        1,
-        2
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-068",
-      "topic": 4,
+      "topic": 5,
       "type": "single",
       "catedra": true,
       "text": "¿Que sucede si un host recibe un datagrama cuya dirección no coincide con alguna de sus interfaces y tiene definida una ruta por defecto?",
@@ -1303,7 +1251,7 @@
     },
     {
       "id": "redes-p2-069",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "El algoritmo de vector distancia es también conocido por:",
@@ -1320,7 +1268,7 @@
     },
     {
       "id": "redes-p2-070",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Seleccione algoritmos de enrutamiento estático:",
@@ -1338,7 +1286,7 @@
     },
     {
       "id": "redes-p2-071",
-      "topic": 4,
+      "topic": 5,
       "type": "single",
       "catedra": true,
       "text": "Si en una tabla de ruteo existe una ruta por defecto:",
@@ -1355,7 +1303,7 @@
     },
     {
       "id": "redes-p2-072",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Que propiedades debiera tener un algoritmo de enrutamiento",
@@ -1382,7 +1330,7 @@
     },
     {
       "id": "redes-p2-073",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Cuales son las principales características del ruteo IP",
@@ -1404,7 +1352,7 @@
     },
     {
       "id": "redes-p2-074",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Cuales de las siguientes opciones son verdaderas para enrutamiento por estado de enlace:",
@@ -1424,109 +1372,8 @@
       "img": "img/redes-p2-074.webp"
     },
     {
-      "id": "redes-p2-075",
-      "topic": 4,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Usted Utilizaría el protocolo OSPF en una red muy pequeña?",
-      "opts": [
-        "Preferiría un protocolo sencillo y fácil de implementar como RIP pues para la pequeña escala no afectan sus limitaciones",
-        "Si por la velocidad de convergencia"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-076",
-      "topic": 4,
-      "type": "multi",
-      "catedra": true,
-      "text": "Cuales de los siguientes son tipos de mensaje de OSPF-LSAs (Anuncio de Estado de Enlace del protocolo OSPF)",
-      "opts": [
-        "LS Update Actualización de estado de enlace",
-        "Anuncio de Router",
-        "Anuncio de Red",
-        "Anuncio de enlace sumarizado ASBR",
-        "LS Request solicitud de estado de enlace",
-        "Anuncio de enlace sumarizado AR",
-        "Anuncio de enlace sumarizado ABR"
-      ],
-      "correct": [
-        1,
-        2,
-        3,
-        5,
-        6
-      ],
-      "fb": "",
-      "img": "img/redes-p2-076.webp"
-    },
-    {
-      "id": "redes-p2-077",
-      "topic": 4,
-      "type": "single",
-      "catedra": true,
-      "text": "Un Sistema Autónomo es:",
-      "opts": [
-        "Un sistema de enlaces y ruteadores dentro de una organización",
-        "Un conjunto de enlaces y ruteadores bajo una única autoridad administrativa",
-        "Un ISP"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Un Sistema Autónomo es un conjunto de enlaces y ruteadores bajo una única autoridad administrativa. Cada sistema autónomo es una unidad administrativa que se diferencia y reconoce a través de un ID de sistema autónomo. IANA (Internet Assigned Numbers Authority) es el organismo responsable de la asignación de los ID de sistemas autónomos. El ID de sistema autónomo es un número de 16 bits, con un valor posible entre 1 y 65535. Su uso y asignación está orientado por la RFC 1930. Los sistemas autónomos 64512 a 65535 están reservados para uso privado"
-    },
-    {
-      "id": "redes-p2-078",
-      "topic": 4,
-      "type": "multi",
-      "catedra": true,
-      "text": "Que características tiene un sistema de ruteo con nucleo o backbone",
-      "opts": [
-        "Se pueden conectar dos núcleos mediante un par de conjuntos de rutas por omisión",
-        "Presentan el inconveniente de salto extra",
-        "Se tiene que definir que enrutadores participan del núcleo y cuales no",
-        "Presentan el inconveniente de redes ocultas",
-        "Tienen problemas de escala"
-      ],
-      "correct": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-079",
-      "topic": 4,
-      "type": "multi",
-      "catedra": true,
-      "text": "Cual de los siguientes son tipos de mensaje correspondientes al protocolo OSPF",
-      "opts": [
-        "Mensaje Descripción BD",
-        "LSA Anuncio de Estado de Enlace",
-        "LS Update",
-        "SP Sumarización de rutas",
-        "Mensaje HELLO",
-        "SN Sumarización de redes",
-        "LS Update Request"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        4
-      ],
-      "fb": "",
-      "img": "img/redes-p2-079.webp"
-    },
-    {
       "id": "redes-p2-080",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "En el enrutamiento por estado de enlace, cada ruteador debe:",
@@ -1549,7 +1396,7 @@
     },
     {
       "id": "redes-p2-081",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "A que protocolo de ruteo se aplicaría la siguiente sentencia: Los vecinos calculan las métricas e instalan las rutas que sean estrictamente menores",
@@ -1566,7 +1413,7 @@
     },
     {
       "id": "redes-p2-082",
-      "topic": 4,
+      "topic": 5,
       "type": "single",
       "catedra": true,
       "text": "Que sucede si un router recibe un datagrama cuya dirección no coincide con alguna de sus interfaces y no tiene definida una ruta por defecto",
@@ -1582,7 +1429,7 @@
     },
     {
       "id": "redes-p2-083",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Marque las opciones que son válidas para RIP versión 2 y no lo son para RIP versión 1",
@@ -1606,7 +1453,7 @@
     },
     {
       "id": "redes-p2-084",
-      "topic": 4,
+      "topic": 5,
       "type": "single",
       "catedra": true,
       "text": "Que clase de ruteo se implementa con RIP versión 2",
@@ -1624,7 +1471,7 @@
     },
     {
       "id": "redes-p2-085",
-      "topic": 4,
+      "topic": 5,
       "type": "tf",
       "catedra": true,
       "text": "A los algoritmos de enrutamiento no adpatativos se los utiliza en enrutamiento estático",
@@ -1638,24 +1485,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-086",
-      "topic": 4,
-      "type": "single",
-      "catedra": true,
-      "text": "En los enrutadores y sus tablas de ruteo, al mecanismo de permitir que la información aprendida por una fuente sea publicada hacia otros dispositivos utilizando un protocolo diferente se lo conoce como",
-      "opts": [
-        "Redistribución de Protocolo",
-        "Redistribución de tablas",
-        "Redistribución de rutas"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": ""
-    },
-    {
       "id": "redes-p2-087",
-      "topic": 4,
+      "topic": 5,
       "type": "single",
       "catedra": true,
       "text": "¿Cuáles son los prefijos de red de una tabla de ruteo que son examinados en primer lugar?",
@@ -1672,7 +1503,7 @@
     },
     {
       "id": "redes-p2-088",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "Marque aquellas opciones que considera correctas para el concepto de Sumarización de Rutas",
@@ -1695,7 +1526,7 @@
     },
     {
       "id": "redes-p2-089",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "El problema de conteo a Infinito que tiene el algoritmo de vector distancia se puede mitigar con:",
@@ -1714,7 +1545,7 @@
     },
     {
       "id": "redes-p2-090",
-      "topic": 4,
+      "topic": 5,
       "type": "single",
       "catedra": true,
       "text": "¿Cuál es la métrica que anuncia RIP para envenenar una ruta?",
@@ -1730,7 +1561,7 @@
     },
     {
       "id": "redes-p2-091",
-      "topic": 4,
+      "topic": 5,
       "type": "tf",
       "catedra": true,
       "text": "El árbol de optimalidad es aquel que se forma por las rutas óptimas desde todos los orígenes a un destino dado",
@@ -1744,79 +1575,8 @@
       "fb": ""
     },
     {
-      "id": "redes-p2-092",
-      "topic": 4,
-      "type": "single",
-      "catedra": true,
-      "text": "En un sistema de núcleo, el router de borde está conectado a un grupo de routers internos que a su vez conectan otros routers de menor jerarquía, si una red está conectada a uno de estos router de menor jerarquía, ¿quien es el responsable de anunciar su ruta hacia el núcleo?",
-      "opts": [
-        "los routers intermedios",
-        "Una autoridad administrativa",
-        "El router al cual está directamente conectado",
-        "El router de núcleo"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "El router R4 es el router más estrechamente asociado con red local 4, pero se encuentra a 2 saltos del router de núcleo próximo. Así, R4 debe depender de router R3 para encaminar paquetes a la red 4. El caso es que R4 sabe de red local 4 pero no puede pasar datagramas directamente desde R1. El Router R3 está a un salto del núcleo y puede garantizar pasar paquetes, pero no se conecta directamente a la red local 4. Entonces, parece incorrecto asignar responsabilidad a R3 para anunciar la red 4. Solucionar este dilema requerirá que nosotros introduzcamos el concepto de Sistema Autónomo donde, la arquitectura debería ser pensada como una organización sola que tiene muchas redes bajo su control. Debido a que las redes y routers caen bajo una única autoridad administrativa, esa autoridad puede garantizar que las rutas internas permanecen consistentes y viables. Además, la autoridad administrativa puede escoger uno de sus routers para informar al mundo exterior de las redes dentro de la organización. En el ejemplo de la figura, porque router R2, R3, y R4 yacen bajo el control de una autoridad administrativa, esa autoridad puede hacer que R3 anuncie las redes 2, 3, y 4 (R3 ya sabe de la red 1 porque tiene una conexión directa a ella).",
-      "img": "img/redes-p2-092.webp"
-    },
-    {
-      "id": "redes-p2-093",
-      "topic": 4,
-      "type": "multi",
-      "catedra": true,
-      "text": "Cuales son los tipos de router que intervienen en anuncian rutas sumarizadas en OSPF",
-      "opts": [
-        "Router de borde de sistema autónomo",
-        "Router Internos",
-        "Router de área",
-        "Router de borde de área"
-      ],
-      "correct": [
-        0,
-        2,
-        3
-      ],
-      "fb": "",
-      "img": "img/redes-p2-093.webp"
-    },
-    {
-      "id": "redes-p2-094",
-      "topic": 4,
-      "type": "multi",
-      "catedra": true,
-      "text": "Cuales de las siguientes son características del protocolo de ruteo OSPF",
-      "opts": [
-        "Tiene soporte de autenticación",
-        "Redistribución de información de ruteo externo (BGP)",
-        "Soporta enlaces virtuales",
-        "Ruteo por TOS",
-        "Divide el Sistema Autónomo en áreas",
-        "RFC 1131 (v1); 1247 (v2); 2328 (V2 Final)",
-        "Tiene optimizaciones para funcionamiento en LAN",
-        "Soporta rutas específicas de Host, subred y red",
-        "Balance de carga",
-        "Protocolo Abierto de Estado de Enlace (LS)"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "fb": "",
-      "img": "img/redes-p2-094.webp"
-    },
-    {
       "id": "redes-p2-095",
-      "topic": 4,
+      "topic": 5,
       "type": "tf",
       "catedra": true,
       "text": "El protocolo de ruteo RIP versión 2 soluciona los problemas de convergencia lenta",
@@ -1831,7 +1591,7 @@
     },
     {
       "id": "redes-p2-096",
-      "topic": 4,
+      "topic": 5,
       "type": "multi",
       "catedra": true,
       "text": "En el protocolo RIP:",
@@ -1844,333 +1604,6 @@
       "correct": [
         0,
         3
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-097",
-      "topic": 4,
-      "type": "tf",
-      "catedra": true,
-      "text": "Un router de backbone no puede tener rutas por defecto",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "",
-      "img": "img/redes-p2-097.webp"
-    },
-    {
-      "id": "redes-p2-098",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "La información de enrutamiento que intercambia BGP está referida a la accesibilidad de las redes de destino, e incluye entre otros los siguientes elementos: (marque los que son correctos para BGP)",
-      "opts": [
-        "El listado de todas las redes accesibles al final de esa ruta de sistemas autónomos",
-        "Una serie de \"atributos\" que definen el modo en que será tratada la ruta: origen de la información de la ruta, peso de la ruta, preferencia local.",
-        "Optimizaciones para funcionamiento en LANs",
-        "La dirección IP de la puerta de entrada al próximo sistema autónomo en la ruta",
-        "Rutas específicas de host, de subred y de red",
-        "La ruta expresada como la sucesión de sistemas autónomos que es necesario atravesar (salto por salto) para alcanzar la red de destino."
-      ],
-      "correct": [
-        0,
-        1,
-        3,
-        5
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-099",
-      "topic": 5,
-      "type": "tf",
-      "catedra": true,
-      "text": "Un Router Arbitrer (route-server) mantiene solo información de accesibilidad positiva",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "",
-      "img": "img/redes-p2-099.webp"
-    },
-    {
-      "id": "redes-p2-100",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cómo intercambia BGP la información entre pares?",
-      "opts": [
-        "Mediante un enlace cifrado",
-        "Mediante una sesión UDP",
-        "Mediante una sesión TCP",
-        "Mediante una conexión punto a punto"
-      ],
-      "correct": [
-        2
-      ],
-      "fb": "BGP es un protocolo que funciona sobre TCP por el puerto 179. BGP permite el encaminamiento de los paquetes IP que se intercambian entre los distintos AS. Para ello, es necesario el intercambio de prefijos de rutas entre los diferentes AS de forma dinámica, lo cual se lleva a cabo mediante el establecimiento de sesiones BGP inter-AS sobre conexiones TCP. Este tipo de operación proporciona comunicación fiable y esconde todos los detalles dela red por la que se pasa."
-    },
-    {
-      "id": "redes-p2-101",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "Cual de los siguientes son conceptos fundamentales de BGP",
-      "opts": [
-        "Tráfico permitido vs. tráfico prohibido",
-        "Balanceo de Cargas",
-        "Accesibilidad Administrativa",
-        "Selecciona un solo camino p/cada prefijo que aprenda",
-        "Basado en políticas"
-      ],
-      "correct": [
-        0,
-        2,
-        3,
-        4
-      ],
-      "fb": "Comentario de la cátedra sobre «Balanceo de Cargas»: error grave de concepto; marcar esta opción anula la pregunta."
-    },
-    {
-      "id": "redes-p2-102",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "¿Cuantos enrutadores pueden participar de una sola \"sesion\" BGP?",
-      "opts": [
-        "Dos",
-        "Todos los de los sistemas autónomos adyacentes",
-        "Todos los routers que tienen actualizaciones"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "Sesiones BGP: En una sesión BGP participan sólo dos routers (peers). En cualquier momento una red puede tener muchas sesiones BGP concurrentes y también una misma pasarela puede participar en muchas sesiones BGP. En la sesión BGP se lleva a cabo el proceso denominado peering, que consiste en que un AS informa a otro sobre las redes que puede alcanzar a partir de éste.",
-      "img": "img/redes-p2-102.webp"
-    },
-    {
-      "id": "redes-p2-103",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "Marque cual de las siguientes opciones, son mensajes correspondientes a BGP4",
-      "opts": [
-        "HELLO",
-        "UPDATE",
-        "NOTIFICATION",
-        "KEPPALIVE",
-        "OPEN"
-      ],
-      "correct": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "fb": "",
-      "img": "img/redes-p2-103.webp"
-    },
-    {
-      "id": "redes-p2-104",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "De las siguientes opciones, marque cuáles son características de BGP4",
-      "opts": [
-        "Ruteo basado en políticas",
-        "Agregación/sumarización de rutas",
-        "Coordinación entre varios “BGP speakers” en el AS",
-        "Soporte de CIDR",
-        "Soporta balanceo de cargas",
-        "Garantiza consistencia global",
-        "Comunicación inter-AS",
-        "Propagación información de accesibilidad (no costo)",
-        "Paradigama del próximo salto",
-        "Soporta rutas múltiples",
-        "Autenticación",
-        "Transporte confiable (TCP). Mantenimiento sesiones",
-        "Ni VD ni EE: Vector Camino (PV) - “coloreado” rutas"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3,
-        6,
-        7,
-        8,
-        10,
-        11,
-        12
-      ],
-      "fb": "",
-      "img": "img/redes-p2-104.webp"
-    },
-    {
-      "id": "redes-p2-105",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "¿Cual de las siguientes afirmaciones son correctas con respecto al formato de los prefijos en BGP?",
-      "opts": [
-        "Se anuncia el tipo de máscara y el prefijo",
-        "Utiliza un formato comprimido de 5 octetos, donde el primer octeto indica la longitud de la máscara en bits y los otro cuatro octetos para una dirección IPv4",
-        "Se pensó en un formato comprimido para evitar consumir demasiado espacio"
-      ],
-      "correct": [
-        1,
-        2
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-106",
-      "topic": 5,
-      "type": "tf",
-      "catedra": true,
-      "text": "Un router de borde BGP, debe correr también un protocolo de ruteo interior como por ej: OSPF",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "La conectividad entre los routers de borde que intercambian sus informaciones BGP mediante I-BGP en un mismo AS vendrá asegurada por el protocolo IGP utilizado. Si un router de borde no es capaz de alcanzar una ruta de su propio AS, la cual le ha sido anunciada por un vecino interno, esta ruta no será propagada a los vecinos BGP internos o externos. El router BGP TAMBIEN debe correr un IGP (ej.OSPF) → Redistribución/etiquetado. iBGP, eBGP"
-    },
-    {
-      "id": "redes-p2-107",
-      "topic": 5,
-      "type": "tf",
-      "catedra": true,
-      "text": "La afirmación \"BGP4 es particularmente adecuado para Sistemas Autónomos con varias conexiones a otros Sistemas Autónomos\" es:",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "",
-      "img": "img/redes-p2-107.webp"
-    },
-    {
-      "id": "redes-p2-108",
-      "topic": 5,
-      "type": "single",
-      "catedra": true,
-      "text": "BGP anuncia accesibilidad a sus pares desde la perspectiva del:",
-      "opts": [
-        "Del receptor",
-        "Propio sistema autónomo",
-        "Del emisor"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": "A diferencia de la mayoría de protocolos que propagan información de enrutamiento, un Protocolo de Gateway Exterior no solamente reporta el set de destinos que puede alcanzar. En lugar de eso, los protocolos exteriores deben proveer información que es correcta desde perspectiva de la persona externa. Hay dos asuntos: Las políticas y las rutas óptimas. El asunto de política es obvio: Un router dentro de un sistema autónomo puede tener permitido un destino dado, mientras los terceros tiene prohibido alcanzar el mismo destino. El asunto de rutas óptimas quiere decir que un router debe anunciar un siguiente salto que es óptimo desde la perspectiva de la persona ajena. En la figura el router R2 corre BGP y reporta información desde la perspectiva de la persona ajena, no de su propia tabla de enrutamiento. En la figura, el router R2 ha sido designado para hablar a BGP en nombre del sistema autónomo. Debe informar la asequibilidad a las redes 1 a 4. Sin embargo, al informar un siguiente salto, reporta la red 1 como alcanzable a través de router R1, las redes 3 y 4 como alcanzable a través de router R3, y la red 2 como alcanzable a través de R2.",
-      "img": "img/redes-p2-108.webp"
-    },
-    {
-      "id": "redes-p2-109",
-      "topic": 5,
-      "type": "tf",
-      "catedra": true,
-      "text": "La solución al problema del salto extra lo ofrece BGP y los sistemas autónomos",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "Incorrecto, BGP solo anuncia accesibilidad, no rutas óptimas",
-      "img": "img/redes-p2-109.webp"
-    },
-    {
-      "id": "redes-p2-110",
-      "topic": 5,
-      "type": "tf",
-      "catedra": true,
-      "text": "BGP de por sí mantiene la coherencia y consistencia en las rutas a través de los sistemas autónomos",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        1
-      ],
-      "fb": "",
-      "img": "img/redes-p2-110.webp"
-    },
-    {
-      "id": "redes-p2-111",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "Es sabido que BGP tiene muchos atributos, marque de la siguiente lista algunos atributos BGP vistos en la teoría",
-      "opts": [
-        "AS_PATH",
-        "COMMUNITY",
-        "ORIGINATOR_ID",
-        "NEXT_HOP",
-        "ORIGIN"
-      ],
-      "correct": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "fb": "",
-      "img": "img/redes-p2-111.webp"
-    },
-    {
-      "id": "redes-p2-112",
-      "topic": 5,
-      "type": "tf",
-      "catedra": true,
-      "text": "El formato de los atributos en BGP es la tupla (tipo, longitud, valor)",
-      "opts": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correct": [
-        0
-      ],
-      "fb": ""
-    },
-    {
-      "id": "redes-p2-113",
-      "topic": 5,
-      "type": "multi",
-      "catedra": true,
-      "text": "Se dice de manera incorrecta que BGP es un protocolo de Vector Distancia Avanzado, pero esto no así. Marque las opciones que son BGP y no las tiene un protocolo de Vector Distancia",
-      "opts": [
-        "Utiliza actualizaciones incrementales o disparadas por eventos",
-        "Utiliza mensajes HELLO",
-        "Utiliza TCP como protocolo en la capa de transporte, lo que asegura una comunicación confiable orientada a la conexión. Utiliza el puerto 179 de TCP",
-        "Puede contener información de mas de 250.000 rutas",
-        "Las actualizaciones de enrutamiento pueden contener tanto información referida a nuevas rutas disponibles, como a rutas que han dejado de estar disponibles",
-        "El transporte de información sobre conexiones TCP confiables asegura mayor eficiencia para la comunicación de volúmenes importantes de información como son los que corresponden a la cantidad de rutas que requiere hoy Internet",
-        "Utiliza el puerto UDP 520",
-        "Dado que no se requieren actualizaciones periódicas, sólo envía mensajes de keepalive"
-      ],
-      "correct": [
-        0,
-        2,
-        3,
-        4,
-        5,
-        7
       ],
       "fb": ""
     },
@@ -2637,6 +2070,555 @@
         1,
         2,
         3
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-061",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "OSPF utiliza para todos sus mensajes:",
+      "opts": [
+        "Un encabezado de longitud variable mas el contenido (tipo de mensaje)",
+        "Un encabezado distinto de 24 bytes mas el contenido (tipo de mensaje)",
+        "Un encabezado de longitud fija de 24 bytes mas el contenido (tipo de mensaje)"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-067",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "En un sistema de núcleo, un enrutador que no participa del núcleo:",
+      "opts": [
+        "Siempre va a tener el inconveniente del salto extra si su destino está conectado a otro router de núcleo que no sea el suyo",
+        "Si el camino a su destino es mas corto a través de un router al cual no esta conectado no puede utilizarlo",
+        "Debe dirigir todo su tráfico al router de núcleo al cual esta conectado"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-075",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Usted Utilizaría el protocolo OSPF en una red muy pequeña?",
+      "opts": [
+        "Preferiría un protocolo sencillo y fácil de implementar como RIP pues para la pequeña escala no afectan sus limitaciones",
+        "Si por la velocidad de convergencia"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-076",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de los siguientes son tipos de mensaje de OSPF-LSAs (Anuncio de Estado de Enlace del protocolo OSPF)",
+      "opts": [
+        "LS Update Actualización de estado de enlace",
+        "Anuncio de Router",
+        "Anuncio de Red",
+        "Anuncio de enlace sumarizado ASBR",
+        "LS Request solicitud de estado de enlace",
+        "Anuncio de enlace sumarizado AR",
+        "Anuncio de enlace sumarizado ABR"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "fb": "",
+      "img": "img/redes-p2-076.webp"
+    },
+    {
+      "id": "redes-p2-077",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "Un Sistema Autónomo es:",
+      "opts": [
+        "Un sistema de enlaces y ruteadores dentro de una organización",
+        "Un conjunto de enlaces y ruteadores bajo una única autoridad administrativa",
+        "Un ISP"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Un Sistema Autónomo es un conjunto de enlaces y ruteadores bajo una única autoridad administrativa. Cada sistema autónomo es una unidad administrativa que se diferencia y reconoce a través de un ID de sistema autónomo. IANA (Internet Assigned Numbers Authority) es el organismo responsable de la asignación de los ID de sistemas autónomos. El ID de sistema autónomo es un número de 16 bits, con un valor posible entre 1 y 65535. Su uso y asignación está orientado por la RFC 1930. Los sistemas autónomos 64512 a 65535 están reservados para uso privado"
+    },
+    {
+      "id": "redes-p2-078",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Que características tiene un sistema de ruteo con nucleo o backbone",
+      "opts": [
+        "Se pueden conectar dos núcleos mediante un par de conjuntos de rutas por omisión",
+        "Presentan el inconveniente de salto extra",
+        "Se tiene que definir que enrutadores participan del núcleo y cuales no",
+        "Presentan el inconveniente de redes ocultas",
+        "Tienen problemas de escala"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-079",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cual de los siguientes son tipos de mensaje correspondientes al protocolo OSPF",
+      "opts": [
+        "Mensaje Descripción BD",
+        "LSA Anuncio de Estado de Enlace",
+        "LS Update",
+        "SP Sumarización de rutas",
+        "Mensaje HELLO",
+        "SN Sumarización de redes",
+        "LS Update Request"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-079.webp"
+    },
+    {
+      "id": "redes-p2-086",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "En los enrutadores y sus tablas de ruteo, al mecanismo de permitir que la información aprendida por una fuente sea publicada hacia otros dispositivos utilizando un protocolo diferente se lo conoce como",
+      "opts": [
+        "Redistribución de Protocolo",
+        "Redistribución de tablas",
+        "Redistribución de rutas"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-092",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "En un sistema de núcleo, el router de borde está conectado a un grupo de routers internos que a su vez conectan otros routers de menor jerarquía, si una red está conectada a uno de estos router de menor jerarquía, ¿quien es el responsable de anunciar su ruta hacia el núcleo?",
+      "opts": [
+        "los routers intermedios",
+        "Una autoridad administrativa",
+        "El router al cual está directamente conectado",
+        "El router de núcleo"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "El router R4 es el router más estrechamente asociado con red local 4, pero se encuentra a 2 saltos del router de núcleo próximo. Así, R4 debe depender de router R3 para encaminar paquetes a la red 4. El caso es que R4 sabe de red local 4 pero no puede pasar datagramas directamente desde R1. El Router R3 está a un salto del núcleo y puede garantizar pasar paquetes, pero no se conecta directamente a la red local 4. Entonces, parece incorrecto asignar responsabilidad a R3 para anunciar la red 4. Solucionar este dilema requerirá que nosotros introduzcamos el concepto de Sistema Autónomo donde, la arquitectura debería ser pensada como una organización sola que tiene muchas redes bajo su control. Debido a que las redes y routers caen bajo una única autoridad administrativa, esa autoridad puede garantizar que las rutas internas permanecen consistentes y viables. Además, la autoridad administrativa puede escoger uno de sus routers para informar al mundo exterior de las redes dentro de la organización. En el ejemplo de la figura, porque router R2, R3, y R4 yacen bajo el control de una autoridad administrativa, esa autoridad puede hacer que R3 anuncie las redes 2, 3, y 4 (R3 ya sabe de la red 1 porque tiene una conexión directa a ella).",
+      "img": "img/redes-p2-092.webp"
+    },
+    {
+      "id": "redes-p2-093",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales son los tipos de router que intervienen en anuncian rutas sumarizadas en OSPF",
+      "opts": [
+        "Router de borde de sistema autónomo",
+        "Router Internos",
+        "Router de área",
+        "Router de borde de área"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-093.webp"
+    },
+    {
+      "id": "redes-p2-094",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cuales de las siguientes son características del protocolo de ruteo OSPF",
+      "opts": [
+        "Tiene soporte de autenticación",
+        "Redistribución de información de ruteo externo (BGP)",
+        "Soporta enlaces virtuales",
+        "Ruteo por TOS",
+        "Divide el Sistema Autónomo en áreas",
+        "RFC 1131 (v1); 1247 (v2); 2328 (V2 Final)",
+        "Tiene optimizaciones para funcionamiento en LAN",
+        "Soporta rutas específicas de Host, subred y red",
+        "Balance de carga",
+        "Protocolo Abierto de Estado de Enlace (LS)"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fb": "",
+      "img": "img/redes-p2-094.webp"
+    },
+    {
+      "id": "redes-p2-097",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un router de backbone no puede tener rutas por defecto",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "",
+      "img": "img/redes-p2-097.webp"
+    },
+    {
+      "id": "redes-p2-098",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "La información de enrutamiento que intercambia BGP está referida a la accesibilidad de las redes de destino, e incluye entre otros los siguientes elementos: (marque los que son correctos para BGP)",
+      "opts": [
+        "El listado de todas las redes accesibles al final de esa ruta de sistemas autónomos",
+        "Una serie de \"atributos\" que definen el modo en que será tratada la ruta: origen de la información de la ruta, peso de la ruta, preferencia local.",
+        "Optimizaciones para funcionamiento en LANs",
+        "La dirección IP de la puerta de entrada al próximo sistema autónomo en la ruta",
+        "Rutas específicas de host, de subred y de red",
+        "La ruta expresada como la sucesión de sistemas autónomos que es necesario atravesar (salto por salto) para alcanzar la red de destino."
+      ],
+      "correct": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-099",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un Router Arbitrer (route-server) mantiene solo información de accesibilidad positiva",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-099.webp"
+    },
+    {
+      "id": "redes-p2-100",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cómo intercambia BGP la información entre pares?",
+      "opts": [
+        "Mediante un enlace cifrado",
+        "Mediante una sesión UDP",
+        "Mediante una sesión TCP",
+        "Mediante una conexión punto a punto"
+      ],
+      "correct": [
+        2
+      ],
+      "fb": "BGP es un protocolo que funciona sobre TCP por el puerto 179. BGP permite el encaminamiento de los paquetes IP que se intercambian entre los distintos AS. Para ello, es necesario el intercambio de prefijos de rutas entre los diferentes AS de forma dinámica, lo cual se lleva a cabo mediante el establecimiento de sesiones BGP inter-AS sobre conexiones TCP. Este tipo de operación proporciona comunicación fiable y esconde todos los detalles dela red por la que se pasa."
+    },
+    {
+      "id": "redes-p2-101",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Cual de los siguientes son conceptos fundamentales de BGP",
+      "opts": [
+        "Tráfico permitido vs. tráfico prohibido",
+        "Balanceo de Cargas",
+        "Accesibilidad Administrativa",
+        "Selecciona un solo camino p/cada prefijo que aprenda",
+        "Basado en políticas"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "fb": "Comentario de la cátedra sobre «Balanceo de Cargas»: error grave de concepto; marcar esta opción anula la pregunta."
+    },
+    {
+      "id": "redes-p2-102",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "¿Cuantos enrutadores pueden participar de una sola \"sesion\" BGP?",
+      "opts": [
+        "Dos",
+        "Todos los de los sistemas autónomos adyacentes",
+        "Todos los routers que tienen actualizaciones"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "Sesiones BGP: En una sesión BGP participan sólo dos routers (peers). En cualquier momento una red puede tener muchas sesiones BGP concurrentes y también una misma pasarela puede participar en muchas sesiones BGP. En la sesión BGP se lleva a cabo el proceso denominado peering, que consiste en que un AS informa a otro sobre las redes que puede alcanzar a partir de éste.",
+      "img": "img/redes-p2-102.webp"
+    },
+    {
+      "id": "redes-p2-103",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Marque cual de las siguientes opciones, son mensajes correspondientes a BGP4",
+      "opts": [
+        "HELLO",
+        "UPDATE",
+        "NOTIFICATION",
+        "KEPPALIVE",
+        "OPEN"
+      ],
+      "correct": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fb": "",
+      "img": "img/redes-p2-103.webp"
+    },
+    {
+      "id": "redes-p2-104",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "De las siguientes opciones, marque cuáles son características de BGP4",
+      "opts": [
+        "Ruteo basado en políticas",
+        "Agregación/sumarización de rutas",
+        "Coordinación entre varios “BGP speakers” en el AS",
+        "Soporte de CIDR",
+        "Soporta balanceo de cargas",
+        "Garantiza consistencia global",
+        "Comunicación inter-AS",
+        "Propagación información de accesibilidad (no costo)",
+        "Paradigama del próximo salto",
+        "Soporta rutas múltiples",
+        "Autenticación",
+        "Transporte confiable (TCP). Mantenimiento sesiones",
+        "Ni VD ni EE: Vector Camino (PV) - “coloreado” rutas"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "fb": "",
+      "img": "img/redes-p2-104.webp"
+    },
+    {
+      "id": "redes-p2-105",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "¿Cual de las siguientes afirmaciones son correctas con respecto al formato de los prefijos en BGP?",
+      "opts": [
+        "Se anuncia el tipo de máscara y el prefijo",
+        "Utiliza un formato comprimido de 5 octetos, donde el primer octeto indica la longitud de la máscara en bits y los otro cuatro octetos para una dirección IPv4",
+        "Se pensó en un formato comprimido para evitar consumir demasiado espacio"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-106",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "Un router de borde BGP, debe correr también un protocolo de ruteo interior como por ej: OSPF",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "La conectividad entre los routers de borde que intercambian sus informaciones BGP mediante I-BGP en un mismo AS vendrá asegurada por el protocolo IGP utilizado. Si un router de borde no es capaz de alcanzar una ruta de su propio AS, la cual le ha sido anunciada por un vecino interno, esta ruta no será propagada a los vecinos BGP internos o externos. El router BGP TAMBIEN debe correr un IGP (ej.OSPF) → Redistribución/etiquetado. iBGP, eBGP"
+    },
+    {
+      "id": "redes-p2-107",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "La afirmación \"BGP4 es particularmente adecuado para Sistemas Autónomos con varias conexiones a otros Sistemas Autónomos\" es:",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-107.webp"
+    },
+    {
+      "id": "redes-p2-108",
+      "topic": 7,
+      "type": "single",
+      "catedra": true,
+      "text": "BGP anuncia accesibilidad a sus pares desde la perspectiva del:",
+      "opts": [
+        "Del receptor",
+        "Propio sistema autónomo",
+        "Del emisor"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": "A diferencia de la mayoría de protocolos que propagan información de enrutamiento, un Protocolo de Gateway Exterior no solamente reporta el set de destinos que puede alcanzar. En lugar de eso, los protocolos exteriores deben proveer información que es correcta desde perspectiva de la persona externa. Hay dos asuntos: Las políticas y las rutas óptimas. El asunto de política es obvio: Un router dentro de un sistema autónomo puede tener permitido un destino dado, mientras los terceros tiene prohibido alcanzar el mismo destino. El asunto de rutas óptimas quiere decir que un router debe anunciar un siguiente salto que es óptimo desde la perspectiva de la persona ajena. En la figura el router R2 corre BGP y reporta información desde la perspectiva de la persona ajena, no de su propia tabla de enrutamiento. En la figura, el router R2 ha sido designado para hablar a BGP en nombre del sistema autónomo. Debe informar la asequibilidad a las redes 1 a 4. Sin embargo, al informar un siguiente salto, reporta la red 1 como alcanzable a través de router R1, las redes 3 y 4 como alcanzable a través de router R3, y la red 2 como alcanzable a través de R2.",
+      "img": "img/redes-p2-108.webp"
+    },
+    {
+      "id": "redes-p2-109",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "La solución al problema del salto extra lo ofrece BGP y los sistemas autónomos",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "Incorrecto, BGP solo anuncia accesibilidad, no rutas óptimas",
+      "img": "img/redes-p2-109.webp"
+    },
+    {
+      "id": "redes-p2-110",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "BGP de por sí mantiene la coherencia y consistencia en las rutas a través de los sistemas autónomos",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        1
+      ],
+      "fb": "",
+      "img": "img/redes-p2-110.webp"
+    },
+    {
+      "id": "redes-p2-111",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Es sabido que BGP tiene muchos atributos, marque de la siguiente lista algunos atributos BGP vistos en la teoría",
+      "opts": [
+        "AS_PATH",
+        "COMMUNITY",
+        "ORIGINATOR_ID",
+        "NEXT_HOP",
+        "ORIGIN"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fb": "",
+      "img": "img/redes-p2-111.webp"
+    },
+    {
+      "id": "redes-p2-112",
+      "topic": 7,
+      "type": "tf",
+      "catedra": true,
+      "text": "El formato de los atributos en BGP es la tupla (tipo, longitud, valor)",
+      "opts": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correct": [
+        0
+      ],
+      "fb": ""
+    },
+    {
+      "id": "redes-p2-113",
+      "topic": 7,
+      "type": "multi",
+      "catedra": true,
+      "text": "Se dice de manera incorrecta que BGP es un protocolo de Vector Distancia Avanzado, pero esto no así. Marque las opciones que son BGP y no las tiene un protocolo de Vector Distancia",
+      "opts": [
+        "Utiliza actualizaciones incrementales o disparadas por eventos",
+        "Utiliza mensajes HELLO",
+        "Utiliza TCP como protocolo en la capa de transporte, lo que asegura una comunicación confiable orientada a la conexión. Utiliza el puerto 179 de TCP",
+        "Puede contener información de mas de 250.000 rutas",
+        "Las actualizaciones de enrutamiento pueden contener tanto información referida a nuevas rutas disponibles, como a rutas que han dejado de estar disponibles",
+        "El transporte de información sobre conexiones TCP confiables asegura mayor eficiencia para la comunicación de volúmenes importantes de información como son los que corresponden a la cantidad de rutas que requiere hoy Internet",
+        "Utiliza el puerto UDP 520",
+        "Dado que no se requieren actualizaciones periódicas, sólo envía mensajes de keepalive"
+      ],
+      "correct": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
       ],
       "fb": ""
     },
@@ -3196,7 +3178,7 @@
     },
     {
       "id": "redes-p2-164",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "Seleccione de entre las siguientes opciones, cuales son las motivaciones para el desarrollo de MPLS",
@@ -3217,7 +3199,7 @@
     },
     {
       "id": "redes-p2-165",
-      "topic": 8,
+      "topic": 7,
       "type": "tf",
       "catedra": true,
       "text": "La etiqueta MPLS forma parte de la cabecera de IPv6",
@@ -3232,7 +3214,7 @@
     },
     {
       "id": "redes-p2-166",
-      "topic": 8,
+      "topic": 7,
       "type": "single",
       "catedra": true,
       "text": "¿Cuantos campos tiene una etiqueta MPLS?",
@@ -3249,7 +3231,7 @@
     },
     {
       "id": "redes-p2-167",
-      "topic": 8,
+      "topic": 7,
       "type": "tf",
       "catedra": true,
       "text": "Un nodo MPLS (LSR) es capaz de enviar paquetes nativos de nivel de red",
@@ -3264,7 +3246,7 @@
     },
     {
       "id": "redes-p2-168",
-      "topic": 8,
+      "topic": 7,
       "type": "match",
       "catedra": true,
       "text": "Examine cuidadosamente la siguiente figura, luego conteste las preguntas de abajo escribiendo (en números) el correspondiente valor de TTL para cada etiqueta por la que se pregunta",
@@ -3300,7 +3282,7 @@
     },
     {
       "id": "redes-p2-169",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "¿Dónde se ubica la etiqueta MPLS en una trama de enlace?",
@@ -3323,7 +3305,7 @@
     },
     {
       "id": "redes-p2-170",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "FEC (Forwarding Equivalence Class): (marque las opciones correctas)",
@@ -3343,7 +3325,7 @@
     },
     {
       "id": "redes-p2-171",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "¿Cual de las siguientes opciones, son conceptos fundamentales de MPLS?",
@@ -3362,7 +3344,7 @@
     },
     {
       "id": "redes-p2-172",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "Un LSP: (marque las opciones correctas)",
@@ -3387,7 +3369,7 @@
     },
     {
       "id": "redes-p2-173",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "Seleccione de entre los siguientes algunos desarrollos que aplican conceptos de Ingeniería de Tráfico",
@@ -3407,7 +3389,7 @@
     },
     {
       "id": "redes-p2-174",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "El intercambio de rutas por etiqueta, también conocido como LSP : (marque las opciones relacionadas)",
@@ -3428,7 +3410,7 @@
     },
     {
       "id": "redes-p2-175",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "¿Cuantos tipos de router puede haber en una red MPLS?",
@@ -3449,7 +3431,7 @@
     },
     {
       "id": "redes-p2-176",
-      "topic": 8,
+      "topic": 7,
       "type": "multi",
       "catedra": true,
       "text": "Para una clase de equivalencia de reenvío (FEC), las etiquetas: (marcar las opciones válidas)",
@@ -3471,7 +3453,7 @@
     },
     {
       "id": "redes-p2-177",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "IPSec (Protocolo de seguridad en Internet) trabaja en modo:",
@@ -3491,7 +3473,7 @@
     },
     {
       "id": "redes-p2-178",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "Es posible la utilización de VPN's con NAT",
@@ -3507,7 +3489,7 @@
     },
     {
       "id": "redes-p2-179",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual es la solución al ataque por reflexión, en un esquema de autenticación por clave secreta precompartida?",
@@ -3523,7 +3505,7 @@
     },
     {
       "id": "redes-p2-180",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Una asociación de seguridad en IPSEC se define mediante:",
@@ -3544,7 +3526,7 @@
     },
     {
       "id": "redes-p2-181",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Seleccione de entre las siguientes opciones algunos ataques y vulnerabilidades",
@@ -3571,7 +3553,7 @@
     },
     {
       "id": "redes-p2-182",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "Se puede concluir que la idea de implementar seguridad en una red se basa en niveles PROGRESIVOS y CRECIENTES de seguridad",
@@ -3587,7 +3569,7 @@
     },
     {
       "id": "redes-p2-183",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual es la gran ventaja de la criptografía asimétrica?",
@@ -3605,7 +3587,7 @@
     },
     {
       "id": "redes-p2-184",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Que medida de seguridad me permite buscar patrones de comportamiento sospechosos u hostiles?",
@@ -3622,7 +3604,7 @@
     },
     {
       "id": "redes-p2-185",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "En un Esquema de Autenticación utilizando clave privada compartida, un ataque de reflexión consiste en:",
@@ -3639,7 +3621,7 @@
     },
     {
       "id": "redes-p2-186",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "Una asociación de seguridad se define mediante: modo IPSEC utilizado (AH ó ESP); SPI; y dirección destino",
@@ -3655,7 +3637,7 @@
     },
     {
       "id": "redes-p2-187",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Indique algunas características del Hashing",
@@ -3676,7 +3658,7 @@
     },
     {
       "id": "redes-p2-188",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "La autenticación utilizando un centro de distribución de claves simple, es vulnerable al ataque por repetición",
@@ -3692,7 +3674,7 @@
     },
     {
       "id": "redes-p2-189",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual de los siguientes algoritmos es considerado como \"más seguro\"?",
@@ -3709,7 +3691,7 @@
     },
     {
       "id": "redes-p2-190",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Indique cuales son los principales \"aspectos\" de la seguridad",
@@ -3731,7 +3713,7 @@
     },
     {
       "id": "redes-p2-191",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual de los siguientes algoritmos es inmune al ataque de \"encuentro a medio camino\"?",
@@ -3748,7 +3730,7 @@
     },
     {
       "id": "redes-p2-192",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual es la ventaja de un screening router respecto de un PROXY?",
@@ -3765,7 +3747,7 @@
     },
     {
       "id": "redes-p2-193",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Seleccione características de una VPN:",
@@ -3788,7 +3770,7 @@
     },
     {
       "id": "redes-p2-194",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "Diffie Hellman es vulnerable al ataque MITM",
@@ -3804,7 +3786,7 @@
     },
     {
       "id": "redes-p2-195",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "IPSec no define los algoritmos de encriptación o autenticación a utilizar",
@@ -3820,7 +3802,7 @@
     },
     {
       "id": "redes-p2-196",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Indique cuales de las siguientes son opciones válidas de los Firewall a nivel de aplicación",
@@ -3845,7 +3827,7 @@
     },
     {
       "id": "redes-p2-197",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual es la disciplina que ayuda para mantener “oculto” el contenido de un mensaje ante extraños?",
@@ -3862,7 +3844,7 @@
     },
     {
       "id": "redes-p2-198",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Diffie Hellman es vulnerable a MITM, además no sirve para la distribución de claves simétricas, indique posibles soluciones",
@@ -3880,7 +3862,7 @@
     },
     {
       "id": "redes-p2-199",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Indique los tipos de VPN:",
@@ -3900,7 +3882,7 @@
     },
     {
       "id": "redes-p2-200",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "Si se pretende filtrar el tráfico teniendo en cuenta detalles de aplicaciones, protocolos, sitios, direcciones, etc. Es conveniente utilizar:",
@@ -3916,7 +3898,7 @@
     },
     {
       "id": "redes-p2-201",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "Un esquema de autenticación sencillo, que se basa en el intercambio de desafíos (nros aleatorios) y el uso de una clave de sesión precompartida se puede decir que:",
@@ -3933,7 +3915,7 @@
     },
     {
       "id": "redes-p2-202",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "Las listas de acceso en un router son la forma más rudimentaria y estricta de Firewall",
@@ -3949,7 +3931,7 @@
     },
     {
       "id": "redes-p2-203",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "La seguridad es algo transversal a las 7 capas del modelo OSI",
@@ -3964,7 +3946,7 @@
     },
     {
       "id": "redes-p2-204",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual es la solución si A y B desean comunicarse, y no poseen una clave en común para utilizar un esquema de autenticación de clave secreta precompartida?",
@@ -3981,7 +3963,7 @@
     },
     {
       "id": "redes-p2-205",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual es el principal ataque que compromete la seguridad de RSA?",
@@ -3998,7 +3980,7 @@
     },
     {
       "id": "redes-p2-206",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "¿Cuales son desventajas de la criptografía asimétrica?",
@@ -4016,7 +3998,7 @@
     },
     {
       "id": "redes-p2-207",
-      "topic": 9,
+      "topic": 8,
       "type": "match",
       "catedra": true,
       "text": "Tipos de IDS",
@@ -4040,7 +4022,7 @@
     },
     {
       "id": "redes-p2-208",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual es el concepto clave en IPSEC?",
@@ -4059,7 +4041,7 @@
     },
     {
       "id": "redes-p2-209",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Cual es el gran problema del cifrado simétrico?",
@@ -4077,7 +4059,7 @@
     },
     {
       "id": "redes-p2-210",
-      "topic": 9,
+      "topic": 8,
       "type": "match",
       "catedra": true,
       "text": "Establezca el orden adecuado para una autenticación utilizando Kerveros suponiendo aque \"Alice\" es quien inicia la sesión y \"Bob\" es el servidor que ejecutara la orden de \"Alice\"",
@@ -4114,7 +4096,7 @@
     },
     {
       "id": "redes-p2-211",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "El cifrado simétrico es pobre en integridad, autenticación y no repudio",
@@ -4130,7 +4112,7 @@
     },
     {
       "id": "redes-p2-212",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Con que nombre se conoce a la disciplina para romper algoritmos de encriptación?",
@@ -4147,7 +4129,7 @@
     },
     {
       "id": "redes-p2-213",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "¿Cual de las siguientes opciones son verdaderas para un FIREWALL?",
@@ -4172,7 +4154,7 @@
     },
     {
       "id": "redes-p2-214",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "Una DMZ (marque las opciones válidas)",
@@ -4193,7 +4175,7 @@
     },
     {
       "id": "redes-p2-215",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "IPSec (Protocolo de seguridad en Internet) brinda servicios de:",
@@ -4214,7 +4196,7 @@
     },
     {
       "id": "redes-p2-216",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "Una Red Privada Virtual es:",
@@ -4230,7 +4212,7 @@
     },
     {
       "id": "redes-p2-217",
-      "topic": 9,
+      "topic": 8,
       "type": "tf",
       "catedra": true,
       "text": "IPSec no se puede configurar manualmente en cada router",
@@ -4246,7 +4228,7 @@
     },
     {
       "id": "redes-p2-218",
-      "topic": 9,
+      "topic": 8,
       "type": "single",
       "catedra": true,
       "text": "¿Como se soluciona el ataque MITM?",
@@ -4263,7 +4245,7 @@
     },
     {
       "id": "redes-p2-219",
-      "topic": 9,
+      "topic": 8,
       "type": "multi",
       "catedra": true,
       "text": "¿En que se fundamenta la fortaleza del algoritmo RSA?",

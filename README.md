@@ -31,7 +31,7 @@ Materias y parciales incluidos:
 | Administración de Sistemas de Información | 1er parcial | `subjects/asi/1er-parcial/` | 87 (78 con puntaje + 9 informativas) |
 | | 2do parcial | `subjects/asi/2do-parcial/` | 128 de los cuestionarios de la cátedra (127 con puntaje + 1 informativa), por unidad |
 | Redes de Datos | 1er parcial | `subjects/redes/1er-parcial/` | 97 (89 con link a la página de la teoría) |
-| | 2do parcial | `subjects/redes/2do-parcial/` | 219 del PDF de parciales (las revisiones del cuestionario de estudio), 120 con la retroalimentación de la cátedra como imagen |
+| | 2do parcial | `subjects/redes/2do-parcial/` | 219 del PDF de parciales (las revisiones del cuestionario de estudio), por unidad (4 a 8), 120 con la retroalimentación de la cátedra como imagen |
 | Sistemas de Información Geográfica | 1er parcial | `subjects/gis/1er-parcial/` | 84 (las ★ importantes y las 33 del 1er parcial 2025, con la página del apunte) |
 
 Las de GIS salen del banco de [matiasgzlez/GIS](https://github.com/matiasgzlez/GIS): solo las marcadas como
